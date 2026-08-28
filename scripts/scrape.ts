@@ -6,6 +6,7 @@ import type { HNComment, HNSnapshot, HNStory, HotTopic } from '../src/types/hn.t
 import type { GitHubRepo } from '../src/types/github.ts';
 import type { DevToArticle } from '../src/types/devto.ts';
 import type { HNJob } from '../src/types/hnjob.ts';
+import type { SOQuestion } from '../src/types/stackoverflow.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -21,6 +22,9 @@ const DEVTO_TOP_DAYS = 7;
 const DEVTO_COUNT = 20;
 
 const JOBS_COUNT = 40;
+
+const SO_COUNT = 30;
+const SO_BODY_CHAR_LIMIT = 2000;
 
 const SUMMARY_MODEL = 'claude-haiku-4-5';
 const ARTICLE_CHAR_LIMIT = 6000;
@@ -390,6 +394,44 @@ async function fetchWhoIsHiringJobs(): Promise<JobsThread> {
   }
 }
 
+interface SOApiQuestion {
+  question_id: number;
+  title: string;
+  link: string;
+  tags: string[];
+  score: number;
+  answer_count: number;
+  view_count: number;
+  is_answered: boolean;
+  owner?: { display_name?: string; link?: string };
+  creation_date: number;
+  body?: string;
+}
+
+async function fetchStackOverflowQuestions(): Promise<SOQuestion[]> {
+  try {
+    const url = `https://api.stackexchange.com/2.3/questions?order=desc&sort=hot&site=stackoverflow&pagesize=${SO_COUNT}&filter=withbody`;
+    const data = await fetchJson<{ items: SOApiQuestion[] }>(url);
+    return data.items.map((q) => ({
+      id: q.question_id,
+      title: decodeEntities(q.title),
+      url: q.link,
+      tags: q.tags,
+      score: q.score,
+      answerCount: q.answer_count,
+      viewCount: q.view_count,
+      isAnswered: q.is_answered,
+      ownerName: q.owner?.display_name ?? 'unknown',
+      ownerUrl: q.owner?.link ?? null,
+      createdAt: new Date(q.creation_date * 1000).toISOString(),
+      bodyExcerpt: stripHtml(q.body ?? '').slice(0, SO_BODY_CHAR_LIMIT),
+    }));
+  } catch (err) {
+    console.warn(`  failed to fetch Stack Overflow questions: ${(err as Error).message}`);
+    return [];
+  }
+}
+
 async function main() {
   console.log('Fetching HN front page...');
   const search = await fetchJson<{ hits: AlgoliaHit[] }>(
@@ -436,6 +478,10 @@ async function main() {
   const { jobs, threadTitle, threadUrl } = await fetchWhoIsHiringJobs();
   console.log(`  found ${jobs.length} job postings from "${threadTitle ?? 'no thread found'}"`);
 
+  console.log('Fetching Stack Overflow hot questions...');
+  const stackOverflowQuestions = await fetchStackOverflowQuestions();
+  console.log(`  found ${stackOverflowQuestions.length} questions`);
+
   const snapshot: HNSnapshot = {
     fetchedAt: new Date().toISOString(),
     stories,
@@ -445,6 +491,7 @@ async function main() {
     jobs,
     jobsThreadTitle: threadTitle,
     jobsThreadUrl: threadUrl,
+    stackOverflowQuestions,
   };
 
   const outDir = path.resolve(__dirname, '../src/data');

@@ -268,6 +268,16 @@
   white-space: nowrap;
 }
 
+.panel-card__answered {
+  color: var(--green);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid var(--green);
+  border-radius: var(--radius-sm);
+  padding: 1px 6px;
+}
+
 .repo-language {
   display: inline-flex;
   align-items: center;

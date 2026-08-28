@@ -1,6 +1,7 @@
 import type { GitHubRepo } from './github';
 import type { DevToArticle } from './devto';
 import type { HNJob } from './hnjob';
+import type { SOQuestion } from './stackoverflow';
 
 export interface HNComment {
   id: number;
@@ -38,4 +39,5 @@ export interface HNSnapshot {
   jobs: HNJob[];
   jobsThreadTitle: string | null;
   jobsThreadUrl: string | null;
+  stackOverflowQuestions: SOQuestion[];
 }
