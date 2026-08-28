@@ -41,11 +41,6 @@ export function RepoModal({ repo, onClose }: RepoModalProps) {
           <a href={repo.url} target="_blank" rel="noreferrer">
             view on GitHub
           </a>
-          {repo.homepage && (
-            <a href={repo.homepage} target="_blank" rel="noreferrer">
-              official website
-            </a>
-          )}
         </div>
 
         <section className="modal__section">
@@ -56,6 +51,15 @@ export function RepoModal({ repo, onClose }: RepoModalProps) {
             <p className="comments__empty">No description available.</p>
           )}
         </section>
+
+        {repo.homepage && (
+          <section className="modal__section">
+            <h3 className="panel__heading">Website</h3>
+            <a className="modal__website-link" href={repo.homepage} target="_blank" rel="noreferrer">
+              {repo.homepage}
+            </a>
+          </section>
+        )}
 
         {topics.length > 0 && (
           <section className="modal__section">

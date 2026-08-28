@@ -397,6 +397,18 @@
   line-height: 1.6;
 }
 
+.modal__website-link {
+  display: inline-block;
+  color: var(--green);
+  font-size: 0.85rem;
+  word-break: break-all;
+}
+
+.modal__website-link:hover {
+  color: var(--hn-orange);
+  text-decoration: underline;
+}
+
 .modal__topics {
   display: flex;
   flex-wrap: wrap;
