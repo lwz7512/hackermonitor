@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-28T02:09:01.159Z",
+  "fetchedAt": "2026-08-28T02:23:36.381Z",
   "stories": [
     {
       "id": 49458161,
@@ -8,7 +8,7 @@
       "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
       "hnUrl": "https://news.ycombinator.com/item?id=49458161",
       "domain": "businessinsider.com",
-      "points": 1831,
+      "points": 1832,
       "author": "mfiguiere",
       "createdAt": "2026-08-27T01:12:55Z",
       "numComments": 857,
@@ -38,7 +38,7 @@
           "createdAt": "2026-08-27T01:41:50.000Z"
         }
       ],
-      "summary": null
+      "summary": "Nvidia is in talks to acquire Hugging Face, a major open-source AI platform, for over $13 billion, though a deal has not yet been finalized. The acquisition would give Nvidia greater influence over developers and AI workloads, but could compromise Hugging Face's current neutrality by potentially favoring Nvidia's chips over competitors like AMD and Intel. Hugging Face previously rejected a $500 million Nvidia investment offer, seeking to maintain independence."
     },
     {
       "id": 49468083,
@@ -47,10 +47,10 @@
       "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
       "hnUrl": "https://news.ycombinator.com/item?id=49468083",
       "domain": "blog.cloudflare.com",
-      "points": 528,
+      "points": 534,
       "author": "TangerineDream",
       "createdAt": "2026-08-27T17:17:57Z",
-      "numComments": 142,
+      "numComments": 146,
       "topComments": [
         {
           "id": 49468379,
@@ -77,7 +77,7 @@
           "createdAt": "2026-08-27T18:00:30.000Z"
         }
       ],
-      "summary": null
+      "summary": "# Summary\n\nCloudflare optimized the DNS cache for their 1.1.1.1 resolver service, achieving a 100 terabyte memory reduction through engineering improvements. The article details the technical optimizations and engineering decisions that enabled this significant efficiency gain for one of the world's largest public DNS services."
     },
     {
       "id": 49462763,
@@ -86,10 +86,10 @@
       "url": "https://pollen-robotics.com/microduck/",
       "hnUrl": "https://news.ycombinator.com/item?id=49462763",
       "domain": "pollen-robotics.com",
-      "points": 514,
+      "points": 517,
       "author": "robotswantdata",
       "createdAt": "2026-08-27T10:57:56Z",
-      "numComments": 183,
+      "numComments": 184,
       "topComments": [
         {
           "id": 49463239,
@@ -116,7 +116,7 @@
           "createdAt": "2026-08-27T12:01:09.000Z"
         }
       ],
-      "summary": null
+      "summary": "Microduck is a 25cm open-source biped robot priced at $399 that you can train yourself using reinforcement learning and teach new behaviors through a sim-to-real workflow. It comes ready to play out of the box with seven pre-trained moves (walk, sit, kick, grab, etc.) and ships before Christmas 2026 with optional accessory and dev packs available. The entire software stack is open-source, allowing users to retrain policies in simulation and deploy them to the real robot, then share their creations with the community on Discord."
     },
     {
       "id": 49465169,
@@ -125,7 +125,7 @@
       "url": "https://507movements.com/",
       "hnUrl": "https://news.ycombinator.com/item?id=49465169",
       "domain": "507movements.com",
-      "points": 477,
+      "points": 480,
       "author": "helloplanets",
       "createdAt": "2026-08-27T14:08:18Z",
       "numComments": 67,
@@ -155,7 +155,7 @@
           "createdAt": "2026-08-27T15:29:59.000Z"
         }
       ],
-      "summary": null
+      "summary": "This website features an interactive, animated index of 507 mechanical movements from Henry T. Brown's classic technical reference work. While animations for all 507 movements are still in progress, the site currently offers completed animated demonstrations alongside original illustrations, with more animations being added over time."
     },
     {
       "id": 49466917,
@@ -164,10 +164,10 @@
       "url": "https://calv.info/small-models-have-arrived",
       "hnUrl": "https://news.ycombinator.com/item?id=49466917",
       "domain": "calv.info",
-      "points": 471,
+      "points": 476,
       "author": "tosh",
       "createdAt": "2026-08-27T15:56:58Z",
-      "numComments": 210,
+      "numComments": 213,
       "topComments": [
         {
           "id": 49467436,
@@ -194,7 +194,7 @@
           "createdAt": "2026-08-27T16:51:14.000Z"
         }
       ],
-      "summary": null
+      "summary": "Small language models like GPT-5.6-Luna have become sufficiently capable and affordable (costing pennies per request) to enable new consumer and business applications that were previously prohibitively expensive. The author argues that while frontier models remain essential for novel breakthroughs, there's enormous untapped demand for fast, cheap, and \"good enough\" AI to automate responsive, repetitive work that currently consumes most people's time at companies and organizations."
     },
     {
       "id": 49461817,
@@ -203,10 +203,10 @@
       "url": "https://louisabraham.github.io/load-bearing/",
       "hnUrl": "https://news.ycombinator.com/item?id=49461817",
       "domain": "louisabraham.github.io",
-      "points": 357,
+      "points": 359,
       "author": "Labo333",
       "createdAt": "2026-08-27T08:59:49Z",
-      "numComments": 171,
+      "numComments": 173,
       "topComments": [
         {
           "id": 49466180,
@@ -242,10 +242,10 @@
       "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
       "hnUrl": "https://news.ycombinator.com/item?id=49447057",
       "domain": "gatesnotes.com",
-      "points": 219,
+      "points": 222,
       "author": "nanna",
       "createdAt": "2026-08-26T11:23:54Z",
-      "numComments": 468,
+      "numComments": 469,
       "topComments": [
         {
           "id": 49448566,
@@ -284,7 +284,7 @@
       "points": 192,
       "author": "zdw",
       "createdAt": "2026-08-27T15:55:12Z",
-      "numComments": 163,
+      "numComments": 164,
       "topComments": [
         {
           "id": 49467168,
@@ -311,7 +311,7 @@
           "createdAt": "2026-08-27T16:24:26.000Z"
         }
       ],
-      "summary": null
+      "summary": "Suica, Japan's first IC transit card developed in the 1990s, uses sophisticated contactless technology that processes transactions in under 200 milliseconds without requiring a battery or internet connection—each card stores its own ID and balance, which the reader authenticates and updates locally. The article traces Suica's development from JR East's need to modernize Tokyo's congested stations, Sony's initial rejection by the company, to Sony's breakthrough opportunity developing the technology for Hong Kong's Octopus card system before eventually returning to Japan. The piece explains both the impressive engineering behind how these cards work and the surprisingly difficult path to their eventual success in Japan's transit system."
     },
     {
       "id": 49467922,
@@ -320,10 +320,10 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
       "hnUrl": "https://news.ycombinator.com/item?id=49467922",
       "domain": "blog.google",
-      "points": 188,
+      "points": 192,
       "author": "saretup",
       "createdAt": "2026-08-27T17:06:32Z",
-      "numComments": 139,
+      "numComments": 140,
       "topComments": [
         {
           "id": 49469238,
@@ -350,7 +350,7 @@
           "createdAt": "2026-08-27T19:10:08.000Z"
         }
       ],
-      "summary": null
+      "summary": "Google has released Gemini Omni 1.1 Flash, a new AI video generation tool for developers that offers enhanced creative control over generative video production. Key features include the ability to extend scenes up to 40 seconds, specify start and end frames for smooth transitions, generate 4K upscaling, and create low-resolution previews for faster iteration. The tool is now production-ready and accessible through Google AI Studio and the Gemini Enterprise Agent Platform for building professional video editing software and creative applications."
     },
     {
       "id": 49466006,
@@ -389,7 +389,7 @@
           "createdAt": "2026-08-27T17:23:22.000Z"
         }
       ],
-      "summary": null
+      "summary": "# Summary\n\nThe original Snowboard Kids was fully decompiled in just 84 days through a combination of human expertise and AI assistance, a significantly faster pace than the 596 days required for Snowboard Kids 2. The speedup was driven by the author's prior experience, improved AI tools, and a smaller codebase, though the proprietary IDO compiler used in the original game proved more challenging than the open-source GCC compiler, requiring careful human intervention for about 4.8% of the work. The project demonstrates that while AI agents excel at routine tasks like library code matching, human decompilation experts remain essential for understanding compiler quirks and reverse-engineering complex logic."
     },
     {
       "id": 49468642,
@@ -398,10 +398,10 @@
       "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
       "hnUrl": "https://news.ycombinator.com/item?id=49468642",
       "domain": "code.ffmpeg.org",
-      "points": 180,
+      "points": 182,
       "author": "dclavijo",
       "createdAt": "2026-08-27T17:53:40Z",
-      "numComments": 141,
+      "numComments": 144,
       "topComments": [
         {
           "id": 49468826,
@@ -428,11 +428,50 @@
           "createdAt": "2026-08-27T18:40:17.000Z"
         }
       ],
-      "summary": null
+      "summary": "I cannot provide a summary of this article because the text provided does not contain the actual article content. Instead, it only shows a bot-protection verification page that appears when trying to access the article. To summarize the article about the FFmpeg division by zero bug, I would need access to the actual article text."
+    },
+    {
+      "id": 49468818,
+      "rank": 12,
+      "title": "Gemini-3.5-Transcribe",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49468818",
+      "domain": "blog.google",
+      "points": 155,
+      "author": "k9294",
+      "createdAt": "2026-08-27T18:03:42Z",
+      "numComments": 35,
+      "topComments": [
+        {
+          "id": 49470595,
+          "author": "Freedom2",
+          "text": "I'd love to know how this handles proper subtitle formatting. I'm in the process of learning many languages, and being able to cross check my own understanding with film and video would be fantastic.",
+          "createdAt": "2026-08-27T20:15:04.000Z"
+        },
+        {
+          "id": 49470611,
+          "author": "gumby271",
+          "text": "That's really impressive! It says it's available in GBoard on Android but I don't see it yet. I assume like most Google features it will be a rolling release over the course of several months, can't wait to try it some day.",
+          "createdAt": "2026-08-27T20:15:50.000Z"
+        },
+        {
+          "id": 49470825,
+          "author": "jeffbee",
+          "text": "I am not sure if \"Word Error Rate\" captures what has always been wrong with transcription. My biggest complaint is that it inserts sentence breaks in random places, then fails to evaluate the result, even though it is obviously wrong. Then I have to go fix it which can be harder than having just typed it myself, due to the difficulty of positioning the Android cursor, the fact that it automatically capitalizes if you delete a capital letter, etc. And much of the time I fail to notice the errors until later.",
+          "createdAt": "2026-08-27T20:32:05.000Z"
+        },
+        {
+          "id": 49470958,
+          "author": "HappyPanacea",
+          "text": "Does somebody knows what top locales list is sampled from? their own usage data? Also when they will use their AI to give better directions in Waze?",
+          "createdAt": "2026-08-27T20:42:23.000Z"
+        }
+      ],
+      "summary": "Google has introduced Gemini 3.5 Transcribe, an advanced speech-to-text model that delivers intelligent, real-time transcription with industry-leading accuracy (4.0% word error rate for streaming). The model handles background noise, complex jargon, and natural speech patterns like self-corrections and filler words, and is available to developers through two APIs for both real-time streaming and pre-recorded audio processing. It's already being used in consumer products like the Gemini app and Android, and can integrate with other Gemini models for complex task execution."
     },
     {
       "id": 49464543,
-      "rank": 12,
+      "rank": 13,
       "title": "Emacs 31: An unofficial guide to Markdown-ts-mode",
       "url": "https://rahuljuliato.com/posts/markdown-ts-mode-emacs-31",
       "hnUrl": "https://news.ycombinator.com/item?id=49464543",
@@ -467,46 +506,7 @@
           "createdAt": "2026-08-27T15:05:33.000Z"
         }
       ],
-      "summary": null
-    },
-    {
-      "id": 49468818,
-      "rank": 13,
-      "title": "Gemini-3.5-Transcribe",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49468818",
-      "domain": "blog.google",
-      "points": 152,
-      "author": "k9294",
-      "createdAt": "2026-08-27T18:03:42Z",
-      "numComments": 35,
-      "topComments": [
-        {
-          "id": 49470595,
-          "author": "Freedom2",
-          "text": "I'd love to know how this handles proper subtitle formatting. I'm in the process of learning many languages, and being able to cross check my own understanding with film and video would be fantastic.",
-          "createdAt": "2026-08-27T20:15:04.000Z"
-        },
-        {
-          "id": 49470611,
-          "author": "gumby271",
-          "text": "That's really impressive! It says it's available in GBoard on Android but I don't see it yet. I assume like most Google features it will be a rolling release over the course of several months, can't wait to try it some day.",
-          "createdAt": "2026-08-27T20:15:50.000Z"
-        },
-        {
-          "id": 49470825,
-          "author": "jeffbee",
-          "text": "I am not sure if \"Word Error Rate\" captures what has always been wrong with transcription. My biggest complaint is that it inserts sentence breaks in random places, then fails to evaluate the result, even though it is obviously wrong. Then I have to go fix it which can be harder than having just typed it myself, due to the difficulty of positioning the Android cursor, the fact that it automatically capitalizes if you delete a capital letter, etc. And much of the time I fail to notice the errors until later.",
-          "createdAt": "2026-08-27T20:32:05.000Z"
-        },
-        {
-          "id": 49470958,
-          "author": "HappyPanacea",
-          "text": "Does somebody knows what top locales list is sampled from? their own usage data? Also when they will use their AI to give better directions in Waze?",
-          "createdAt": "2026-08-27T20:42:23.000Z"
-        }
-      ],
-      "summary": null
+      "summary": "# Summary\n\nEmacs 31's new markdown-ts-mode is an experimental but feature-rich markdown editor that supports CommonMark and GitHub Flavored Markdown specifications. The guide provides setup instructions using use-package or autoload, and explains how to install necessary tree-sitter grammars, which is the main technical hurdle users may encounter. The mode offers advanced features like syntax highlighting for code blocks in multiple languages and integration with external converters like Pandoc."
     },
     {
       "id": 49464414,
@@ -545,7 +545,7 @@
           "createdAt": "2026-08-27T14:35:58.000Z"
         }
       ],
-      "summary": null
+      "summary": "This beginner's guide introduces aphantasia, the inability to visualize or create mental images, and explains how it differs from typical visual imagination. It provides practical tests like \"the apple test\" to determine if you have aphantasia, addresses common questions and misconceptions, and offers resources including communities and scientific explanations for this neurological difference. The guide helps newly diagnosed individuals understand their experience and connect with others who share it."
     },
     {
       "id": 49464314,
@@ -584,7 +584,7 @@
           "createdAt": "2026-08-27T14:52:19.000Z"
         }
       ],
-      "summary": null
+      "summary": "MIT's committee examined how generative AI is reshaping education at the institute and found that while AI enables innovative learning, it's also disrupting foundational elements of MIT's educational experience, increasing student isolation, and undermining mastery and academic integrity. The report presents eight guiding principles (emphasizing human-centered education, intentional teaching, and augmentation over automation) and recommends that MIT adapt its educational processes, prioritize community and residential experience, and establish continuous reflection systems to navigate AI's challenges while leveraging its opportunities. Read this if you want insights into how a leading research institution is approaching the institutional and pedagogical implications of AI in higher education."
     },
     {
       "id": 49471407,
@@ -593,7 +593,7 @@
       "url": "https://github.com/experientiallabs/experiential",
       "hnUrl": "https://news.ycombinator.com/item?id=49471407",
       "domain": "github.com",
-      "points": 109,
+      "points": 110,
       "author": "SilenN",
       "createdAt": "2026-08-27T21:18:35Z",
       "numComments": 17,
@@ -623,46 +623,46 @@
           "createdAt": "2026-08-27T23:54:09.000Z"
         }
       ],
-      "summary": null
+      "summary": "Experiential is an open-source model gateway that provides a unified OpenAI-compatible API for accessing hosted, custom, and local AI models while enabling fine-grained control over user access, spending limits, and model selection. It can analyze production traffic and usage patterns to automatically optimize routing decisions for quality, speed, and cost. The project offers both a self-hosted local version and a managed cloud platform, making it useful for teams managing multiple AI models and agent workflows."
     },
     {
-      "id": 49465732,
+      "id": 49457722,
       "rank": 17,
-      "title": "Launching Route 53 Files",
-      "url": "https://www.daemonology.net/blog/2026-08-27-Launching-Route-53-Files.html",
-      "hnUrl": "https://news.ycombinator.com/item?id=49465732",
-      "domain": "daemonology.net",
-      "points": 102,
-      "author": "louis-paul",
-      "createdAt": "2026-08-27T14:45:23Z",
-      "numComments": 38,
+      "title": "Afterglow: Run classic After Dark screen savers on modern macOS",
+      "url": "https://morphing.cloud/afterglow/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49457722",
+      "domain": "morphing.cloud",
+      "points": 95,
+      "author": "NaOH",
+      "createdAt": "2026-08-27T00:18:27Z",
+      "numComments": 37,
       "topComments": [
         {
-          "id": 49466186,
-          "author": "GuinansEyebrows",
-          "text": "> Q. Is this HIPAA compliant? > A. Please do not store patient information in DNS. love this. reminds me a little of something else in the realm of DNS \"hosting\" posted to hn a few years ago [0][1] [0] https://banner.triweb.dev [1] https://news.ycombinator.com/item?id=39502097",
-          "createdAt": "2026-08-27T15:13:10.000Z"
+          "id": 49461753,
+          "author": "pogue",
+          "text": "I need this for Windows. The After Dark screensavers are on the internet archive, but obviously they look and run like crap since they're made for Windows 3.x to maybe 95/98.",
+          "createdAt": "2026-08-27T08:50:09.000Z"
         },
         {
-          "id": 49466222,
-          "author": "ChiperSoft",
-          "text": "Are there that many people managing their dns by hand that they need this? Outside of various txt records, most of my domains are mapped to specific resources via automation.",
-          "createdAt": "2026-08-27T15:16:03.000Z"
+          "id": 49469451,
+          "author": "dylan604",
+          "text": "\"You can also browse and install software releases directly from the Internet Archive without leaving the app. \" That's a fine line being walked there. If they are worried about rights issues and not including the bundles, this seems like a risky FU by building this feature in directly. The part about using bundles you may have without asking questions of origin is fine. Otherwise, why not just include the bundles?",
+          "createdAt": "2026-08-27T18:48:48.000Z"
         },
         {
-          "id": 49466642,
-          "author": "mlhpdx",
-          "text": "At first I thought this was a general purpose file system over R53, ala Corey Quinn. But my, what a gorgeously terrible idea. Well done.",
-          "createdAt": "2026-08-27T15:41:38.000Z"
+          "id": 49469929,
+          "author": "devindotcom",
+          "text": "I need the Star Trek modules, which I recall waiting overnight to pirate from a BBS on my 14.4k. \"Do NOT pick up the phone, mom.\" Also Lunatic Fringe - somehow and for some reason a full top down space shoot-em-up in After Dark. Probably for office workers to play, I do recall there was a \"boss mode\" that pulled up a fake spreadsheet or something.",
+          "createdAt": "2026-08-27T19:22:31.000Z"
         },
         {
-          "id": 49466939,
-          "author": "dbarlett",
-          "text": "Speaking as a former Blog Bar Raiser, cperciva has internalized the AWS blog style guide better than most Amazonians. This is spot-on.",
-          "createdAt": "2026-08-27T15:58:20.000Z"
+          "id": 49470000,
+          "author": "Scramblejams",
+          "text": "I need this for Wayland. Maybe when the maintainers discover that joy in computing both exists and can be a worthwhile pursuit.",
+          "createdAt": "2026-08-27T19:28:08.000Z"
         }
       ],
-      "summary": null
+      "summary": "Afterglow is a new macOS emulator specifically designed to run classic After Dark screen savers from the 1990s on modern computers without requiring emulators or vintage hardware. The app allows users to easily import original 68k modules, run them as a modern macOS screen saver, and browse/install modules from the Internet Archive. It's a software preservation project that lets users enjoy nostalgic animations like Flying Toasters and Fish with full compatibility and features like full-screen mode and a CRT shader."
     },
     {
       "id": 49468593,
@@ -701,50 +701,11 @@
           "createdAt": "2026-08-27T18:59:02.000Z"
         }
       ],
-      "summary": null
-    },
-    {
-      "id": 49457722,
-      "rank": 19,
-      "title": "Afterglow: Run classic After Dark screen savers on modern macOS",
-      "url": "https://morphing.cloud/afterglow/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49457722",
-      "domain": "morphing.cloud",
-      "points": 93,
-      "author": "NaOH",
-      "createdAt": "2026-08-27T00:18:27Z",
-      "numComments": 36,
-      "topComments": [
-        {
-          "id": 49461753,
-          "author": "pogue",
-          "text": "I need this for Windows. The After Dark screensavers are on the internet archive, but obviously they look and run like crap since they're made for Windows 3.x to maybe 95/98.",
-          "createdAt": "2026-08-27T08:50:09.000Z"
-        },
-        {
-          "id": 49469451,
-          "author": "dylan604",
-          "text": "\"You can also browse and install software releases directly from the Internet Archive without leaving the app. \" That's a fine line being walked there. If they are worried about rights issues and not including the bundles, this seems like a risky FU by building this feature in directly. The part about using bundles you may have without asking questions of origin is fine. Otherwise, why not just include the bundles?",
-          "createdAt": "2026-08-27T18:48:48.000Z"
-        },
-        {
-          "id": 49469929,
-          "author": "devindotcom",
-          "text": "I need the Star Trek modules, which I recall waiting overnight to pirate from a BBS on my 14.4k. \"Do NOT pick up the phone, mom.\" Also Lunatic Fringe - somehow and for some reason a full top down space shoot-em-up in After Dark. Probably for office workers to play, I do recall there was a \"boss mode\" that pulled up a fake spreadsheet or something.",
-          "createdAt": "2026-08-27T19:22:31.000Z"
-        },
-        {
-          "id": 49470000,
-          "author": "Scramblejams",
-          "text": "I need this for Wayland. Maybe when the maintainers discover that joy in computing both exists and can be a worthwhile pursuit.",
-          "createdAt": "2026-08-27T19:28:08.000Z"
-        }
-      ],
-      "summary": null
+      "summary": "M5Stack has launched PaperMono, a compact ESP32-S3-based E-Ink development terminal featuring a 3.97-inch touch display, integrated frontlight, and connectivity options including NFC and LoRa for low-power IoT projects. The device includes a 1150mAh battery, microSD storage, and RTC, with a Lite version available for developers who don't need the advanced connectivity features. Potential applications include E-Ink readers, dashboards, NFC badges, remote status displays, and smart signage."
     },
     {
       "id": 49458875,
-      "rank": 20,
+      "rank": 19,
       "title": "Humanity has the debate about AI consciousness backwards",
       "url": "https://economist.com/by-invitation/2026/08/20/humanity-has-the-debate-about-ai-consciousness-backwards",
       "hnUrl": "https://news.ycombinator.com/item?id=49458875",
@@ -752,7 +713,7 @@
       "points": 89,
       "author": "semiquaver",
       "createdAt": "2026-08-27T02:37:07Z",
-      "numComments": 273,
+      "numComments": 277,
       "topComments": [
         {
           "id": 49459108,
@@ -783,15 +744,15 @@
     },
     {
       "id": 49468816,
-      "rank": 21,
+      "rank": 20,
       "title": "Show HN: Voronoi Go",
       "url": "https://voronoigo.com/",
       "hnUrl": "https://news.ycombinator.com/item?id=49468816",
       "domain": "voronoigo.com",
-      "points": 85,
+      "points": 88,
       "author": "igpay",
       "createdAt": "2026-08-27T18:03:37Z",
-      "numComments": 11,
+      "numComments": 12,
       "topComments": [
         {
           "id": 49470345,
@@ -818,11 +779,11 @@
           "createdAt": "2026-08-27T20:34:43.000Z"
         }
       ],
-      "summary": null
+      "summary": "I cannot provide a meaningful summary of this article. The text appears to be incomplete or corrupted fragments about HTML markup, web crawlers, and SvelteKit technical details, followed only by a title \"Voronoi Go\" without the actual article content describing what Voronoi Go is or its purpose."
     },
     {
       "id": 49466188,
-      "rank": 22,
+      "rank": 21,
       "title": "The mechanics of the Nepali flash flood",
       "url": "https://www.economist.com/science-and-technology/2026/08/27/the-terrifying-mechanics-of-the-nepali-flash-flood",
       "hnUrl": "https://news.ycombinator.com/item?id=49466188",
@@ -830,7 +791,7 @@
       "points": 83,
       "author": "vinni2",
       "createdAt": "2026-08-27T15:13:26Z",
-      "numComments": 41,
+      "numComments": 42,
       "topComments": [
         {
           "id": 49470092,
@@ -861,7 +822,7 @@
     },
     {
       "id": 49466622,
-      "rank": 23,
+      "rank": 22,
       "title": "Engineered yeast for converting plastic and biomass compounds to food additives",
       "url": "https://acs.digitellinc.com/live/37/session/586399",
       "hnUrl": "https://news.ycombinator.com/item?id=49466622",
@@ -896,19 +857,19 @@
           "createdAt": "2026-08-27T17:01:54.000Z"
         }
       ],
-      "summary": null
+      "summary": "I'm unable to provide a summary because the article text provided only contains navigation elements and header information from a conference poster board, not the actual article content. To create an accurate summary, I would need the full text of the research or abstract describing the engineered yeast work."
     },
     {
       "id": 49468834,
-      "rank": 24,
+      "rank": 23,
       "title": "Previewing the Model Hardware Standard",
       "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
       "hnUrl": "https://news.ycombinator.com/item?id=49468834",
       "domain": "anthropic.com",
-      "points": 81,
+      "points": 82,
       "author": "surprisetalk",
       "createdAt": "2026-08-27T18:04:50Z",
-      "numComments": 30,
+      "numComments": 32,
       "topComments": [
         {
           "id": 49469418,
@@ -935,16 +896,16 @@
           "createdAt": "2026-08-27T19:16:54.000Z"
         }
       ],
-      "summary": null
+      "summary": "Anthropic is launching a research preview of the Model Hardware Standard (MHS), a shared specification that enables AI agents to safely operate multiple lab and manufacturing devices simultaneously by standardizing how they communicate. MHS reduces hardware integration time from weeks or months to hours or minutes and allows AI agents to autonomously run complex experiments with real-time parameter adjustment and error recovery. The company is partnering with research labs and manufacturers to develop safety practices before making the standard open source."
     },
     {
       "id": 49471965,
-      "rank": 25,
+      "rank": 24,
       "title": "Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance",
       "url": "https://github.com/elyosh/OpenTIE/",
       "hnUrl": "https://news.ycombinator.com/item?id=49471965",
       "domain": "github.com",
-      "points": 69,
+      "points": 71,
       "author": "elyosh",
       "createdAt": "2026-08-27T22:10:47Z",
       "numComments": 16,
@@ -974,19 +935,19 @@
           "createdAt": "2026-08-27T23:51:40.000Z"
         }
       ],
-      "summary": null
+      "summary": "OpenTIE and OpenXWA are modern, open-source ports of classic Star Wars games (TIE Fighter and X-Wing Alliance) that run natively on Windows, macOS, and Linux using original game data. The projects offer enhanced features like high-refresh-rate support, modern graphics modes with advanced lighting, adaptive music recreation, and gamepad compatibility while preserving the original gameplay experience. Players need legitimate copies of the original games to use these ports, which can combine the best elements from different releases (e.g., 1995 menus with 1998 flight mechanics)."
     },
     {
       "id": 49471714,
-      "rank": 26,
+      "rank": 25,
       "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
       "url": "https://github.com/calmrocks/ai-engineer-notebooks",
       "hnUrl": "https://news.ycombinator.com/item?id=49471714",
       "domain": "github.com",
-      "points": 47,
+      "points": 48,
       "author": "calmrocks",
       "createdAt": "2026-08-27T21:46:39Z",
-      "numComments": 3,
+      "numComments": 4,
       "topComments": [
         {
           "id": 49473311,
@@ -995,7 +956,46 @@
           "createdAt": "2026-08-28T01:24:35.000Z"
         }
       ],
-      "summary": null
+      "summary": "This repository provides free, framework-free Colab notebooks teaching AI Engineer skills like RAG, agents, evals, and fine-tuning using raw APIs instead of high-level frameworks, running on the free Groq API. The hands-on curriculum emphasizes building production systems from scratch, prioritizing measurement and evaluation, and includes real case studies rather than toy demos. It's designed for backend/full-stack engineers transitioning into AI Engineer or Forward Deployed Engineer roles who want to understand the fundamentals before using abstraction layers."
+    },
+    {
+      "id": 49472161,
+      "rank": 26,
+      "title": "Select * from Internet.blogposts",
+      "url": "https://pfrazee.leaflet.pub/3mu3p2smmis22",
+      "hnUrl": "https://news.ycombinator.com/item?id=49472161",
+      "domain": "pfrazee.leaflet.pub",
+      "points": 43,
+      "author": "mmattbtw",
+      "createdAt": "2026-08-27T22:34:32Z",
+      "numComments": 15,
+      "topComments": [
+        {
+          "id": 49473019,
+          "author": "cube00",
+          "text": ">Simple: the network won. The developers stopped being an asset, and the API progressively closed. You can add Reddit to that list, IPO is coming so better price out the third party apps we encouraged developers to build.",
+          "createdAt": "2026-08-28T00:33:03.000Z"
+        },
+        {
+          "id": 49473063,
+          "author": "aftbit",
+          "text": "I can't decide if ATProto is actually amazing or if its proponents are just dazzled by their own tech. Is it truly decentralized? What makes it better than Mastodon or Matrix or Scuttlebutt? Of course, at the end of the day, it's the network effects that matter. Attention is all you need indeed.",
+          "createdAt": "2026-08-28T00:42:02.000Z"
+        },
+        {
+          "id": 49473082,
+          "author": "8organicbits",
+          "text": "For blog posts, I'd look to RSS instead. That's where that content is traditionally published. Instead of SELECTing from bluesky's index, you can use OPML subscription lists. There are a bunch of places that curate feed lists, so it's significantly less likely to face API death like twitter did. There are multiple sites that support follower semantics over RSS. Feedland tracks subscriptions publicly, so you can see the blogs I read ( https://feedland.com/?username=robalexdev ), and who reads my blog ( https://feedland.com/?feedurl=https%3A%2F%2Falexsci.com%2Fbl... ). I run another variant which collects OPML blogrolls via crawling, so you can find out who else likes your favorite blog and what else they recommend. Here's the page for Simon Willison's blog ( https://blogroll-network.alexsci.com/discover/feed-a34ee2a88... ). Thinking of RSS and blogrolls as a network feels much more resilient than blueskys Jetstream api endpoint.",
+          "createdAt": "2026-08-28T00:45:10.000Z"
+        },
+        {
+          "id": 49473196,
+          "author": "James_K",
+          "text": "There are invariably 3 solutions to all “federated” web problems: - Email - Semantic HTML - Web indexing services In this case, it's mostly indexing and a little of the other two if you want to add social features. I despite ATProto with all my soul for taking a problem with such a simple and standard solution and totally obscuring it behind hundreds of layers of JSON, faux federated services, and technical jargon, all in service of creating an inferior version of Twitter. I guess it wouldn't be as sexy to offer a web indexing service instead.",
+          "createdAt": "2026-08-28T01:03:48.000Z"
+        }
+      ],
+      "summary": "This article argues that centralized social media platforms like X (Twitter) have progressively closed their APIs and restricted access to user data, creating \"walled gardens\" that stifle innovation and lock users into proprietary ecosystems. The author contrasts this with the open-web vision of atproto, a decentralized protocol that enables true data portability, identity persistence, and interoperability by distributing data across personal data servers rather than concentrating it under corporate control."
     },
     {
       "id": 49466715,
@@ -1036,52 +1036,13 @@
       "summary": null
     },
     {
-      "id": 49472161,
-      "rank": 28,
-      "title": "Select * from Internet.blogposts",
-      "url": "https://pfrazee.leaflet.pub/3mu3p2smmis22",
-      "hnUrl": "https://news.ycombinator.com/item?id=49472161",
-      "domain": "pfrazee.leaflet.pub",
-      "points": 41,
-      "author": "mmattbtw",
-      "createdAt": "2026-08-27T22:34:32Z",
-      "numComments": 14,
-      "topComments": [
-        {
-          "id": 49473019,
-          "author": "cube00",
-          "text": ">Simple: the network won. The developers stopped being an asset, and the API progressively closed. You can add Reddit to that list, IPO is coming so better price out the third party apps we encouraged developers to build.",
-          "createdAt": "2026-08-28T00:33:03.000Z"
-        },
-        {
-          "id": 49473063,
-          "author": "aftbit",
-          "text": "I can't decide if ATProto is actually amazing or if its proponents are just dazzled by their own tech. Is it truly decentralized? What makes it better than Mastodon or Matrix or Scuttlebutt? Of course, at the end of the day, it's the network effects that matter. Attention is all you need indeed.",
-          "createdAt": "2026-08-28T00:42:02.000Z"
-        },
-        {
-          "id": 49473082,
-          "author": "8organicbits",
-          "text": "For blog posts, I'd look to RSS instead. That's where that content is traditionally published. Instead of SELECTing from bluesky's index, you can use OPML subscription lists. There are a bunch of places that curate feed lists, so it's significantly less likely to face API death like twitter did. There are multiple sites that support follower semantics over RSS. Feedland tracks subscriptions publicly, so you can see the blogs I read ( https://feedland.com/?username=robalexdev ), and who reads my blog ( https://feedland.com/?feedurl=https%3A%2F%2Falexsci.com%2Fbl... ). I run another variant which collects OPML blogrolls via crawling, so you can find out who else likes your favorite blog and what else they recommend. Here's the page for Simon Willison's blog ( https://blogroll-network.alexsci.com/discover/feed-a34ee2a88... ). Thinking of RSS and blogrolls as a network feels much more resilient than blueskys Jetstream api endpoint.",
-          "createdAt": "2026-08-28T00:45:10.000Z"
-        },
-        {
-          "id": 49473196,
-          "author": "James_K",
-          "text": "There are invariably 3 solutions to all “federated” web problems: - Email - Semantic HTML - Web indexing services In this case, it's mostly indexing and a little of the other two if you want to add social features. I despite ATProto with all my soul for taking a problem with such a simple and standard solution and totally obscuring it behind hundreds of layers of JSON, faux federated services, and technical jargon, all in service of creating an inferior version of Twitter. I guess it wouldn't be as sexy to offer a web indexing service instead.",
-          "createdAt": "2026-08-28T01:03:48.000Z"
-        }
-      ],
-      "summary": null
-    },
-    {
       "id": 49472820,
-      "rank": 29,
+      "rank": 28,
       "title": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
       "url": "https://www.terminal-bench-science.ai/announcement",
       "hnUrl": "https://news.ycombinator.com/item?id=49472820",
       "domain": "terminal-bench-science.ai",
-      "points": 26,
+      "points": 28,
       "author": "matt_d",
       "createdAt": "2026-08-28T00:06:51Z",
       "numComments": 4,
@@ -1111,7 +1072,34 @@
           "createdAt": "2026-08-28T01:56:30.000Z"
         }
       ],
-      "summary": null
+      "summary": "Terminal-Bench-Science is a new benchmark that evaluates AI agents on real scientific workflows contributed by researchers across multiple disciplines, with the current version testing 70 tasks where the best-performing model (Claude Opus 5) achieves only a 30% resolution rate. Unlike traditional benchmarks, it's designed as a continuous, evolving platform that creates feedback between scientific needs and AI development to help advance AI capabilities for genuine research assistance. Read this if you're interested in how AI agents are being measured for scientific research applications or want to understand current limitations of frontier AI models in practical scientific work."
+    },
+    {
+      "id": 49473230,
+      "rank": 29,
+      "title": "Grand Theft Auto VI: An Extended Look [video]",
+      "url": "https://www.youtube.com/watch?v=tJbzMqJGH4k",
+      "hnUrl": "https://news.ycombinator.com/item?id=49473230",
+      "domain": "youtube.com",
+      "points": 13,
+      "author": "piotrgrabowski",
+      "createdAt": "2026-08-28T01:12:03Z",
+      "numComments": 1,
+      "topComments": [
+        {
+          "id": 49473530,
+          "author": "Fricken",
+          "text": "I looks great. I'm conventionally a critic of the pursuit of realism in games, particularly with faces, because of the uncanny valley, but the faces look great. They're not uncanny. GTA VI is the biggest single entertainment property of all time and we've waited a dog's age for it to drop. It appears the level of polish and attention to detail throughout is unprecedented. After GTA V the franchise was feeling played out for me. I thought I had decided I wasn't going to buy a console just so I can experience GTA VI, but my mind it seems is changing.",
+          "createdAt": "2026-08-28T02:04:53.000Z"
+        },
+        {
+          "id": 49473602,
+          "author": "danpalmer",
+          "text": "It looks like Rockstar have nailed a solid 2026 update to previous releases, everything looks great. But is that enough? It should be, but given the billions spent on development I think there's an expectation of more. It also looks like they've kept the art and writing fresh for 2026. GTAV feels dated at this point, no criticism of course, and I was concerned that they would fail to modernise into a world that is quite different now than 13 years ago, but it seems they've likely succeeded at that. I'm looking forward to playing, eventually, when it comes out on desktop. But is this the game of a generation that justifies buying a console? I'm not sure.",
+          "createdAt": "2026-08-28T02:18:37.000Z"
+        }
+      ],
+      "summary": "I cannot provide a meaningful summary as the article text contains only YouTube platform information and metadata rather than actual content about Grand Theft Auto VI. To summarize the video's content, I would need the actual transcript or description of what is discussed in the extended look."
     },
     {
       "id": 49467837,
