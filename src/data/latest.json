@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-28T01:39:54.423Z",
+  "fetchedAt": "2026-08-28T01:43:37.412Z",
   "stories": [
     {
       "id": 49458161,
@@ -46,10 +46,10 @@
       "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
       "hnUrl": "https://news.ycombinator.com/item?id=49468083",
       "domain": "blog.cloudflare.com",
-      "points": 508,
+      "points": 512,
       "author": "TangerineDream",
       "createdAt": "2026-08-27T17:17:57Z",
-      "numComments": 139,
+      "numComments": 140,
       "topComments": [
         {
           "id": 49468379,
@@ -84,7 +84,7 @@
       "url": "https://pollen-robotics.com/microduck/",
       "hnUrl": "https://news.ycombinator.com/item?id=49462763",
       "domain": "pollen-robotics.com",
-      "points": 505,
+      "points": 509,
       "author": "robotswantdata",
       "createdAt": "2026-08-27T10:57:56Z",
       "numComments": 183,
@@ -122,7 +122,7 @@
       "url": "https://507movements.com/",
       "hnUrl": "https://news.ycombinator.com/item?id=49465169",
       "domain": "507movements.com",
-      "points": 464,
+      "points": 467,
       "author": "helloplanets",
       "createdAt": "2026-08-27T14:08:18Z",
       "numComments": 67,
@@ -160,10 +160,10 @@
       "url": "https://calv.info/small-models-have-arrived",
       "hnUrl": "https://news.ycombinator.com/item?id=49466917",
       "domain": "calv.info",
-      "points": 457,
+      "points": 462,
       "author": "tosh",
       "createdAt": "2026-08-27T15:56:58Z",
-      "numComments": 205,
+      "numComments": 207,
       "topComments": [
         {
           "id": 49467436,
@@ -198,7 +198,7 @@
       "url": "https://louisabraham.github.io/load-bearing/",
       "hnUrl": "https://news.ycombinator.com/item?id=49461817",
       "domain": "louisabraham.github.io",
-      "points": 344,
+      "points": 345,
       "author": "Labo333",
       "createdAt": "2026-08-27T08:59:49Z",
       "numComments": 169,
@@ -236,7 +236,7 @@
       "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
       "hnUrl": "https://news.ycombinator.com/item?id=49447057",
       "domain": "gatesnotes.com",
-      "points": 215,
+      "points": 216,
       "author": "nanna",
       "createdAt": "2026-08-26T11:23:54Z",
       "numComments": 461,
@@ -277,7 +277,7 @@
       "points": 191,
       "author": "zdw",
       "createdAt": "2026-08-27T15:55:12Z",
-      "numComments": 157,
+      "numComments": 158,
       "topComments": [
         {
           "id": 49467168,
@@ -350,7 +350,7 @@
       "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/",
       "hnUrl": "https://news.ycombinator.com/item?id=49466006",
       "domain": "blog.chrislewis.au",
-      "points": 177,
+      "points": 179,
       "author": "knackers",
       "createdAt": "2026-08-27T15:01:11Z",
       "numComments": 119,
@@ -464,7 +464,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
       "hnUrl": "https://news.ycombinator.com/item?id=49468818",
       "domain": "blog.google",
-      "points": 141,
+      "points": 143,
       "author": "k9294",
       "createdAt": "2026-08-27T18:03:42Z",
       "numComments": 34,
@@ -572,8 +572,46 @@
       ]
     },
     {
-      "id": 49471407,
+      "id": 49465732,
       "rank": 16,
+      "title": "Launching Route 53 Files",
+      "url": "https://www.daemonology.net/blog/2026-08-27-Launching-Route-53-Files.html",
+      "hnUrl": "https://news.ycombinator.com/item?id=49465732",
+      "domain": "daemonology.net",
+      "points": 102,
+      "author": "louis-paul",
+      "createdAt": "2026-08-27T14:45:23Z",
+      "numComments": 37,
+      "topComments": [
+        {
+          "id": 49466186,
+          "author": "GuinansEyebrows",
+          "text": "> Q. Is this HIPAA compliant? > A. Please do not store patient information in DNS. love this. reminds me a little of something else in the realm of DNS \"hosting\" posted to hn a few years ago [0][1] [0] https://banner.triweb.dev [1] https://news.ycombinator.com/item?id=39502097",
+          "createdAt": "2026-08-27T15:13:10.000Z"
+        },
+        {
+          "id": 49466222,
+          "author": "ChiperSoft",
+          "text": "Are there that many people managing their dns by hand that they need this? Outside of various txt records, most of my domains are mapped to specific resources via automation.",
+          "createdAt": "2026-08-27T15:16:03.000Z"
+        },
+        {
+          "id": 49466642,
+          "author": "mlhpdx",
+          "text": "At first I thought this was a general purpose file system over R53, ala Corey Quinn. But my, what a gorgeously terrible idea. Well done.",
+          "createdAt": "2026-08-27T15:41:38.000Z"
+        },
+        {
+          "id": 49466939,
+          "author": "dbarlett",
+          "text": "Speaking as a former Blog Bar Raiser, cperciva has internalized the AWS blog style guide better than most Amazonians. This is spot-on.",
+          "createdAt": "2026-08-27T15:58:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49471407,
+      "rank": 17,
       "title": "Show HN: We built open OpenRouter that turns usage into a better model",
       "url": "https://github.com/experientiallabs/experiential",
       "hnUrl": "https://news.ycombinator.com/item?id=49471407",
@@ -610,51 +648,13 @@
       ]
     },
     {
-      "id": 49465732,
-      "rank": 17,
-      "title": "Launching Route 53 Files",
-      "url": "https://www.daemonology.net/blog/2026-08-27-Launching-Route-53-Files.html",
-      "hnUrl": "https://news.ycombinator.com/item?id=49465732",
-      "domain": "daemonology.net",
-      "points": 101,
-      "author": "louis-paul",
-      "createdAt": "2026-08-27T14:45:23Z",
-      "numComments": 37,
-      "topComments": [
-        {
-          "id": 49466186,
-          "author": "GuinansEyebrows",
-          "text": "> Q. Is this HIPAA compliant? > A. Please do not store patient information in DNS. love this. reminds me a little of something else in the realm of DNS \"hosting\" posted to hn a few years ago [0][1] [0] https://banner.triweb.dev [1] https://news.ycombinator.com/item?id=39502097",
-          "createdAt": "2026-08-27T15:13:10.000Z"
-        },
-        {
-          "id": 49466222,
-          "author": "ChiperSoft",
-          "text": "Are there that many people managing their dns by hand that they need this? Outside of various txt records, most of my domains are mapped to specific resources via automation.",
-          "createdAt": "2026-08-27T15:16:03.000Z"
-        },
-        {
-          "id": 49466642,
-          "author": "mlhpdx",
-          "text": "At first I thought this was a general purpose file system over R53, ala Corey Quinn. But my, what a gorgeously terrible idea. Well done.",
-          "createdAt": "2026-08-27T15:41:38.000Z"
-        },
-        {
-          "id": 49466939,
-          "author": "dbarlett",
-          "text": "Speaking as a former Blog Bar Raiser, cperciva has internalized the AWS blog style guide better than most Amazonians. This is spot-on.",
-          "createdAt": "2026-08-27T15:58:20.000Z"
-        }
-      ]
-    },
-    {
       "id": 49468593,
       "rank": 18,
       "title": "M5Stack Launches PaperMono",
       "url": "https://shop.m5stack.com/blogs/news/m5stack-launches-papermono-a-compact-e-ink-development-terminal-for-connected-projects",
       "hnUrl": "https://news.ycombinator.com/item?id=49468593",
       "domain": "shop.m5stack.com",
-      "points": 91,
+      "points": 92,
       "author": "marksully",
       "createdAt": "2026-08-27T17:50:57Z",
       "numComments": 38,
@@ -695,7 +695,7 @@
       "points": 88,
       "author": "NaOH",
       "createdAt": "2026-08-27T00:18:27Z",
-      "numComments": 35,
+      "numComments": 36,
       "topComments": [
         {
           "id": 49461753,
@@ -844,10 +844,10 @@
       "url": "https://www.economist.com/science-and-technology/2026/08/27/the-terrifying-mechanics-of-the-nepali-flash-flood",
       "hnUrl": "https://news.ycombinator.com/item?id=49466188",
       "domain": "economist.com",
-      "points": 80,
+      "points": 81,
       "author": "vinni2",
       "createdAt": "2026-08-27T15:13:26Z",
-      "numComments": 36,
+      "numComments": 37,
       "topComments": [
         {
           "id": 49470092,
@@ -882,7 +882,7 @@
       "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
       "hnUrl": "https://news.ycombinator.com/item?id=49468834",
       "domain": "anthropic.com",
-      "points": 77,
+      "points": 79,
       "author": "surprisetalk",
       "createdAt": "2026-08-27T18:04:50Z",
       "numComments": 28,
@@ -920,7 +920,7 @@
       "url": "https://github.com/elyosh/OpenTIE/",
       "hnUrl": "https://news.ycombinator.com/item?id=49471965",
       "domain": "github.com",
-      "points": 59,
+      "points": 60,
       "author": "elyosh",
       "createdAt": "2026-08-27T22:10:47Z",
       "numComments": 15,
@@ -958,7 +958,7 @@
       "url": "https://github.com/calmrocks/ai-engineer-notebooks",
       "hnUrl": "https://news.ycombinator.com/item?id=49471714",
       "domain": "github.com",
-      "points": 42,
+      "points": 44,
       "author": "calmrocks",
       "createdAt": "2026-08-27T21:46:39Z",
       "numComments": 2,
@@ -1015,10 +1015,10 @@
       "url": "https://pfrazee.leaflet.pub/3mu3p2smmis22",
       "hnUrl": "https://news.ycombinator.com/item?id=49472161",
       "domain": "pfrazee.leaflet.pub",
-      "points": 39,
+      "points": 40,
       "author": "mmattbtw",
       "createdAt": "2026-08-27T22:34:32Z",
-      "numComments": 10,
+      "numComments": 11,
       "topComments": [
         {
           "id": 49473019,
@@ -1053,10 +1053,10 @@
       "url": "https://www.terminal-bench-science.ai/announcement",
       "hnUrl": "https://news.ycombinator.com/item?id=49472820",
       "domain": "terminal-bench-science.ai",
-      "points": 20,
+      "points": 21,
       "author": "matt_d",
       "createdAt": "2026-08-28T00:06:51Z",
-      "numComments": 4,
+      "numComments": 3,
       "topComments": [
         {
           "id": 49472946,
