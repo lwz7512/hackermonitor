@@ -7,7 +7,7 @@ Styled after [worldmonitor](https://github.com/koala73/worldmonitor)'s dark "int
 ## How it works
 
 1. A GitHub Actions workflow (`.github/workflows/scrape.yml`) runs daily at **12:00 UTC**, calling the [HN Algolia API](https://hn.algolia.com/api) to pull the current front page (top 30 stories) plus each story's top comments.
-2. For each story with an external URL, it fetches the article and asks Claude (Haiku 4.5) for a 2-3 sentence summary — so you can decide whether to click through without reading the whole thing. Stories without a fetchable article (paywalled, blocked, or text-only Ask/Show HN posts) simply have no summary.
+2. For each story it asks Claude (Haiku 4.5) for a 2-3 sentence summary — from the linked article when there's an external URL, or from the post's own body for text-only Ask/Launch/Show HN posts. Stories with no real content to summarize (paywalled, blocked, or JavaScript-rendered pages with nothing in the static HTML — e.g. some job board links) simply have no summary.
 3. The scraper writes the result to `src/data/latest.json` and the workflow commits it straight to the repo.
 4. That push triggers Vercel to rebuild and redeploy — the JSON is bundled at build time, so the site is a fully static snapshot. No database, no API routes.
 
