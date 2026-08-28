@@ -33,6 +33,8 @@ jobs:
         run: npm ci
 
       - name: Run scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npm run scrape
 
       - name: Commit updated snapshot

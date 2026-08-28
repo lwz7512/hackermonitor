@@ -17,6 +17,7 @@ export interface HNStory {
   createdAt: string;
   numComments: number;
   topComments: HNComment[];
+  summary: string | null;
 }
 
 export interface HotTopic {

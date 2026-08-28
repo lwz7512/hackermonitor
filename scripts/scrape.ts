@@ -1,6 +1,7 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import Anthropic from '@anthropic-ai/sdk';
 import type { HNComment, HNSnapshot, HNStory, HotTopic } from '../src/types/hn.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -9,6 +10,15 @@ const ALGOLIA_BASE = 'https://hn.algolia.com/api/v1';
 const STORY_COUNT = 30;
 const COMMENTS_PER_STORY = 4;
 const TOPIC_COUNT = 24;
+
+const SUMMARY_MODEL = 'claude-haiku-4-5';
+const ARTICLE_CHAR_LIMIT = 6000;
+const ARTICLE_FETCH_TIMEOUT_MS = 10_000;
+
+const anthropic = process.env.ANTHROPIC_API_KEY ? new Anthropic() : null;
+if (!anthropic) {
+  console.warn('ANTHROPIC_API_KEY not set — skipping AI summaries.');
+}
 
 const STOPWORDS = new Set([
   'the', 'a', 'an', 'and', 'or', 'but', 'of', 'in', 'on', 'at', 'to', 'for',
@@ -60,6 +70,59 @@ function decodeEntities(input: string): string {
 function stripHtml(html: string): string {
   const withoutTags = html.replace(/<[^>]*>/g, ' ');
   return decodeEntities(withoutTags).replace(/\s+/g, ' ').trim();
+}
+
+function extractArticleText(html: string): string {
+  const withoutNonContent = html
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<noscript[\s\S]*?<\/noscript>/gi, ' ');
+  return stripHtml(withoutNonContent).slice(0, ARTICLE_CHAR_LIMIT);
+}
+
+async function fetchArticleText(url: string): Promise<string | null> {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), ARTICLE_FETCH_TIMEOUT_MS);
+  try {
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; HackerMonitorBot/1.0)' },
+    });
+    if (!res.ok) return null;
+    const contentType = res.headers.get('content-type') ?? '';
+    if (!contentType.includes('html')) return null;
+    const html = await res.text();
+    const text = extractArticleText(html);
+    return text.length > 200 ? text : null;
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+async function summarizeStory(title: string, url: string): Promise<string | null> {
+  if (!anthropic) return null;
+  const articleText = await fetchArticleText(url);
+  if (!articleText) return null;
+
+  try {
+    const message = await anthropic.messages.create({
+      model: SUMMARY_MODEL,
+      max_tokens: 200,
+      messages: [
+        {
+          role: 'user',
+          content: `Summarize the following article in 2-3 concise sentences for someone deciding whether to read it. Return only the summary, no preamble.\n\nTitle: ${title}\n\nArticle text:\n${articleText}`,
+        },
+      ],
+    });
+    const block = message.content.find((b) => b.type === 'text');
+    return block && block.type === 'text' ? block.text.trim() : null;
+  } catch (err) {
+    console.warn(`  summary failed for ${url}: ${(err as Error).message}`);
+    return null;
+  }
 }
 
 function extractDomain(url: string | null): string | null {
@@ -125,6 +188,7 @@ async function main() {
     console.log(`  [${rank}/${STORY_COUNT}] ${hit.title}`);
     const id = Number(hit.objectID);
     const topComments = await fetchTopComments(id);
+    const summary = hit.url ? await summarizeStory(hit.title, hit.url) : null;
     stories.push({
       id,
       rank,
@@ -137,6 +201,7 @@ async function main() {
       createdAt: hit.created_at,
       numComments: hit.num_comments,
       topComments,
+      summary,
     });
     rank += 1;
   }

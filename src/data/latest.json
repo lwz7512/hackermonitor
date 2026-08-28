@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-28T01:43:37.412Z",
+  "fetchedAt": "2026-08-28T02:05:14.482Z",
   "stories": [
     {
       "id": 49458161,
@@ -8,10 +8,10 @@
       "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
       "hnUrl": "https://news.ycombinator.com/item?id=49458161",
       "domain": "businessinsider.com",
-      "points": 1829,
+      "points": 1830,
       "author": "mfiguiere",
       "createdAt": "2026-08-27T01:12:55Z",
-      "numComments": 855,
+      "numComments": 857,
       "topComments": [
         {
           "id": 49458186,
@@ -37,7 +37,8 @@
           "text": "Hold on, these say no deal has been reached yet.",
           "createdAt": "2026-08-27T01:41:50.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49468083,
@@ -46,10 +47,10 @@
       "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
       "hnUrl": "https://news.ycombinator.com/item?id=49468083",
       "domain": "blog.cloudflare.com",
-      "points": 512,
+      "points": 524,
       "author": "TangerineDream",
       "createdAt": "2026-08-27T17:17:57Z",
-      "numComments": 140,
+      "numComments": 142,
       "topComments": [
         {
           "id": 49468379,
@@ -75,7 +76,8 @@
           "text": "> we store the records as a single Box<[u8]> containing each record encoded as a 2-byte length prefix followed by its raw bytes. Interestingly this is exactly how netlink works-ish: https://manpages.ubuntu.com/manpages/focal/man3/netlink.3.ht... You start, get the type & length, and then that is how many bytes you read. Some issues with that when you deserialize, from a raw stream in to `[u8; 4096]` buffer, the alignment is only guaranteed to be on 1 byte, not 4 bytes. In practice it is 4 bytes, but if you run those tests with Miri, you'll get yelled at. So the fix there is to declare the buffer with a type that mandates the alignment of the largest type that you're going to be deserializing. So then you start your buffer as follows: `[u32; 1024]`, and with `slice::from_raw_parts` you get to turn that into `[u8; 4096]` with the expected alignment. As an exercise I wrote a streaming parser for netlink, the current existing package serializes everything, all at once.",
           "createdAt": "2026-08-27T18:00:30.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49462763,
@@ -84,7 +86,7 @@
       "url": "https://pollen-robotics.com/microduck/",
       "hnUrl": "https://news.ycombinator.com/item?id=49462763",
       "domain": "pollen-robotics.com",
-      "points": 509,
+      "points": 513,
       "author": "robotswantdata",
       "createdAt": "2026-08-27T10:57:56Z",
       "numComments": 183,
@@ -113,7 +115,8 @@
           "text": "AI is coming for pet market too.",
           "createdAt": "2026-08-27T12:01:09.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49465169,
@@ -122,7 +125,7 @@
       "url": "https://507movements.com/",
       "hnUrl": "https://news.ycombinator.com/item?id=49465169",
       "domain": "507movements.com",
-      "points": 467,
+      "points": 472,
       "author": "helloplanets",
       "createdAt": "2026-08-27T14:08:18Z",
       "numComments": 67,
@@ -151,7 +154,8 @@
           "text": "As a \"wannabe\" DIY engineer/maker and also in the 3d-printing hobby world, this is a wonderful resource...",
           "createdAt": "2026-08-27T15:29:59.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49466917,
@@ -160,10 +164,10 @@
       "url": "https://calv.info/small-models-have-arrived",
       "hnUrl": "https://news.ycombinator.com/item?id=49466917",
       "domain": "calv.info",
-      "points": 462,
+      "points": 470,
       "author": "tosh",
       "createdAt": "2026-08-27T15:56:58Z",
-      "numComments": 207,
+      "numComments": 210,
       "topComments": [
         {
           "id": 49467436,
@@ -189,7 +193,8 @@
           "text": "IMO big models are not a product in and of themselves. Inference is just a new type of compute. I'm confident that in two or three years, every product will have inference capabilities integrated into the experience, and models will become less and less distinctive from one another. What most products need from a model is a pretty short list: the ability to make tool calls well, accurate recall, and the ability to follow directions without wavering (whether or not those directions are baked into the weights or provided in a system prompt). That covers 95% of inference utility in products. We're nearly there, and I believe these capabilities will fit on small models. Because of this though, I predict hardware demand will stay high despite demand for \"hosted\" inference dropping. Unless there's some regulatory shenanigans that step in to say otherwise.",
           "createdAt": "2026-08-27T16:51:14.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49461817,
@@ -198,10 +203,10 @@
       "url": "https://louisabraham.github.io/load-bearing/",
       "hnUrl": "https://news.ycombinator.com/item?id=49461817",
       "domain": "louisabraham.github.io",
-      "points": 345,
+      "points": 354,
       "author": "Labo333",
       "createdAt": "2026-08-27T08:59:49Z",
-      "numComments": 169,
+      "numComments": 170,
       "topComments": [
         {
           "id": 49466180,
@@ -227,7 +232,8 @@
           "text": "That confirms the recent spike of Claude calling everything I was recently working on a 'spike'. I still don't know what that term is supposed to represent (apparently).",
           "createdAt": "2026-08-27T15:32:33.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49447057,
@@ -236,10 +242,10 @@
       "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
       "hnUrl": "https://news.ycombinator.com/item?id=49447057",
       "domain": "gatesnotes.com",
-      "points": 216,
+      "points": 218,
       "author": "nanna",
       "createdAt": "2026-08-26T11:23:54Z",
-      "numComments": 461,
+      "numComments": 468,
       "topComments": [
         {
           "id": 49448566,
@@ -265,7 +271,8 @@
           "text": "It’s a good thoughtful piece. If I may suggest, the main problem and I mean the actual main problem are those people who underestimate the capabilities of AI. The ones who think it hallucinates all the time, unreliable and mostly useless. The average person thinks this technology is overhyped (like Emily Bender) so how would one even begin to have a conversation with them on the risks?",
           "createdAt": "2026-08-26T13:16:50.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49466894,
@@ -274,10 +281,10 @@
       "url": "https://www.tokyodev.com/articles/the-story-of-suica",
       "hnUrl": "https://news.ycombinator.com/item?id=49466894",
       "domain": "tokyodev.com",
-      "points": 191,
+      "points": 192,
       "author": "zdw",
       "createdAt": "2026-08-27T15:55:12Z",
-      "numComments": 158,
+      "numComments": 160,
       "topComments": [
         {
           "id": 49467168,
@@ -303,7 +310,8 @@
           "text": "I still have my Passmo card from my very first visit to Japan in 2008. I went back in 2018 and it still worked and had a balance. I used it as recently as 2025. Pretty cool!",
           "createdAt": "2026-08-27T16:24:26.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49467922,
@@ -312,10 +320,10 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
       "hnUrl": "https://news.ycombinator.com/item?id=49467922",
       "domain": "blog.google",
-      "points": 185,
+      "points": 188,
       "author": "saretup",
       "createdAt": "2026-08-27T17:06:32Z",
-      "numComments": 139,
+      "numComments": 140,
       "topComments": [
         {
           "id": 49469238,
@@ -341,7 +349,8 @@
           "text": "Google does anything except launch a new version of Gemini Pro.",
           "createdAt": "2026-08-27T19:10:08.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49466006,
@@ -350,10 +359,10 @@
       "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/",
       "hnUrl": "https://news.ycombinator.com/item?id=49466006",
       "domain": "blog.chrislewis.au",
-      "points": 179,
+      "points": 182,
       "author": "knackers",
       "createdAt": "2026-08-27T15:01:11Z",
-      "numComments": 119,
+      "numComments": 120,
       "topComments": [
         {
           "id": 49467611,
@@ -379,7 +388,8 @@
           "text": "It's especially annoying that LLMs/agents are a logical starting point for decompiling old games but there is a significant backlash against it as the gaming community is very anti-AI and consumers of the benefits decompiling offers tend to be noncoders who don't believe that AI can do more than slop. I've seen takes such as \"they're too lazy to learn C++\" and accepting a PR from someone using Claude taints the project irrevocably.",
           "createdAt": "2026-08-27T17:23:22.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49468642,
@@ -388,10 +398,10 @@
       "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
       "hnUrl": "https://news.ycombinator.com/item?id=49468642",
       "domain": "code.ffmpeg.org",
-      "points": 176,
+      "points": 180,
       "author": "dclavijo",
       "createdAt": "2026-08-27T17:53:40Z",
-      "numComments": 136,
+      "numComments": 139,
       "topComments": [
         {
           "id": 49468826,
@@ -417,7 +427,8 @@
           "text": "Generating an incorrect input file seems to be the easiest task of all for any fuzzer. Generating correct input to get deep into the call stack and then finding something is the hard part.",
           "createdAt": "2026-08-27T18:40:17.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49464543,
@@ -426,7 +437,7 @@
       "url": "https://rahuljuliato.com/posts/markdown-ts-mode-emacs-31",
       "hnUrl": "https://news.ycombinator.com/item?id=49464543",
       "domain": "rahuljuliato.com",
-      "points": 151,
+      "points": 153,
       "author": "RahulMJ",
       "createdAt": "2026-08-27T13:22:36Z",
       "numComments": 64,
@@ -455,7 +466,8 @@
           "text": "A bit of extra info: - `ts` stands for \"tree-sitter\", meaning this mode uses tree-sitter under the hood, which is, among other things, very performant. - There's support for the CommonMark spec and GFM, so things like `- [ ]` checkboxes and ~~strikethrough~~ work out of the box, along with many other small QoL features. - This mode is BUILT-IN, so no extra packages are needed. - This is currently in the experimental phase, so users need to \"opt in\" and load the mode to play with it, hence the first part of the guide.",
           "createdAt": "2026-08-27T15:05:33.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49468818,
@@ -464,7 +476,7 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
       "hnUrl": "https://news.ycombinator.com/item?id=49468818",
       "domain": "blog.google",
-      "points": 143,
+      "points": 149,
       "author": "k9294",
       "createdAt": "2026-08-27T18:03:42Z",
       "numComments": 34,
@@ -493,7 +505,8 @@
           "text": "Does somebody knows what top locales list is sampled from? their own usage data? Also when they will use their AI to give better directions in Waze?",
           "createdAt": "2026-08-27T20:42:23.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49464414,
@@ -502,10 +515,10 @@
       "url": "https://aphantasia.com/guide",
       "hnUrl": "https://news.ycombinator.com/item?id=49464414",
       "domain": "aphantasia.com",
-      "points": 133,
+      "points": 137,
       "author": "ksec",
       "createdAt": "2026-08-27T13:14:20Z",
-      "numComments": 304,
+      "numComments": 309,
       "topComments": [
         {
           "id": 49464620,
@@ -531,7 +544,8 @@
           "text": "When people talk about seeing something in your mind's eye, do they mean a virtual image actually appears _as if_ you are seeing it in place of the real world or the blackness of your eyelids? Like do they somehow replace the picture from the eyes to the brain with whatever they are trying to visualize in a sort of hallucination? Or do they still 'see' the blacks of their eyelids or the world around them while visualizing the apple but not _really_ seeing it?",
           "createdAt": "2026-08-27T14:35:58.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49464314,
@@ -540,7 +554,7 @@
       "url": "https://aiandeducation.mit.edu/report/",
       "hnUrl": "https://news.ycombinator.com/item?id=49464314",
       "domain": "aiandeducation.mit.edu",
-      "points": 113,
+      "points": 116,
       "author": "pbui",
       "createdAt": "2026-08-27T13:07:45Z",
       "numComments": 72,
@@ -569,57 +583,20 @@
           "text": "Education is so cooked. In 10 years, people arent going to find it useful financially. The AI will be better at economically relevant thinking. And there aren't enough hobbyist learners to sustain education at its current level.",
           "createdAt": "2026-08-27T14:52:19.000Z"
         }
-      ]
-    },
-    {
-      "id": 49465732,
-      "rank": 16,
-      "title": "Launching Route 53 Files",
-      "url": "https://www.daemonology.net/blog/2026-08-27-Launching-Route-53-Files.html",
-      "hnUrl": "https://news.ycombinator.com/item?id=49465732",
-      "domain": "daemonology.net",
-      "points": 102,
-      "author": "louis-paul",
-      "createdAt": "2026-08-27T14:45:23Z",
-      "numComments": 37,
-      "topComments": [
-        {
-          "id": 49466186,
-          "author": "GuinansEyebrows",
-          "text": "> Q. Is this HIPAA compliant? > A. Please do not store patient information in DNS. love this. reminds me a little of something else in the realm of DNS \"hosting\" posted to hn a few years ago [0][1] [0] https://banner.triweb.dev [1] https://news.ycombinator.com/item?id=39502097",
-          "createdAt": "2026-08-27T15:13:10.000Z"
-        },
-        {
-          "id": 49466222,
-          "author": "ChiperSoft",
-          "text": "Are there that many people managing their dns by hand that they need this? Outside of various txt records, most of my domains are mapped to specific resources via automation.",
-          "createdAt": "2026-08-27T15:16:03.000Z"
-        },
-        {
-          "id": 49466642,
-          "author": "mlhpdx",
-          "text": "At first I thought this was a general purpose file system over R53, ala Corey Quinn. But my, what a gorgeously terrible idea. Well done.",
-          "createdAt": "2026-08-27T15:41:38.000Z"
-        },
-        {
-          "id": 49466939,
-          "author": "dbarlett",
-          "text": "Speaking as a former Blog Bar Raiser, cperciva has internalized the AWS blog style guide better than most Amazonians. This is spot-on.",
-          "createdAt": "2026-08-27T15:58:20.000Z"
-        }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49471407,
-      "rank": 17,
+      "rank": 16,
       "title": "Show HN: We built open OpenRouter that turns usage into a better model",
       "url": "https://github.com/experientiallabs/experiential",
       "hnUrl": "https://news.ycombinator.com/item?id=49471407",
       "domain": "github.com",
-      "points": 102,
+      "points": 107,
       "author": "SilenN",
       "createdAt": "2026-08-27T21:18:35Z",
-      "numComments": 15,
+      "numComments": 16,
       "topComments": [
         {
           "id": 49471977,
@@ -645,7 +622,47 @@
           "text": "I have not tried it yet. Is it similar to LiteLLM? If so, what sets it apart?",
           "createdAt": "2026-08-27T23:54:09.000Z"
         }
-      ]
+      ],
+      "summary": null
+    },
+    {
+      "id": 49465732,
+      "rank": 17,
+      "title": "Launching Route 53 Files",
+      "url": "https://www.daemonology.net/blog/2026-08-27-Launching-Route-53-Files.html",
+      "hnUrl": "https://news.ycombinator.com/item?id=49465732",
+      "domain": "daemonology.net",
+      "points": 102,
+      "author": "louis-paul",
+      "createdAt": "2026-08-27T14:45:23Z",
+      "numComments": 38,
+      "topComments": [
+        {
+          "id": 49466186,
+          "author": "GuinansEyebrows",
+          "text": "> Q. Is this HIPAA compliant? > A. Please do not store patient information in DNS. love this. reminds me a little of something else in the realm of DNS \"hosting\" posted to hn a few years ago [0][1] [0] https://banner.triweb.dev [1] https://news.ycombinator.com/item?id=39502097",
+          "createdAt": "2026-08-27T15:13:10.000Z"
+        },
+        {
+          "id": 49466222,
+          "author": "ChiperSoft",
+          "text": "Are there that many people managing their dns by hand that they need this? Outside of various txt records, most of my domains are mapped to specific resources via automation.",
+          "createdAt": "2026-08-27T15:16:03.000Z"
+        },
+        {
+          "id": 49466642,
+          "author": "mlhpdx",
+          "text": "At first I thought this was a general purpose file system over R53, ala Corey Quinn. But my, what a gorgeously terrible idea. Well done.",
+          "createdAt": "2026-08-27T15:41:38.000Z"
+        },
+        {
+          "id": 49466939,
+          "author": "dbarlett",
+          "text": "Speaking as a former Blog Bar Raiser, cperciva has internalized the AWS blog style guide better than most Amazonians. This is spot-on.",
+          "createdAt": "2026-08-27T15:58:20.000Z"
+        }
+      ],
+      "summary": null
     },
     {
       "id": 49468593,
@@ -654,10 +671,10 @@
       "url": "https://shop.m5stack.com/blogs/news/m5stack-launches-papermono-a-compact-e-ink-development-terminal-for-connected-projects",
       "hnUrl": "https://news.ycombinator.com/item?id=49468593",
       "domain": "shop.m5stack.com",
-      "points": 92,
+      "points": 94,
       "author": "marksully",
       "createdAt": "2026-08-27T17:50:57Z",
-      "numComments": 38,
+      "numComments": 39,
       "topComments": [
         {
           "id": 49469170,
@@ -683,7 +700,8 @@
           "text": "This announcement is from a few days ago. And it seems everywhere is out-of-stock. Any news about potential availability? (In the US ideally.)",
           "createdAt": "2026-08-27T18:59:02.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49457722,
@@ -692,7 +710,7 @@
       "url": "https://morphing.cloud/afterglow/",
       "hnUrl": "https://news.ycombinator.com/item?id=49457722",
       "domain": "morphing.cloud",
-      "points": 88,
+      "points": 92,
       "author": "NaOH",
       "createdAt": "2026-08-27T00:18:27Z",
       "numComments": 36,
@@ -721,7 +739,8 @@
           "text": "I need this for Wayland. Maybe when the maintainers discover that joy in computing both exists and can be a worthwhile pursuit.",
           "createdAt": "2026-08-27T19:28:08.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49458875,
@@ -730,10 +749,10 @@
       "url": "https://economist.com/by-invitation/2026/08/20/humanity-has-the-debate-about-ai-consciousness-backwards",
       "hnUrl": "https://news.ycombinator.com/item?id=49458875",
       "domain": "economist.com",
-      "points": 87,
+      "points": 88,
       "author": "semiquaver",
       "createdAt": "2026-08-27T02:37:07Z",
-      "numComments": 266,
+      "numComments": 273,
       "topComments": [
         {
           "id": 49459108,
@@ -759,7 +778,8 @@
           "text": "The narcissism of the thesis that places the author as center of the universe and creator of the rest of the consciousnesses \"because he cares\". That guy has acute Megalomaniac Solipsism Fever in disguise.",
           "createdAt": "2026-08-27T03:58:30.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49468816,
@@ -768,7 +788,7 @@
       "url": "https://voronoigo.com/",
       "hnUrl": "https://news.ycombinator.com/item?id=49468816",
       "domain": "voronoigo.com",
-      "points": 83,
+      "points": 85,
       "author": "igpay",
       "createdAt": "2026-08-27T18:03:37Z",
       "numComments": 11,
@@ -797,11 +817,51 @@
           "text": "5 kyu in normal go here: I played a couple of games and got crushed by the AI. Groups are much harder to kill in this game, so having a large group of connected stones with zero or one eyes (what we call “dragons” in normal go) is a much better strategy (I think) then to create potentials in the corners. This is counter to the best strategy in normal go. We actually have a saying that “big dragons never die” , however it is actually an anti-proverb, because most dragons can be harassed while your opponent builds territory. So even if your dragons lives, you wasted a lot of stones keeping your dragon alive, while your opponent was calmly building territory, and gaining points.",
           "createdAt": "2026-08-27T20:34:43.000Z"
         }
-      ]
+      ],
+      "summary": null
+    },
+    {
+      "id": 49466188,
+      "rank": 22,
+      "title": "The mechanics of the Nepali flash flood",
+      "url": "https://www.economist.com/science-and-technology/2026/08/27/the-terrifying-mechanics-of-the-nepali-flash-flood",
+      "hnUrl": "https://news.ycombinator.com/item?id=49466188",
+      "domain": "economist.com",
+      "points": 83,
+      "author": "vinni2",
+      "createdAt": "2026-08-27T15:13:26Z",
+      "numComments": 40,
+      "topComments": [
+        {
+          "id": 49470092,
+          "author": "pm2222",
+          "text": "https://apnews.com/article/climate-change-nepal-tibet-glacie... CCTV footage is there. Horrific scene. When you see it coming at you it’s already too late.",
+          "createdAt": "2026-08-27T19:35:44.000Z"
+        },
+        {
+          "id": 49470686,
+          "author": "decasia",
+          "text": "The CCTV footage was one of the most heartbreaking things I have seen on the internet lately. It makes me think a bit of the Johnstown flood from 1889: https://en.wikipedia.org/wiki/Johnstown_Flood#/media/File:Th...",
+          "createdAt": "2026-08-27T20:22:55.000Z"
+        },
+        {
+          "id": 49470943,
+          "author": "croisillon",
+          "text": "another good article, without paywall: https://www.theguardian.com/world/2026/aug/27/nepal-tibet-fl...",
+          "createdAt": "2026-08-27T20:41:39.000Z"
+        },
+        {
+          "id": 49471114,
+          "author": "glimshe",
+          "text": "I haven't yet been able to properly internalize the horror of this scene. Maybe because we're exposed to so many images from disaster and action movies/videogames, I got somewhat desensitized to the \"graphics\", so to speak. It's like my brain is denial. At the same time, I know this is real and a tragedy in an unimaginable scale. Every \"little walking figure\" is a full human being with dreams, fears and a rich life story. I'm afraid that at one point it will just hit me super hard.",
+          "createdAt": "2026-08-27T20:53:55.000Z"
+        }
+      ],
+      "summary": null
     },
     {
       "id": 49466622,
-      "rank": 22,
+      "rank": 23,
       "title": "Engineered yeast for converting plastic and biomass compounds to food additives",
       "url": "https://acs.digitellinc.com/live/37/session/586399",
       "hnUrl": "https://news.ycombinator.com/item?id=49466622",
@@ -835,45 +895,8 @@
           "text": "If you don't eat your biomass compound goo, you can't have any PlastiYum bacterial sludge",
           "createdAt": "2026-08-27T17:01:54.000Z"
         }
-      ]
-    },
-    {
-      "id": 49466188,
-      "rank": 23,
-      "title": "The mechanics of the Nepali flash flood",
-      "url": "https://www.economist.com/science-and-technology/2026/08/27/the-terrifying-mechanics-of-the-nepali-flash-flood",
-      "hnUrl": "https://news.ycombinator.com/item?id=49466188",
-      "domain": "economist.com",
-      "points": 81,
-      "author": "vinni2",
-      "createdAt": "2026-08-27T15:13:26Z",
-      "numComments": 37,
-      "topComments": [
-        {
-          "id": 49470092,
-          "author": "pm2222",
-          "text": "https://apnews.com/article/climate-change-nepal-tibet-glacie... CCTV footage is there. Horrific scene. When you see it coming at you it’s already too late.",
-          "createdAt": "2026-08-27T19:35:44.000Z"
-        },
-        {
-          "id": 49470686,
-          "author": "decasia",
-          "text": "The CCTV footage was one of the most heartbreaking things I have seen on the internet lately. It makes me think a bit of the Johnstown flood from 1889: https://en.wikipedia.org/wiki/Johnstown_Flood#/media/File:Th...",
-          "createdAt": "2026-08-27T20:22:55.000Z"
-        },
-        {
-          "id": 49470943,
-          "author": "croisillon",
-          "text": "another good article, without paywall: https://www.theguardian.com/world/2026/aug/27/nepal-tibet-fl...",
-          "createdAt": "2026-08-27T20:41:39.000Z"
-        },
-        {
-          "id": 49471114,
-          "author": "glimshe",
-          "text": "I haven't yet been able to properly internalize the horror of this scene. Maybe because we're exposed to so many images from disaster and action movies/videogames, I got somewhat desensitized to the \"graphics\", so to speak. It's like my brain is denial. At the same time, I know this is real and a tragedy in an unimaginable scale. Every \"little walking figure\" is a full human being with dreams, fears and a rich life story. I'm afraid that at one point it will just hit me super hard.",
-          "createdAt": "2026-08-27T20:53:55.000Z"
-        }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49468834,
@@ -882,7 +905,7 @@
       "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
       "hnUrl": "https://news.ycombinator.com/item?id=49468834",
       "domain": "anthropic.com",
-      "points": 79,
+      "points": 81,
       "author": "surprisetalk",
       "createdAt": "2026-08-27T18:04:50Z",
       "numComments": 28,
@@ -911,7 +934,8 @@
           "text": "As far as I can tell is these standards (MCP/MHS/etc) are just semi obvious tool inferfaces that Anthropic uses as training scenarios.",
           "createdAt": "2026-08-27T19:16:54.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49471965,
@@ -920,10 +944,10 @@
       "url": "https://github.com/elyosh/OpenTIE/",
       "hnUrl": "https://news.ycombinator.com/item?id=49471965",
       "domain": "github.com",
-      "points": 60,
+      "points": 66,
       "author": "elyosh",
       "createdAt": "2026-08-27T22:10:47Z",
-      "numComments": 15,
+      "numComments": 16,
       "topComments": [
         {
           "id": 49472282,
@@ -949,7 +973,8 @@
           "text": "Cool! I played the original with a joystick back in the day. I tried the previous port to XWA with Tie Fighter more recently, and it had been so long that I couldnt even complete the tutorial with the joystick! Proper gamepad support would be clutch",
           "createdAt": "2026-08-27T23:51:40.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49471714,
@@ -958,7 +983,7 @@
       "url": "https://github.com/calmrocks/ai-engineer-notebooks",
       "hnUrl": "https://news.ycombinator.com/item?id=49471714",
       "domain": "github.com",
-      "points": 44,
+      "points": 47,
       "author": "calmrocks",
       "createdAt": "2026-08-27T21:46:39Z",
       "numComments": 2,
@@ -969,7 +994,8 @@
           "text": "Man, I could have used something like this last year. Upon review, it appears that fumbling my way through the dark with Claude and Google led to the same place, in nearly all cases. However, this is all written by Claude — it has too many em-dashes to not be, does it not? So, maybe that's why we ended up in the same places. Does anyone know of any other resources in this vein?",
           "createdAt": "2026-08-28T01:24:35.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49466715,
@@ -977,10 +1003,10 @@
       "title": "Launch HN: Salem Robotics (YC S26) – Software for industrial inspection robots",
       "hnUrl": "https://news.ycombinator.com/item?id=49466715",
       "domain": null,
-      "points": 40,
+      "points": 42,
       "author": "Salem_robotics",
       "createdAt": "2026-08-27T15:46:04Z",
-      "numComments": 25,
+      "numComments": 26,
       "topComments": [
         {
           "id": 49467010,
@@ -1006,7 +1032,8 @@
           "text": "Congrats on launching. This should get more attention",
           "createdAt": "2026-08-27T17:00:51.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49472161,
@@ -1018,7 +1045,7 @@
       "points": 40,
       "author": "mmattbtw",
       "createdAt": "2026-08-27T22:34:32Z",
-      "numComments": 11,
+      "numComments": 14,
       "topComments": [
         {
           "id": 49473019,
@@ -1044,7 +1071,8 @@
           "text": "There are invariably 3 solutions to all “federated” web problems: - Email - Semantic HTML - Web indexing services In this case, it's mostly indexing and a little of the other two if you want to add social features. I despite ATProto with all my soul for taking a problem with such a simple and standard solution and totally obscuring it behind hundreds of layers of JSON, faux federated services, and technical jargon, all in service of creating an inferior version of Twitter. I guess it wouldn't be as sexy to offer a web indexing service instead.",
           "createdAt": "2026-08-28T01:03:48.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49472820,
@@ -1053,10 +1081,10 @@
       "url": "https://www.terminal-bench-science.ai/announcement",
       "hnUrl": "https://news.ycombinator.com/item?id=49472820",
       "domain": "terminal-bench-science.ai",
-      "points": 21,
+      "points": 25,
       "author": "matt_d",
       "createdAt": "2026-08-28T00:06:51Z",
-      "numComments": 3,
+      "numComments": 4,
       "topComments": [
         {
           "id": 49472946,
@@ -1075,8 +1103,15 @@
           "author": "vatsachak",
           "text": "Damn. These things aren't AGI... but I don't care. Luna is good enough for me to give a parser spec and have it write one.",
           "createdAt": "2026-08-28T01:08:34.000Z"
+        },
+        {
+          "id": 49473474,
+          "author": "mlmonkey",
+          "text": "Sad to see no mention of Gemini ...",
+          "createdAt": "2026-08-28T01:56:30.000Z"
         }
-      ]
+      ],
+      "summary": null
     },
     {
       "id": 49467837,
@@ -1087,7 +1122,8 @@
       "domain": "bild.ai",
       "author": "rooppal",
       "createdAt": "2026-08-27T17:00:14Z",
-      "topComments": []
+      "topComments": [],
+      "summary": null
     }
   ],
   "topics": [
