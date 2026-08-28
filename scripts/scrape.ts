@@ -101,11 +101,8 @@ async function fetchArticleText(url: string): Promise<string | null> {
   }
 }
 
-async function summarizeStory(title: string, url: string): Promise<string | null> {
+async function summarizeText(title: string, text: string, context: string): Promise<string | null> {
   if (!anthropic) return null;
-  const articleText = await fetchArticleText(url);
-  if (!articleText) return null;
-
   try {
     const message = await anthropic.messages.create({
       model: SUMMARY_MODEL,
@@ -113,16 +110,30 @@ async function summarizeStory(title: string, url: string): Promise<string | null
       messages: [
         {
           role: 'user',
-          content: `Summarize the following article in 2-3 concise sentences for someone deciding whether to read it. Return only the summary, no preamble.\n\nTitle: ${title}\n\nArticle text:\n${articleText}`,
+          content: `Summarize the following ${context} in 2-3 concise sentences for someone deciding whether to read it. Return only the summary, no preamble.\n\nTitle: ${title}\n\nText:\n${text}`,
         },
       ],
     });
     const block = message.content.find((b) => b.type === 'text');
     return block && block.type === 'text' ? block.text.trim() : null;
   } catch (err) {
-    console.warn(`  summary failed for ${url}: ${(err as Error).message}`);
+    console.warn(`  summary failed for "${title}": ${(err as Error).message}`);
     return null;
   }
+}
+
+async function summarizeStory(title: string, url: string): Promise<string | null> {
+  if (!anthropic) return null;
+  const articleText = await fetchArticleText(url);
+  if (!articleText) return null;
+  return summarizeText(title, articleText, 'article');
+}
+
+async function summarizeSelfPost(title: string, rawText: string): Promise<string | null> {
+  if (!anthropic) return null;
+  const text = stripHtml(rawText).slice(0, ARTICLE_CHAR_LIMIT);
+  if (text.length < 100) return null;
+  return summarizeText(title, text, 'Hacker News post');
 }
 
 function extractDomain(url: string | null): string | null {
@@ -140,7 +151,12 @@ async function fetchJson<T>(url: string): Promise<T> {
   return res.json() as Promise<T>;
 }
 
-async function fetchTopComments(storyId: number): Promise<HNComment[]> {
+interface StoryItemDetails {
+  comments: HNComment[];
+  selfText: string | null;
+}
+
+async function fetchStoryItemDetails(storyId: number): Promise<StoryItemDetails> {
   const item = await fetchJson<AlgoliaItem>(`${ALGOLIA_BASE}/items/${storyId}`);
   const comments: HNComment[] = [];
   for (const child of item.children ?? []) {
@@ -153,7 +169,7 @@ async function fetchTopComments(storyId: number): Promise<HNComment[]> {
     });
     if (comments.length >= COMMENTS_PER_STORY) break;
   }
-  return comments;
+  return { comments, selfText: item.text };
 }
 
 function extractTopics(stories: HNStory[]): HotTopic[] {
@@ -187,8 +203,12 @@ async function main() {
   for (const hit of search.hits.slice(0, STORY_COUNT)) {
     console.log(`  [${rank}/${STORY_COUNT}] ${hit.title}`);
     const id = Number(hit.objectID);
-    const topComments = await fetchTopComments(id);
-    const summary = hit.url ? await summarizeStory(hit.title, hit.url) : null;
+    const { comments: topComments, selfText } = await fetchStoryItemDetails(id);
+    const summary = hit.url
+      ? await summarizeStory(hit.title, hit.url)
+      : selfText
+        ? await summarizeSelfPost(hit.title, selfText)
+        : null;
     stories.push({
       id,
       rank,
