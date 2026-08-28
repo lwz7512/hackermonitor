@@ -29,7 +29,7 @@ export function TopicCloud({ topics, activeTopic, onSelect }: TopicCloudProps) {
               title={`${topic.count} stories mention "${topic.word}"`}
               onClick={() => onSelect(topic.word)}
             >
-              {topic.word}
+              #{topic.word}
             </button>
           );
         })}
