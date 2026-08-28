@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-28T17:45:51.843Z",
+  "fetchedAt": "2026-08-28T17:48:27.666Z",
   "stories": [
     {
       "id": 49477600,
@@ -8,10 +8,10 @@
       "url": "https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/",
       "hnUrl": "https://news.ycombinator.com/item?id=49477600",
       "domain": "shkspr.mobi",
-      "points": 550,
+      "points": 554,
       "author": "blenderob",
       "createdAt": "2026-08-28T12:32:16Z",
-      "numComments": 352,
+      "numComments": 356,
       "topComments": [
         {
           "id": 49477665,
@@ -38,7 +38,7 @@
           "createdAt": "2026-08-28T13:45:39.000Z"
         }
       ],
-      "summary": "The author criticizes Google and other companies for releasing half-finished mobile apps while telling users \"it works better in the app,\" then forcing them back to the web for actual functionality. He argues that most app-exclusive features could work on the web, and that companies build incomplete apps primarily to secure homescreen real estate for engagement metrics rather than genuine user benefit. The piece calls for companies to either fully commit to their apps or acknowledge that modern web browsers can handle nearly everything apps can do."
+      "summary": "The author criticizes Google's incomplete mobile app implementation, using a calendar subscription example where the feature only works through the desktop website despite having a dedicated app. He argues that many companies deliberately cripple their mobile websites to force users toward poorly-maintained apps, when modern web browsers can now handle most app functionality, and calls for companies to either properly complete their apps or stop building them."
     },
     {
       "id": 49478340,
@@ -47,10 +47,10 @@
       "url": "https://en.refund4freedom.org/",
       "hnUrl": "https://news.ycombinator.com/item?id=49478340",
       "domain": "en.refund4freedom.org",
-      "points": 391,
+      "points": 399,
       "author": "smartmic",
       "createdAt": "2026-08-28T13:42:40Z",
-      "numComments": 143,
+      "numComments": 149,
       "topComments": [
         {
           "id": 49478722,
@@ -77,7 +77,7 @@
           "createdAt": "2026-08-28T14:11:55.000Z"
         }
       ],
-      "summary": "This article promotes \"Refund4Freedom,\" a campaign demanding that laptop and smartphone manufacturers stop forcing consumers to pay for pre-installed Windows licenses they don't want. It provides step-by-step instructions for requesting refunds, details which manufacturers have reimbursement policies (Lenovo, Asus, Acer) and which don't (HP, Dell), and encourages Italian consumers to report non-compliance to their antitrust authority."
+      "summary": "This article outlines a campaign by Refund4Freedom demanding consumers have the right to refuse pre-installed Windows licenses on laptops and receive refunds instead of paying for unwanted software. It provides step-by-step instructions on how to request a Windows refund directly from manufacturers, along with specific refund policies and contact information for major computer brands like HP, Lenovo, Asus, Dell, and Acer. The article is relevant for anyone who purchased a laptop with Windows but prefers alternative operating systems and wants to recover the license cost."
     },
     {
       "id": 49473522,
@@ -86,10 +86,10 @@
       "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
       "hnUrl": "https://news.ycombinator.com/item?id=49473522",
       "domain": "nytimes.com",
-      "points": 305,
+      "points": 309,
       "author": "jbegley",
       "createdAt": "2026-08-28T02:03:38Z",
-      "numComments": 262,
+      "numComments": 264,
       "topComments": [
         {
           "id": 49473677,
@@ -125,10 +125,10 @@
       "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
       "hnUrl": "https://news.ycombinator.com/item?id=49475079",
       "domain": "blog.luanti.org",
-      "points": 274,
+      "points": 278,
       "author": "miniBill",
       "createdAt": "2026-08-28T06:33:57Z",
-      "numComments": 81,
+      "numComments": 85,
       "topComments": [
         {
           "id": 49477202,
@@ -155,7 +155,7 @@
           "createdAt": "2026-08-28T12:51:56.000Z"
         }
       ],
-      "summary": "Luanti, an open-source voxel game-creation platform, was removed from Google Play after receiving a DMCA takedown notice from Tracer.AI on behalf of Microsoft, falsely claiming it infringes Minecraft's copyright. The Luanti team asserts the app contains no proprietary Minecraft code or assets and notes this is the second baseless notice from the same company, highlighting how such notices can be weaponized to suppress competition in an entire game genre. The article argues that voxel-based games are not Minecraft's intellectual property and calls for accountability in the DMCA process."
+      "summary": "Luanti, an open-source voxel game platform, was removed from Google Play following a DMCA copyright notice filed by Tracer.AI on behalf of Microsoft claiming Luanti infringes Minecraft's copyright—a claim the Luanti team says is baseless since the app contains no proprietary Minecraft code or assets. This is the second such notice from the same company, and Luanti successfully appealed a similar claim in 2023. The incident highlights concerns about frivolous DMCA notices being used to monopolize an entire genre of games rather than protect specific intellectual property."
     },
     {
       "id": 49477564,
@@ -164,10 +164,10 @@
       "url": "https://www.orbify.eu/demo/",
       "hnUrl": "https://news.ycombinator.com/item?id=49477564",
       "domain": "orbify.eu",
-      "points": 252,
+      "points": 255,
       "author": "smoser",
       "createdAt": "2026-08-28T12:29:05Z",
-      "numComments": 87,
+      "numComments": 90,
       "topComments": [
         {
           "id": 49477700,
@@ -194,7 +194,7 @@
           "createdAt": "2026-08-28T13:37:59.000Z"
         }
       ],
-      "summary": "Orbify is a web-based navigation demo that uses curved, inception-style map visualization for turn-by-turn directions with patent-pending warping technology. The interactive tool allows users to navigate using WASD controls and mouse panning/rotation, and the company is seeking pilot projects, technology partnerships, and investment opportunities. The demo runs on PlayCanvas Engine and represents a reimagined approach to navigation interfaces."
+      "summary": "Orbify is a navigation technology company demonstrating an innovative turn-by-turn directions system using curved, Inception-style maps rendered in 3D. The company is seeking pilot projects, partnerships, and investment while their warping map technology is patent-pending."
     },
     {
       "id": 49479878,
@@ -203,10 +203,10 @@
       "url": "https://twitter.com/Zai_org/status/2093354097122455713",
       "hnUrl": "https://news.ycombinator.com/item?id=49479878",
       "domain": "twitter.com",
-      "points": 245,
+      "points": 247,
       "author": "jeudesprits",
       "createdAt": "2026-08-28T15:20:13Z",
-      "numComments": 85,
+      "numComments": 88,
       "topComments": [
         {
           "id": 49480188,
@@ -233,7 +233,7 @@
           "createdAt": "2026-08-28T15:53:26.000Z"
         }
       ],
-      "summary": "Zhipu AI has released GLM-5.3 as an open-weight model, making their most advanced agentic coding and cyber defense AI available for anyone to download, run, and customize. The model weights and technical documentation are now publicly accessible, enabling broader adoption and experimentation with the technology."
+      "summary": "GLM-5.3, an AI model specialized in agentic coding and cyber defense, has been released as open-weight software, allowing users to freely download, run, and modify it. The model weights and technical documentation are now publicly available for developers and organizations interested in customizing the model for their own use cases."
     },
     {
       "id": 49477854,
@@ -242,10 +242,10 @@
       "url": "https://www.inventati.org/",
       "hnUrl": "https://news.ycombinator.com/item?id=49477854",
       "domain": "inventati.org",
-      "points": 232,
+      "points": 239,
       "author": "exiguus",
       "createdAt": "2026-08-28T12:58:53Z",
-      "numComments": 218,
+      "numComments": 223,
       "topComments": [
         {
           "id": 49478279,
@@ -272,7 +272,7 @@
           "createdAt": "2026-08-28T13:38:46.000Z"
         }
       ],
-      "summary": "The A/I Collective (Autistici/Inventati) is a volunteer-run, donation-funded platform founded in 2001 that provides free digital communication tools and services to activists and individuals aligned with anticapitalist and digital rights principles, without collecting or commercializing user data. The article describes their mission to support free communication and digital self-defense through manually-reviewed account requests processed by volunteers committed to solidarity and self-organization. Read this if you're interested in learning about grassroots digital activism infrastructure or privacy-focused online services for activist communities."
+      "summary": "The Autistici/Inventati (A/I) Collective is a volunteer-run, non-profit platform founded in 2001 that provides free digital communication and security tools to activists and individuals aligned with anticapitalist and digital rights movements. Operating on donations and refusing data commodification, the collective manually reviews all service requests to ensure alignment with their values of solidarity and self-organization. The article appears to be the collective's mission statement and service policy rather than coverage of actual U.S. sanctions against them."
     },
     {
       "id": 49476143,
@@ -281,7 +281,7 @@
       "url": "https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html",
       "hnUrl": "https://news.ycombinator.com/item?id=49476143",
       "domain": "alyssarosenzweig.ca",
-      "points": 200,
+      "points": 201,
       "author": "luu",
       "createdAt": "2026-08-28T09:00:46Z",
       "numComments": 51,
@@ -311,55 +311,16 @@
           "createdAt": "2026-08-28T10:09:23.000Z"
         }
       ],
-      "summary": "This article presents an efficient O(n) algorithm for computing the volume of a 3D triangulated mesh using the divergence theorem, reducing the calculation to a simple loop over triangles requiring only basic arithmetic operations. The method converts a complex triple integral into a compact formula involving cross products and vertex coordinates, enabling extremely fast computation—capable of processing 30 million triangles per frame on modest hardware. The author derives the formula from first principles using vector calculus and demonstrates its superior performance compared to naive numerical integration approaches."
-    },
-    {
-      "id": 49477212,
-      "rank": 9,
-      "title": "OpenAI: Migrating to HTTPX2",
-      "url": "https://github.com/openai/openai-python/blob/main/httpx2.md",
-      "hnUrl": "https://news.ycombinator.com/item?id=49477212",
-      "domain": "github.com",
-      "points": 153,
-      "author": "tosh",
-      "createdAt": "2026-08-28T11:51:20Z",
-      "numComments": 63,
-      "topComments": [
-        {
-          "id": 49477220,
-          "author": "tosh",
-          "text": "nb: operating system TLS trust store is used now (instead of certifi)",
-          "createdAt": "2026-08-28T11:52:20.000Z"
-        },
-        {
-          "id": 49477423,
-          "author": "londons_explore",
-          "text": "There seems to be a bunch of downsides mentioned... But what are the upsides of this change?",
-          "createdAt": "2026-08-28T12:16:55.000Z"
-        },
-        {
-          "id": 49477435,
-          "author": "ledoncool",
-          "text": "Wow, finally...",
-          "createdAt": "2026-08-28T12:17:52.000Z"
-        },
-        {
-          "id": 49477508,
-          "author": "simonw",
-          "text": "Anthropic made the same change a few weeks after OpenAI did: https://github.com/anthropics/anthropic-sdk-python/releases/... The problem with httpx as a dependency is that it's currently working towards a 1.0 release which will be full of breaking changes. The httpx2 project is essentially a fork that promises not to break the existing API, which makes it a more stable dependency to build against. I wrote a pretty long comment about my concerns for the breaking 1.0 version last year - https://github.com/encode/httpx/discussions/3344#discussionc... - in that comment I recommended the HTTPX project release their 1.0 as a package called httpx2 instead, but a year later we now have an httpx2 (released by a different maintainer) that keeps the old API.",
-          "createdAt": "2026-08-28T12:24:14.000Z"
-        }
-      ],
-      "summary": "OpenAI's Python SDK has migrated to HTTPX2 for HTTP requests, which is automatically installed and maintains backward compatibility for standard usage. The main change to note is that HTTPX2 now uses the operating system's trust store instead of the certifi package, which may require configuration of SSL certificates in certain environments like minimal containers or corporate proxies. Developers using custom HTTP clients should migrate to HTTPX2 clients and configurations, with helper classes provided by the SDK to maintain recommended defaults."
+      "summary": "This article presents an efficient O(n) algorithm for computing the volume of a closed 3D triangulated mesh by applying the divergence theorem, reducing the calculation to a simple loop over triangles requiring only basic arithmetic operations. The method requires just 11n floating-point operations per n triangles, making it significantly faster than naive sampling-based approaches and capable of processing millions of triangles per frame on modest hardware."
     },
     {
       "id": 49478178,
-      "rank": 10,
+      "rank": 9,
       "title": "Htmx 4.0.0",
       "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
       "hnUrl": "https://news.ycombinator.com/item?id=49478178",
       "domain": "four.htmx.org",
-      "points": 153,
+      "points": 166,
       "author": "rmsaksida",
       "createdAt": "2026-08-28T13:28:56Z",
       "numComments": 43,
@@ -389,7 +350,46 @@
           "createdAt": "2026-08-28T16:09:23.000Z"
         }
       ],
-      "summary": "htmx 4.0.0 has been released after 8 months of development, featuring a migration from XMLHttpRequest to the fetch() API as its major internal change. The release introduces three key user-facing changes: explicit attribute inheritance (requiring `:inherited` syntax), standardized event naming following an `htmx:phase:action` pattern, and removal of localStorage-based history caching. While behaviorally similar to htmx 2, the upgrade will primarily require updating attribute inheritance declarations, with tooling provided to assist in the migration."
+      "summary": "htmx 4.0.0 has been released after 8 months of development, featuring a major internal migration from XMLHttpRequest to the fetch() API while maintaining mostly backward compatibility with htmx 2. The three primary changes users will notice are: explicit attribute inheritance (now requiring `:inherited` syntax), standardized event naming following an `htmx:phase:action` pattern, and removal of localStorage-based history caching. The release will remain marked as \"next\" in NPM until early 2027 to avoid forcing upgrades on users relying on non-versioned CDN URLs."
+    },
+    {
+      "id": 49477212,
+      "rank": 10,
+      "title": "OpenAI: Migrating to HTTPX2",
+      "url": "https://github.com/openai/openai-python/blob/main/httpx2.md",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477212",
+      "domain": "github.com",
+      "points": 156,
+      "author": "tosh",
+      "createdAt": "2026-08-28T11:51:20Z",
+      "numComments": 63,
+      "topComments": [
+        {
+          "id": 49477220,
+          "author": "tosh",
+          "text": "nb: operating system TLS trust store is used now (instead of certifi)",
+          "createdAt": "2026-08-28T11:52:20.000Z"
+        },
+        {
+          "id": 49477423,
+          "author": "londons_explore",
+          "text": "There seems to be a bunch of downsides mentioned... But what are the upsides of this change?",
+          "createdAt": "2026-08-28T12:16:55.000Z"
+        },
+        {
+          "id": 49477435,
+          "author": "ledoncool",
+          "text": "Wow, finally...",
+          "createdAt": "2026-08-28T12:17:52.000Z"
+        },
+        {
+          "id": 49477508,
+          "author": "simonw",
+          "text": "Anthropic made the same change a few weeks after OpenAI did: https://github.com/anthropics/anthropic-sdk-python/releases/... The problem with httpx as a dependency is that it's currently working towards a 1.0 release which will be full of breaking changes. The httpx2 project is essentially a fork that promises not to break the existing API, which makes it a more stable dependency to build against. I wrote a pretty long comment about my concerns for the breaking 1.0 version last year - https://github.com/encode/httpx/discussions/3344#discussionc... - in that comment I recommended the HTTPX project release their 1.0 as a package called httpx2 instead, but a year later we now have an httpx2 (released by a different maintainer) that keeps the old API.",
+          "createdAt": "2026-08-28T12:24:14.000Z"
+        }
+      ],
+      "summary": "OpenAI's Python SDK has migrated to HTTPX2, which is now automatically installed and replaces the previous httpx package. For most users with default HTTP configurations, existing code continues to work unchanged, but applications need to be aware of HTTPX2's shift from using the certifi CA bundle to the operating-system trust store, which may require explicit certificate configuration in certain environments. Custom HTTP client implementations must now use HTTPX2 clients and configuration objects instead of the older httpx package."
     },
     {
       "id": 49472216,
@@ -398,7 +398,7 @@
       "url": "https://12factor.net/",
       "hnUrl": "https://news.ycombinator.com/item?id=49472216",
       "domain": "12factor.net",
-      "points": 95,
+      "points": 99,
       "author": "jxmorris12",
       "createdAt": "2026-08-27T22:41:11Z",
       "numComments": 48,
@@ -428,7 +428,7 @@
           "createdAt": "2026-08-28T15:07:10.000Z"
         }
       ],
-      "summary": "The Twelve-Factor App is a methodology for building scalable, maintainable software-as-a-service applications that emphasizes declarative setup, portability across environments, and minimizing differences between development and production. It provides twelve key principles—such as treating dependencies explicitly, storing configuration in the environment, and using stateless processes—that apply to applications written in any programming language. Read this if you're a developer or operations engineer building cloud-based applications and want a proven framework for avoiding common scaling and deployment issues."
+      "summary": "The Twelve-Factor App is a methodology for building scalable, maintainable software-as-a-service applications that emphasizes practices like declarative setup automation, explicit dependency management, environment-based configuration, and strict separation of build and runtime stages. Developed from experience with hundreds of apps on the Heroku platform, it provides twelve key principles applicable to any programming language that promote portability, continuous deployment, and minimal divergence between development and production environments. Read this if you're a developer or ops engineer building or managing service-based applications and want a shared framework for best practices."
     },
     {
       "id": 49479837,
@@ -437,10 +437,10 @@
       "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
       "hnUrl": "https://news.ycombinator.com/item?id=49479837",
       "domain": "ckardaris.com",
-      "points": 87,
+      "points": 94,
       "author": "ckardaris",
       "createdAt": "2026-08-28T15:17:09Z",
-      "numComments": 52,
+      "numComments": 55,
       "topComments": [
         {
           "id": 49480317,
@@ -467,7 +467,7 @@
           "createdAt": "2026-08-28T16:19:01.000Z"
         }
       ],
-      "summary": "# Summary\n\nThe article argues that GUIs should be fully keyboard-driven rather than relegating keyboard navigation as an advantage of terminal interfaces (TUIs). While TUIs tend to be more keyboard-accessible by default, this reflects poor GUI design rather than an inherent limitation—modern GUI frameworks and guidelines explicitly support full keyboard navigation, and developers should prioritize implementing it to provide better user experiences. The author emphasizes that keyboard accessibility is achievable and a matter of developer commitment, not technical feasibility."
+      "summary": "The author argues that GUIs can and should be fully keyboard-driven, countering the common assumption that TUIs are superior simply because they're naturally keyboard-accessible. Rather than abandoning GUIs in favor of TUIs, developers should prioritize implementing comprehensive keyboard navigation in GUI applications, which is achievable and improves overall user experience. The article emphasizes that keyboard accessibility is a matter of developer commitment, not technical feasibility, and cites established design guidelines supporting this approach."
     },
     {
       "id": 49477157,
@@ -476,10 +476,10 @@
       "url": "https://github.com/pydantic/httpx2",
       "hnUrl": "https://news.ycombinator.com/item?id=49477157",
       "domain": "github.com",
-      "points": 80,
+      "points": 82,
       "author": "tosh",
       "createdAt": "2026-08-28T11:41:45Z",
-      "numComments": 28,
+      "numComments": 29,
       "topComments": [
         {
           "id": 49478359,
@@ -506,58 +506,19 @@
           "createdAt": "2026-08-28T14:54:04.000Z"
         }
       ],
-      "summary": "HTTPX2 is a next-generation HTTP client library for Python maintained by Pydantic that offers a requests-compatible API with support for HTTP/1.1, HTTP/2, both sync and async operations, and an integrated command-line tool. It builds upon the original HTTPX project with improved maintenance, security updates, and features like strict timeouts, full type annotations, and 100% test coverage. The library is suitable for anyone seeking a modern, well-maintained HTTP client for Python production systems."
-    },
-    {
-      "id": 49478401,
-      "rank": 14,
-      "title": "State of the Map 2026",
-      "url": "https://2026.stateofthemap.org/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49478401",
-      "domain": "2026.stateofthemap.org",
-      "points": 78,
-      "author": "lode",
-      "createdAt": "2026-08-28T13:46:28Z",
-      "numComments": 26,
-      "topComments": [
-        {
-          "id": 49479223,
-          "author": "Jimpulse",
-          "text": "Does OpenStreetMap comply with US executive order naming?",
-          "createdAt": "2026-08-28T14:39:47.000Z"
-        },
-        {
-          "id": 49479272,
-          "author": "netsharc",
-          "text": "Happening at \"Cité Descartes\". I see what you did there.",
-          "createdAt": "2026-08-28T14:43:01.000Z"
-        },
-        {
-          "id": 49479807,
-          "author": "hk__2",
-          "text": "Of course I learn about it exactly when I’m out of Paris for just a couple of days.",
-          "createdAt": "2026-08-28T15:15:22.000Z"
-        },
-        {
-          "id": 49480165,
-          "author": "numpad0",
-          "text": "Weird little quirk I've recently encountered, somewhat related to OSM: the `mkgmap` tool used to convert OSM data to Garmin map files display Chinese pronunciation as English names next to POI names in Japanese, due to 1) Japanese OSM maps have a lot of entries written in Japanese without indication of language, 2) no one is doing anything about it, due to Wikipedia style community nuances or something, and 3) the tool have no \"--assume-language=$LANG\" style of options(plus Japanese script->pronunciation mapping isn't even remotely bijective). e.g. There's a bicycle parking next to the parkside exit at Ueno station, \"上野駅公園口自転車駐車場\". This is: meaning: Ueno station park entrance bicycle parking ground in English, read IRL: ue no eki kouen guchi jitensha chusha jou in Japanese, but written on the map: shang ye yi gong yuan kou zi zhuan che zhu che chang as Chinese(in Pinyin but I don't know how to type it). ...I would imagine that utility of that is limited for non-Japanese users. Makes me wonder what are the reasons why master OSM data hadn't had missing pronunciations autogenerated or mkgmap tool given an auto selected language flag, but I'm not intending to be OSMian nor am I wanting to be the one to define national borders for bunch of nation states, so there's that...",
-          "createdAt": "2026-08-28T15:38:40.000Z"
-        }
-      ],
-      "summary": "State of the Map 2026 is the annual OpenStreetMap conference taking place August 28-30 in Paris (with online participation available), featuring talks, workshops, and discussions for mappers and OSM users worldwide. The event is seeking participation through calls for abstracts, posters, lightning talks, and travel grants, with various sponsorship and volunteering opportunities available. Attendees can connect via multiple platforms and access live streams, social events, and networking opportunities both in-person and online."
+      "summary": "HTTPX2 is a next-generation HTTP client library for Python maintained by Pydantic that builds on the original HTTPX project, offering a requests-compatible API with support for HTTP/1.1, HTTP/2, both sync and async operations, and an integrated CLI tool. It provides comprehensive features including connection pooling, authentication, streaming, and is fully type-annotated with 100% test coverage. Read this if you're looking for a modern, well-maintained alternative to requests or want to explore advanced HTTP capabilities like HTTP/2 support in Python."
     },
     {
       "id": 49480466,
-      "rank": 15,
+      "rank": 14,
       "title": "Just the rumour of a bug is enough to find an exploit these days",
       "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
       "hnUrl": "https://news.ycombinator.com/item?id=49480466",
       "domain": "anil.recoil.org",
-      "points": 78,
+      "points": 82,
       "author": "avsm",
       "createdAt": "2026-08-28T15:58:46Z",
-      "numComments": 23,
+      "numComments": 24,
       "topComments": [
         {
           "id": 49480753,
@@ -584,7 +545,46 @@
           "createdAt": "2026-08-28T16:28:40.000Z"
         }
       ],
-      "summary": "The article discusses how AI-powered agents can now discover and exploit security vulnerabilities with minimal information—just knowing a bug exists is enough for them to find working exploits within minutes—making traditional security embargoes ineffective. The author demonstrates this by finding that attackers began probing for a specific vulnerability in OCaml's cohttp within ten minutes of the public PR being opened, and argues that open source maintainers must fundamentally change their security response strategies since exploit generation now outpaces patch deployment. The piece calls for a shift toward preventative technical debt remediation and maintainer-assisted workflows rather than relying on secrecy to protect users."
+      "summary": "The article argues that AI-powered exploit detection has made traditional security embargoes ineffective, as attackers can now generate working exploits from mere hints about a vulnerability in minutes rather than days. The author demonstrates this problem using a real OCaml security fix, showing that probes for the exploit appeared within ten minutes of opening a public PR, and proposes that open-source maintainers must shift from secrecy-based defenses to faster remediation workflows and technical debt reduction to keep pace with automated attack generation."
+    },
+    {
+      "id": 49478401,
+      "rank": 15,
+      "title": "State of the Map 2026",
+      "url": "https://2026.stateofthemap.org/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49478401",
+      "domain": "2026.stateofthemap.org",
+      "points": 79,
+      "author": "lode",
+      "createdAt": "2026-08-28T13:46:28Z",
+      "numComments": 27,
+      "topComments": [
+        {
+          "id": 49479223,
+          "author": "Jimpulse",
+          "text": "Does OpenStreetMap comply with US executive order naming?",
+          "createdAt": "2026-08-28T14:39:47.000Z"
+        },
+        {
+          "id": 49479272,
+          "author": "netsharc",
+          "text": "Happening at \"Cité Descartes\". I see what you did there.",
+          "createdAt": "2026-08-28T14:43:01.000Z"
+        },
+        {
+          "id": 49479807,
+          "author": "hk__2",
+          "text": "Of course I learn about it exactly when I’m out of Paris for just a couple of days.",
+          "createdAt": "2026-08-28T15:15:22.000Z"
+        },
+        {
+          "id": 49480165,
+          "author": "numpad0",
+          "text": "Weird little quirk I've recently encountered, somewhat related to OSM: the `mkgmap` tool used to convert OSM data to Garmin map files display Chinese pronunciation as English names next to POI names in Japanese, due to 1) Japanese OSM maps have a lot of entries written in Japanese without indication of language, 2) no one is doing anything about it, due to Wikipedia style community nuances or something, and 3) the tool have no \"--assume-language=$LANG\" style of options(plus Japanese script->pronunciation mapping isn't even remotely bijective). e.g. There's a bicycle parking next to the parkside exit at Ueno station, \"上野駅公園口自転車駐車場\". This is: meaning: Ueno station park entrance bicycle parking ground in English, read IRL: ue no eki kouen guchi jitensha chusha jou in Japanese, but written on the map: shang ye yi gong yuan kou zi zhuan che zhu che chang as Chinese(in Pinyin but I don't know how to type it). ...I would imagine that utility of that is limited for non-Japanese users. Makes me wonder what are the reasons why master OSM data hadn't had missing pronunciations autogenerated or mkgmap tool given an auto selected language flag, but I'm not intending to be OSMian nor am I wanting to be the one to define national borders for bunch of nation states, so there's that...",
+          "createdAt": "2026-08-28T15:38:40.000Z"
+        }
+      ],
+      "summary": "State of the Map 2026 is the annual OpenStreetMap conference taking place in Paris and online from August 28-30, 2026, featuring talks, workshops, and discussions for mappers and OSM users. The event is calling for participation through abstracts, posters, lightning talks, and travel grant applications. Tickets are available for both in-person attendance in Paris and online participation."
     },
     {
       "id": 49477813,
@@ -593,10 +593,10 @@
       "url": "https://www.audubon.org/magazine/are-crows-really-our-friends",
       "hnUrl": "https://news.ycombinator.com/item?id=49477813",
       "domain": "audubon.org",
-      "points": 58,
+      "points": 61,
       "author": "speckx",
       "createdAt": "2026-08-28T12:53:42Z",
-      "numComments": 40,
+      "numComments": 41,
       "topComments": [
         {
           "id": 49479784,
@@ -623,7 +623,7 @@
           "createdAt": "2026-08-28T15:31:11.000Z"
         }
       ],
-      "summary": "This article explores the relationship between humans and crows through the story of a woman named Annie who befriends two crows named Sal and Pal by offering them peanuts, raising the question of whether humans are training crows or vice versa. The piece investigates the intelligence and social complexity of corvids and what their interactions with humans reveal about mutual understanding and adaptation. The article examines whether crows and humans can truly form genuine friendships or if the relationship is purely transactional."
+      "summary": "This article explores the relationship between humans and crows through the story of a woman who befriended two corvids named Sal and Pal, examining whether these intelligent birds are genuinely bonding with humans or simply exploiting them for food rewards. The piece investigates the nature of corvid-human interactions and questions the dynamics of who is actually training whom in these relationships. It combines personal anecdotes with scientific perspectives to explore the surprisingly complex social connections that can develop between people and wild crows."
     },
     {
       "id": 49477559,
@@ -632,10 +632,10 @@
       "url": "https://www.nature.com/articles/d41586-026-02506-4",
       "hnUrl": "https://news.ycombinator.com/item?id=49477559",
       "domain": "nature.com",
-      "points": 55,
+      "points": 57,
       "author": "sohkamyung",
       "createdAt": "2026-08-28T12:28:41Z",
-      "numComments": 78,
+      "numComments": 79,
       "topComments": [
         {
           "id": 49477617,
@@ -662,7 +662,7 @@
           "createdAt": "2026-08-28T13:07:58.000Z"
         }
       ],
-      "summary": "Small modular reactors (SMRs) are emerging as a promising solution to make nuclear power more economically viable and practical, using innovative fuels like TRISO pebbles and alternative coolants such as molten salt instead of conventional water-cooled designs. Companies like Kairos Power are actively building test and demonstration units with support from government grants, though critics argue SMRs may not be significantly cheaper than traditional reactors and could present new safety challenges. The growing demand for clean energy, particularly from data centers, is driving significant investment in this new generation of nuclear technology despite ongoing debates about its cost-effectiveness."
+      "summary": "Small modular reactors (SMRs) are emerging as a promising alternative to conventional nuclear plants, offering cheaper and faster construction by using factory-built components assembled on-site, though they produce less power (up to 300 MWe versus 1,000 MWe). Companies like Kairos Power are developing SMRs with innovative fuels like TRISO pebbles and alternative coolants such as molten salt, which could make nuclear energy a more viable zero-carbon power source despite some safety concerns from critics. Government investment from the US and Europe, combined with growing demand for clean energy from data centers, is accelerating commercialization with plants expected to begin operations by 2030."
     },
     {
       "id": 49476894,
@@ -671,7 +671,7 @@
       "url": "https://subsmith.app",
       "hnUrl": "https://news.ycombinator.com/item?id=49476894",
       "domain": "subsmith.app",
-      "points": 55,
+      "points": 56,
       "author": "IbrahimF96",
       "createdAt": "2026-08-28T10:59:04Z",
       "numComments": 43,
@@ -701,7 +701,7 @@
           "createdAt": "2026-08-28T11:54:54.000Z"
         }
       ],
-      "summary": "SubSmith is a desktop tool that transforms your personal videos and audio files into language-learning material by providing accurate subtitles, instant hover-over translations, and one-click exports to Anki flashcards across 99+ languages. It's designed for immersive learning from content you enjoy, with pricing options of $15/year or a $40 lifetime license. Read this if you want an efficient way to build vocabulary from native-speaker content without interrupting your viewing experience."
+      "summary": "SubSmith is a desktop tool that transforms your personal videos and audio files into language-learning material by providing accurate subtitles, instant hover translations, and one-click export to flashcard apps like Anki. It supports 99+ languages and costs either $15/year or $40 for a lifetime license, offering a cheaper and more flexible alternative to traditional language classes. The app is designed to help you learn vocabulary in context from native content you actually enjoy watching."
     },
     {
       "id": 49480220,
@@ -710,7 +710,7 @@
       "url": "https://dactyl.dev/blog/how-dactyl-works/",
       "hnUrl": "https://news.ycombinator.com/item?id=49480220",
       "domain": "dactyl.dev",
-      "points": 43,
+      "points": 46,
       "author": "anorak27",
       "createdAt": "2026-08-28T15:42:04Z",
       "numComments": 6,
@@ -740,7 +740,7 @@
           "createdAt": "2026-08-28T17:10:11.000Z"
         }
       ],
-      "summary": "Dactyl is a development platform that enables building native cross-platform apps using Swift and SwiftUI by porting the iOS simulator to WebAssembly, allowing developers to preview and test iOS apps directly in browsers while compiling to native Android and web environments. The system uses a SwiftUI reimplementation that renders draw commands to Canvas2D on the web and integrates with Jetpack Compose on Android, preserving native widgets and performance across platforms. Development is streamlined through dynamic linking and automated testing against Apple's SDK to ensure pixel-perfect parity with native iOS rendering."
+      "summary": "Dactyl is a platform that enables building native apps across iOS, Android, and web by using Swift and a custom SwiftUI renderer implemented in WebAssembly, eliminating compromises typically required by other cross-platform development tools. The system works by reimplementing Apple's frameworks in Swift, emitting draw commands that render in the browser, while on Android it compiles natively and uses Jetpack Compose to mount real native UI components. Development is streamlined through dynamic linking and automated testing against real iOS simulators to ensure pixel-perfect consistency across platforms."
     },
     {
       "id": 49478489,
@@ -749,10 +749,10 @@
       "url": "https://www.deadlanguagesociety.com/p/weird-is-a-weird-word",
       "hnUrl": "https://news.ycombinator.com/item?id=49478489",
       "domain": "deadlanguagesociety.com",
-      "points": 35,
+      "points": 36,
       "author": "pseudolus",
       "createdAt": "2026-08-28T13:51:17Z",
-      "numComments": 15,
+      "numComments": 16,
       "topComments": [
         {
           "id": 49479824,
@@ -779,7 +779,7 @@
           "createdAt": "2026-08-28T17:00:27.000Z"
         }
       ],
-      "summary": "The word \"weird\" has undergone a dramatic transformation from its Old English origins as \"wyrd,\" meaning fate or destiny—a weighty concept appearing in epic poems like Beowulf—to today's casual descriptor for everyday oddities. After the Norman Conquest introduced French and Latin synonyms like \"fortune\" and \"fate,\" the native English word died out in the south but survived in Scotland as \"weird,\" eventually spreading back into English through Shakespeare's use of \"weird sisters\" in Macbeth. This article traces how a profound concept about inexorable destiny became the mundane word we use to describe strange refrigerator smells."
+      "summary": "\"Weird\" has transformed from a heavy, weighty Old English word meaning \"fate\" or \"destiny\" (wyrd) into today's casual descriptor for everyday oddities, a shift driven by Norman French and Latin words replacing the native term in southern England while it survived in Scotland with altered spelling. Shakespeare's use of \"weird sisters\" in Macbeth helped popularize the word's new supernatural connotations, eventually leading to its modern, mundane usage for describing anything out of the ordinary."
     },
     {
       "id": 49479072,
@@ -788,10 +788,10 @@
       "url": "https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/",
       "hnUrl": "https://news.ycombinator.com/item?id=49479072",
       "domain": "geekyschmidt.com",
-      "points": 31,
+      "points": 34,
       "author": "speckx",
       "createdAt": "2026-08-28T14:30:33Z",
-      "numComments": 7,
+      "numComments": 10,
       "topComments": [
         {
           "id": 49480640,
@@ -818,7 +818,7 @@
           "createdAt": "2026-08-28T16:55:51.000Z"
         }
       ],
-      "summary": "This article argues that software updates often make products worse rather than better—a phenomenon the German word \"Verschlimmbesserung\" describes perfectly. The author traces the root cause to misaligned incentives and metrics that reward shipping new features over actual improvements, leading teams to optimize for metrics rather than user experience. The piece advocates for valuing stability and knowing when not to ship as key engineering disciplines."
+      "summary": "The article introduces the German word \"Verschlimmbesserung\" (an attempted improvement that makes things worse) to describe counterproductive software updates, arguing that such failures stem from misaligned metrics that incentivize shipping new features over actual improvements. The author contends that engineering teams optimize for whatever metrics they're given, and advocates for valuing stability and knowing when not to ship as legitimate engineering disciplines."
     },
     {
       "id": 49479302,
@@ -827,10 +827,10 @@
       "url": "https://www.smithsonianmag.com/science-nature/africa-wild-dogs-most-hated-carnivores-continent-heres-why-conservationists-saving-them-anyway-180989287/",
       "hnUrl": "https://news.ycombinator.com/item?id=49479302",
       "domain": "smithsonianmag.com",
-      "points": 30,
+      "points": 32,
       "author": "speckx",
       "createdAt": "2026-08-28T14:44:51Z",
-      "numComments": 10,
+      "numComments": 11,
       "topComments": [
         {
           "id": 49480311,
@@ -857,7 +857,7 @@
           "createdAt": "2026-08-28T16:29:14.000Z"
         }
       ],
-      "summary": "African wild dogs, though among the world's most endangered carnivores and widely hunted by farmers and game reserve owners, are being saved through conservation programs that relocate and breed them in protected reserves across Africa. The Endangered Wildlife Trust's program has increased the global wild dog population by over 344 in 29 years by reintroducing them to countries where they've disappeared, while researchers highlight the species' remarkable intelligence, playfulness, and hunting prowess as reasons worth protecting them despite human-wildlife conflict."
+      "summary": "African wild dogs are the continent's most endangered and hated carnivores due to their hunting success, leading farmers and reserve owners to kill them, but conservationists with the Endangered Wildlife Trust are working to restore their populations by relocating and breeding them across reserves where they've disappeared. The project has increased the global wild dog population by over 344 in 29 years, and researchers highlight the species' remarkable intelligence and playfulness, including their apparent ability to \"vote\" before hunts through coordinated social rallies."
     },
     {
       "id": 49479826,
@@ -866,10 +866,10 @@
       "url": "https://blog.brokk.ai/dont-use-musl-if-you-care-about-performance/",
       "hnUrl": "https://news.ycombinator.com/item?id=49479826",
       "domain": "blog.brokk.ai",
-      "points": 29,
+      "points": 31,
       "author": "jbellis",
       "createdAt": "2026-08-28T15:16:07Z",
-      "numComments": 14,
+      "numComments": 17,
       "topComments": [
         {
           "id": 49480809,
@@ -896,7 +896,7 @@
           "createdAt": "2026-08-28T16:30:49.000Z"
         }
       ],
-      "summary": "The author discovered that musl libc has significantly worse performance than glibc, with a particularly problematic allocator that causes 25-50% slowdowns even when replaced with optimized alternatives like mimalloc. Beyond allocator issues, musl's common memory routines are inherently slower, making it unsuitable for performance-critical applications despite its appeal as a self-contained binary solution. The author recommends avoiding musl for performance-sensitive projects and suggests the project should ship without a default allocator to make users explicitly choose their tradeoffs."
+      "summary": "The author discovered that musl libc has significantly worse performance than glibc, not just due to its allocator but also due to slow memory routines, resulting in 26% slower performance even when using alternative allocators like mimalloc. They recommend against using musl for performance-critical applications and suggest that musl should require explicit allocator selection rather than defaulting to a poor one. For smaller projects where the performance penalty is acceptable, musl can still be useful for its simplicity and self-contained binaries."
     },
     {
       "id": 49479898,
@@ -905,7 +905,7 @@
       "url": "https://kathmandupost.com/national/2026/08/28/barrier-lake-continues-to-pose-flood-risk-china-warns",
       "hnUrl": "https://news.ycombinator.com/item?id=49479898",
       "domain": "kathmandupost.com",
-      "points": 18,
+      "points": 22,
       "author": "r721",
       "createdAt": "2026-08-28T15:21:26Z",
       "numComments": 2,
@@ -923,7 +923,7 @@
           "createdAt": "2026-08-28T17:35:52.000Z"
         }
       ],
-      "summary": "A barrier lake formed by an ice-rock avalanche on the Nepal-China border remains at critical risk of breaching, with both countries monitoring the situation as water levels continue to rise and overflow. The Chinese Embassy warns downstream communities to remain vigilant and prepare for potential emergencies, while urging the public to rely on official information and avoid spreading unverified reports. This warning comes as Nepal deals with severe flooding and landslides across multiple districts."
+      "summary": "A barrier lake formed by an ice-rock avalanche on the Nepal-China border remains at dangerously high water levels and is overflowing, with officials from both countries warning of a potential breach that could pose severe flood risks downstream. The Chinese Embassy urges communities in affected areas to monitor river levels closely and prepare for possible emergencies, while authorities continue assessing the situation. The warning comes amid Nepal's ongoing struggle with severe flooding and landslides affecting multiple districts."
     },
     {
       "id": 49478942,
@@ -932,10 +932,10 @@
       "url": "https://www.hanselman.com/blog/debugging-my-new-network-when-10-gigabit-ethernet-runs-at-300-megabits",
       "hnUrl": "https://news.ycombinator.com/item?id=49478942",
       "domain": "hanselman.com",
-      "points": 15,
+      "points": 17,
       "author": "speckx",
       "createdAt": "2026-08-28T14:23:27Z",
-      "numComments": 5,
+      "numComments": 6,
       "topComments": [
         {
           "id": 49480497,
@@ -956,7 +956,7 @@
           "createdAt": "2026-08-28T17:23:30.000Z"
         }
       ],
-      "summary": "The author's new 10 Gigabit Ethernet network was mysteriously running at only 300 Megabits per second despite all components reporting the correct speed. By isolating the problem with iperf3 testing, he discovered the issue wasn't the NAS or storage but rather a Windows NIC driver problem—specifically, disabling Large Send Offload (LSO) V2 for IPv4 on his Intel E610-XT2 adapter jumped throughput from 313 Mbit/sec to 7.03 Gbit/sec. The key takeaway is that when debugging complex network issues, systematically eliminating variables (like using iperf3 to bypass storage layers) can reveal hidden hardware or driver problems."
+      "summary": "A blogger investigating mysteriously slow file transfers on a new 10 Gigabit network discovered the problem wasn't the storage hardware but a Windows NIC driver issue—Large Send Offload V2 for IPv4 was causing throughput to plummet from expected speeds to just 313 Mbps. By disabling this single offload setting, throughput jumped to 7.03 Gbps, demonstrating the importance of isolating network issues by testing raw network performance with tools like iperf3 rather than assuming storage is the culprit. The article emphasizes that while LSO is normally useful, this specific hardware/software combination had a critical bug that only became apparent through methodical debugging."
     },
     {
       "id": 49441316,
@@ -968,9 +968,16 @@
       "points": 14,
       "author": "EndXA",
       "createdAt": "2026-08-25T22:03:03Z",
-      "numComments": 0,
-      "topComments": [],
-      "summary": "Surging global demand for sand to support construction booms has created a lucrative illegal mining industry where criminal mafias control extraction operations, sometimes resorting to violence and murder to protect their operations. Sand, essential for concrete, glass, and countless other products, is being harvested unsustainably from riverbeds, beaches, and ocean floors worldwide, causing severe environmental damage to ecosystems while regulations remain weak and poorly enforced."
+      "numComments": 1,
+      "topComments": [
+        {
+          "id": 49482001,
+          "author": "ElijahLynn",
+          "text": "Is it possible to just figure out the ratio of rocks and put them into a grinding machine to make custom sand?",
+          "createdAt": "2026-08-28T17:43:27.000Z"
+        }
+      ],
+      "summary": "# Summary\n\nIllegal sand mining has become a global criminal enterprise worth $70 billion annually, driven by insatiable construction demand that consumes over 40 billion tons of sand yearly. Criminal gangs and mafias, particularly in developing countries like India, violently control sand extraction operations, with some murders committed over control of mining territories. The massive extraction from riverbeds, beaches, and ocean floors is rapidly depleting this finite resource while causing severe environmental damage to ecosystems worldwide."
     },
     {
       "id": 49479924,
@@ -979,7 +986,7 @@
       "url": "https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/",
       "hnUrl": "https://news.ycombinator.com/item?id=49479924",
       "domain": "osnews.com",
-      "points": 10,
+      "points": 13,
       "author": "birdculture",
       "createdAt": "2026-08-28T15:23:10Z",
       "numComments": 3,
@@ -997,7 +1004,7 @@
           "createdAt": "2026-08-28T16:40:04.000Z"
         }
       ],
-      "summary": "EasyEffects is a Linux application that significantly improves poor laptop speaker quality by applying audio tuning and effects through downloadable presets—no technical expertise required. While results vary depending on your laptop model and audio preferences, the tool is easy to install and use, with minimal CPU overhead. The article recommends it as essential software for Linux users seeking better audio quality from their laptops."
+      "summary": "EasyEffects is a Linux application that leverages PipeWire's audio processing capabilities to dramatically improve the poor sound quality of laptop speakers through software tuning and downloadable presets. While most laptops have inherently limited speakers, EasyEffects allows users to apply audio effects and equalization (similar to how premium laptops like MacBooks come pre-tuned) without requiring technical expertise. Installation is straightforward via most Linux distributions or Flatpak, and the tool offers minimal CPU overhead while providing immediate, noticeable audio improvements."
     },
     {
       "id": 49481689,
@@ -1006,7 +1013,7 @@
       "url": "https://ref.tools/blog/how-i-design-with-ai",
       "hnUrl": "https://news.ycombinator.com/item?id=49481689",
       "domain": "ref.tools",
-      "points": 6,
+      "points": 9,
       "author": "reactiverobot",
       "createdAt": "2026-08-28T17:18:32Z",
       "numComments": 0,
@@ -1023,9 +1030,16 @@
       "points": 3,
       "author": "mooreds",
       "createdAt": "2026-08-28T17:16:58Z",
-      "numComments": 0,
-      "topComments": [],
-      "summary": "This article tells the true story of Ron Fowler and Chuck Deuschle, workers at a Kentucky uranium-enrichment plant who became whistleblowers after discovering the facility was exposing employees to dangerous levels of radiation while management denied the risks for decades. Now facing serious health issues they believe resulted from their exposure, the aging whistleblowers are urgently sharing their full story before it's too late, especially as the plant is slated to reopen. The piece explores their decision to risk everything to reveal the truth and raises questions about worker safety in the nuclear industry."
+      "numComments": 1,
+      "topComments": [
+        {
+          "id": 49481986,
+          "author": "josefritzishere",
+          "text": "Lockheed and Union carbide already had very poor track records in this regard.",
+          "createdAt": "2026-08-28T17:42:14.000Z"
+        }
+      ],
+      "summary": "For decades, workers at a nuclear uranium-enrichment facility in Kentucky were exposed to dangerously high levels of radiation and toxic chemicals, but management concealed the truth from employees and the community. Four friends—Ron Fowler, Chuck Deuschle, Kay Deuschle, and Garland Jenkins—risked their careers and health to blow the whistle on the government and its contractors, believing their actions doomed them to serious illnesses. Now, with a private firm planning to revive uranium-enrichment operations at the site, the surviving whistleblowers are determined to share their full story before it's too late."
     },
     {
       "id": 49481423,
@@ -1037,7 +1051,7 @@
       "author": "kbanothu",
       "createdAt": "2026-08-28T17:00:06Z",
       "topComments": [],
-      "summary": "Attimet, a Y Combinator F24 startup, is hiring Members of Technical Staff for engineering roles to build AI systems and LLM-powered infrastructure that accelerates research and experimentation. The position offers $125K-$225K salary plus equity, requires strong technical skills in Python and LLMs, and emphasizes high initiative, rapid learning, and practical problem-solving over credentials. The role is based in San Francisco and involves end-to-end project ownership with direct founder collaboration from day one."
+      "summary": "Attimet, a Y Combinator-funded AI research lab, is hiring Members of Technical Staff for engineering roles ($125K-$225K + equity) to build LLM-powered systems and infrastructure that accelerate research and experimentation. The role emphasizes end-to-end project ownership, working directly with founders, and requires strong technical skills in AI/LLMs with a bias toward practical results over credentials. New grads are welcome to apply, and the position is based in San Francisco."
     }
   ],
   "topics": [
@@ -1079,8 +1093,8 @@
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 26593,
-      "forks": 1691,
+      "stars": 26600,
+      "forks": 1693,
       "starsToday": 4561,
       "homepage": "https://tt-a1i.github.io/archify/",
       "topics": [
@@ -1114,8 +1128,8 @@
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 36234,
-      "forks": 3460,
+      "stars": 36237,
+      "forks": 3461,
       "starsToday": 720,
       "homepage": "https://k-dense.ai",
       "topics": [
@@ -1146,7 +1160,7 @@
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 34942,
+      "stars": 34943,
       "forks": 3930,
       "starsToday": 457,
       "homepage": "https://code.claude.com/docs/en/plugins",
@@ -1164,7 +1178,7 @@
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 10565,
+      "stars": 10571,
       "forks": 2165,
       "starsToday": 1984,
       "homepage": "https://maptheworld.ai/",
@@ -1191,7 +1205,7 @@
       "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 46094,
+      "stars": 46096,
       "forks": 5092,
       "starsToday": 189,
       "homepage": "https://gitnexus.vercel.app",
@@ -1226,7 +1240,7 @@
       "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 53137,
+      "stars": 53138,
       "forks": 6628,
       "starsToday": 1144,
       "homepage": "https://www.openmontage.video/",
@@ -1260,7 +1274,7 @@
       "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 75440,
+      "stars": 75441,
       "forks": 9212,
       "starsToday": 309,
       "homepage": "https://screenshottocode.com",
@@ -1313,7 +1327,7 @@
       "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 2495,
+      "stars": 2497,
       "forks": 67,
       "starsToday": 986,
       "homepage": "https://tailscale.com/tailcat",
@@ -1345,7 +1359,7 @@
       "description": "Compile PHP to Native Binaries",
       "language": "PHP",
       "languageColor": "#4F5D95",
-      "stars": 764,
+      "stars": 766,
       "forks": 38,
       "starsToday": 188,
       "homepage": "https://swoole.com/aot/",
@@ -1359,7 +1373,7 @@
       "description": "Open-source framework for the research and development of foundation models.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 2853,
+      "stars": 2855,
       "forks": 236,
       "starsToday": 236,
       "homepage": "https://marin.community",
@@ -1445,7 +1459,7 @@
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 115108,
+      "stars": 115109,
       "forks": 6291,
       "starsToday": 1396,
       "homepage": "https://ponytail.dev",
@@ -2256,7 +2270,7 @@
       ],
       "score": 0,
       "answerCount": 0,
-      "viewCount": 24,
+      "viewCount": 26,
       "isAnswered": false,
       "ownerName": "L1L2L3",
       "ownerUrl": "https://stackoverflow.com/users/32753773/l1l2l3",
@@ -2293,7 +2307,7 @@
       ],
       "score": -2,
       "answerCount": 0,
-      "viewCount": 29,
+      "viewCount": 30,
       "isAnswered": false,
       "ownerName": "daniel sas",
       "ownerUrl": "https://stackoverflow.com/users/14924191/daniel-sas",
@@ -2310,7 +2324,7 @@
       ],
       "score": 0,
       "answerCount": 1,
-      "viewCount": 16,
+      "viewCount": 17,
       "isAnswered": true,
       "ownerName": "Grinding For Reputation",
       "ownerUrl": "https://stackoverflow.com/users/21252090/grinding-for-reputation",
@@ -2355,22 +2369,6 @@
       "bodyExcerpt": "I am integrating Firebase into a SwiftUI iOS app using Swift Package Manager. FirebaseAnalytics is added to my app target in Xcode under Frameworks, Libraries, and Embedded Content. Environment: Firebase iOS SDK: 12.18.0 Xcode: 26.2 Integration: Swift Package Manager Bundle ID: com.dnuapps.teezer With the Firebase documentation setup, I only call FirebaseApp.configure() in my UIApplicationDelegate. Firebase Core and Crashlytics start correctly, but Analytics is not detected at runtime. Crashlytics logs this warning: FirebaseCrashlytics: Firebase Analytics SDK not detected. Crash-free statistics and breadcrumbs will not be reported. If I explicitly add FirebaseAnalytics and call Analytics.setAnalyticsCollectionEnabled(true) after FirebaseApp.configure(), Analytics starts correctly and events upload successfully. The logs then show: FirebaseAnalytics: Analytics v.12.18.0 started FirebaseAnalytics: Analytics is ready to receive events FirebaseAnalytics: Successful upload. Code: 204 My question: Should FirebaseAnalytics be automatically detected with only FirebaseApp.configure() when it is added to the target through Swift Package Manager, or is this expected linker behavior, where the app must explicitly reference Analytics in code to force the SDK to be loaded? Is Analytics.setAnalyticsCollectionEnabled(true) a valid production fix, or should I use -ObjC in Other Linker Flags instead?"
     },
     {
-      "id": 79999021,
-      "title": "Troubleshoot Camera App error code 0xA00F4244 (NoCameraAreAttached)",
-      "url": "https://stackoverflow.com/questions/79999021/troubleshoot-camera-app-error-code-0xa00f4244-nocameraareattached",
-      "tags": [
-        "window"
-      ],
-      "score": -5,
-      "answerCount": 0,
-      "viewCount": 17,
-      "isAnswered": false,
-      "ownerName": "iphat chaudhary",
-      "ownerUrl": "https://stackoverflow.com/users/21181469/iphat-chaudhary",
-      "createdAt": "2026-08-28T16:58:24.000Z",
-      "bodyExcerpt": "Troubleshoot Camera App error code 0xA00F4244 (NoCameraAreAttached) We can't find your camera This error is show on camera screen"
-    },
-    {
       "id": 79998983,
       "title": "How do I get the minimum or maximum value of two numbers?",
       "url": "https://stackoverflow.com/questions/79998983/how-do-i-get-the-minimum-or-maximum-value-of-two-numbers",
@@ -2382,7 +2380,7 @@
       ],
       "score": 0,
       "answerCount": 3,
-      "viewCount": 59,
+      "viewCount": 60,
       "isAnswered": true,
       "ownerName": "M. Justin",
       "ownerUrl": "https://stackoverflow.com/users/1108305/m-justin",
@@ -2481,6 +2479,23 @@
       "bodyExcerpt": "Consider this code fragment: double d = 5.4744067603836093e-309; printf(\"%.17g %a\\n\", d, d); d /= 2.0; printf(\"%.17g %a\\n\", d, d); On several machines where I've run it, it prints 5.4744067603836093e-309 0x0.3efbfdd7c1c51p-1022 2.7372033801918022e-309 0x0.1f7dfeebe0e28p-1022 Both of those numbers are subnormal. In binary, their significands are: 0.0011111011111011111111011101011111000001110001010001 0.0001111101111101111111101110101111100000111000101000 As shown and as expected, both numbers have 52 bits to the right of the radix point. It's clear that dividing by two amounts to a right shift, with one 1 bit falling off the right-hand edge. (Since these are subnormal numbers, no exponent manipulation is involved.) My question is, why did that one 1 bit, that fell of the right-hand edge, evidently not participate in any rounding of the final result? Why was the significand after dividing by 2 not this: 0.0001111101111101111111101110101111100000111000101001 ? In other contexts, an operation yielding a subnormal result does get rounded. For example, if I run this fragment: double x = 1.3877787394217764e-17; double y = 1.9723629584729566e-292; double d2 = x * y; printf(\"%.17g %a\\n\", d2, d2); I get 2.7372033801918071e-309 0x0.1f7dfeebe0e29p-1022 In this case, the mathematically-correct and the actually-achieved 52-bit significands are 0.00111110111110111111110111010111110000011100010100010011111011110... 0.001111101111101111111101110101111100000111000101001 So here it's clear that the achieved result arises from rounding, not mere truncation. To summarize, here's one more fragment, which ends up tying the two previous ones together: double x = 1.3877787394217764e-17; double y = 1.9723629584729566e-292; double d2 = x * y; double d3 = x * 2 * y / 2; if(d2 != d3) printf(\"unexpected!\\n\"); On every machine where I've tried it, it prints \"unexpected!\". (Changing the fourth line to d3 = x * 2; d3 *= y; d3 /= 2; , to ensure there are no \"optimizations\", makes no difference for m"
     },
     {
+      "id": 79998925,
+      "title": "How to resolve access of variables in a nested chain of templated classes?",
+      "url": "https://stackoverflow.com/questions/79998925/how-to-resolve-access-of-variables-in-a-nested-chain-of-templated-classes",
+      "tags": [
+        "c++",
+        "inheritance"
+      ],
+      "score": 2,
+      "answerCount": 3,
+      "viewCount": 80,
+      "isAnswered": true,
+      "ownerName": "Reinhard Schrage",
+      "ownerUrl": "https://stackoverflow.com/users/29274108/reinhard-schrage",
+      "createdAt": "2026-08-28T10:26:57.000Z",
+      "bodyExcerpt": "The following code snipped defines a nested chain of templated C++ classes. The problem I have starts on the third level. The initialization of the three level nested class works well, which can easily checked in a debugger. However, a problem arises when attempting to access the nested class member variables aValue. While the first two levels work well, accessing third level aValue gives me no joy. Any suggestions on how to propagate variable access down the chain? Ideally, is there any iterator available for a looped access? template <typename T, typename Tail> // Tail will be a UnionNode too. struct UnionNode : public Tail { T aValue ; template<typename U> struct inUnion { typedef typename Tail::template inUnion<U> dummy; }; }; template <typename T> // For the last node Tn. struct UnionNode<T, void> { T aValue ; }; void AnotherTest() { // definition and initialization OK. Confirmed in Debugger. UnionNode<int, UnionNode<float, UnionNode<char,void>>> aNode {'c', 3.14, 10}; // no problem int *i_aValue = &aNode.aValue; // no problem float *f_aValue = &aNode.UnionNode<float, UnionNode<char,void>>::aValue; // this does not compile char *c_aValue = &aNode.UnionNode<float, UnionNode<char,void>>.UnionNode<char,void>::aValue; // nor does this compile char *c_aValue = &aNode.UnionNode<float, UnionNode<char,void>>::UnionNode<char,void>::aValue; *i_aValue = 100; // OK *f_aValue = 2.78; // OK }"
+    },
+    {
       "id": 79999003,
       "title": "EntraID MSAL MFA SPA Configuration",
       "url": "https://stackoverflow.com/questions/79999003/entraid-msal-mfa-spa-configuration",
@@ -2492,7 +2507,7 @@
       ],
       "score": -1,
       "answerCount": 0,
-      "viewCount": 16,
+      "viewCount": 17,
       "isAnswered": false,
       "ownerName": "Laundryman",
       "ownerUrl": "https://stackoverflow.com/users/1735482/laundryman",
@@ -2518,23 +2533,6 @@
       "bodyExcerpt": "When I log the request body in the application it gives me undefined. I read it usually is for bodyparser; I tried to add it but it remains undefined. import express, {type Express, type Request, type Response} from \"express\"; import mysql from 'mysql' import dotenv from 'dotenv' import path from \"path\"; import cors from \"cors\" import bodyParser from \"body-parser\"; const app: Express = express(); // create application/json parser app.use(bodyParser.json()) // create application/x-www-form-urlencoded parser app.use(bodyParser.urlencoded({ extended: false })) let corsOption = { origin: \"http://localhost:5173\" } app.use(cors(corsOption)); const __dirname = import.meta.dirname; //console.log(path.resolve(__dirname, \"../.env\")); dotenv.config({path: path.resolve(__dirname, \"../.env\")}) app.get(\"/\", (req: Request, res: Response) => { res.send(\"Hello World!\"); }) app.post(\"/register\", (req: Request, res: Response) => { console.log(req.body) res.send(\"Form submitted\") }) app.listen(3000); I don't know if I need to add something, I didn't use headers: async ({request}) => { let formData = await request.formData(); let email = formData.get(\"email\") let password = formData.get(\"password\") let register = await fetch(\"http://localhost:3000/register\", { method: \"POST\", body : JSON.stringify({email, password}) }) console.log(register.status) return register }"
     },
     {
-      "id": 79998925,
-      "title": "How to resolve access of variables in a nested chain of templated classes?",
-      "url": "https://stackoverflow.com/questions/79998925/how-to-resolve-access-of-variables-in-a-nested-chain-of-templated-classes",
-      "tags": [
-        "c++",
-        "inheritance"
-      ],
-      "score": 2,
-      "answerCount": 2,
-      "viewCount": 79,
-      "isAnswered": true,
-      "ownerName": "Reinhard Schrage",
-      "ownerUrl": "https://stackoverflow.com/users/29274108/reinhard-schrage",
-      "createdAt": "2026-08-28T10:26:57.000Z",
-      "bodyExcerpt": "The following code snipped defines a nested chain of templated C++ classes. The problem I have starts on the third level. The initialization of the three level nested class works well, which can easily checked in a debugger. However, a problem arises when attempting to access the nested class member variables aValue. While the first two levels work well, accessing third level aValue gives me no joy. Any suggestions on how to propagate variable access down the chain? Ideally, is there any iterator available for a looped access? template <typename T, typename Tail> // Tail will be a UnionNode too. struct UnionNode : public Tail { T aValue ; template<typename U> struct inUnion { typedef typename Tail::template inUnion<U> dummy; }; }; template <typename T> // For the last node Tn. struct UnionNode<T, void> { T aValue ; }; void AnotherTest() { // definition and initialization OK. Confirmed in Debugger. UnionNode<int, UnionNode<float, UnionNode<char,void>>> aNode {'c', 3.14, 10}; // no problem int *i_aValue = &aNode.aValue; // no problem float *f_aValue = &aNode.UnionNode<float, UnionNode<char,void>>::aValue; // this does not compile char *c_aValue = &aNode.UnionNode<float, UnionNode<char,void>>.UnionNode<char,void>::aValue; // nor does this compile char *c_aValue = &aNode.UnionNode<float, UnionNode<char,void>>::UnionNode<char,void>::aValue; *i_aValue = 100; // OK *f_aValue = 2.78; // OK }"
-    },
-    {
       "id": 79998914,
       "title": "Use a group by to have as results a count of 'value = x' and a count of 'value <> x'?",
       "url": "https://stackoverflow.com/questions/79998914/use-a-group-by-to-have-as-results-a-count-of-value-x-and-a-count-of-value",
@@ -2544,7 +2542,7 @@
       ],
       "score": 2,
       "answerCount": 2,
-      "viewCount": 60,
+      "viewCount": 61,
       "isAnswered": true,
       "ownerName": "Marco Flavio Farella",
       "ownerUrl": "https://stackoverflow.com/users/31722949/marco-flavio-farella",
@@ -2784,6 +2782,26 @@
       "ownerUrl": "https://stackoverflow.com/users/32792398/jinglan0379",
       "createdAt": "2026-08-28T11:34:17.000Z",
       "bodyExcerpt": "I'm on OceanBase CE 4.3.4 ( 5.7.25-OceanBase_CE-v4.3.4.0 ), MySQL mode, single-node. Same session: DROP TABLE IF EXISTS tt_column_row; CREATE TABLE tt_column_row ( c1 int PRIMARY KEY, c2 int, c3 int ) WITH COLUMN GROUP (all columns, each column); EXPLAIN SELECT /\\*+ USE_COLUMN_TABLE(tt_column_row) \\*/ \\* FROM tt_column_row; EXPLAIN SELECT /\\*+ NO_USE_COLUMN_TABLE(tt_column_row) \\*/ \\* FROM tt_column_row; Both return the same operator — TABLE FULL SCAN — no COLUMN TABLE FULL SCAN either way. SHOW CREATE TABLE tt_column_row confirms WITH COLUMN GROUP(all columns, each column) . Client is default mysql CLI on Linux (no extra flags). What confused me: per the column-store hint docs, USE_COLUMN_TABLE vs NO_USE_COLUMN_TABLE should pick column vs row storage, but EXPLAIN is identical. I also tried SELECT c1 only — same result. Question: Is this an optimizer limitation on this table/hint combination, or is something preventing the hints from reaching the server?"
+    },
+    {
+      "id": 79998942,
+      "title": "Jenkins Build Fails",
+      "url": "https://stackoverflow.com/questions/79998942/jenkins-build-fails",
+      "tags": [
+        "git",
+        "github",
+        "jenkins",
+        "version-control",
+        "continuous-integration"
+      ],
+      "score": -8,
+      "answerCount": 0,
+      "viewCount": 55,
+      "isAnswered": false,
+      "ownerName": "Arav",
+      "ownerUrl": "https://stackoverflow.com/users/33072654/arav",
+      "createdAt": "2026-08-28T11:46:35.000Z",
+      "bodyExcerpt": "Started by user ******* Checking out git **** into /var/jenkins_home/workspace/aes-2048@script/519e5a9175ad5cdede74766922794fd2bbd3bf02f8b8c920aac1858fbaeb4f3d to read Jenkinsfile The recommended git tool is: NONE No credentials specified Cloning the remote Git repository Cloning repository **** > git init /var/jenkins_home/workspace/aes-2048@script/519e5a9175ad5cdede74766922794fd2bbd3bf02f8b8c920aac1858fbaeb4f3d # timeout=10 Fetching upstream changes from **** > git --version # timeout=10 > git --version # 'git version 2.47.3' > git fetch --tags --force --progress -- ********+refs/heads/*:refs/remotes/origin/* # timeout=10 > git config remote.origin.url **** # timeout=10 > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10 Avoid second fetch > git rev-parse refs/remotes/origin/main^{commit} # timeout=10 > git rev-parse origin/main^{commit} # timeout=10 ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job. ERROR: Maximum checkout retry attempts reached, aborting ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job. ERROR: Maximum checkout retry attempts reached, aborting Finished: FAILURE"
     }
   ]
 }
