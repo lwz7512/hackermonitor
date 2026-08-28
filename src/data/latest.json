@@ -2785,6 +2785,5 @@
       "createdAt": "2026-08-28T11:34:17.000Z",
       "bodyExcerpt": "I'm on OceanBase CE 4.3.4 ( 5.7.25-OceanBase_CE-v4.3.4.0 ), MySQL mode, single-node. Same session: DROP TABLE IF EXISTS tt_column_row; CREATE TABLE tt_column_row ( c1 int PRIMARY KEY, c2 int, c3 int ) WITH COLUMN GROUP (all columns, each column); EXPLAIN SELECT /\\*+ USE_COLUMN_TABLE(tt_column_row) \\*/ \\* FROM tt_column_row; EXPLAIN SELECT /\\*+ NO_USE_COLUMN_TABLE(tt_column_row) \\*/ \\* FROM tt_column_row; Both return the same operator — TABLE FULL SCAN — no COLUMN TABLE FULL SCAN either way. SHOW CREATE TABLE tt_column_row confirms WITH COLUMN GROUP(all columns, each column) . Client is default mysql CLI on Linux (no extra flags). What confused me: per the column-store hint docs, USE_COLUMN_TABLE vs NO_USE_COLUMN_TABLE should pick column vs row storage, but EXPLAIN is identical. I also tried SELECT c1 only — same result. Question: Is this an optimizer limitation on this table/hint combination, or is something preventing the hints from reaching the server?"
     }
-  ],
-  "productHuntLaunches": []
+  ]
 }

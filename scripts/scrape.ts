@@ -7,7 +7,6 @@ import type { GitHubRepo } from '../src/types/github.ts';
 import type { DevToArticle } from '../src/types/devto.ts';
 import type { HNJob } from '../src/types/hnjob.ts';
 import type { SOQuestion } from '../src/types/stackoverflow.ts';
-import type { PHLaunch } from '../src/types/producthunt.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -26,9 +25,6 @@ const JOBS_COUNT = 40;
 
 const SO_COUNT = 30;
 const SO_BODY_CHAR_LIMIT = 2000;
-
-const PH_URL = 'https://www.producthunt.com/';
-const PH_COUNT = 20;
 
 const SUMMARY_MODEL = 'claude-haiku-4-5';
 const ARTICLE_CHAR_LIMIT = 6000;
@@ -436,113 +432,6 @@ async function fetchStackOverflowQuestions(): Promise<SOQuestion[]> {
   }
 }
 
-function extractBalanced(text: string, startIndex: number, open: string, close: string): string | null {
-  if (text[startIndex] !== open) return null;
-  let depth = 0;
-  let inString = false;
-  let escaped = false;
-  for (let i = startIndex; i < text.length; i++) {
-    const ch = text[i];
-    if (inString) {
-      if (escaped) escaped = false;
-      else if (ch === '\\') escaped = true;
-      else if (ch === '"') inString = false;
-      continue;
-    }
-    if (ch === '"') {
-      inString = true;
-      continue;
-    }
-    if (ch === open) depth++;
-    else if (ch === close) {
-      depth--;
-      if (depth === 0) return text.slice(startIndex, i + 1);
-    }
-  }
-  return null;
-}
-
-function extractJsonObject(text: string, startIndex: number): string | null {
-  return extractBalanced(text, startIndex, '{', '}');
-}
-
-interface PHApiPost {
-  id: string;
-  name: string;
-  slug: string;
-  tagline?: string;
-  dailyRank?: string;
-  latestScore?: number;
-  commentsCount?: number;
-  topics?: { edges?: { node?: { name?: string } }[] };
-}
-
-function parseProductHuntLaunches(html: string): PHLaunch[] {
-  const sectionTitleIdx = html.indexOf('"title":"Top Products Launching Today"');
-  if (sectionTitleIdx === -1) return [];
-
-  const itemsMarker = '"items":[';
-  const itemsStart = html.indexOf(itemsMarker, sectionTitleIdx);
-  if (itemsStart === -1 || itemsStart - sectionTitleIdx > 500) return [];
-
-  const arrayStart = itemsStart + itemsMarker.length - 1; // position of the '['
-  const itemsJson = extractBalanced(html, arrayStart, '[', ']');
-  if (!itemsJson) return [];
-
-  const marker = '{"__typename":"Post","id":"';
-  const launches: PHLaunch[] = [];
-  const seen = new Set<string>();
-  let idx = itemsJson.indexOf(marker);
-
-  while (idx !== -1) {
-    const jsonStr = extractJsonObject(itemsJson, idx);
-    idx = itemsJson.indexOf(marker, idx + marker.length);
-
-    if (!jsonStr) continue;
-
-    let post: PHApiPost;
-    try {
-      post = JSON.parse(jsonStr);
-    } catch {
-      continue;
-    }
-
-    if (!post.dailyRank || seen.has(post.id)) continue;
-    seen.add(post.id);
-
-    const topics = (post.topics?.edges ?? [])
-      .map((edge) => edge.node?.name)
-      .filter((name): name is string => Boolean(name));
-
-    launches.push({
-      id: post.id,
-      rank: Number(post.dailyRank),
-      name: post.name,
-      tagline: post.tagline ?? '',
-      url: `https://www.producthunt.com/posts/${post.slug}`,
-      votes: post.latestScore ?? 0,
-      comments: post.commentsCount ?? 0,
-      topics,
-    });
-  }
-
-  return launches.sort((a, b) => a.rank - b.rank).slice(0, PH_COUNT);
-}
-
-async function fetchProductHuntLaunches(): Promise<PHLaunch[]> {
-  try {
-    const res = await fetch(PH_URL, {
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; HackerMonitorBot/1.0)' },
-    });
-    if (!res.ok) throw new Error(`Request failed (${res.status})`);
-    const html = await res.text();
-    return parseProductHuntLaunches(html);
-  } catch (err) {
-    console.warn(`  failed to fetch Product Hunt launches: ${(err as Error).message}`);
-    return [];
-  }
-}
-
 async function main() {
   console.log('Fetching HN front page...');
   const search = await fetchJson<{ hits: AlgoliaHit[] }>(
@@ -599,10 +488,6 @@ async function main() {
   const stackOverflowQuestions = await fetchStackOverflowQuestions();
   console.log(`  found ${stackOverflowQuestions.length} questions`);
 
-  console.log('Fetching Product Hunt launches...');
-  const productHuntLaunches = await fetchProductHuntLaunches();
-  console.log(`  found ${productHuntLaunches.length} launches`);
-
   const snapshot: HNSnapshot = {
     fetchedAt: new Date().toISOString(),
     stories,
@@ -613,7 +498,6 @@ async function main() {
     jobsThreadTitle: threadTitle,
     jobsThreadUrl: threadUrl,
     stackOverflowQuestions,
-    productHuntLaunches,
   };
 
   const outDir = path.resolve(__dirname, '../src/data');

@@ -1,4 +1,4 @@
-export type TabKey = 'hn' | 'github' | 'devto' | 'jobs' | 'stackoverflow' | 'producthunt';
+export type TabKey = 'hn' | 'github' | 'devto' | 'jobs' | 'stackoverflow';
 
 interface TabsProps {
   active: TabKey;
@@ -11,7 +11,6 @@ const TABS: { key: TabKey; label: string }[] = [
   { key: 'devto', label: 'Dev.to Gamedev' },
   { key: 'jobs', label: 'Who is Hiring' },
   { key: 'stackoverflow', label: 'Stack Overflow' },
-  { key: 'producthunt', label: 'Product Hunt' },
 ];
 
 export function Tabs({ active, onChange }: TabsProps) {
