@@ -1,56 +1,17 @@
 {
-  "fetchedAt": "2026-08-28T03:00:32.485Z",
+  "fetchedAt": "2026-08-28T13:54:22.297Z",
   "stories": [
     {
-      "id": 49458161,
-      "rank": 1,
-      "title": "Nvidia agrees to acquire Hugging Face for $13B",
-      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
-      "hnUrl": "https://news.ycombinator.com/item?id=49458161",
-      "domain": "businessinsider.com",
-      "points": 1842,
-      "author": "mfiguiere",
-      "createdAt": "2026-08-27T01:12:55Z",
-      "numComments": 860,
-      "topComments": [
-        {
-          "id": 49458186,
-          "author": "Avicebron",
-          "text": "tldr: the marketplace for opensource models became wide open",
-          "createdAt": "2026-08-27T01:15:22.000Z"
-        },
-        {
-          "id": 49458366,
-          "author": "sbinnee",
-          "text": "This is huge!",
-          "createdAt": "2026-08-27T01:39:46.000Z"
-        },
-        {
-          "id": 49458377,
-          "author": "Gigachad",
-          "text": "What is the business model of hugging face? My understanding was they were basically just a file hosting platform.",
-          "createdAt": "2026-08-27T01:40:50.000Z"
-        },
-        {
-          "id": 49458380,
-          "author": "jadar",
-          "text": "Hold on, these say no deal has been reached yet.",
-          "createdAt": "2026-08-27T01:41:50.000Z"
-        }
-      ],
-      "summary": "Nvidia is in acquisition talks with Hugging Face, a major open-source AI platform, with a potential valuation exceeding $13 billion, though a deal has not yet been finalized. The acquisition would give Nvidia greater influence over developers in the AI ecosystem and drive more workloads to its chips, though owning Hugging Face could compromise the platform's current industry neutrality. Hugging Face previously rejected a $500 million investment from Nvidia, preferring to avoid having a dominant investor."
-    },
-    {
       "id": 49468083,
-      "rank": 2,
+      "rank": 1,
       "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
       "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
       "hnUrl": "https://news.ycombinator.com/item?id=49468083",
       "domain": "blog.cloudflare.com",
-      "points": 566,
+      "points": 832,
       "author": "TangerineDream",
       "createdAt": "2026-08-27T17:17:57Z",
-      "numComments": 160,
+      "numComments": 246,
       "topComments": [
         {
           "id": 49468379,
@@ -77,58 +38,19 @@
           "createdAt": "2026-08-27T18:00:30.000Z"
         }
       ],
-      "summary": "Cloudflare optimized the DNS cache for its 1.1.1.1 service and achieved a massive 100 terabyte memory reduction through engineering improvements. The article details the technical optimizations made to improve performance and efficiency of one of the world's largest public DNS resolvers."
-    },
-    {
-      "id": 49462763,
-      "rank": 3,
-      "title": "Microduck",
-      "url": "https://pollen-robotics.com/microduck/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49462763",
-      "domain": "pollen-robotics.com",
-      "points": 530,
-      "author": "robotswantdata",
-      "createdAt": "2026-08-27T10:57:56Z",
-      "numComments": 189,
-      "topComments": [
-        {
-          "id": 49463239,
-          "author": "unprovable",
-          "text": "Cute, and quite something if the sim-to-real pipeline is as smooth as we all might hope.",
-          "createdAt": "2026-08-27T11:47:44.000Z"
-        },
-        {
-          "id": 49463325,
-          "author": "tietjens",
-          "text": "What is the battery life?",
-          "createdAt": "2026-08-27T11:56:02.000Z"
-        },
-        {
-          "id": 49463336,
-          "author": "k3liutZu",
-          "text": "My wife would love one of these. She's still bitter we didn't get the Sony dog a decade ago.",
-          "createdAt": "2026-08-27T11:57:22.000Z"
-        },
-        {
-          "id": 49463368,
-          "author": "jCalamari",
-          "text": "AI is coming for pet market too.",
-          "createdAt": "2026-08-27T12:01:09.000Z"
-        }
-      ],
-      "summary": "Microduck is a 25 cm open-source biped robot priced at $399 that you can train using reinforcement learning to perform various behaviors like walking, sitting, kicking, and roller skating. The robot comes ready to play out of the box with seven pre-trained moves, and users can retrain it with their own policies using the provided simulator and open-source software stack. Pre-orders open August 27, 2026, with shipments expected before Christmas 2026."
+      "summary": "Cloudflare optimized 1.1.1.1's DNS cache system to reduce memory usage by 100 terabytes through engineering improvements. The article details the technical approach and performance benefits achieved from this optimization. This is a deep-dive technical piece for those interested in DNS infrastructure, caching strategies, and large-scale system optimization."
     },
     {
       "id": 49466917,
-      "rank": 4,
+      "rank": 2,
       "title": "Small Models Have Arrived",
       "url": "https://calv.info/small-models-have-arrived",
       "hnUrl": "https://news.ycombinator.com/item?id=49466917",
       "domain": "calv.info",
-      "points": 494,
+      "points": 710,
       "author": "tosh",
       "createdAt": "2026-08-27T15:56:58Z",
-      "numComments": 224,
+      "numComments": 310,
       "topComments": [
         {
           "id": 49467436,
@@ -155,19 +77,19 @@
           "createdAt": "2026-08-27T16:51:14.000Z"
         }
       ],
-      "summary": "Small language models have become capable and cost-effective enough to enable new consumer and business applications, with models like GPT-5.6-Luna reducing inference costs from dollars to cents per request. The author argues that while frontier models will remain essential for breakthrough work, the real opportunity lies in deploying \"fast/cheap/good-enough\" models for responsive, routine tasks that comprise the majority of business work. This shift in model economics could finally unlock the consumer AI startup market that has been constrained by high token costs."
+      "summary": "The author argues that recent advances in small, cost-effective AI models like GPT-5.6-Luna have made them viable for consumer and business applications, where inference costs were previously prohibitive. While frontier models will remain essential for breakthrough work, smaller \"fast/cheap/good-enough\" models are poised to capture significant demand for routine, responsive tasks that currently consume most human effort in organizations. This shift could finally unlock the consumer AI company category that has been hampered by high token costs."
     },
     {
       "id": 49465169,
-      "rank": 5,
+      "rank": 3,
       "title": "507 Mechanical Movements",
       "url": "https://507movements.com/",
       "hnUrl": "https://news.ycombinator.com/item?id=49465169",
       "domain": "507movements.com",
-      "points": 488,
+      "points": 625,
       "author": "helloplanets",
       "createdAt": "2026-08-27T14:08:18Z",
-      "numComments": 67,
+      "numComments": 76,
       "topComments": [
         {
           "id": 49466143,
@@ -194,253 +116,19 @@
           "createdAt": "2026-08-27T15:29:59.000Z"
         }
       ],
-      "summary": "This is an online interactive index of 507 mechanical movements from Henry T. Brown's classic technical reference, featuring animated demonstrations alongside original illustrations. Currently only a portion of the animations are complete (marked by colored thumbnails), with more being added over time as the project progresses. Users can browse through the mechanical movements and follow the project's social media accounts to be notified when new animations are finished."
-    },
-    {
-      "id": 49461817,
-      "rank": 6,
-      "title": "Show HN: The load-bearing vocabulary of Claude",
-      "url": "https://louisabraham.github.io/load-bearing/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49461817",
-      "domain": "louisabraham.github.io",
-      "points": 380,
-      "author": "Labo333",
-      "createdAt": "2026-08-27T08:59:49Z",
-      "numComments": 180,
-      "topComments": [
-        {
-          "id": 49466180,
-          "author": "sroussey",
-          "text": "I'm surprised vacuous is not on the list. The word selection and way of writing has taken the joy out of using Claude.",
-          "createdAt": "2026-08-27T15:12:41.000Z"
-        },
-        {
-          "id": 49466255,
-          "author": "fny",
-          "text": "While Claude's style is obnoxious, I'm more frustrated by its inscrutable explanations. You need a PhD to understand its explanation of a code snippet.",
-          "createdAt": "2026-08-27T15:18:17.000Z"
-        },
-        {
-          "id": 49466307,
-          "author": "nater5000",
-          "text": "I was pleasantly surprised when I attempted to scroll down and realized everything the author wanted to present fit on-screen. It's almost ironic that this site is able to make such an obvious, compelling presentation without being overly verbose or complicated (something which LLMs have a hard time doing). I wouldn't read TOO deeply into what is being presented, but the author has done a good job to not inject their own bias into the presentation which works well. I suspect, as we continue forward, humans will slowly start to adopt the language of LLMs, or at least certain language quirks that come from interacting with LLMs. Something I've noticed in my own writing is that I now present lists of examples in a consistent way: \"... such as <example 1>, <example 2>, etc., ...\". I started to notice I was using this pattern quite a bit somewhat recently, but I took a quick look at some of my social media posts and realized it's been occurring for a while. I had realized that I grown accustomed to this kind of language because, especially early on, LLMs would focus too much on the specific examples I'd provide when, really, I was just trying to give them a sense of what I was looking for. I just picked up that providing two examples then adding the \"etc.\" worked to get the LLM to not focus so much on the specific examples and to understand that they need to consider more than what I explicitly presented. Of course, now I write like that in my social media comments, in Slack with my colleagues, etc. :> I'd be interested to see if anyone can identify trends like this, since I think the human-language component of the adoption of LLMs is probably being somewhat neglected despite probably being surely dramatically affected.",
-          "createdAt": "2026-08-27T15:21:10.000Z"
-        },
-        {
-          "id": 49466492,
-          "author": "confusedbucket",
-          "text": "That confirms the recent spike of Claude calling everything I was recently working on a 'spike'. I still don't know what that term is supposed to represent (apparently).",
-          "createdAt": "2026-08-27T15:32:33.000Z"
-        }
-      ],
-      "summary": null
-    },
-    {
-      "id": 49447057,
-      "rank": 7,
-      "title": "The turbulent AI era is here",
-      "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
-      "hnUrl": "https://news.ycombinator.com/item?id=49447057",
-      "domain": "gatesnotes.com",
-      "points": 229,
-      "author": "nanna",
-      "createdAt": "2026-08-26T11:23:54Z",
-      "numComments": 484,
-      "topComments": [
-        {
-          "id": 49448566,
-          "author": "debo_",
-          "text": "> I believe we should tax AI tokens and robots. Right now, if you’re an employer and you hire someone, you pay payroll taxes on their earnings. But if you buy a robot, you can usually write it off right away as a business expense. The tax system nudges you toward replacing people with machines.",
-          "createdAt": "2026-08-26T13:14:11.000Z"
-        },
-        {
-          "id": 49448576,
-          "author": "swed420",
-          "text": "> Instead, solutions should be developed through a public democratic process that includes elected officials, policymakers, educators, health workers, local officials, and community leaders. Millions of people will have their lives disrupted, and we’ll need a stronger, more flexible social safety net to help them manage the transition. Local communities are already raising concerns about the energy and water needed for data centers. Without solutions, some groups will push for stopping AI development and deployment altogether. Sounds great, except it ignores the fact that capital interests have controlled the levers of our faux democracies for decades, with no end in sight. https://en.wikipedia.org/wiki/Uniparty",
-          "createdAt": "2026-08-26T13:14:34.000Z"
-        },
-        {
-          "id": 49448589,
-          "author": "dostick",
-          "text": "> We have to think now about how to reduce job losses so that everyone can share in the prosperity that AI creates. And I thought he is a smart man. This is so last century thinking. We need to prepare that there will definitely be no jobs for everyone and that will be falling all the time, it’s not a one-time event you should “prepare for”. There’s nothing to prepare, we already have funds and productivity to feed and shelter everyone. UBI is not a privilege, previous generations were slaving 9 to 5 all their lives so we can have it. This is it, arrived, and now, enter a few decades of historical period when all of us waiting for government bureaucrats to realise that UBI is a right.",
-          "createdAt": "2026-08-26T13:15:23.000Z"
-        },
-        {
-          "id": 49448607,
-          "author": "simianwords",
-          "text": "It’s a good thoughtful piece. If I may suggest, the main problem and I mean the actual main problem are those people who underestimate the capabilities of AI. The ones who think it hallucinates all the time, unreliable and mostly useless. The average person thinks this technology is overhyped (like Emily Bender) so how would one even begin to have a conversation with them on the risks?",
-          "createdAt": "2026-08-26T13:16:50.000Z"
-        }
-      ],
-      "summary": null
-    },
-    {
-      "id": 49466894,
-      "rank": 8,
-      "title": "Suica, Japan's First IC Transit Card",
-      "url": "https://www.tokyodev.com/articles/the-story-of-suica",
-      "hnUrl": "https://news.ycombinator.com/item?id=49466894",
-      "domain": "tokyodev.com",
-      "points": 200,
-      "author": "zdw",
-      "createdAt": "2026-08-27T15:55:12Z",
-      "numComments": 170,
-      "topComments": [
-        {
-          "id": 49467168,
-          "author": "insane_dreamer",
-          "text": "> The cards have no battery and aren’t self-powered in any way. Instead, the reader on the gate emits an electromagnetic field that powers the card just long enough to complete the transaction. Brillant!",
-          "createdAt": "2026-08-27T16:12:03.000Z"
-        },
-        {
-          "id": 49467182,
-          "author": "jjice",
-          "text": "Suica was excellent when I had the chance to use it. I used the Apple Pay version and it worked flawlessly. I think I do prefer what I'm seeing more and more in the US with a tap-to-pay so I don't have to learn a new system, but Suica was so universal that I really couldn't complain. Makes sense especially with the larger diversity of digital payment methods and cash prevalence in Japan.",
-          "createdAt": "2026-08-27T16:13:06.000Z"
-        },
-        {
-          "id": 49467228,
-          "author": "kubb",
-          "text": "One thing that surprised me was that certain ramen and soba shops didn’t accept cards at all and the only non-cash payment option was the IC card.",
-          "createdAt": "2026-08-27T16:15:59.000Z"
-        },
-        {
-          "id": 49467360,
-          "author": "trzy",
-          "text": "I still have my Passmo card from my very first visit to Japan in 2008. I went back in 2018 and it still worked and had a balance. I used it as recently as 2025. Pretty cool!",
-          "createdAt": "2026-08-27T16:24:26.000Z"
-        }
-      ],
-      "summary": "Suica is Japan's pioneering IC transit card developed in the 1990s that revolutionized train travel by enabling tap-based transactions processed in milliseconds without batteries or internet connectivity. The article traces Suica's development from Sony's initial FeliCa technology rejection by JR East, through successful implementation in Hong Kong, to its eventual adoption in Japan as a solution to modernize stations and reduce congestion. It explains how the card's ingenious design stores transaction data locally on the chip itself rather than relying on central servers, making it remarkably efficient even by today's standards."
-    },
-    {
-      "id": 49467922,
-      "rank": 9,
-      "title": "Gemini Omni 1.1 Flash",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49467922",
-      "domain": "blog.google",
-      "points": 197,
-      "author": "saretup",
-      "createdAt": "2026-08-27T17:06:32Z",
-      "numComments": 145,
-      "topComments": [
-        {
-          "id": 49469238,
-          "author": "petcat",
-          "text": "I heard a radio spot recently and I wondered if the voice was a real person or AI. It makes we wonder how such industries are dealing with this gen-AI revolution. We spend a lot of time here thinking about how it affects software developers, but I hardly ever see any commentary on how it is affecting screen and voice actors.",
-          "createdAt": "2026-08-27T18:33:57.000Z"
-        },
-        {
-          "id": 49469464,
-          "author": "037",
-          "text": "Prompt engineering tip for Google employees: just add \"P.S. Make sure the page works in Firefox too.\"",
-          "createdAt": "2026-08-27T18:49:35.000Z"
-        },
-        {
-          "id": 49469622,
-          "author": "Gecko4072",
-          "text": "So Seedance is good primarily because of TikTok and this because of YouTube. I wonder what portion of all recorded video is privately held in hard drives at people’s homes or Apple photos. Of course there is data labeling and cleaning but is the next evolution just a question of access? Same goes for LLMs. Would people be willing to sell their data? Kind of a messed up way to make yourself obsolete. Or there is a limit to scaling?",
-          "createdAt": "2026-08-27T19:00:57.000Z"
-        },
-        {
-          "id": 49469756,
-          "author": "guilhermeasper",
-          "text": "Google does anything except launch a new version of Gemini Pro.",
-          "createdAt": "2026-08-27T19:10:08.000Z"
-        }
-      ],
-      "summary": "Google has released Gemini Omni 1.1 Flash, an updated AI model that gives developers enhanced control over generative video creation, including scene extension, frame interpolation, and 4K upscaling capabilities. The update is designed to be production-ready and accessible through Google AI Studio and the Gemini Enterprise Agent Platform, allowing developers to build video editing tools and creative software more efficiently. Key features include the ability to extend scenes up to 40 seconds, create smooth camera transitions, and generate low-resolution previews for faster iteration before producing polished 4K output."
-    },
-    {
-      "id": 49466006,
-      "rank": 10,
-      "title": "Decompiling a Nintendo 64 game in 84 days",
-      "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49466006",
-      "domain": "blog.chrislewis.au",
-      "points": 191,
-      "author": "knackers",
-      "createdAt": "2026-08-27T15:01:11Z",
-      "numComments": 122,
-      "topComments": [
-        {
-          "id": 49467611,
-          "author": "hombre_fatal",
-          "text": "It's pretty amazing what you can do when you embrace LLMs, figure out how to build one high-quality rigorous project with them, and then start working on more projects. You become a machine with your workflow, once again limited only by your time/energy, tokens, and your discretion on how to spend it.",
-          "createdAt": "2026-08-27T16:43:19.000Z"
-        },
-        {
-          "id": 49467799,
-          "author": "ThrowawayTestr",
-          "text": "Awesome. Hopefully AI will allow more games to be decompiled in the future. Anyone working on a decomp of Perfect Dark?",
-          "createdAt": "2026-08-27T16:56:48.000Z"
-        },
-        {
-          "id": 49468051,
-          "author": "amjnsx",
-          "text": "I’m surprised the game companies themselves aren’t interested in these projects. Seems like easy money to just decompile a retro game, add some quality of life improvements and stick it on steam. Are their hands tied by legal or what other factors are preventing this?",
-          "createdAt": "2026-08-27T17:15:37.000Z"
-        },
-        {
-          "id": 49468167,
-          "author": "minimaxir",
-          "text": "It's especially annoying that LLMs/agents are a logical starting point for decompiling old games but there is a significant backlash against it as the gaming community is very anti-AI and consumers of the benefits decompiling offers tend to be noncoders who don't believe that AI can do more than slop. I've seen takes such as \"they're too lazy to learn C++\" and accepting a PR from someone using Claude taints the project irrevocably.",
-          "createdAt": "2026-08-27T17:23:22.000Z"
-        }
-      ],
-      "summary": "A Nintendo 64 game called Snowboard Kids was successfully fully decompiled in just 84 days, a dramatic improvement over the 596 days it took to decompile its sequel, thanks to a combination of AI language models, expert human contributors, and lessons learned from previous decompilation projects. The faster completion was aided by AI agents handling routine tasks like matching library code, though human expertise remained essential for understanding the complexities of the IDO compiler used for the original game. The author credits both AI assistance and skilled decompilation community members, emphasizing that the breakthrough wasn't solely due to AI but rather a strategic combination of tools and human knowledge."
-    },
-    {
-      "id": 49468642,
-      "rank": 11,
-      "title": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
-      "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
-      "hnUrl": "https://news.ycombinator.com/item?id=49468642",
-      "domain": "code.ffmpeg.org",
-      "points": 189,
-      "author": "dclavijo",
-      "createdAt": "2026-08-27T17:53:40Z",
-      "numComments": 147,
-      "topComments": [
-        {
-          "id": 49468826,
-          "author": "dabinat",
-          "text": "It’s interesting how AI may both raise and lower the quality of software. It’s very easy to send an AI agent on an open-ended bug hunt, and if it wastes a bunch of time and effort and finds nothing, no big deal. Time is much more important for a human developer with a salary.",
-          "createdAt": "2026-08-27T18:04:10.000Z"
-        },
-        {
-          "id": 49469214,
-          "author": "VCFundedGenYer",
-          "text": "The fruits of using LLMs to code. You'll waste far more time finding what it quietly and subtly wrecked than you would have if you just coded it yourself.",
-          "createdAt": "2026-08-27T18:32:14.000Z"
-        },
-        {
-          "id": 49469316,
-          "author": "Surac",
-          "text": "send patches",
-          "createdAt": "2026-08-27T18:39:09.000Z"
-        },
-        {
-          "id": 49469328,
-          "author": "12j3afAv",
-          "text": "Generating an incorrect input file seems to be the easiest task of all for any fuzzer. Generating correct input to get deep into the call stack and then finding something is the hard part.",
-          "createdAt": "2026-08-27T18:40:17.000Z"
-        }
-      ],
-      "summary": "I cannot provide a summary of this article because the text provided only contains information about an Anubis bot-protection system and does not include the actual article content about the FFmpeg division by zero bug discovery."
+      "summary": "This article introduces an online animated index of \"507 Mechanical Movements,\" a classic technical reference featuring Henry T. Brown's original illustrations of mechanical devices. The project is still in progress, with only some animations currently completed (indicated by color thumbnails), but visitors can browse existing content and follow updates as more animations are added."
     },
     {
       "id": 49468818,
-      "rank": 12,
+      "rank": 4,
       "title": "Gemini-3.5-Transcribe",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
       "hnUrl": "https://news.ycombinator.com/item?id=49468818",
       "domain": "blog.google",
-      "points": 164,
+      "points": 323,
       "author": "k9294",
       "createdAt": "2026-08-27T18:03:42Z",
-      "numComments": 43,
+      "numComments": 109,
       "topComments": [
         {
           "id": 49470595,
@@ -467,409 +155,136 @@
           "createdAt": "2026-08-27T20:42:23.000Z"
         }
       ],
-      "summary": "Google has introduced Gemini 3.5 Transcribe, an advanced speech-to-text model that delivers highly accurate real-time and pre-recorded audio transcription with intelligent features like self-correction handling, filler word removal, and custom vocabulary recognition. The model achieves industry-leading accuracy (4.0% error rate for streaming, 2.6% for non-streaming) and is now available to developers through the Gemini API for building voice agents, captioning tools, and analytics pipelines. Read this if you're interested in AI transcription technology, voice-enabled applications, or Google's latest Gemini capabilities."
+      "summary": "Google has introduced Gemini 3.5 Transcribe, an advanced speech-to-text model that converts audio into accurate, formatted text while handling background noise, complex jargon, and natural speech patterns like self-corrections. The model is available to developers through two APIs—one for real-time streaming conversations and one for pre-recorded audio—and achieves industry-leading accuracy with word error rates as low as 2.6% for non-streaming use cases. Developers can use it to build voice agents, captioning tools, and analytics pipelines that integrate seamlessly into existing workflows."
     },
     {
-      "id": 49464543,
-      "rank": 13,
-      "title": "Emacs 31: An unofficial guide to Markdown-ts-mode",
-      "url": "https://rahuljuliato.com/posts/markdown-ts-mode-emacs-31",
-      "hnUrl": "https://news.ycombinator.com/item?id=49464543",
-      "domain": "rahuljuliato.com",
-      "points": 155,
-      "author": "RahulMJ",
-      "createdAt": "2026-08-27T13:22:36Z",
-      "numComments": 65,
+      "id": 49468642,
+      "rank": 5,
+      "title": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
+      "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
+      "hnUrl": "https://news.ycombinator.com/item?id=49468642",
+      "domain": "code.ffmpeg.org",
+      "points": 270,
+      "author": "dclavijo",
+      "createdAt": "2026-08-27T17:53:40Z",
+      "numComments": 234,
       "topComments": [
         {
-          "id": 49465177,
-          "author": "pjdesno",
-          "text": "For those of us who have just been using Emacs, rather than following its recent evolution, \"ts-mode\" refers to a mode which uses tree-sitter for parsing, highlighting etc.",
-          "createdAt": "2026-08-27T14:09:11.000Z"
+          "id": 49468826,
+          "author": "dabinat",
+          "text": "It’s interesting how AI may both raise and lower the quality of software. It’s very easy to send an AI agent on an open-ended bug hunt, and if it wastes a bunch of time and effort and finds nothing, no big deal. Time is much more important for a human developer with a salary.",
+          "createdAt": "2026-08-27T18:04:10.000Z"
         },
         {
-          "id": 49465331,
-          "author": "edgyquant",
-          "text": "What are people’s workflows for using eMacs with generative coding? I’m trying to get a workflow where I can generate code and approve it like a PR (maybe leave comments for a next round of generation) but I’m new to eMacs and the ai coding package isn’t working with the latest eMacs",
-          "createdAt": "2026-08-27T14:19:49.000Z"
+          "id": 49469214,
+          "author": "VCFundedGenYer",
+          "text": "The fruits of using LLMs to code. You'll waste far more time finding what it quietly and subtly wrecked than you would have if you just coded it yourself.",
+          "createdAt": "2026-08-27T18:32:14.000Z"
         },
         {
-          "id": 49465830,
-          "author": "taude",
-          "text": "One of the biggest reason I've stopped using Emacs, and I was a pretty heavy user before was that org-mode files weren't fully native Markdown files, which caused annoying friction when collaborating with others. It would be interesting for me to have a new markdown-centric org-mode thing. I'd love to vibe lisp to customize my workflows, and I don't totally love Obsidian, which is what I've setup and configured now. I'd prefer to just have the config living in/around init.el/config.el (I used DoomEmacs most recently). I realize that org/agenda, etc does a ton more than markdown offers, but most of my flow is just around: raw notes to be consumed, check lists, due dates on items, and other \"basics\" of org-mode. Any recent Emacsers have similar workflows that are tgenible these days? I'd love to get Emacs back in use in my new antigenic Tmux-centric coding flows, and have it be a first class markdown editor, organizaer, and potentially collaboration.....",
-          "createdAt": "2026-08-27T14:51:29.000Z"
+          "id": 49469316,
+          "author": "Surac",
+          "text": "send patches",
+          "createdAt": "2026-08-27T18:39:09.000Z"
         },
         {
-          "id": 49466071,
-          "author": "RahulMJ",
-          "text": "A bit of extra info: - `ts` stands for \"tree-sitter\", meaning this mode uses tree-sitter under the hood, which is, among other things, very performant. - There's support for the CommonMark spec and GFM, so things like `- [ ]` checkboxes and ~~strikethrough~~ work out of the box, along with many other small QoL features. - This mode is BUILT-IN, so no extra packages are needed. - This is currently in the experimental phase, so users need to \"opt in\" and load the mode to play with it, hence the first part of the guide.",
-          "createdAt": "2026-08-27T15:05:33.000Z"
+          "id": 49469328,
+          "author": "12j3afAv",
+          "text": "Generating an incorrect input file seems to be the easiest task of all for any fuzzer. Generating correct input to get deep into the call stack and then finding something is the hard part.",
+          "createdAt": "2026-08-27T18:40:17.000Z"
         }
       ],
-      "summary": "This article is an unofficial guide to Emacs 31's new markdown-ts-mode, covering its features, setup instructions, and troubleshooting. The author explains that while markdown-ts-mode is marked experimental, it's actually feature-rich, supporting CommonMark and GitHub Flavored Markdown specs, and provides step-by-step instructions for installing and enabling the mode. The guide also addresses common tree-sitter setup issues and demonstrates how to get the mode working with proper grammar installation."
+      "summary": "I cannot provide a summary of this article because the text provided only contains information about an Anubis bot-protection service, not the actual article content about the FFmpeg division by zero bug. The webpage's content failed to load or was blocked by the protection system."
     },
     {
-      "id": 49464414,
-      "rank": 14,
-      "title": "Aphantasia Beginner's Guide",
-      "url": "https://aphantasia.com/guide",
-      "hnUrl": "https://news.ycombinator.com/item?id=49464414",
-      "domain": "aphantasia.com",
-      "points": 142,
-      "author": "ksec",
-      "createdAt": "2026-08-27T13:14:20Z",
-      "numComments": 322,
+      "id": 49474786,
+      "rank": 6,
+      "title": "Sovereign Tech Agency invests €500k in Flatpak",
+      "url": "https://modal.cx/blog/announcing-flatpak-sta/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49474786",
+      "domain": "modal.cx",
+      "points": 206,
+      "author": "eigenspace",
+      "createdAt": "2026-08-28T05:42:47Z",
+      "numComments": 120,
       "topComments": [
         {
-          "id": 49464620,
-          "author": "Artgor",
-          "text": "You know, I have learnt that I have aphantasia several years ago and it opened my eyes to many things. I have thought that people say a lot of things metaphorically. - Imagine a beach when meditating - If you are nervous about giving a presentation, imaging that the audience is naked - Count sheep in order to fall asleep fast - Undressing someone with your eyes - Visualising what is happening in the book you are reading. I was completely sure that these were just metaphors. Imagine my shock when I realised that the majority of people can actually DO IT.",
-          "createdAt": "2026-08-27T13:28:49.000Z"
+          "id": 49475353,
+          "author": "TekMol",
+          "text": "I never understood why a program installed in Flatpak is not just a directory on disk. When you install something via Flatpak, it still changes data in god-knows-what places on my disk. And the software itself has read/write access to god-knows-where on my disk. The answer is probably \"convenience and efficiency\". But I would much prefer a \"An application is a directory and by default cannot access anything outside of that directory\" approach.",
+          "createdAt": "2026-08-28T07:12:31.000Z"
         },
         {
-          "id": 49465518,
-          "author": "wmorgan",
-          "text": "An interesting test for kids that I stumbled upon. I’ll play them the audio of How the Grinch Stole Christmas, when we’re the car or whatever. So all the gags in that TV special are visual. Nevertheless my kids go nuts laughing from the back seat, at the right parts. What we’re all listening to is just instrumental, but they’re seeing all the gags. I wonder if you tried it with a kid with aphantasia. Would they laugh?",
-          "createdAt": "2026-08-27T14:30:45.000Z"
+          "id": 49475381,
+          "author": "koe123",
+          "text": "Maybe I am too propagandized, but honestly after going Nix I can’t help but feel like this stuff is fundamentally a waste of time",
+          "createdAt": "2026-08-28T07:16:17.000Z"
         },
         {
-          "id": 49465562,
-          "author": "Noaidi",
-          "text": "Thank you for this post. I have read several guides but this one is great and not just for me. I have aphantasia and Severely deficient autobiographical memory (SDAM) which often go hand in hand. Glad to have something I can give to people so they understand when I never remember their name. It is a weird thing to discover you have this. It has really added more difficulty to my already difficult life neurologically speaking. What I find interesting is that I have closed eye hallucinations. That is I do see things sometimes when I close my eyes but the things I see are not in my control. My psychiatrist told me that is because they are two different pathways and that is why we can still see dreams.",
-          "createdAt": "2026-08-27T14:33:28.000Z"
+          "id": 49475439,
+          "author": "blizdiddy",
+          "text": "Flatpak is great for installing, but as a happy Aurora user, it’s annoying and it breaks things all the time. Every desktop app i use has some broken feature. Sandboxes as another permissions panel suck. Simple browser-like permissions that allow prompted overwrite would be WAY better! Now i have media organizer programs that deletes my files if i try to write on a networked drive. Games that can’t see the controller. Chat apps that can’t see attachments. Music app that can’t save at all. Good luck accessing any binary and using it in a script.",
+          "createdAt": "2026-08-28T07:23:53.000Z"
         },
         {
-          "id": 49465596,
-          "author": "drakonka",
-          "text": "When people talk about seeing something in your mind's eye, do they mean a virtual image actually appears _as if_ you are seeing it in place of the real world or the blackness of your eyelids? Like do they somehow replace the picture from the eyes to the brain with whatever they are trying to visualize in a sort of hallucination? Or do they still 'see' the blacks of their eyelids or the world around them while visualizing the apple but not _really_ seeing it?",
-          "createdAt": "2026-08-27T14:35:58.000Z"
+          "id": 49475450,
+          "author": "znpy",
+          "text": "To be honest i don't see how having flatpack going to help the (european/german) \"sovereign tech\" initiative. A waste of money if you ask me. I think there are much more important issues that should deserve money and attention.",
+          "createdAt": "2026-08-28T07:25:04.000Z"
         }
       ],
-      "summary": "Aphantasia is the inability to mentally visualize images—people with it think conceptually about things like a beach without \"seeing\" them in their mind's eye. This beginner's guide provides assessments, explanations of how visualization differs between people, and resources for understanding and connecting with others who experience aphantasia, along with scientific evidence that visualization involves real neurological differences."
+      "summary": "The German Sovereign Tech Agency is investing €508,640 over two years to improve Flatpak, a Linux desktop application distribution platform, focusing on enhancing its security and sandboxing capabilities. The project will address critical gaps such as separating audio and microphone permissions, implementing network isolation and VPN support, and improving infrastructure through work on new portals and maintenance efforts. This investment aims to strengthen Flatpak's competitive position and enable the adoption of secure, image-based Linux operating systems that rely on Flatpak for application distribution."
     },
     {
-      "id": 49464314,
-      "rank": 15,
-      "title": "MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training",
-      "url": "https://aiandeducation.mit.edu/report/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49464314",
-      "domain": "aiandeducation.mit.edu",
-      "points": 118,
-      "author": "pbui",
-      "createdAt": "2026-08-27T13:07:45Z",
-      "numComments": 72,
+      "id": 49472090,
+      "rank": 7,
+      "title": "Doctors are finally learning to manage antidepressant withdrawal",
+      "url": "https://www.newscientist.com/article/2584861-antidepressant-withdrawal-symptoms-are-prompting-a-radical-rethink-of-how-we-treat-depression/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49472090",
+      "domain": "newscientist.com",
+      "points": 203,
+      "author": "eutropheon",
+      "createdAt": "2026-08-27T22:26:04Z",
+      "numComments": 221,
       "topComments": [
         {
-          "id": 49465560,
-          "author": "testfoobar",
-          "text": "This is a bunch of fluff. I hope at least the snacks and lunches during the discussions were good. \"Guiding principles: Be bold. Be humble. Put humanity front and center. Lean into learning. Teach with intentionality. No one size fits all.\" \"Recommendations: Adapt educational processes for an AI-aware world. Center people, community, and the residential experience. Build processes, teams and tools for continuous reflection, iteration, and improvement\"",
-          "createdAt": "2026-08-27T14:33:23.000Z"
+          "id": 49472427,
+          "author": "classichasclass",
+          "text": "Though this article concentrates on the SSRIs, other meds like the SNRIs can have a similar or even worse withdrawal effect. We didn't call it \"Side Effexor\" for nothing. People legitimately need these drugs, including in the short term. The problem for acute stressors once they resolve is how to get them back off.",
+          "createdAt": "2026-08-27T23:05:23.000Z"
         },
         {
-          "id": 49465639,
-          "author": "phasefactor",
-          "text": "\"Be bold\" by saying nothing of any interest. I have to agree that this is basically just fluff. Anyone put it into pangram yet?",
-          "createdAt": "2026-08-27T14:39:16.000Z"
+          "id": 49472464,
+          "author": "D-Machine",
+          "text": "Best way to manage the withdrawal would be to dramatically reduce them being prescribed in the first place. The linked article says they have \"small to moderate effectiveness\", but this is being far too generous. The correct way to measure drug effectiveness is if the treatment meets the standard of a minimal important difference. I.e. you measure depression on various rating scales, like the 17-point HAM-D, and research suggests a minimal important difference (i.e. one patients and clinicians can actually notice) needs to be about 3-5 points. But the average effects of almost all antidepressants do not meet these thresholds, i.e. the effect actually appears practically invisible. [1] Then you'll get waffling like \"oh, but it really has a big effect for some people\", but, well, no, we've looked at that too, and the placebo groups get just as miraculous \"big effects\", i.e. evidence supporting the idea \"they really help some people\" is also largely lacking [2-3]. All the other attempted saves (\"oh, but eventually you find one that works for you\") are also not really well supported either [4]. Like, maybe they really help some people, but it is far, far less clear than most assume, and should be balanced with concerns like withdrawal and serious side effects like emotional blunting and sexual dysfunction. EDIT: And just to be clear to anyone doing a drive-by downvote thinking this is about recent asinine US politics, it emphatically isn't. There are serious methodological concerns here that desperately need to be communicated to the public. [1] https://pubmed.ncbi.nlm.nih.gov/33593736/ [2] https://pmc.ncbi.nlm.nih.gov/articles/PMC7451660/ [3] https://pubmed.ncbi.nlm.nih.gov/33175895/ [4] https://pmc.ncbi.nlm.nih.gov/articles/PMC11844611/",
+          "createdAt": "2026-08-27T23:11:18.000Z"
         },
         {
-          "id": 49465809,
-          "author": "us-merul",
-          "text": "I think this has been going on well before AI or LLMs: \"A fundamental danger, as we’ve discussed, is that AI can allow students to bypass learning. Equally concerning is that students may internalize a transactional model in which assignments are outputs, teachers are evaluators, peers are optional, and knowledge (or an MIT degree) is an optimizable commodity to be acquired or produced as efficiently as possible.\"",
-          "createdAt": "2026-08-27T14:50:18.000Z"
+          "id": 49472521,
+          "author": "sandcat_",
+          "text": "To provide one additional anecdote: I came off escitalopram with no taper after taking it for about five years (10mg). I got brain zaps for a while, got very irritated at times, but largely was fine after a few weeks. Not downplaying the withdrawal effects for some people, but they’re not as catastrophic as this article suggests for many (perhaps most). And overall I’m very glad I took it! It got me through a rough patch, and seems (in combination with therapy, and some life changes) to have rewired me a little. Symptoms I had for a decade prior have not returned. And I’m not sure I could have made those life changes without it. Sadly my arachnophobia came back though. Oh well.",
+          "createdAt": "2026-08-27T23:19:57.000Z"
         },
         {
-          "id": 49465844,
-          "author": "a2ff6eeb0",
-          "text": "Education is so cooked. In 10 years, people arent going to find it useful financially. The AI will be better at economically relevant thinking. And there aren't enough hobbyist learners to sustain education at its current level.",
-          "createdAt": "2026-08-27T14:52:19.000Z"
+          "id": 49472828,
+          "author": "laughing_man",
+          "text": "SSRIs and SNRIs just didn't work very well for me. If they had an positive effect at all, it wasn't enough to rise above the proverbial noise. Coming off of them wasn't too bad though. I got the brain zaps, but those were easy to cope with. More than anything the whole experience was a waste of money, and what finally fixed my problems was retirement and a greater attention to my health.",
+          "createdAt": "2026-08-28T00:07:43.000Z"
         }
       ],
-      "summary": "MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research conducted a five-month study to assess how generative AI should be integrated into the institute's educational mission, finding that while AI offers innovative learning opportunities, it is also disrupting foundational MIT educational elements, increasing student isolation, and undermining academic integrity. The committee proposes eight guiding principles—including humility, intentionality, human-centered design, and augmentation over automation—and recommends that MIT systematically redesign its curricula and assessment methods to be \"AI-aware\" while maintaining its distinctive educational values. This report is essential reading for educators, administrators, and anyone interested in how universities should adapt their teaching, learning, and research practices in response to the rapid advancement of generative AI."
-    },
-    {
-      "id": 49471407,
-      "rank": 16,
-      "title": "Show HN: We built open OpenRouter that turns usage into a better model",
-      "url": "https://github.com/experientiallabs/experiential",
-      "hnUrl": "https://news.ycombinator.com/item?id=49471407",
-      "domain": "github.com",
-      "points": 118,
-      "author": "SilenN",
-      "createdAt": "2026-08-27T21:18:35Z",
-      "numComments": 17,
-      "topComments": [
-        {
-          "id": 49471977,
-          "author": "Areibman",
-          "text": "Could you say more about how caching works? One major advantage of sticking with a single model is saving money on cached input tokens. I'd imagine if you swap between a bunch of models, you may improve performance but cost would would balloon out of control",
-          "createdAt": "2026-08-27T22:12:13.000Z"
-        },
-        {
-          "id": 49471998,
-          "author": "ashermania",
-          "text": "Finally an open source tool doing this!",
-          "createdAt": "2026-08-27T22:14:48.000Z"
-        },
-        {
-          "id": 49472268,
-          "author": "23david",
-          "text": "Super interesting and congrats on the release. Curious if you initially had this in Python and then rewrote in Rust?",
-          "createdAt": "2026-08-27T22:47:54.000Z"
-        },
-        {
-          "id": 49472738,
-          "author": "cheema33",
-          "text": "I have not tried it yet. Is it similar to LiteLLM? If so, what sets it apart?",
-          "createdAt": "2026-08-27T23:54:09.000Z"
-        }
-      ],
-      "summary": "Experiential is an open-source model gateway that provides a unified OpenAI-compatible API for accessing hosted, custom, and local AI models while enabling fine-grained control over user permissions, use cases, and spending budgets. It allows developers to optimize model routing based on production traffic data to improve quality, speed, and cost efficiency. The tool is available both as a local installation and a managed hosted platform."
-    },
-    {
-      "id": 49457722,
-      "rank": 17,
-      "title": "Afterglow: Run classic After Dark screen savers on modern macOS",
-      "url": "https://morphing.cloud/afterglow/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49457722",
-      "domain": "morphing.cloud",
-      "points": 102,
-      "author": "NaOH",
-      "createdAt": "2026-08-27T00:18:27Z",
-      "numComments": 37,
-      "topComments": [
-        {
-          "id": 49461753,
-          "author": "pogue",
-          "text": "I need this for Windows. The After Dark screensavers are on the internet archive, but obviously they look and run like crap since they're made for Windows 3.x to maybe 95/98.",
-          "createdAt": "2026-08-27T08:50:09.000Z"
-        },
-        {
-          "id": 49469451,
-          "author": "dylan604",
-          "text": "\"You can also browse and install software releases directly from the Internet Archive without leaving the app. \" That's a fine line being walked there. If they are worried about rights issues and not including the bundles, this seems like a risky FU by building this feature in directly. The part about using bundles you may have without asking questions of origin is fine. Otherwise, why not just include the bundles?",
-          "createdAt": "2026-08-27T18:48:48.000Z"
-        },
-        {
-          "id": 49469929,
-          "author": "devindotcom",
-          "text": "I need the Star Trek modules, which I recall waiting overnight to pirate from a BBS on my 14.4k. \"Do NOT pick up the phone, mom.\" Also Lunatic Fringe - somehow and for some reason a full top down space shoot-em-up in After Dark. Probably for office workers to play, I do recall there was a \"boss mode\" that pulled up a fake spreadsheet or something.",
-          "createdAt": "2026-08-27T19:22:31.000Z"
-        },
-        {
-          "id": 49470000,
-          "author": "Scramblejams",
-          "text": "I need this for Wayland. Maybe when the maintainers discover that joy in computing both exists and can be a worthwhile pursuit.",
-          "createdAt": "2026-08-27T19:28:08.000Z"
-        }
-      ],
-      "summary": "Afterglow is a new macOS emulator that lets you run the classic After Dark screen savers from the 1990s (like Flying Toasters and Fish) on modern computers without needing vintage hardware or complex emulation setups. The app easily imports modules from disk images and archives, works as a native macOS screen saver, and includes features like full-screen mode and a CRT shader. It's a preservation project built by enthusiasts to keep these iconic animations accessible for current and future users."
-    },
-    {
-      "id": 49468593,
-      "rank": 18,
-      "title": "M5Stack Launches PaperMono",
-      "url": "https://shop.m5stack.com/blogs/news/m5stack-launches-papermono-a-compact-e-ink-development-terminal-for-connected-projects",
-      "hnUrl": "https://news.ycombinator.com/item?id=49468593",
-      "domain": "shop.m5stack.com",
-      "points": 99,
-      "author": "marksully",
-      "createdAt": "2026-08-27T17:50:57Z",
-      "numComments": 40,
-      "topComments": [
-        {
-          "id": 49469170,
-          "author": "g8425",
-          "text": "I wouldn't anticipate too much from m5stack. They have a habit of developing products that are well designed from a physical standpoint... but when you try to develop with them one finds that the software and support needed to achieve your goals are half-baked and downright annoying. UIFlow1/2, I'm looking at you... For reference, see the M5dinmeter",
-          "createdAt": "2026-08-27T18:29:11.000Z"
-        },
-        {
-          "id": 49469230,
-          "author": "NDlurker",
-          "text": "This is competition for the new XTEINK X4 Pro. Cost about half the price and is compatible with Crosspoint too.",
-          "createdAt": "2026-08-27T18:33:13.000Z"
-        },
-        {
-          "id": 49469584,
-          "author": "anonymous344",
-          "text": "nice, out of stock would need a cheaper one esp32, display the same size, battery and few buttons, no need for lights or even chassis, can 3d print it. but only found screens too small or costs more than this device! btw where does these ship from?",
-          "createdAt": "2026-08-27T18:58:16.000Z"
-        },
-        {
-          "id": 49469600,
-          "author": "3D30497420",
-          "text": "This announcement is from a few days ago. And it seems everywhere is out-of-stock. Any news about potential availability? (In the US ideally.)",
-          "createdAt": "2026-08-27T18:59:02.000Z"
-        }
-      ],
-      "summary": "M5Stack has launched PaperMono, a compact ESP32-S3-based e-ink development terminal featuring a 3.97-inch touchscreen display, integrated frontlight, NFC, LoRa connectivity, and a 1150mAh battery designed for low-power IoT projects. The device is available in two versions: the full PaperMono with NFC and LoRa capabilities, and a PaperMono-Lite without those connectivity features, both supporting applications like e-ink readers, dashboards, digital badges, and remote status displays."
-    },
-    {
-      "id": 49468816,
-      "rank": 19,
-      "title": "Show HN: Voronoi Go",
-      "url": "https://voronoigo.com/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49468816",
-      "domain": "voronoigo.com",
-      "points": 94,
-      "author": "igpay",
-      "createdAt": "2026-08-27T18:03:37Z",
-      "numComments": 13,
-      "topComments": [
-        {
-          "id": 49470345,
-          "author": "xerox13ster",
-          "text": "Gonna be honest, this got a click from me as a golang developer having just come from the terminal multiplexer thread and I fully expected this to be about developing voronoi cells in golang. I don't know Go well enough to even begin to conceptualize how deeply this changes the rules and interactions of the game, so I'm not going to be able to comment on the concept itself, but I bounced off the tutorial the first time and by the end of it had no desire to play a full game against a bot. Maybe if the tutorial had walked me through the beginning and middle of the match with the bot and engineered the match so that the tutorial scenarios appeared within that game, it would have felt like less of a committment to actually start a full game.",
-          "createdAt": "2026-08-27T19:56:17.000Z"
-        },
-        {
-          "id": 49470408,
-          "author": "emaro",
-          "text": "Looks really cool. Saved for later because I'm on my phone right now. Ignored the warning and it was fine but the site refreshed sometimes which restarted the tutorial. The third time I gave up.",
-          "createdAt": "2026-08-27T20:01:15.000Z"
-        },
-        {
-          "id": 49470423,
-          "author": "pmontra",
-          "text": "Very well done. I had to enable desktop mode on a phone because the help dialog hides the board and the Next button is some meter below the bottom edge of the screen. That's the only issue and the site warns that it's best played on a desktop. Everything else is very well done and it's really a game of go, with eyes, invasions, connections, cuts.",
-          "createdAt": "2026-08-27T20:02:11.000Z"
-        },
-        {
-          "id": 49470855,
-          "author": "runarberg",
-          "text": "5 kyu in normal go here: I played a couple of games and got crushed by the AI. Groups are much harder to kill in this game, so having a large group of connected stones with zero or one eyes (what we call “dragons” in normal go) is a much better strategy (I think) then to create potentials in the corners. This is counter to the best strategy in normal go. We actually have a saying that “big dragons never die” , however it is actually an anti-proverb, because most dragons can be harassed while your opponent builds territory. So even if your dragons lives, you wasted a lot of stones keeping your dragon alive, while your opponent was calmly building territory, and gaining points.",
-          "createdAt": "2026-08-27T20:34:43.000Z"
-        }
-      ],
-      "summary": "I'm unable to provide a meaningful summary of this text. The content appears to be fragmented HTML/code documentation that doesn't form a coherent article, making it impossible to determine what \"Voronoi Go\" actually is or what the piece discusses."
-    },
-    {
-      "id": 49466188,
-      "rank": 20,
-      "title": "The mechanics of the Nepali flash flood",
-      "url": "https://www.economist.com/science-and-technology/2026/08/27/the-terrifying-mechanics-of-the-nepali-flash-flood",
-      "hnUrl": "https://news.ycombinator.com/item?id=49466188",
-      "domain": "economist.com",
-      "points": 86,
-      "author": "vinni2",
-      "createdAt": "2026-08-27T15:13:26Z",
-      "numComments": 45,
-      "topComments": [
-        {
-          "id": 49470092,
-          "author": "pm2222",
-          "text": "https://apnews.com/article/climate-change-nepal-tibet-glacie... CCTV footage is there. Horrific scene. When you see it coming at you it’s already too late.",
-          "createdAt": "2026-08-27T19:35:44.000Z"
-        },
-        {
-          "id": 49470686,
-          "author": "decasia",
-          "text": "The CCTV footage was one of the most heartbreaking things I have seen on the internet lately. It makes me think a bit of the Johnstown flood from 1889: https://en.wikipedia.org/wiki/Johnstown_Flood#/media/File:Th...",
-          "createdAt": "2026-08-27T20:22:55.000Z"
-        },
-        {
-          "id": 49470943,
-          "author": "croisillon",
-          "text": "another good article, without paywall: https://www.theguardian.com/world/2026/aug/27/nepal-tibet-fl...",
-          "createdAt": "2026-08-27T20:41:39.000Z"
-        },
-        {
-          "id": 49471114,
-          "author": "glimshe",
-          "text": "I haven't yet been able to properly internalize the horror of this scene. Maybe because we're exposed to so many images from disaster and action movies/videogames, I got somewhat desensitized to the \"graphics\", so to speak. It's like my brain is denial. At the same time, I know this is real and a tragedy in an unimaginable scale. Every \"little walking figure\" is a full human being with dreams, fears and a rich life story. I'm afraid that at one point it will just hit me super hard.",
-          "createdAt": "2026-08-27T20:53:55.000Z"
-        }
-      ],
-      "summary": null
-    },
-    {
-      "id": 49466622,
-      "rank": 21,
-      "title": "Engineered yeast for converting plastic and biomass compounds to food additives",
-      "url": "https://acs.digitellinc.com/live/37/session/586399",
-      "hnUrl": "https://news.ycombinator.com/item?id=49466622",
-      "domain": "acs.digitellinc.com",
-      "points": 84,
-      "author": "ehwa37",
-      "createdAt": "2026-08-27T15:40:04Z",
-      "numComments": 60,
-      "topComments": [
-        {
-          "id": 49467469,
-          "author": "waschl",
-          "text": "Is there any of this ”bacteria converting plastic to fuel/food/neutral stuff“ actually applied anywhere at scale under economically reasonably conditions?",
-          "createdAt": "2026-08-27T16:31:25.000Z"
-        },
-        {
-          "id": 49467477,
-          "author": "ninalanyon",
-          "text": "There was a Doomwatch episode on his subject with airliners falling out of the sky bcause all the plastic had been eaten away. https://en.wikipedia.org/wiki/Doomwatch#Series_One",
-          "createdAt": "2026-08-27T16:32:10.000Z"
-        },
-        {
-          "id": 49467538,
-          "author": "spockz",
-          "text": "Maybe the only thing more worrisome than microplastics everywhere is unstoppable plastics eating organisms everywhere, eating through all plastics everywhere.",
-          "createdAt": "2026-08-27T16:36:23.000Z"
-        },
-        {
-          "id": 49467868,
-          "author": "mbil",
-          "text": "If you don't eat your biomass compound goo, you can't have any PlastiYum bacterial sludge",
-          "createdAt": "2026-08-27T17:01:54.000Z"
-        }
-      ],
-      "summary": "Researchers have engineered yeast consortia capable of converting plastic waste and biomass-derived compounds into commercially valuable food additives. This biotechnological approach offers a sustainable solution for plastic waste management while simultaneously producing useful food industry products. The work represents progress in circular economy applications and industrial biotechnology."
-    },
-    {
-      "id": 49468834,
-      "rank": 22,
-      "title": "Previewing the Model Hardware Standard",
-      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "hnUrl": "https://news.ycombinator.com/item?id=49468834",
-      "domain": "anthropic.com",
-      "points": 83,
-      "author": "surprisetalk",
-      "createdAt": "2026-08-27T18:04:50Z",
-      "numComments": 33,
-      "topComments": [
-        {
-          "id": 49469418,
-          "author": "tolugenius",
-          "text": "I don't want to be that guy but did they invent bluetooth for ai? Like what is MHS actually? I read it twice and still don't get it",
-          "createdAt": "2026-08-27T18:46:12.000Z"
-        },
-        {
-          "id": 49469620,
-          "author": "automationwiz",
-          "text": "Sounds like PyLabRobot: https://docs.pylabrobot.org/stable/",
-          "createdAt": "2026-08-27T19:00:53.000Z"
-        },
-        {
-          "id": 49469814,
-          "author": "jedbrooke",
-          "text": "https://xkcd.com/927/ To actually add something to the discussion though: I guess getting LLMs to control robots is cool, but would potentially have more severe consequences than pure software since it interacts more with the physical world",
-          "createdAt": "2026-08-27T19:14:33.000Z"
-        },
-        {
-          "id": 49469848,
-          "author": "mips_avatar",
-          "text": "As far as I can tell is these standards (MCP/MHS/etc) are just semi obvious tool inferfaces that Anthropic uses as training scenarios.",
-          "createdAt": "2026-08-27T19:16:54.000Z"
-        }
-      ],
-      "summary": "Anthropic is launching a research preview of the Model Hardware Standard (MHS), a shared specification that allows AI agents to safely operate multiple lab and manufacturing devices in parallel by standardizing how different instruments communicate and receive commands. MHS dramatically reduces hardware integration time from weeks or months to hours or minutes, while enabling AI agents to autonomously orchestrate complex experiments, monitor results in real-time, and recover from errors without human intervention. The standard is being shared with research labs and manufacturers across multiple fields to develop safety practices before being made open source."
+      "summary": "Medical professionals are increasingly recognizing that withdrawal symptoms from long-term SSRI antidepressant use are more common and severe than previously understood, prompting major health organizations to reconsider prescribing guidelines that have long lacked concrete advice on how to safely discontinue these medications. Research shows many patients experience debilitating withdrawal symptoms like panic attacks, insomnia, and dissociation when stopping SSRIs, yet clinical trials historically lasted only eight weeks and long-term effects remain poorly studied despite widespread use lasting years or decades."
     },
     {
       "id": 49471965,
-      "rank": 23,
+      "rank": 8,
       "title": "Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance",
       "url": "https://github.com/elyosh/OpenTIE/",
       "hnUrl": "https://news.ycombinator.com/item?id=49471965",
       "domain": "github.com",
-      "points": 79,
+      "points": 195,
       "author": "elyosh",
       "createdAt": "2026-08-27T22:10:47Z",
-      "numComments": 16,
+      "numComments": 48,
       "topComments": [
         {
           "id": 49472282,
@@ -896,162 +311,136 @@
           "createdAt": "2026-08-27T23:51:40.000Z"
         }
       ],
-      "summary": "OpenTIE and OpenXWA are modern open-source reimplementations of classic Star Wars games TIE Fighter and X-Wing Alliance that run natively on Windows, macOS, and Linux using original game data. The projects enhance the originals with features like high-resolution graphics, adaptive music, high refresh-rate support, and the ability to mix-and-match the best elements from different game versions. Both require ownership of the original games to run and represent impressive preservation efforts for beloved 1990s flight simulators."
+      "summary": "OpenTIE is an open-source reimplementation of Star Wars: TIE Fighter that modernizes the classic 1995 and 1998 game editions for Windows, macOS, and Linux while preserving original gameplay. It allows players to mix-and-match the best features from both versions, including adaptive music, modern graphics with advanced lighting effects, high-refresh-rate support, and improved controls. The project requires ownership of at least one original game edition to run and is available for download on GitHub."
     },
     {
-      "id": 49471714,
-      "rank": 24,
-      "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-      "url": "https://github.com/calmrocks/ai-engineer-notebooks",
-      "hnUrl": "https://news.ycombinator.com/item?id=49471714",
-      "domain": "github.com",
-      "points": 54,
-      "author": "calmrocks",
-      "createdAt": "2026-08-27T21:46:39Z",
-      "numComments": 6,
+      "id": 49477055,
+      "rank": 9,
+      "title": "Pentagon's blacklisting of Anthropic was unlawful, US judge rules",
+      "url": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477055",
+      "domain": "reuters.com",
+      "points": 164,
+      "author": "softwaredoug",
+      "createdAt": "2026-08-28T11:25:30Z",
+      "numComments": 57,
       "topComments": [
         {
-          "id": 49473311,
-          "author": "consumer451",
-          "text": "Man, I could have used something like this last year. Upon review, it appears that fumbling my way through the dark with Claude and Google led to the same place, in nearly all cases. However, this is all written by Claude — it has too many em-dashes to not be, does it not? So, maybe that's why we ended up in the same places. Does anyone know of any other resources in this vein?",
-          "createdAt": "2026-08-28T01:24:35.000Z"
+          "id": 49477388,
+          "author": "giwook",
+          "text": "Like so many of this administration's actions, unfortunately...",
+          "createdAt": "2026-08-28T12:12:50.000Z"
         },
         {
-          "id": 49473817,
-          "author": "nycdatasci",
-          "text": "Why does applied AI intentionally exclude a framework/harness around AI? The job is to harness the power of AI, and a harness is a critical part of that.",
-          "createdAt": "2026-08-28T02:54:54.000Z"
-        }
-      ],
-      "summary": "This repository provides free, framework-free Colab notebooks teaching practical AI engineering skills—from model APIs and RAG to agents and evals—using only raw API calls and the free Groq API to build real systems. The notebooks are designed to teach you the underlying concepts before reaching for frameworks like LangChain, emphasizing measurement and evaluation throughout, with real case studies and patterns that transfer to OpenAI and Anthropic APIs. Ideal for backend engineers transitioning into AI roles who want to understand applied LLM systems end-to-end."
-    },
-    {
-      "id": 49473522,
-      "rank": 25,
-      "title": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
-      "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
-      "hnUrl": "https://news.ycombinator.com/item?id=49473522",
-      "domain": "nytimes.com",
-      "points": 52,
-      "author": "jbegley",
-      "createdAt": "2026-08-28T02:03:38Z",
-      "numComments": 9,
-      "topComments": [
-        {
-          "id": 49473677,
-          "author": "bushido",
-          "text": "It was a master stroke in international politics though, the US created an arms race towards sovereign ai, small models, and self-hosting - exactly like they wanted to. (sarcasm intended)",
-          "createdAt": "2026-08-28T02:29:53.000Z"
+          "id": 49477518,
+          "author": "DannyBee",
+          "text": "The opinion is quite straightforward, and the evidence on the government's side was entirely nonsense, essentially. https://storage.courtlistener.com/recap/gov.uscourts.cand.46...",
+          "createdAt": "2026-08-28T12:24:52.000Z"
         },
         {
-          "id": 49473716,
-          "author": "firefoxd",
-          "text": "The law is too slow. It's like a horse carriage in the age of twitter. Why can't they expedite for special cases? Not even defending Antropic or any company. Just that if a tweet can cause damage in seconds, the law shouldn't be too far behind.",
-          "createdAt": "2026-08-28T02:37:19.000Z"
+          "id": 49477560,
+          "author": "londons_explore",
+          "text": "Presumably this is going to lead to anthropic getting a big payday from the US gov for all the time their flagship product was banned and all the users they lost due to it",
+          "createdAt": "2026-08-28T12:28:53.000Z"
         },
         {
-          "id": 49473755,
-          "author": "Arubis",
-          "text": "Judge rules horse must return to barn.",
-          "createdAt": "2026-08-28T02:45:49.000Z"
-        },
-        {
-          "id": 49473757,
-          "author": "skeledrew",
-          "text": "> unlawfully retaliated Can it be at all lawful to retaliate though?",
-          "createdAt": "2026-08-28T02:45:57.000Z"
+          "id": 49477603,
+          "author": "whalesalad",
+          "text": "Unlawful means absolutely nothing these days.",
+          "createdAt": "2026-08-28T12:32:46.000Z"
         }
       ],
       "summary": null
     },
     {
-      "id": 49472161,
-      "rank": 26,
-      "title": "Select * from Internet.blogposts",
-      "url": "https://pfrazee.leaflet.pub/3mu3p2smmis22",
-      "hnUrl": "https://news.ycombinator.com/item?id=49472161",
-      "domain": "pfrazee.leaflet.pub",
-      "points": 49,
-      "author": "mmattbtw",
-      "createdAt": "2026-08-27T22:34:32Z",
-      "numComments": 18,
+      "id": 49476143,
+      "rank": 10,
+      "title": "Hilariously Fast Volume Computation with the Divergence Theorem",
+      "url": "https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html",
+      "hnUrl": "https://news.ycombinator.com/item?id=49476143",
+      "domain": "alyssarosenzweig.ca",
+      "points": 143,
+      "author": "luu",
+      "createdAt": "2026-08-28T09:00:46Z",
+      "numComments": 30,
       "topComments": [
         {
-          "id": 49473019,
-          "author": "cube00",
-          "text": ">Simple: the network won. The developers stopped being an asset, and the API progressively closed. You can add Reddit to that list, IPO is coming so better price out the third party apps we encouraged developers to build.",
-          "createdAt": "2026-08-28T00:33:03.000Z"
+          "id": 49476562,
+          "author": "arn3n",
+          "text": "I love these kinds of posts. Simple, fast, AI-free, and I learn something new.",
+          "createdAt": "2026-08-28T10:02:36.000Z"
         },
         {
-          "id": 49473063,
-          "author": "aftbit",
-          "text": "I can't decide if ATProto is actually amazing or if its proponents are just dazzled by their own tech. Is it truly decentralized? What makes it better than Mastodon or Matrix or Scuttlebutt? Of course, at the end of the day, it's the network effects that matter. Attention is all you need indeed.",
-          "createdAt": "2026-08-28T00:42:02.000Z"
+          "id": 49476597,
+          "author": "N_Lens",
+          "text": "I'll accept any kind of jocularity in the current climate!",
+          "createdAt": "2026-08-28T10:08:22.000Z"
         },
         {
-          "id": 49473082,
-          "author": "8organicbits",
-          "text": "For blog posts, I'd look to RSS instead. That's where that content is traditionally published. Instead of SELECTing from bluesky's index, you can use OPML subscription lists. There are a bunch of places that curate feed lists, so it's significantly less likely to face API death like twitter did. There are multiple sites that support follower semantics over RSS. Feedland tracks subscriptions publicly, so you can see the blogs I read ( https://feedland.com/?username=robalexdev ), and who reads my blog ( https://feedland.com/?feedurl=https%3A%2F%2Falexsci.com%2Fbl... ). I run another variant which collects OPML blogrolls via crawling, so you can find out who else likes your favorite blog and what else they recommend. Here's the page for Simon Willison's blog ( https://blogroll-network.alexsci.com/discover/feed-a34ee2a88... ). Thinking of RSS and blogrolls as a network feels much more resilient than blueskys Jetstream api endpoint.",
-          "createdAt": "2026-08-28T00:45:10.000Z"
+          "id": 49476604,
+          "author": "eterevsky",
+          "text": "Isn't the same as just taking every triangle from the mesh, calculating the volume of a prism-like polytope between it and its projection on one the planes, and then taking it with a + sign if its projection is oriented in one direction, and with a - sign if it's oriented in another? This kind of formula works based on the basic geometry.",
+          "createdAt": "2026-08-28T10:09:07.000Z"
         },
         {
-          "id": 49473196,
-          "author": "James_K",
-          "text": "There are invariably 3 solutions to all “federated” web problems: - Email - Semantic HTML - Web indexing services In this case, it's mostly indexing and a little of the other two if you want to add social features. I despite ATProto with all my soul for taking a problem with such a simple and standard solution and totally obscuring it behind hundreds of layers of JSON, faux federated services, and technical jargon, all in service of creating an inferior version of Twitter. I guess it wouldn't be as sexy to offer a web indexing service instead.",
-          "createdAt": "2026-08-28T01:03:48.000Z"
+          "id": 49476606,
+          "author": "elikoga",
+          "text": "My belly says the naive formula is summing the triangle pyramid volumes to the origin with sign in orientation. It looks like that's what they derived. Which is a generalization of 2d polygon area calculated by summing triangle areas for each edge, I was taught this in a math camp where we calculated map polygon areas on gis data. I remember math knowledge being hard to get pre AI era but I didn't remember it being this hard. No idea what the author means by \"which are equivalent to rendering the mesh and then sampling the render\".",
+          "createdAt": "2026-08-28T10:09:23.000Z"
         }
       ],
-      "summary": "This article discusses how centralized social media platforms like X have progressively closed their APIs and restricted third-party access, using Nitter's cease-and-desist letter as an example of this trend. The author argues that true interoperability requires shared database access rather than limited APIs, and presents atproto as an emerging solution built on personal data servers and data replication to create a more open internet. The piece advocates for a decentralized approach to social networking that prioritizes user freedom and data portability over corporate control."
+      "summary": "This article presents a computationally efficient algorithm for calculating the volume of 3D triangulated meshes using the divergence theorem, reducing the problem to a simple loop over triangles with only basic arithmetic operations. The method achieves O(n) performance with approximately 11n floating point operations per n triangles, making it fast enough to process millions of triangles per frame on modest hardware like a Raspberry Pi. The author derives a compact formula by applying vector calculus to convert a volume integral into a surface integral that can be evaluated analytically over each triangle."
     },
     {
-      "id": 49466715,
-      "rank": 27,
-      "title": "Launch HN: Salem Robotics (YC S26) – Software for industrial inspection robots",
-      "hnUrl": "https://news.ycombinator.com/item?id=49466715",
-      "domain": null,
-      "points": 42,
-      "author": "Salem_robotics",
-      "createdAt": "2026-08-27T15:46:04Z",
-      "numComments": 27,
+      "id": 49475079,
+      "rank": 11,
+      "title": "Luanti removed from Google Play due to baseless AI copyright notice",
+      "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49475079",
+      "domain": "blog.luanti.org",
+      "points": 135,
+      "author": "miniBill",
+      "createdAt": "2026-08-28T06:33:57Z",
+      "numComments": 44,
       "topComments": [
         {
-          "id": 49467010,
-          "author": "akshay_akula",
-          "text": "Congrats on the launch. \"Successfully executing a trajectory doesn't mean the inspection worked\" is a great frame, closing the loop on the measurement itself is the hard part.",
-          "createdAt": "2026-08-27T16:02:43.000Z"
+          "id": 49477202,
+          "author": "conartist6",
+          "text": "Sue them for tortious interference",
+          "createdAt": "2026-08-28T11:49:39.000Z"
         },
         {
-          "id": 49467131,
-          "author": "droidjj",
-          "text": "Is \"Salem\" a tongue-in-cheek nod to being a small, quirky competitor to Boston Dynamics (Salem, MA : Boston, MA :: Salem Robotics : Boston Dynamics)? If so, as someone who lives close to Salem, I like it :) Good luck to you guys.",
-          "createdAt": "2026-08-27T16:09:34.000Z"
+          "id": 49477549,
+          "author": "mysterydip",
+          "text": "Could the sequence of events be: 1) open source project publishes source 2) AI scrapes source 3) AI generates code for proprietary game similar to that of the source 4) AI tool scans jar files and finds similar code, triggers copyright violation",
+          "createdAt": "2026-08-28T12:27:43.000Z"
         },
         {
-          "id": 49467600,
-          "author": "lesiva",
-          "text": "> We use AI where semantic understanding and flexibility are useful, such as interpreting less structured information or understanding what in an unfamiliar scene is relevant to a procedure. Once the system knows what physical interaction it needs to perform, we prefer explicit geometry, planning, optimization, and control where possible... > A few centimeters of error may not matter much when navigating down a hallway, but it matters if a sensor is supposed to remain normal to a curved surface. This is a great specific example of where the creativity (read: randomness) of AI runs into a wall. Do you see this changing over time as models improve, or do you expect that safety-critical / highly specific tasks will always require a more explicit set of instructions?",
-          "createdAt": "2026-08-27T16:42:28.000Z"
+          "id": 49477784,
+          "author": "matheusmoreira",
+          "text": "It's just the usual corporate censorship via \"good faith\" DMCA notices that nobody but other corporations can afford to actually fight.",
+          "createdAt": "2026-08-28T12:50:22.000Z"
         },
         {
-          "id": 49467847,
-          "author": "sidcool",
-          "text": "Congrats on launching. This should get more attention",
-          "createdAt": "2026-08-27T17:00:51.000Z"
+          "id": 49477800,
+          "author": "sam_lowry_",
+          "text": "One can still install Luanti from F-Droid. It's great little tool to teach coding.",
+          "createdAt": "2026-08-28T12:51:56.000Z"
         }
       ],
-      "summary": "Salem Robotics provides software that enables existing mobile robots to autonomously perform complex physical inspection tasks in hazardous industrial environments like nuclear facilities and oil/gas plants, combining AI with classical robotics to handle constrained manipulation problems that currently require manual human intervention. The YC S26 startup, founded by former Los Alamos researchers, is hardware-agnostic and focuses on automating repetitive inspection workflows while keeping human technicians responsible for procedure definition and result interpretation, with pricing ranging from $10k-$500k depending on the project scope."
+      "summary": "Luanti, an open-source voxel game platform, was removed from Google Play after a DMCA copyright notice filed by Tracer.AI on behalf of Microsoft alleged it infringes Minecraft's copyright—a claim the Luanti team says is baseless since the app contains no proprietary Minecraft code or assets. This is the second such notice from the same company, and Luanti successfully appealed a similar claim in 2023, highlighting what they argue is an abuse of DMCA takedown processes to monopolize the voxel game genre."
     },
     {
       "id": 49472820,
-      "rank": 28,
+      "rank": 12,
       "title": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
       "url": "https://www.terminal-bench-science.ai/announcement",
       "hnUrl": "https://news.ycombinator.com/item?id=49472820",
       "domain": "terminal-bench-science.ai",
-      "points": 35,
+      "points": 104,
       "author": "matt_d",
       "createdAt": "2026-08-28T00:06:51Z",
-      "numComments": 6,
+      "numComments": 32,
       "topComments": [
         {
           "id": 49472946,
@@ -1078,66 +467,727 @@
           "createdAt": "2026-08-28T01:56:30.000Z"
         }
       ],
-      "summary": "Terminal-Bench-Science is a new benchmark that evaluates AI agents on real scientific research workflows contributed by practicing scientists across multiple disciplines, with the goal of developing AI assistants that can handle technical tasks and accelerate scientific discovery. In the first release, 70 expert-curated tasks across life, physical, Earth, mathematical, and engineering sciences show that the strongest model (Claude Opus 5) achieves only a 30% resolution rate, indicating significant room for AI progress. The benchmark is designed as a continuous, evolving platform that creates feedback between scientific community needs and AI development, rather than a one-time publication."
+      "summary": "Terminal-Bench-Science is a new benchmark that evaluates AI agents on real scientific workflows contributed by practicing researchers across multiple disciplines, with the strongest model (Claude Opus 5) achieving only a 30% resolution rate on 70 expert-curated tasks. Unlike traditional benchmarks, it's designed as a continuous, evolving platform that creates feedback between scientific needs and AI development to help AI agents become useful research assistants. The benchmark aims to measure genuine scientific capability rather than textbook knowledge, with rigorous verification of concrete outputs like analyses, simulations, and code across life, physical, Earth, mathematical, and engineering sciences."
     },
     {
-      "id": 49473483,
-      "rank": 29,
-      "title": "Stripe said to abandon $50B pursuit of PayPal",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-28/advent-stripe-consortium-is-said-to-drop-pursuit-of-paypal",
-      "hnUrl": "https://news.ycombinator.com/item?id=49473483",
-      "domain": "bloomberg.com",
-      "points": 16,
-      "author": "1986",
-      "createdAt": "2026-08-28T01:57:26Z",
+      "id": 49477212,
+      "rank": 13,
+      "title": "OpenAI: Migrating to HTTPX2",
+      "url": "https://github.com/openai/openai-python/blob/main/httpx2.md",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477212",
+      "domain": "github.com",
+      "points": 70,
+      "author": "tosh",
+      "createdAt": "2026-08-28T11:51:20Z",
+      "numComments": 30,
+      "topComments": [
+        {
+          "id": 49477220,
+          "author": "tosh",
+          "text": "nb: operating system TLS trust store is used now (instead of certifi)",
+          "createdAt": "2026-08-28T11:52:20.000Z"
+        },
+        {
+          "id": 49477423,
+          "author": "londons_explore",
+          "text": "There seems to be a bunch of downsides mentioned... But what are the upsides of this change?",
+          "createdAt": "2026-08-28T12:16:55.000Z"
+        },
+        {
+          "id": 49477435,
+          "author": "ledoncool",
+          "text": "Wow, finally...",
+          "createdAt": "2026-08-28T12:17:52.000Z"
+        },
+        {
+          "id": 49477508,
+          "author": "simonw",
+          "text": "Anthropic made the same change a few weeks after OpenAI did: https://github.com/anthropics/anthropic-sdk-python/releases/... The problem with httpx as a dependency is that it's currently working towards a 1.0 release which will be full of breaking changes. The httpx2 project is essentially a fork that promises not to break the existing API, which makes it a more stable dependency to build against. I wrote a pretty long comment about my concerns for the breaking 1.0 version last year - https://github.com/encode/httpx/discussions/3344#discussionc... - in that comment I recommended the HTTPX project release their 1.0 as a package called httpx2 instead, but a year later we now have an httpx2 (released by a different maintainer) that keeps the old API.",
+          "createdAt": "2026-08-28T12:24:14.000Z"
+        }
+      ],
+      "summary": "OpenAI's Python SDK now uses HTTPX2 instead of HTTPX for HTTP requests, which is installed automatically and requires no changes for users of the default client. However, applications may be affected by HTTPX2's shift from using the certifi CA bundle to the operating-system trust store, requiring explicit certificate configuration in minimal containers or corporate proxy environments. Users providing custom HTTP clients should migrate to HTTPX2 configuration objects using the provided helper classes."
+    },
+    {
+      "id": 49477600,
+      "rank": 14,
+      "title": "\"IT WoRKs BeTter in the App \"",
+      "url": "https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477600",
+      "domain": "shkspr.mobi",
+      "points": 56,
+      "author": "blenderob",
+      "createdAt": "2026-08-28T12:32:16Z",
+      "numComments": 16,
+      "topComments": [
+        {
+          "id": 49477665,
+          "author": "blenderob",
+          "text": "Feels like this field has become a lot about doing the easy, visible parts, getting a month of attention, maybe a promotion, then moving on to the next \"new project\". Meanwhile, the people who stay behind and actually make these half-finished apps work properly, maintain them and deal with all the boring problems rarely get the same credit or benefits.",
+          "createdAt": "2026-08-28T12:39:15.000Z"
+        },
+        {
+          "id": 49478335,
+          "author": "lmm",
+          "text": "This isn't about the app being unfinished, it's about Google deliberately half-assing support for open standards. They want you to be stuck in their calendar ecosystem so they make sure there's more friction adding a calendar from outside than adding someone else's Google calendar.",
+          "createdAt": "2026-08-28T13:42:13.000Z"
+        },
+        {
+          "id": 49478336,
+          "author": "tisdadd",
+          "text": "And this is why I usually say, I will look at it when I am in front of my computer again for most things, side from a free does where I mainly am reading.",
+          "createdAt": "2026-08-28T13:42:18.000Z"
+        },
+        {
+          "id": 49478387,
+          "author": "arthurezende",
+          "text": "It's almost impossible to use social networks on mobile without installing their apps",
+          "createdAt": "2026-08-28T13:45:39.000Z"
+        }
+      ],
+      "summary": "The author criticizes Google's Calendar app for lacking basic functionality like subscribing to calendar links directly from the phone, forcing users to work around the limitation using the web version instead. He argues that many companies release half-finished apps to maintain homescreen presence and engagement metrics, when web browsers could accomplish most tasks better. He advocates for companies to either build complete apps with full functionality or stick with web solutions, noting that the app's limitations ironically push users back to the browser anyway."
+    },
+    {
+      "id": 49475979,
+      "rank": 15,
+      "title": "Interactive Warhammer 40k Galaxy Map – Cartographia Imperialis",
+      "url": "https://cartographia40k.com/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49475979",
+      "domain": "cartographia40k.com",
+      "points": 54,
+      "author": "gbxyz",
+      "createdAt": "2026-08-28T08:35:07Z",
+      "numComments": 13,
+      "topComments": [
+        {
+          "id": 49477334,
+          "author": "big_babol",
+          "text": "Love it! References to the books would be awesome, since they basically hold the Warhammer 40k \"history\"",
+          "createdAt": "2026-08-28T12:05:56.000Z"
+        },
+        {
+          "id": 49477365,
+          "author": "nocchedure",
+          "text": "Something's off with the performance when routes are enabled. Disabling them instantly makes everything super snappy.",
+          "createdAt": "2026-08-28T12:10:08.000Z"
+        },
+        {
+          "id": 49477471,
+          "author": "ale42",
+          "text": "The Latin seems quite wrong... e.g. \"segmentum pacificus\" should actually be \"segmentum pacificum\" [1] to keep genders correct. Was it the same in the books (which I don't know)? [1] see Latin dictionary: https://www.online-latin-dictionary.com/latin-dictionary-fle... and https://www.online-latin-dictionary.com/latin-dictionary-fle...",
+          "createdAt": "2026-08-28T12:20:04.000Z"
+        },
+        {
+          "id": 49477847,
+          "author": "dash2",
+          "text": "Inquisitors have been ordered to find and terminate the machine which generated this slop. For The Emperor!",
+          "createdAt": "2026-08-28T12:57:57.000Z"
+        }
+      ],
+      "summary": "This is an interactive fan-made map of the Warhammer 40,000 galaxy that allows users to explore and locate major Imperial worlds, forge worlds, chapter worlds, and other significant locations across different regions and time periods (M41 and M42). The map includes detailed labels for various world types (hive worlds, death worlds, forge worlds, etc.) and features toggles for different overlays like warp rifts and Indomitus routes. It's a useful reference tool for Warhammer 40K lore enthusiasts who want to understand the spatial layout of the galaxy and find specific world locations mentioned in the lore."
+    },
+    {
+      "id": 49477854,
+      "rank": 16,
+      "title": "U.S. Sanctions Against the a/I Collective",
+      "url": "https://www.inventati.org/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477854",
+      "domain": "inventati.org",
+      "points": 47,
+      "author": "exiguus",
+      "createdAt": "2026-08-28T12:58:53Z",
+      "numComments": 15,
+      "topComments": [
+        {
+          "id": 49478279,
+          "author": "Avicebron",
+          "text": "I clicked around a bit, read the manifesto, I still have no idea what these people do. I guess they claim to have been around for a while, but a bunch of the links don't work and the manifesto has definitely been updated to reflect 2026 opinions. What is this?",
+          "createdAt": "2026-08-28T13:37:54.000Z"
+        },
+        {
+          "id": 49478284,
+          "author": "exiguus",
+          "text": "There is also an article on we will free us [1] if you want to dive deeper into that rabbit hole. [1] https://www.wewillfreeus.org/the-server-called-paranoia-defe...",
+          "createdAt": "2026-08-28T13:38:18.000Z"
+        },
+        {
+          "id": 49478292,
+          "author": "collabs",
+          "text": "For those like me who don't have context, here is the New York Times article on this recent news / event https://archive.fo/e8Gss > The State Department on Wednesday designated three groups based in Europe, including two that advocate Palestinian rights, as transnational terrorist organizations. > The move is part of the Trump administration’s fight against what it calls a “resurgence of far-left political terrorism” worldwide, a focus that many security experts say is disproportionate. > In a statement, the department said that it would impose sanctions on Palestine Action, which is based in Britain and organizes acts of support for Palestinians and opposition to Israeli policies; Masar Badil, another pro-Palestinian group with branches in Western Europe and Canada; and Autistici/Inventati, known as A/I Collective, which is based in Italy and offers free digital tools to leftist activists around the world. a/I collective in the OP is the third on this list. > based in Italy and offers free digital tools to leftist activists around the world",
+          "createdAt": "2026-08-28T13:38:44.000Z"
+        },
+        {
+          "id": 49478293,
+          "author": "aeon_ai",
+          "text": "https://cavallette.noblogs.org/2026/08/10076 - Direct link to the sanctions declaration. The actual Treasury Announce here - https://home.treasury.gov/news/press-releases/sb0616/ \"The Autistici Inventati is an Italy-based far-left organization that provides a range of technological tools and services to violent left-wing extremist groups, including website hosting on foreign servers, encrypted email accounts, chat and video conferencing, and digital architecture associated with its “Noblogs” platform. Autistici Inventati identifies itself as an “anti-fascist” and “anti-militarist” organization opposed to capitalism and exclusively provides its services to vetted individuals, collectives, and groups it perceives to be aligned with its ideology, including to sanctioned terrorist organizations such as the Kurdistan Workers’ Party (PKK), which has been designated by the United States, United Kingdom, and European Union for its use of terrorist tactics leading to thousands of deaths in Türkiye, Iraq, and Syria since its establishment in 1984. Autistici Inventati is being designated pursuant to E.O. 13224, as amended, for having materially assisted, sponsored, or provided financial, material, or technological support for, or goods and services to or in support of, an act of terrorism.\"",
+          "createdAt": "2026-08-28T13:38:46.000Z"
+        }
+      ],
+      "summary": "# Summary\n\nAutistici/Inventati (A/I) is a volunteer-run, non-profit collective founded in 2001 that provides free digital communication tools and platforms to activists and individuals aligned with anticapitalist and digital rights movements, funded entirely through donations with no data commodification. The article explains A/I's mission, principles of solidarity and self-organization, and their manual, dialogical approach to vetting service requests while maintaining user anonymity. The piece appears to be from A/I's own website describing their organization and services in response to U.S. sanctions."
+    },
+    {
+      "id": 49478103,
+      "rank": 17,
+      "title": "EPA says power for data centers can sidestep pollution laws",
+      "url": "https://www.epa.gov/newsreleases/epa-issues-permitting-guidance-further-president-trumps-agenda-promoting-data-centers",
+      "hnUrl": "https://news.ycombinator.com/item?id=49478103",
+      "domain": "epa.gov",
+      "points": 33,
+      "author": "Levitating",
+      "createdAt": "2026-08-28T13:21:47Z",
+      "numComments": 9,
+      "topComments": [
+        {
+          "id": 49478112,
+          "author": "Levitating",
+          "text": "Title is taken from the reuters coverage[1], but I used the link to the original epa.gov press release. [1]: https://www.reuters.com/legal/litigation/epa-says-power-data...",
+          "createdAt": "2026-08-28T13:22:26.000Z"
+        },
+        {
+          "id": 49478314,
+          "author": "Zigurd",
+          "text": "About that P in your acronym...",
+          "createdAt": "2026-08-28T13:40:28.000Z"
+        },
+        {
+          "id": 49478318,
+          "author": "two_handfuls",
+          "text": "Surely this is going to cement the reputation of datacenters as a blight.",
+          "createdAt": "2026-08-28T13:40:52.000Z"
+        },
+        {
+          "id": 49478352,
+          "author": "andsoitis",
+          "text": "EPA guidance source document https://www.epa.gov/system/files/documents/2026-07/epa-issue...",
+          "createdAt": "2026-08-28T13:43:32.000Z"
+        }
+      ],
+      "summary": "The EPA has issued guidance allowing data centers to power themselves with \"islaned\" power generation facilities that are exempt from Clean Air Act pollution regulations, as long as they don't connect to the public electricity grid. This policy aims to accelerate data center development for artificial intelligence while reducing pressure on public utility infrastructure. Companies participating in President Trump's Ratepayer Protection Pledge must fully fund their own power infrastructure and energy costs."
+    },
+    {
+      "id": 49476894,
+      "rank": 18,
+      "title": "Show HN: SubSmith – Turn your own videos into language-learning material",
+      "url": "https://subsmith.app",
+      "hnUrl": "https://news.ycombinator.com/item?id=49476894",
+      "domain": "subsmith.app",
+      "points": 27,
+      "author": "IbrahimF96",
+      "createdAt": "2026-08-28T10:59:04Z",
+      "numComments": 36,
+      "topComments": [
+        {
+          "id": 49477108,
+          "author": "k__",
+          "text": "Cool idea! While I'm not so sure about learning a language with content from fictional sources, that should at least make it more relevant for the learners. And you can use it on podcasts too, where people talk normally. The biggest hurdle is probably that users need to get hold of the media so they can use it as input.",
+          "createdAt": "2026-08-28T11:33:42.000Z"
+        },
+        {
+          "id": 49477189,
+          "author": "adamddev1",
+          "text": "I love having auto-generated subtitles available, but I am still skeptical that we can call them \"accurate\" yet. For many languages the models are quite weak, and even for English and German on YouTube I see errors all the time.",
+          "createdAt": "2026-08-28T11:48:18.000Z"
+        },
+        {
+          "id": 49477209,
+          "author": "posh_somme",
+          "text": "I've been learning Japanese for just over a year now, and its a community that might have the highest concentration of amazing free learning apps with sentence mining capabilities, many of which do things very similarly to what you're building. Have you tried some of these? asbplayer Manatan Yomine Anki Miner AnimeCards Nagare These are just for video, there are other similar solutions for games, manga and ebooks, and some of them are all in one",
+          "createdAt": "2026-08-28T11:50:53.000Z"
+        },
+        {
+          "id": 49477240,
+          "author": "cybertim",
+          "text": "I build the exact same system, but for (mandarin, simplified) Chinese which i'm learning. Wanted to create such a system for a while, but it's a lot of hooking up the correct libs and making a UI etc. never found the energy. Thanks to 'ai' I was able to do this finally, think more people needed this push :-) It's web-based and can be self-hosted in a docker.",
+          "createdAt": "2026-08-28T11:54:54.000Z"
+        }
+      ],
+      "summary": "SubSmith is a desktop tool that transforms your own videos and audio files into language-learning material by providing accurate subtitles, instant word definitions, and one-click export to flashcard apps like Anki. It supports 99+ languages and costs $15/year or $40 for a lifetime license, offering a cheaper and potentially more effective alternative to traditional language classes by letting you learn from content you already enjoy."
+    },
+    {
+      "id": 49477559,
+      "rank": 19,
+      "title": "Smaller reactors bring nuclear power closer to fulfilling its promise",
+      "url": "https://www.nature.com/articles/d41586-026-02506-4",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477559",
+      "domain": "nature.com",
+      "points": 24,
+      "author": "sohkamyung",
+      "createdAt": "2026-08-28T12:28:41Z",
+      "numComments": 23,
+      "topComments": [
+        {
+          "id": 49477617,
+          "author": "hvb2",
+          "text": "> but SMRs should be cheaper and easier to construct. The word should is doing some real heavy lifting there. Especially given the subject. I guess we'll know in 2030 when one should come online.",
+          "createdAt": "2026-08-28T12:35:07.000Z"
+        },
+        {
+          "id": 49477844,
+          "author": "soco",
+          "text": "With solar and batteries getting cheaper and cheaper, is this still a topic? Or at least for the time being until that \"cheaper\" gets cheaper enough?",
+          "createdAt": "2026-08-28T12:57:47.000Z"
+        },
+        {
+          "id": 49477942,
+          "author": "hn_submit",
+          "text": "Although generally safe these reactors aren't totally safe. I'm concerned lax physical security will allow miscreants to blow them up and spread nuclear materials over a wide area. The ensuing panic would totally destroy any goodwill nuclear power has gained over the last 20 years or so. I'm also concerned these things will mostly be used by Big Tech for their A.I. data-centers playing the Good Samaritan with their claims of \"Carbon Neutral Environmentally Friendly A.I.\"",
+          "createdAt": "2026-08-28T13:07:45.000Z"
+        },
+        {
+          "id": 49477943,
+          "author": "jauntywundrkind",
+          "text": "They're all ridiculously fuel inefficient and we're going to have to figure out how to dispose of thousands or tens of thousands of these reactors. Aside from that one that starts pre buried, where the plan is to just leave a spent nuclear reactor buried in a hole. A cost that will almost certainly be externalized to the taxpayers. The promise here is the rich fleecing the average citizen. Getting downvoted wicked hard super fast. But how else are we supposed to see this? How else do we citizens of the world interpret this? The fuel efficiency is a fact. The nuclear clean up has been a problem every single time.",
+          "createdAt": "2026-08-28T13:07:58.000Z"
+        }
+      ],
+      "summary": "Small modular reactors (SMRs) are emerging as a promising alternative to conventional nuclear plants, offering cheaper and faster construction through factory-built, modular components that can be assembled on-site. Companies like Kairos Power are developing SMRs using innovative fuels (like TRISO pebbles) and coolants (such as molten salt) that enhance safety and efficiency, with significant government funding driving deployment despite some critics' concerns about long-term cost-effectiveness. This technological shift could make nuclear power a more viable zero-carbon energy source for diverse applications, from powering rural areas to supplying data centers."
+    },
+    {
+      "id": 49477564,
+      "rank": 20,
+      "title": "Inception-style curved map for turn-by-turn directions",
+      "url": "https://www.orbify.eu/demo/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477564",
+      "domain": "orbify.eu",
+      "points": 20,
+      "author": "smoser",
+      "createdAt": "2026-08-28T12:29:05Z",
+      "numComments": 6,
+      "topComments": [
+        {
+          "id": 49477700,
+          "author": "ThouYS",
+          "text": "ok this is nice",
+          "createdAt": "2026-08-28T12:42:17.000Z"
+        },
+        {
+          "id": 49477713,
+          "author": "Orbify_Karsten",
+          "text": "Thanks for sharing! Building this in public, check my X for more updates! https://x.com/karshuit",
+          "createdAt": "2026-08-28T12:43:19.000Z"
+        },
+        {
+          "id": 49478277,
+          "author": "vessenes",
+          "text": "This is cool. May I suggest that you make the standard deformation much less spherical? I do not get nauseous that easily and it made me a little nauseous, feeling like I was falling. I would not want to watch that while driving in a car. But 1/3 of the way from ‘flat’ to that would be super useful.",
+          "createdAt": "2026-08-28T13:37:53.000Z"
+        },
+        {
+          "id": 49478280,
+          "author": "Conscat",
+          "text": "I don't remember a map from the movie so I didn't know what to expect. Instantly I love this. I actually wish I could have this rather than street view in Google Maps.",
+          "createdAt": "2026-08-28T13:37:59.000Z"
+        }
+      ],
+      "summary": "Orbify is a navigation technology company showcasing a demo of their patented curved map system for turn-by-turn directions, featuring 3D visualization powered by PlayCanvas Engine. The company is currently seeking pilot projects, technology partnerships, and investor interest to develop this innovative navigation approach further."
+    },
+    {
+      "id": 49477231,
+      "rank": 21,
+      "title": "Advertisers Could Soon Demand 'Verified Clicks'",
+      "url": "https://www.amediaoperator.com/news/advertisers-could-soon-demand-verified-clicks/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477231",
+      "domain": "amediaoperator.com",
+      "points": 10,
+      "author": "thm",
+      "createdAt": "2026-08-28T11:53:36Z",
+      "numComments": 5,
+      "topComments": [
+        {
+          "id": 49478310,
+          "author": "colesantiago",
+          "text": "Analogue hole. This 'Verified Clicks' doesn't make sense. What makes a click 'verified', bots can still click links with browser use anyway and you will not be able to tell.",
+          "createdAt": "2026-08-28T13:40:09.000Z"
+        }
+      ],
+      "summary": "Rising bot-click contamination in consumer email inboxes—up to 16% of all clicks in 2026—is forcing publishers and advertisers to demand \"verified clicks\" that filter out automated interactions from email providers and web crawlers. Major platforms like Gmail and Outlook are increasingly vulnerable to bot clicks due to more aggressive security scanning, while social media crawlers (particularly Meta's) are also inflating engagement metrics. Newsletter platforms like Beehiiv are now integrating bot-detection technology to charge advertisers only for human clicks, potentially allowing publishers to command premium rates for guaranteed authentic engagement."
+    },
+    {
+      "id": 49477530,
+      "rank": 22,
+      "title": "Show HN: Talos – An AI agent with a permission kernel between model and shell",
+      "url": "https://talos-agent.ch/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477530",
+      "domain": "talos-agent.ch",
+      "points": 8,
+      "author": "kurdman_007",
+      "createdAt": "2026-08-28T12:25:39Z",
       "numComments": 2,
       "topComments": [
         {
-          "id": 49473618,
-          "author": "rekttrader",
-          "text": "Diligence told them they’re buying a almost dead payment processor with ancient tech. Customer lists are worth something but not that much.",
-          "createdAt": "2026-08-28T02:21:42.000Z"
+          "id": 49477538,
+          "author": "kurdman_007",
+          "text": "Hi HN — maker here. I built Talos because I wanted to hand an agent a terminal without handing it my trust model. Every tool call (read, write, exec, delegate) passes a small deterministic kernel, ~645 lines of Python, that returns allow, needs-human or deny. Unattended runs can't ask, so needs-human becomes deny. The agent can never grant itself anything. Around that kernel: 23 gated tools, a UID-separated worker for delegated code, MCP servers confined to that worker from an operator-owned registry (no marketplace, no third-party code in the agent process), a hash-chained audit log, Ed25519-signed updates verified before anything unpacks, and a read-only live dashboard that has no approve button, by design. Numbers the CI enforces on every page of the site: 2063 tests, 179/179 adversarial cases, 645 kernel lines, 0 inbound ports. The site has a browser reimplementation of the policy kernel you can poke at without installing anything, a replayed real session, and an honest comparison to OpenClaw and Hermes — including what Talos doesn't have (breadth; that's doctrine, not backlog). Happy to answer anything — especially the parts where the design is wrong. Site: https://talos-agent.ch — Source (MIT): https://github.com/talos-kernel/talos",
+          "createdAt": "2026-08-28T12:26:28.000Z"
+        },
+        {
+          "id": 49478289,
+          "author": "ericpauley",
+          "text": "Trademark C&D in 3, 2, 1...",
+          "createdAt": "2026-08-28T13:38:34.000Z"
+        },
+        {
+          "id": 49478510,
+          "author": "tomconnors",
+          "text": "The world badly needs more options for running agents securely. I applaud you for making an attempt. But this landing page does nothing to win my trust. The copy is full of LLM-style language that is at best off-putting and at worst impenetrable. Even your comment in this thread looks like it was written by an LLM. If you don't care enough even to describe the thing yourself, why should we trust that you care enough to make the thing work well?",
+          "createdAt": "2026-08-28T13:53:00.000Z"
         }
       ],
-      "summary": null
+      "summary": "Talos is an AI agent that implements a \"permission kernel\" between Claude and shell access, requiring every tool call to pass through deterministic security checks that authorize individual effects with specific arguments, time limits, and sandboxing. The system is designed with security-first architecture, distinguishing between read operations (allowed freely), reversible write operations (require approval), and dangerous exec operations (sandboxed or refused), with transparency features like adversarial testing and a public ledger of security decisions. It's installable and supports multiple channels (terminal, Telegram, email, WhatsApp) while preventing unauthorized file access, credential exposure, and system damage through path restrictions and mandatory human approval for irreversible actions."
     },
     {
-      "id": 49467837,
-      "rank": 30,
-      "title": "Bild AI (YC W25) is hiring product and AI engineers",
-      "url": "https://www.bild.ai/jobs",
-      "hnUrl": "https://news.ycombinator.com/item?id=49467837",
-      "domain": "bild.ai",
-      "author": "rooppal",
-      "createdAt": "2026-08-27T17:00:14Z",
+      "id": 49477925,
+      "rank": 23,
+      "title": "Interactive pattern discovery in binaries (FF-16-TUI)",
+      "url": "https://github.com/HexLasso/FF-16-TUI",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477925",
+      "domain": "github.com",
+      "points": 6,
+      "author": "HexLasso",
+      "createdAt": "2026-08-28T13:05:49Z",
+      "numComments": 0,
       "topComments": [],
-      "summary": null
+      "summary": "FF-16-TUI is an interactive static analysis tool that identifies frequently occurring 16-bit patterns across binary files to help locate data structures and understand file layouts. The tool features a text-based user interface with a hexdump viewer, pattern panel for highlighting the most common patterns, and adjustable filters for pattern discovery. It's useful for reverse engineering, firmware analysis, and binary forensics work."
+    },
+    {
+      "id": 49477302,
+      "rank": 24,
+      "title": "ALMA Reveals Long-Lived Hotspots on Betelgeuse's Bubbling Surface",
+      "url": "https://www.almaobservatory.org/en/audiences/alma-reveals-long-lived-hotspots-on-betelgeuses-bubbling-surface/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477302",
+      "domain": "almaobservatory.org",
+      "points": 6,
+      "author": "layer8",
+      "createdAt": "2026-08-28T12:02:40Z",
+      "numComments": 0,
+      "topComments": [],
+      "summary": "ALMA observations reveal that the red supergiant Betelgeuse has a bumpy, uneven surface with bright hotspots that persist for at least seven years—much longer than current models predict for convective structures. The high-resolution images show temperature variations of up to 800 K and an irregular atmosphere shaped by enormous internal motions, providing unprecedented detail about this massive star approaching the end of its life."
+    },
+    {
+      "id": 49477428,
+      "rank": 25,
+      "title": "What Running Kafka on VMs Taught Us About Systems Thinking",
+      "url": "https://engineering.moniepoint.com/what-running-kafka-on-vms-taught-us-about-systems-thinking",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477428",
+      "domain": "engineering.moniepoint.com",
+      "points": 5,
+      "author": "yeame",
+      "createdAt": "2026-08-28T12:17:31Z",
+      "numComments": 3,
+      "topComments": [
+        {
+          "id": 49478234,
+          "author": "MrBuddyCasino",
+          "text": "> „It Wasn't a Crisis. It Was a Decision.“ closes tab",
+          "createdAt": "2026-08-28T13:33:54.000Z"
+        }
+      ],
+      "summary": "Moniepoint's engineering team proactively rebuilt their Kafka infrastructure from manually-managed VMs to Strimzi (Kafka on Kubernetes) before facing a crisis, recognizing that their setup was inefficient despite being functional. The shift replaced manual SSH-based operations, inconsistent configurations, and per-instance management with a standardized, declarative infrastructure-as-code approach using Kubernetes operators. The article demonstrates how systems thinking enabled them to identify scaling problems early and implement a more maintainable solution before operational pain became critical."
+    },
+    {
+      "id": 49477292,
+      "rank": 26,
+      "title": "Bhartrhari's Paradox",
+      "url": "https://www.futilitycloset.com/2026/08/18/bhartrharis-paradox/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477292",
+      "domain": "futilitycloset.com",
+      "points": 5,
+      "author": "surprisetalk",
+      "createdAt": "2026-08-28T12:01:50Z",
+      "numComments": 1,
+      "topComments": [
+        {
+          "id": 49478353,
+          "author": "snapcaster",
+          "text": "I'm open to the idea that some things are unnameable but would need an example :)",
+          "createdAt": "2026-08-28T13:43:34.000Z"
+        }
+      ],
+      "summary": "Bhartrhari's Paradox, identified by a fifth-century Indian philosopher, describes a logical contradiction: some things are unnameable, yet proving this requires naming those very things. Any argument attempting to demonstrate unnameability paradoxically involves repeatedly referencing the supposedly unnameable things it seeks to establish."
+    },
+    {
+      "id": 49478091,
+      "rank": 27,
+      "title": "I Used AWS Cognito for a Startup. I Wouldn't Do It Again",
+      "url": "https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49478091",
+      "domain": "joshkaramuth.com",
+      "points": 4,
+      "author": "speckx",
+      "createdAt": "2026-08-28T13:21:03Z",
+      "numComments": 0,
+      "topComments": [],
+      "summary": "The author describes frustrations with AWS Cognito's confusing and fragmented documentation, unstable library versions (particularly Amplify v6's breaking changes), lack of local development support, limited customization options, and inflexible attribute configuration that can't be modified after initial setup. He concludes that despite its free tier appeal, Cognito created more problems than it solved compared to alternatives like Auth0 or Firebase Auth."
+    },
+    {
+      "id": 49477481,
+      "rank": 28,
+      "title": "Terry Rozier and the Teleprompt Operator",
+      "url": "https://iainschmitt.com/post/terry-rozier-and-the-teleprompt-operator",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477481",
+      "domain": "iainschmitt.com",
+      "points": 4,
+      "author": "surprisetalk",
+      "createdAt": "2026-08-28T12:20:55Z",
+      "numComments": 0,
+      "topComments": [],
+      "summary": "# Summary\n\nNBA player Terry Rozier was indicted in 2025 for tipping off a friend about leaving a game early so he could place $200,000+ in insider bets, exploiting the massive growth of legal sports gambling. The article argues that while legalization makes it easier to detect fraud, it simultaneously enables larger-scale insider betting schemes by providing the liquidity needed to accommodate six-figure wagers—a problem that extends beyond sports to prediction markets, where a White House teleprompter operator recently bet on presidential speech content. The piece suggests that sports gambling legalization creates a dangerous paradox: better monitoring of fraud but also easier execution of it at unprecedented scales."
+    },
+    {
+      "id": 49474060,
+      "rank": 29,
+      "title": "GoGoGrandparent (YC S16) is hiring back end engineers",
+      "url": "https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-backend-engineer",
+      "hnUrl": "https://news.ycombinator.com/item?id=49474060",
+      "domain": "ycombinator.com",
+      "author": "davidchl",
+      "createdAt": "2026-08-28T03:35:15Z",
+      "topComments": [],
+      "summary": "GoGoGrandparent, a profitable Y Combinator company providing accessibility services for seniors, is hiring a senior backend engineer with 6+ years of Node.js/TypeScript experience for a fully remote role ($80k-$180k). The position offers meaningful work building technology for older adults and people with disabilities, strong technical ownership, and opportunities to work on AI systems and modern infrastructure in a small, fast-moving engineering team."
     }
   ],
   "topics": [
     {
-      "word": "flash",
+      "word": "interactive",
       "count": 2
     },
     {
-      "word": "guide",
+      "word": "map",
       "count": 2
     },
     {
-      "word": "research",
+      "word": "power",
       "count": 2
+    }
+  ],
+  "githubTrending": [
+    {
+      "id": "tt-a1i/archify",
+      "owner": "tt-a1i",
+      "name": "archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 25767,
+      "forks": 1650,
+      "starsToday": 4561
     },
     {
-      "word": "model",
-      "count": 2
+      "id": "K-Dense-AI/scientific-agent-skills",
+      "owner": "K-Dense-AI",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 35891,
+      "forks": 3445,
+      "starsToday": 720
     },
     {
-      "word": "modern",
-      "count": 2
+      "id": "anthropics/claude-plugins-official",
+      "owner": "anthropics",
+      "name": "claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 34881,
+      "forks": 3926,
+      "starsToday": 457
     },
     {
-      "word": "agents",
-      "count": 2
+      "id": "bilawalsidhu/gods-eye-view",
+      "owner": "bilawalsidhu",
+      "name": "gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 10180,
+      "forks": 2099,
+      "starsToday": 1984
+    },
+    {
+      "id": "abhigyanpatwari/GitNexus",
+      "owner": "abhigyanpatwari",
+      "name": "GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 46045,
+      "forks": 5089,
+      "starsToday": 189
+    },
+    {
+      "id": "JetBrains/go-modern-guidelines",
+      "owner": "JetBrains",
+      "name": "go-modern-guidelines",
+      "url": "https://github.com/JetBrains/go-modern-guidelines",
+      "description": "Help AI coding agents write modern Go",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2455,
+      "forks": 75,
+      "starsToday": 574
+    },
+    {
+      "id": "calesthio/OpenMontage",
+      "owner": "calesthio",
+      "name": "OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 52969,
+      "forks": 6609,
+      "starsToday": 1144
+    },
+    {
+      "id": "abi/screenshot-to-code",
+      "owner": "abi",
+      "name": "screenshot-to-code",
+      "url": "https://github.com/abi/screenshot-to-code",
+      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 75328,
+      "forks": 9204,
+      "starsToday": 309
+    },
+    {
+      "id": "cursor/plugins",
+      "owner": "cursor",
+      "name": "plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 5848,
+      "forks": 473,
+      "starsToday": 257
+    },
+    {
+      "id": "freestylefly/awesome-gpt-image-2",
+      "owner": "freestylefly",
+      "name": "awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 24006,
+      "forks": 2378,
+      "starsToday": 1687
+    },
+    {
+      "id": "tailscale/tailcat",
+      "owner": "tailscale",
+      "name": "tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "languageColor": "#00ADD8",
+      "stars": 2355,
+      "forks": 66,
+      "starsToday": 986
+    },
+    {
+      "id": "NationalSecurityAgency/ghidra",
+      "owner": "NationalSecurityAgency",
+      "name": "ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "stars": 73161,
+      "forks": 8005,
+      "starsToday": 205
+    },
+    {
+      "id": "marin-community/marin",
+      "owner": "marin-community",
+      "name": "marin",
+      "url": "https://github.com/marin-community/marin",
+      "description": "Open-source framework for the research and development of foundation models.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 2813,
+      "forks": 235,
+      "starsToday": 236
+    },
+    {
+      "id": "tashfeenahmed/freellmapi",
+      "owner": "tashfeenahmed",
+      "name": "freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 21356,
+      "forks": 3037,
+      "starsToday": 405
+    },
+    {
+      "id": "ChromeDevTools/chrome-devtools-mcp",
+      "owner": "ChromeDevTools",
+      "name": "chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "stars": 49884,
+      "forks": 3498,
+      "starsToday": 61
+    },
+    {
+      "id": "rohitg00/ai-engineering-from-scratch",
+      "owner": "rohitg00",
+      "name": "ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 50481,
+      "forks": 8766,
+      "starsToday": 703
+    },
+    {
+      "id": "DietrichGebert/ponytail",
+      "owner": "DietrichGebert",
+      "name": "ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "stars": 114884,
+      "forks": 6278,
+      "starsToday": 1396
+    },
+    {
+      "id": "google/googletest",
+      "owner": "google",
+      "name": "googletest",
+      "url": "https://github.com/google/googletest",
+      "description": "GoogleTest - Google Testing and Mocking Framework",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "stars": 39125,
+      "forks": 10870,
+      "starsToday": 156
+    },
+    {
+      "id": "livekit/agents",
+      "owner": "livekit",
+      "name": "agents",
+      "url": "https://github.com/livekit/agents",
+      "description": "A framework for building realtime voice AI agents 🤖🎙️📹",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 13234,
+      "forks": 3625,
+      "starsToday": 14
     }
   ]
 }
