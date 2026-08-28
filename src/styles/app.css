@@ -246,8 +246,8 @@
 }
 
 .panel-card__desc {
-  margin: 0;
-  color: var(--text-secondary);
+  margin: 4px 0 0;
+  color: var(--text-dim);
   font-size: 0.78rem;
   line-height: 1.4;
   display: -webkit-box;
@@ -395,6 +395,20 @@
   color: var(--text-secondary);
   font-size: 0.88rem;
   line-height: 1.6;
+}
+
+.modal__topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.modal__topic-tag {
+  color: var(--green);
+  font-size: 0.72rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 2px 8px;
 }
 
 /* Comments */

@@ -3,16 +3,12 @@ import type { GitHubRepo } from '../types/github';
 interface RepoCardProps {
   repo: GitHubRepo;
   rank: number;
+  onOpen: (repo: GitHubRepo) => void;
 }
 
-export function RepoCard({ repo, rank }: RepoCardProps) {
+export function RepoCard({ repo, rank, onOpen }: RepoCardProps) {
   return (
-    <a
-      className="panel-card"
-      href={repo.url}
-      target="_blank"
-      rel="noreferrer"
-    >
+    <article className="panel-card" onClick={() => onOpen(repo)}>
       <div className="panel-card__top">
         <span className="panel-card__rank">{rank}</span>
         {repo.starsToday > 0 && (
@@ -36,6 +32,6 @@ export function RepoCard({ repo, rank }: RepoCardProps) {
         <span className="panel-card__points">&#9733; {repo.stars.toLocaleString()}</span>
         <span>{repo.forks.toLocaleString()} forks</span>
       </div>
-    </a>
+    </article>
   );
 }

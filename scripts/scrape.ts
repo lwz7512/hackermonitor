@@ -238,24 +238,53 @@ function parseTrendingRepos(html: string): GitHubRepo[] {
       stars,
       forks,
       starsToday,
+      homepage: null,
+      topics: [],
     });
   }
 
   return repos;
 }
 
+interface GitHubApiRepo {
+  homepage: string | null;
+  topics: string[];
+}
+
+async function fetchRepoDetails(owner: string, name: string): Promise<Pick<GitHubRepo, 'homepage' | 'topics'>> {
+  try {
+    const res = await fetch(`https://api.github.com/repos/${owner}/${name}`, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; HackerMonitorBot/1.0)', Accept: 'application/vnd.github+json' },
+    });
+    if (!res.ok) return { homepage: null, topics: [] };
+    const data = (await res.json()) as GitHubApiRepo;
+    return { homepage: data.homepage?.trim() || null, topics: data.topics ?? [] };
+  } catch {
+    return { homepage: null, topics: [] };
+  }
+}
+
 async function fetchTrendingRepos(): Promise<GitHubRepo[]> {
+  let repos: GitHubRepo[];
   try {
     const res = await fetch(GITHUB_TRENDING_URL, {
       headers: { 'User-Agent': 'Mozilla/5.0 (compatible; HackerMonitorBot/1.0)' },
     });
     if (!res.ok) throw new Error(`Request failed (${res.status})`);
     const html = await res.text();
-    return parseTrendingRepos(html);
+    repos = parseTrendingRepos(html);
   } catch (err) {
     console.warn(`  failed to fetch GitHub trending: ${(err as Error).message}`);
     return [];
   }
+
+  for (const repo of repos) {
+    const details = await fetchRepoDetails(repo.owner, repo.name);
+    repo.homepage = details.homepage;
+    repo.topics = details.topics;
+  }
+
+  return repos;
 }
 
 async function main() {

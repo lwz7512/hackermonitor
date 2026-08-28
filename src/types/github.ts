@@ -9,4 +9,6 @@ export interface GitHubRepo {
   stars: number;
   forks: number;
   starsToday: number;
+  homepage: string | null;
+  topics: string[];
 }

@@ -7,7 +7,9 @@ import { StoryModal } from './components/StoryModal';
 import { DatePager } from './components/DatePager';
 import { Tabs, type TabKey } from './components/Tabs';
 import { RepoCard } from './components/RepoCard';
+import { RepoModal } from './components/RepoModal';
 import type { HNSnapshot, HNStory } from './types/hn';
+import type { GitHubRepo } from './types/github';
 import { titleMatchesTopic } from './utils/topics';
 import { fetchArchiveDates, fetchSnapshotForDate } from './utils/archive';
 
@@ -17,6 +19,7 @@ const todayDate = bundledData.fetchedAt.slice(0, 10);
 export default function App() {
   const [activeTab, setActiveTab] = useState<TabKey>('hn');
   const [selectedStory, setSelectedStory] = useState<HNStory | null>(null);
+  const [selectedRepo, setSelectedRepo] = useState<GitHubRepo | null>(null);
   const [activeTopic, setActiveTopic] = useState<string | null>(null);
 
   const [availableDates, setAvailableDates] = useState<string[]>([todayDate]);
@@ -126,7 +129,7 @@ export default function App() {
             <h2 className="panel__heading">Trending Repositories</h2>
             <div className="story-grid">
               {githubTrending.map((repo, index) => (
-                <RepoCard key={repo.id} repo={repo} rank={index + 1} />
+                <RepoCard key={repo.id} repo={repo} rank={index + 1} onOpen={setSelectedRepo} />
               ))}
             </div>
             {githubTrending.length === 0 && (
@@ -150,6 +153,7 @@ export default function App() {
       {selectedStory && (
         <StoryModal story={selectedStory} onClose={() => setSelectedStory(null)} />
       )}
+      {selectedRepo && <RepoModal repo={selectedRepo} onClose={() => setSelectedRepo(null)} />}
     </div>
   );
 }

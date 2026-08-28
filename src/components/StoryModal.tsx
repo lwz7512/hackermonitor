@@ -1,7 +1,7 @@
-import { useEffect } from 'react';
 import type { HNStory } from '../types/hn';
 import { timeAgo } from '../utils/time';
 import { parseTitle } from '../utils/title';
+import { useEscapeKey } from '../hooks/useEscapeKey';
 import { CommentList } from './CommentList';
 
 interface StoryModalProps {
@@ -10,13 +10,7 @@ interface StoryModalProps {
 }
 
 export function StoryModal({ story, onClose }: StoryModalProps) {
-  useEffect(() => {
-    const onKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose();
-    };
-    window.addEventListener('keydown', onKeyDown);
-    return () => window.removeEventListener('keydown', onKeyDown);
-  }, [onClose]);
+  useEscapeKey(onClose);
 
   const targetUrl = story.url ?? story.hnUrl;
   const { title, isVideo } = parseTitle(story.title);
