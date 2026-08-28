@@ -73,6 +73,32 @@
   color: var(--text-dim);
 }
 
+.panel__heading-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.panel__heading-row .panel__heading {
+  margin-bottom: 12px;
+}
+
+.panel__filter-clear {
+  background: none;
+  border: none;
+  padding: 0 0 12px;
+  color: var(--green);
+  font: inherit;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.panel__filter-clear:hover {
+  color: var(--hn-orange);
+}
+
 /* Topic cloud */
 .topics__cloud {
   display: flex;
@@ -82,9 +108,23 @@
 }
 
 .topics__tag {
+  background: none;
+  border: none;
+  padding: 0;
   color: var(--green);
+  font-family: inherit;
   font-weight: 500;
-  cursor: default;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.topics__tag:hover {
+  color: var(--hn-orange);
+}
+
+.topics__tag--active {
+  color: var(--hn-orange);
+  text-decoration: underline;
 }
 
 /* Story grid */

@@ -1,28 +1,52 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import snapshot from './data/latest.json';
 import { Header } from './components/Header';
 import { TopicCloud } from './components/TopicCloud';
 import { StoryPanel } from './components/StoryPanel';
 import { StoryModal } from './components/StoryModal';
 import type { HNSnapshot, HNStory } from './types/hn';
+import { titleMatchesTopic } from './utils/topics';
 
 const data = snapshot as HNSnapshot;
 
 export default function App() {
   const [selectedStory, setSelectedStory] = useState<HNStory | null>(null);
+  const [activeTopic, setActiveTopic] = useState<string | null>(null);
+
+  const visibleStories = useMemo(
+    () =>
+      activeTopic
+        ? data.stories.filter((story) => titleMatchesTopic(story.title, activeTopic))
+        : data.stories,
+    [activeTopic],
+  );
 
   return (
     <div className="app">
       <Header fetchedAt={data.fetchedAt} storyCount={data.stories.length} />
       <main className="app__main">
-        <TopicCloud topics={data.topics} />
+        <TopicCloud
+          topics={data.topics}
+          activeTopic={activeTopic}
+          onSelect={(topic) => setActiveTopic((prev) => (prev === topic ? null : topic))}
+        />
         <section className="panel">
-          <h2 className="panel__heading">Top Stories</h2>
+          <div className="panel__heading-row">
+            <h2 className="panel__heading">Top Stories</h2>
+            {activeTopic && (
+              <button type="button" className="panel__filter-clear" onClick={() => setActiveTopic(null)}>
+                showing "{activeTopic}" &times; clear
+              </button>
+            )}
+          </div>
           <div className="story-grid">
-            {data.stories.map((story) => (
+            {visibleStories.map((story) => (
               <StoryPanel key={story.id} story={story} onOpen={setSelectedStory} />
             ))}
           </div>
+          {visibleStories.length === 0 && (
+            <p className="comments__empty">No stories match "{activeTopic}".</p>
+          )}
         </section>
       </main>
       <footer className="app__footer">
