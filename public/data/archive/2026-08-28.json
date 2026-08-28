@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-28T17:23:24.238Z",
+  "fetchedAt": "2026-08-28T17:45:51.843Z",
   "stories": [
     {
       "id": 49477600,
@@ -8,10 +8,10 @@
       "url": "https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/",
       "hnUrl": "https://news.ycombinator.com/item?id=49477600",
       "domain": "shkspr.mobi",
-      "points": 536,
+      "points": 550,
       "author": "blenderob",
       "createdAt": "2026-08-28T12:32:16Z",
-      "numComments": 347,
+      "numComments": 352,
       "topComments": [
         {
           "id": 49477665,
@@ -38,7 +38,7 @@
           "createdAt": "2026-08-28T13:45:39.000Z"
         }
       ],
-      "summary": "The author criticizes Google's incomplete mobile apps and the widespread industry practice of claiming features \"work better in the app\" while delivering half-baked functionality that often redirects users back to the web. He argues that most apps are unnecessarily built and poorly maintained, when improved mobile websites would serve users better and be easier to update. The piece calls on companies to either fully commit to app development or stop using the excuse that their web versions are inferior."
+      "summary": "The author criticizes Google and other companies for releasing half-finished mobile apps while telling users \"it works better in the app,\" then forcing them back to the web for actual functionality. He argues that most app-exclusive features could work on the web, and that companies build incomplete apps primarily to secure homescreen real estate for engagement metrics rather than genuine user benefit. The piece calls for companies to either fully commit to their apps or acknowledge that modern web browsers can handle nearly everything apps can do."
     },
     {
       "id": 49478340,
@@ -47,10 +47,10 @@
       "url": "https://en.refund4freedom.org/",
       "hnUrl": "https://news.ycombinator.com/item?id=49478340",
       "domain": "en.refund4freedom.org",
-      "points": 351,
+      "points": 391,
       "author": "smartmic",
       "createdAt": "2026-08-28T13:42:40Z",
-      "numComments": 125,
+      "numComments": 143,
       "topComments": [
         {
           "id": 49478722,
@@ -77,7 +77,7 @@
           "createdAt": "2026-08-28T14:11:55.000Z"
         }
       ],
-      "summary": "This article advocates for consumers' right to obtain refunds for unwanted Windows licenses bundled with laptops and smartphones. It outlines a step-by-step process for requesting refunds directly from manufacturers, provides a breakdown of which major manufacturers (HP, Lenovo, Asus, Dell, Acer) honor or deny refund requests, and encourages users in Italy to report negative experiences to antitrust authorities. The campaign aims to establish transparent pricing and hassle-free refund procedures for pre-installed software that consumers don't want."
+      "summary": "This article promotes \"Refund4Freedom,\" a campaign demanding that laptop and smartphone manufacturers stop forcing consumers to pay for pre-installed Windows licenses they don't want. It provides step-by-step instructions for requesting refunds, details which manufacturers have reimbursement policies (Lenovo, Asus, Acer) and which don't (HP, Dell), and encourages Italian consumers to report non-compliance to their antitrust authority."
     },
     {
       "id": 49473522,
@@ -86,10 +86,10 @@
       "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
       "hnUrl": "https://news.ycombinator.com/item?id=49473522",
       "domain": "nytimes.com",
-      "points": 292,
+      "points": 305,
       "author": "jbegley",
       "createdAt": "2026-08-28T02:03:38Z",
-      "numComments": 253,
+      "numComments": 262,
       "topComments": [
         {
           "id": 49473677,
@@ -125,10 +125,10 @@
       "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
       "hnUrl": "https://news.ycombinator.com/item?id=49475079",
       "domain": "blog.luanti.org",
-      "points": 265,
+      "points": 274,
       "author": "miniBill",
       "createdAt": "2026-08-28T06:33:57Z",
-      "numComments": 77,
+      "numComments": 81,
       "topComments": [
         {
           "id": 49477202,
@@ -155,7 +155,7 @@
           "createdAt": "2026-08-28T12:51:56.000Z"
         }
       ],
-      "summary": "Luanti, an open-source voxel game-creation platform, was removed from Google Play due to a DMCA copyright notice filed by Tracer.AI on behalf of Microsoft, claiming it infringes Minecraft's copyright—a claim the Luanti team argues is baseless since their app contains no proprietary Minecraft code or assets. This is the second similar notice from the same company, and the team argues that voxel/block-based games are an entire genre that cannot be monopolized by one company. The team is seeking resolution while also implementing better content moderation measures to prevent such unfounded claims in the future."
+      "summary": "Luanti, an open-source voxel game-creation platform, was removed from Google Play after receiving a DMCA takedown notice from Tracer.AI on behalf of Microsoft, falsely claiming it infringes Minecraft's copyright. The Luanti team asserts the app contains no proprietary Minecraft code or assets and notes this is the second baseless notice from the same company, highlighting how such notices can be weaponized to suppress competition in an entire game genre. The article argues that voxel-based games are not Minecraft's intellectual property and calls for accountability in the DMCA process."
     },
     {
       "id": 49477564,
@@ -164,10 +164,10 @@
       "url": "https://www.orbify.eu/demo/",
       "hnUrl": "https://news.ycombinator.com/item?id=49477564",
       "domain": "orbify.eu",
-      "points": 238,
+      "points": 252,
       "author": "smoser",
       "createdAt": "2026-08-28T12:29:05Z",
-      "numComments": 81,
+      "numComments": 87,
       "topComments": [
         {
           "id": 49477700,
@@ -194,7 +194,7 @@
           "createdAt": "2026-08-28T13:37:59.000Z"
         }
       ],
-      "summary": "Orbify is a navigation technology company demonstrating an innovative turn-by-turn directions system with curved, Inception-style mapping visualization. The company offers a web demo (v72) and is seeking pilot projects, technology partnerships, and investor interest, with their warping technology currently under patent pending status."
+      "summary": "Orbify is a web-based navigation demo that uses curved, inception-style map visualization for turn-by-turn directions with patent-pending warping technology. The interactive tool allows users to navigate using WASD controls and mouse panning/rotation, and the company is seeking pilot projects, technology partnerships, and investment opportunities. The demo runs on PlayCanvas Engine and represents a reimagined approach to navigation interfaces."
     },
     {
       "id": 49479878,
@@ -203,10 +203,10 @@
       "url": "https://twitter.com/Zai_org/status/2093354097122455713",
       "hnUrl": "https://news.ycombinator.com/item?id=49479878",
       "domain": "twitter.com",
-      "points": 225,
+      "points": 245,
       "author": "jeudesprits",
       "createdAt": "2026-08-28T15:20:13Z",
-      "numComments": 81,
+      "numComments": 85,
       "topComments": [
         {
           "id": 49480188,
@@ -233,7 +233,7 @@
           "createdAt": "2026-08-28T15:53:26.000Z"
         }
       ],
-      "summary": "GLM-5.3, an open-weight AI model designed for agentic coding and cyber defense, is now available for download and customization. The model can be run locally and is provided with technical documentation for users interested in implementing or modifying it."
+      "summary": "Zhipu AI has released GLM-5.3 as an open-weight model, making their most advanced agentic coding and cyber defense AI available for anyone to download, run, and customize. The model weights and technical documentation are now publicly accessible, enabling broader adoption and experimentation with the technology."
     },
     {
       "id": 49477854,
@@ -242,10 +242,10 @@
       "url": "https://www.inventati.org/",
       "hnUrl": "https://news.ycombinator.com/item?id=49477854",
       "domain": "inventati.org",
-      "points": 217,
+      "points": 232,
       "author": "exiguus",
       "createdAt": "2026-08-28T12:58:53Z",
-      "numComments": 198,
+      "numComments": 218,
       "topComments": [
         {
           "id": 49478279,
@@ -272,7 +272,7 @@
           "createdAt": "2026-08-28T13:38:46.000Z"
         }
       ],
-      "summary": "The Autistici/Inventati (A/I) Collective is a volunteer-run platform founded in 2001 that provides free digital communication tools and services to activists and individuals aligned with anticapitalist and digital rights movements, funded entirely through donations without data commoditization. The page explains their mission of digital self-defense and solidarity-based organization, with all service requests reviewed manually by volunteers according to their manifesto and policies. The article's title references U.S. sanctions against the collective, suggesting they face political or legal pressure for their activism-focused services."
+      "summary": "The A/I Collective (Autistici/Inventati) is a volunteer-run, donation-funded platform founded in 2001 that provides free digital communication tools and services to activists and individuals aligned with anticapitalist and digital rights principles, without collecting or commercializing user data. The article describes their mission to support free communication and digital self-defense through manually-reviewed account requests processed by volunteers committed to solidarity and self-organization. Read this if you're interested in learning about grassroots digital activism infrastructure or privacy-focused online services for activist communities."
     },
     {
       "id": 49476143,
@@ -281,7 +281,7 @@
       "url": "https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html",
       "hnUrl": "https://news.ycombinator.com/item?id=49476143",
       "domain": "alyssarosenzweig.ca",
-      "points": 198,
+      "points": 200,
       "author": "luu",
       "createdAt": "2026-08-28T09:00:46Z",
       "numComments": 51,
@@ -311,7 +311,7 @@
           "createdAt": "2026-08-28T10:09:23.000Z"
         }
       ],
-      "summary": "This article presents an efficient O(n) algorithm for computing the volume of a 3D triangulated mesh by applying the divergence theorem to reduce a triple integral to a simple sum over triangle vertices. The method requires only 11n floating-point operations per n triangles, making it practical enough to process millions of triangles per frame on modest hardware like a Raspberry Pi. The author derives a compact closed-form formula that avoids expensive numerical integration or rendering-based sampling."
+      "summary": "This article presents an efficient O(n) algorithm for computing the volume of a 3D triangulated mesh using the divergence theorem, reducing the calculation to a simple loop over triangles requiring only basic arithmetic operations. The method converts a complex triple integral into a compact formula involving cross products and vertex coordinates, enabling extremely fast computation—capable of processing 30 million triangles per frame on modest hardware. The author derives the formula from first principles using vector calculus and demonstrates its superior performance compared to naive numerical integration approaches."
     },
     {
       "id": 49477212,
@@ -320,10 +320,10 @@
       "url": "https://github.com/openai/openai-python/blob/main/httpx2.md",
       "hnUrl": "https://news.ycombinator.com/item?id=49477212",
       "domain": "github.com",
-      "points": 149,
+      "points": 153,
       "author": "tosh",
       "createdAt": "2026-08-28T11:51:20Z",
-      "numComments": 62,
+      "numComments": 63,
       "topComments": [
         {
           "id": 49477220,
@@ -350,58 +350,19 @@
           "createdAt": "2026-08-28T12:24:14.000Z"
         }
       ],
-      "summary": "OpenAI's Python SDK has migrated to HTTPX2 for HTTP requests, which is now installed automatically and no longer requires the separate httpx package. The main breaking change affects TLS certificate verification, as HTTPX2 now uses the operating system's trust store instead of the certifi bundle, which may require configuration adjustments in containerized or corporate proxy environments. For users with custom HTTP clients, the SDK provides DefaultHttpx2Client and DefaultAsyncHttpx2Client helpers to maintain recommended timeout and connection settings."
-    },
-    {
-      "id": 49478091,
-      "rank": 10,
-      "title": "I used AWS cognito for a startup. I wouldn't do it again",
-      "url": "https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49478091",
-      "domain": "joshkaramuth.com",
-      "points": 131,
-      "author": "speckx",
-      "createdAt": "2026-08-28T13:21:03Z",
-      "numComments": 104,
-      "topComments": [
-        {
-          "id": 49478507,
-          "author": "AndrewKemendo",
-          "text": "Nobody is ever going to convince me AWS isn’t hostile to users as a filter Like how scammers put in typos",
-          "createdAt": "2026-08-28T13:52:53.000Z"
-        },
-        {
-          "id": 49478552,
-          "author": "_3u10",
-          "text": "Just use whatever service that costs 10x as much to make it do what it was advertised to do in the first place, like DAX for dynamo or cloudfront for S3 in case you hit “scale” like 2000 req/sec",
-          "createdAt": "2026-08-28T13:56:18.000Z"
-        },
-        {
-          "id": 49478556,
-          "author": "turboturbo",
-          "text": "This reads like, and is confirmed by Pangram to be, 100% AI slop",
-          "createdAt": "2026-08-28T13:56:29.000Z"
-        },
-        {
-          "id": 49478623,
-          "author": "wilkystyle",
-          "text": "> Reading Cognito docs feels like someone took three separate manuals, threw them in a blender, and then sprinkled in some outdated Stack Overflow answers for flavor. This is my experience with basically all of AWS documentation. It is nearly always either (1) far too high-level to be of any actual use, or (2) far too verbose, with a massive volume of superfluous information I need to parse and discard before I get to the stuff I am trying to figure out. As just one example, I recently needed to link an AWS Partner Central account with an AWS Management account, and process and documentation was painfully complicated: https://docs.aws.amazon.com/partner-central/latest/getting-s...",
-          "createdAt": "2026-08-28T14:00:42.000Z"
-        }
-      ],
-      "summary": "The author describes their frustrating three-week experience implementing AWS Cognito for authentication at a startup, citing problems including poorly organized documentation written for multiple audiences simultaneously, major breaking changes in the Amplify library versions, inability to test locally without hitting AWS endpoints, limited customization options, and inflexible attribute configuration that cannot be changed after initial setup. They conclude that despite Cognito's attractive pricing model, the poor developer experience and technical constraints make it an unreliable choice for startups compared to alternatives like Auth0 or Firebase Auth."
+      "summary": "OpenAI's Python SDK has migrated to HTTPX2 for HTTP requests, which is automatically installed and maintains backward compatibility for standard usage. The main change to note is that HTTPX2 now uses the operating system's trust store instead of the certifi package, which may require configuration of SSL certificates in certain environments like minimal containers or corporate proxies. Developers using custom HTTP clients should migrate to HTTPX2 clients and configurations, with helper classes provided by the SDK to maintain recommended defaults."
     },
     {
       "id": 49478178,
-      "rank": 11,
+      "rank": 10,
       "title": "Htmx 4.0.0",
       "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
       "hnUrl": "https://news.ycombinator.com/item?id=49478178",
       "domain": "four.htmx.org",
-      "points": 126,
+      "points": 153,
       "author": "rmsaksida",
       "createdAt": "2026-08-28T13:28:56Z",
-      "numComments": 29,
+      "numComments": 43,
       "topComments": [
         {
           "id": 49480392,
@@ -428,58 +389,19 @@
           "createdAt": "2026-08-28T16:09:23.000Z"
         }
       ],
-      "summary": "htmx 4.0.0 has been released after 8 months of development, featuring a major internal migration from XMLHttpRequest to fetch() for better async handling and streaming HTML support. The three main user-facing changes are: explicit attribute inheritance (requiring `:inherited` suffix instead of implicit inheritance), standardized event naming following a consistent `htmx:phase:action` pattern, and removal of localStorage-based history caching. While behavioral differences from version 2.x are minimal, upgrading will require updates to inherited attributes and event listeners, though command-line tools are provided to assist with migration."
-    },
-    {
-      "id": 49475979,
-      "rank": 12,
-      "title": "Interactive Warhammer 40k Galaxy Map",
-      "url": "https://cartographia40k.com/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49475979",
-      "domain": "cartographia40k.com",
-      "points": 109,
-      "author": "gbxyz",
-      "createdAt": "2026-08-28T08:35:07Z",
-      "numComments": 32,
-      "topComments": [
-        {
-          "id": 49477334,
-          "author": "big_babol",
-          "text": "Love it! References to the books would be awesome, since they basically hold the Warhammer 40k \"history\"",
-          "createdAt": "2026-08-28T12:05:56.000Z"
-        },
-        {
-          "id": 49477365,
-          "author": "nocchedure",
-          "text": "Something's off with the performance when routes are enabled. Disabling them instantly makes everything super snappy.",
-          "createdAt": "2026-08-28T12:10:08.000Z"
-        },
-        {
-          "id": 49477471,
-          "author": "ale42",
-          "text": "The Latin seems quite wrong... e.g. \"segmentum pacificus\" should actually be \"segmentum pacificum\" [1] to keep genders correct. Was it the same in the books (which I don't know)? [1] see Latin dictionary: https://www.online-latin-dictionary.com/latin-dictionary-fle... and https://www.online-latin-dictionary.com/latin-dictionary-fle...",
-          "createdAt": "2026-08-28T12:20:04.000Z"
-        },
-        {
-          "id": 49477847,
-          "author": "dash2",
-          "text": "Inquisitors have been ordered to find and terminate the machine which generated this slop. For The Emperor!",
-          "createdAt": "2026-08-28T12:57:57.000Z"
-        }
-      ],
-      "summary": "This is an interactive fan-made map of the Warhammer 40,000 galaxy that allows users to explore and identify key Imperial worlds, forge worlds, chapter worlds, and other strategic locations across different regions and time periods (M41 and M42). The map includes detailed labels for important sites like Terra, Cadia, and various faction territories, with toggleable overlays for rifts and Indomitus routes. It's a useful resource for Warhammer 40K lore enthusiasts who want to visualize the galactic setting and understand the geographic context of the universe."
+      "summary": "htmx 4.0.0 has been released after 8 months of development, featuring a migration from XMLHttpRequest to the fetch() API as its major internal change. The release introduces three key user-facing changes: explicit attribute inheritance (requiring `:inherited` syntax), standardized event naming following an `htmx:phase:action` pattern, and removal of localStorage-based history caching. While behaviorally similar to htmx 2, the upgrade will primarily require updating attribute inheritance declarations, with tooling provided to assist in the migration."
     },
     {
       "id": 49472216,
-      "rank": 13,
+      "rank": 11,
       "title": "The Twelve-Factor App",
       "url": "https://12factor.net/",
       "hnUrl": "https://news.ycombinator.com/item?id=49472216",
       "domain": "12factor.net",
-      "points": 84,
+      "points": 95,
       "author": "jxmorris12",
       "createdAt": "2026-08-27T22:41:11Z",
-      "numComments": 45,
+      "numComments": 48,
       "topComments": [
         {
           "id": 49479149,
@@ -506,97 +428,19 @@
           "createdAt": "2026-08-28T15:07:10.000Z"
         }
       ],
-      "summary": "The Twelve-Factor App is a methodology for building scalable, maintainable software-as-a-service applications through twelve best practices including proper dependency management, environment-based configuration, and separation of build/release/run stages. Based on experience from hundreds of apps on the Heroku platform, it provides a shared vocabulary and conceptual solutions for common problems in modern application development. This guide is essential reading for developers and operations engineers building cloud-deployed applications in any programming language."
-    },
-    {
-      "id": 49478401,
-      "rank": 14,
-      "title": "State of the Map 2026",
-      "url": "https://2026.stateofthemap.org/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49478401",
-      "domain": "2026.stateofthemap.org",
-      "points": 77,
-      "author": "lode",
-      "createdAt": "2026-08-28T13:46:28Z",
-      "numComments": 23,
-      "topComments": [
-        {
-          "id": 49479223,
-          "author": "Jimpulse",
-          "text": "Does OpenStreetMap comply with US executive order naming?",
-          "createdAt": "2026-08-28T14:39:47.000Z"
-        },
-        {
-          "id": 49479272,
-          "author": "netsharc",
-          "text": "Happening at \"Cité Descartes\". I see what you did there.",
-          "createdAt": "2026-08-28T14:43:01.000Z"
-        },
-        {
-          "id": 49479807,
-          "author": "hk__2",
-          "text": "Of course I learn about it exactly when I’m out of Paris for just a couple of days.",
-          "createdAt": "2026-08-28T15:15:22.000Z"
-        },
-        {
-          "id": 49480165,
-          "author": "numpad0",
-          "text": "Weird little quirk I've recently encountered, somewhat related to OSM: the `mkgmap` tool used to convert OSM data to Garmin map files display Chinese pronunciation as English names next to POI names in Japanese, due to 1) Japanese OSM maps have a lot of entries written in Japanese without indication of language, 2) no one is doing anything about it, due to Wikipedia style community nuances or something, and 3) the tool have no \"--assume-language=$LANG\" style of options(plus Japanese script->pronunciation mapping isn't even remotely bijective). e.g. There's a bicycle parking next to the parkside exit at Ueno station, \"上野駅公園口自転車駐車場\". This is: meaning: Ueno station park entrance bicycle parking ground in English, read IRL: ue no eki kouen guchi jitensha chusha jou in Japanese, but written on the map: shang ye yi gong yuan kou zi zhuan che zhu che chang as Chinese(in Pinyin but I don't know how to type it). ...I would imagine that utility of that is limited for non-Japanese users. Makes me wonder what are the reasons why master OSM data hadn't had missing pronunciations autogenerated or mkgmap tool given an auto selected language flag, but I'm not intending to be OSMian nor am I wanting to be the one to define national borders for bunch of nation states, so there's that...",
-          "createdAt": "2026-08-28T15:38:40.000Z"
-        }
-      ],
-      "summary": "State of the Map 2026 is the annual OpenStreetMap conference taking place August 28-30, 2026, in Paris and online, featuring talks, workshops, and discussions for mappers and OSM users. The event is currently accepting submissions for presentations, posters, lightning talks, and travel grant applications, with tickets and additional information available on their website. The conference is supported by major sponsors including TomTom and Michelin, and attendees can participate in-person or virtually through live streams and interactive online features."
-    },
-    {
-      "id": 49477157,
-      "rank": 15,
-      "title": "HTTPX2 – A next-generation HTTP client for Python",
-      "url": "https://github.com/pydantic/httpx2",
-      "hnUrl": "https://news.ycombinator.com/item?id=49477157",
-      "domain": "github.com",
-      "points": 72,
-      "author": "tosh",
-      "createdAt": "2026-08-28T11:41:45Z",
-      "numComments": 25,
-      "topComments": [
-        {
-          "id": 49478359,
-          "author": "WalterGR",
-          "text": "Also see the user’s other submission https://news.ycombinator.com/item?id=49477212 “OpenAI: Migrating to HTTPX2” (github.com/openai) 66 points | 1 hour ago | 50 comments",
-          "createdAt": "2026-08-28T13:43:53.000Z"
-        },
-        {
-          "id": 49478640,
-          "author": "jenders",
-          "text": "I would been pleased to see this project named something else, maybe “httpx-ng” or “httpy” as I immediately link “http*2” with the obsolete http/2 protocol and not the httpx project.",
-          "createdAt": "2026-08-28T14:01:51.000Z"
-        },
-        {
-          "id": 49478655,
-          "author": "casper14",
-          "text": "People should be aware how much worse HTTPX performs versus Aiohttp. For high scale systems it makes a massive difference",
-          "createdAt": "2026-08-28T14:03:04.000Z"
-        },
-        {
-          "id": 49479457,
-          "author": "BoumTAC",
-          "text": "Noob question: what's the purpose of having so many request libraries? In JavaScript it's crazy, but in Python it's starting to feel the same: requests, httpx, httpx2... From my perspective, HTTP requests have been mastered for years (decades?). What's the point of switching libraries? What's so extraordinary about the new HTTP library that makes requests look crap? I understand that new protocols appear from time to time (like HTTP/2), but that's very rare. And if there are performance differences between two libraries, are they really that huge? Even if they are, 99% of people don't need that boost. What prevents someone from just improving the existing library's performance?",
-          "createdAt": "2026-08-28T14:54:04.000Z"
-        }
-      ],
-      "summary": "HTTPX2 is a next-generation HTTP client library for Python, now maintained by Pydantic, that builds on the original HTTPX project with support for HTTP/1.1 and HTTP/2, both sync and async APIs, and an integrated command-line client. It offers a requests-compatible API with features like connection pooling, authentication, SSL verification, and full type annotations, designed to provide reliable maintenance and security updates for production systems. Read this if you're looking for a modern, well-maintained HTTP client alternative or want to learn about the latest developments in the HTTPX ecosystem."
+      "summary": "The Twelve-Factor App is a methodology for building scalable, maintainable software-as-a-service applications that emphasizes declarative setup, portability across environments, and minimizing differences between development and production. It provides twelve key principles—such as treating dependencies explicitly, storing configuration in the environment, and using stateless processes—that apply to applications written in any programming language. Read this if you're a developer or operations engineer building cloud-based applications and want a proven framework for avoiding common scaling and deployment issues."
     },
     {
       "id": 49479837,
-      "rank": 16,
+      "rank": 12,
       "title": "GUIs should be fully keyboard-driven",
       "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
       "hnUrl": "https://news.ycombinator.com/item?id=49479837",
       "domain": "ckardaris.com",
-      "points": 67,
+      "points": 87,
       "author": "ckardaris",
       "createdAt": "2026-08-28T15:17:09Z",
-      "numComments": 44,
+      "numComments": 52,
       "topComments": [
         {
           "id": 49480317,
@@ -623,19 +467,97 @@
           "createdAt": "2026-08-28T16:19:01.000Z"
         }
       ],
-      "summary": "The author argues that while terminal user interfaces (TUIs) are often more keyboard-driven than graphical user interfaces (GUIs), this shouldn't be used as an argument for preferring TUIs—instead, GUI developers should prioritize full keyboard navigation as a standard feature. The article emphasizes that there's nothing technically preventing GUIs from being fully keyboard-accessible, and implementing such navigation improves user experience and requires developer commitment rather than technical feasibility."
+      "summary": "# Summary\n\nThe article argues that GUIs should be fully keyboard-driven rather than relegating keyboard navigation as an advantage of terminal interfaces (TUIs). While TUIs tend to be more keyboard-accessible by default, this reflects poor GUI design rather than an inherent limitation—modern GUI frameworks and guidelines explicitly support full keyboard navigation, and developers should prioritize implementing it to provide better user experiences. The author emphasizes that keyboard accessibility is achievable and a matter of developer commitment, not technical feasibility."
+    },
+    {
+      "id": 49477157,
+      "rank": 13,
+      "title": "HTTPX2 – A next-generation HTTP client for Python",
+      "url": "https://github.com/pydantic/httpx2",
+      "hnUrl": "https://news.ycombinator.com/item?id=49477157",
+      "domain": "github.com",
+      "points": 80,
+      "author": "tosh",
+      "createdAt": "2026-08-28T11:41:45Z",
+      "numComments": 28,
+      "topComments": [
+        {
+          "id": 49478359,
+          "author": "WalterGR",
+          "text": "Also see the user’s other submission https://news.ycombinator.com/item?id=49477212 “OpenAI: Migrating to HTTPX2” (github.com/openai) 66 points | 1 hour ago | 50 comments",
+          "createdAt": "2026-08-28T13:43:53.000Z"
+        },
+        {
+          "id": 49478640,
+          "author": "jenders",
+          "text": "I would been pleased to see this project named something else, maybe “httpx-ng” or “httpy” as I immediately link “http*2” with the obsolete http/2 protocol and not the httpx project.",
+          "createdAt": "2026-08-28T14:01:51.000Z"
+        },
+        {
+          "id": 49478655,
+          "author": "casper14",
+          "text": "People should be aware how much worse HTTPX performs versus Aiohttp. For high scale systems it makes a massive difference",
+          "createdAt": "2026-08-28T14:03:04.000Z"
+        },
+        {
+          "id": 49479457,
+          "author": "BoumTAC",
+          "text": "Noob question: what's the purpose of having so many request libraries? In JavaScript it's crazy, but in Python it's starting to feel the same: requests, httpx, httpx2... From my perspective, HTTP requests have been mastered for years (decades?). What's the point of switching libraries? What's so extraordinary about the new HTTP library that makes requests look crap? I understand that new protocols appear from time to time (like HTTP/2), but that's very rare. And if there are performance differences between two libraries, are they really that huge? Even if they are, 99% of people don't need that boost. What prevents someone from just improving the existing library's performance?",
+          "createdAt": "2026-08-28T14:54:04.000Z"
+        }
+      ],
+      "summary": "HTTPX2 is a next-generation HTTP client library for Python maintained by Pydantic that offers a requests-compatible API with support for HTTP/1.1, HTTP/2, both sync and async operations, and an integrated command-line tool. It builds upon the original HTTPX project with improved maintenance, security updates, and features like strict timeouts, full type annotations, and 100% test coverage. The library is suitable for anyone seeking a modern, well-maintained HTTP client for Python production systems."
+    },
+    {
+      "id": 49478401,
+      "rank": 14,
+      "title": "State of the Map 2026",
+      "url": "https://2026.stateofthemap.org/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49478401",
+      "domain": "2026.stateofthemap.org",
+      "points": 78,
+      "author": "lode",
+      "createdAt": "2026-08-28T13:46:28Z",
+      "numComments": 26,
+      "topComments": [
+        {
+          "id": 49479223,
+          "author": "Jimpulse",
+          "text": "Does OpenStreetMap comply with US executive order naming?",
+          "createdAt": "2026-08-28T14:39:47.000Z"
+        },
+        {
+          "id": 49479272,
+          "author": "netsharc",
+          "text": "Happening at \"Cité Descartes\". I see what you did there.",
+          "createdAt": "2026-08-28T14:43:01.000Z"
+        },
+        {
+          "id": 49479807,
+          "author": "hk__2",
+          "text": "Of course I learn about it exactly when I’m out of Paris for just a couple of days.",
+          "createdAt": "2026-08-28T15:15:22.000Z"
+        },
+        {
+          "id": 49480165,
+          "author": "numpad0",
+          "text": "Weird little quirk I've recently encountered, somewhat related to OSM: the `mkgmap` tool used to convert OSM data to Garmin map files display Chinese pronunciation as English names next to POI names in Japanese, due to 1) Japanese OSM maps have a lot of entries written in Japanese without indication of language, 2) no one is doing anything about it, due to Wikipedia style community nuances or something, and 3) the tool have no \"--assume-language=$LANG\" style of options(plus Japanese script->pronunciation mapping isn't even remotely bijective). e.g. There's a bicycle parking next to the parkside exit at Ueno station, \"上野駅公園口自転車駐車場\". This is: meaning: Ueno station park entrance bicycle parking ground in English, read IRL: ue no eki kouen guchi jitensha chusha jou in Japanese, but written on the map: shang ye yi gong yuan kou zi zhuan che zhu che chang as Chinese(in Pinyin but I don't know how to type it). ...I would imagine that utility of that is limited for non-Japanese users. Makes me wonder what are the reasons why master OSM data hadn't had missing pronunciations autogenerated or mkgmap tool given an auto selected language flag, but I'm not intending to be OSMian nor am I wanting to be the one to define national borders for bunch of nation states, so there's that...",
+          "createdAt": "2026-08-28T15:38:40.000Z"
+        }
+      ],
+      "summary": "State of the Map 2026 is the annual OpenStreetMap conference taking place August 28-30 in Paris (with online participation available), featuring talks, workshops, and discussions for mappers and OSM users worldwide. The event is seeking participation through calls for abstracts, posters, lightning talks, and travel grants, with various sponsorship and volunteering opportunities available. Attendees can connect via multiple platforms and access live streams, social events, and networking opportunities both in-person and online."
     },
     {
       "id": 49480466,
-      "rank": 17,
+      "rank": 15,
       "title": "Just the rumour of a bug is enough to find an exploit these days",
       "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
       "hnUrl": "https://news.ycombinator.com/item?id=49480466",
       "domain": "anil.recoil.org",
-      "points": 66,
+      "points": 78,
       "author": "avsm",
       "createdAt": "2026-08-28T15:58:46Z",
-      "numComments": 18,
+      "numComments": 23,
       "topComments": [
         {
           "id": 49480753,
@@ -662,19 +584,19 @@
           "createdAt": "2026-08-28T16:28:40.000Z"
         }
       ],
-      "summary": "The article discusses how AI agents can now exploit security vulnerabilities based on minimal information about a bug, making traditional security embargoes ineffective—as demonstrated when the author's OCaml fix attracted probes within minutes of opening a public PR. With the mean time to exploit now preceding patches by days, the author argues that open source maintainers need to fundamentally rethink their security processes, shifting focus from secrecy-based defense to faster technical debt remediation and validated fixes that can reach users quickly."
+      "summary": "The article discusses how AI-powered agents can now discover and exploit security vulnerabilities with minimal information—just knowing a bug exists is enough for them to find working exploits within minutes—making traditional security embargoes ineffective. The author demonstrates this by finding that attackers began probing for a specific vulnerability in OCaml's cohttp within ten minutes of the public PR being opened, and argues that open source maintainers must fundamentally change their security response strategies since exploit generation now outpaces patch deployment. The piece calls for a shift toward preventative technical debt remediation and maintainer-assisted workflows rather than relying on secrecy to protect users."
     },
     {
       "id": 49477813,
-      "rank": 18,
+      "rank": 16,
       "title": "An investigation into the state of corvid–human relations",
       "url": "https://www.audubon.org/magazine/are-crows-really-our-friends",
       "hnUrl": "https://news.ycombinator.com/item?id=49477813",
       "domain": "audubon.org",
-      "points": 55,
+      "points": 58,
       "author": "speckx",
       "createdAt": "2026-08-28T12:53:42Z",
-      "numComments": 37,
+      "numComments": 40,
       "topComments": [
         {
           "id": 49479784,
@@ -701,58 +623,19 @@
           "createdAt": "2026-08-28T15:31:11.000Z"
         }
       ],
-      "summary": "This article explores the complex relationship between humans and crows, using the story of a woman named Annie who befriended two crows (Sal and Pal) by offering them peanuts in her California yard. The piece investigates whether humans are actually training crows or vice versa, and examines the broader question of whether crows can genuinely be considered human friends based on their intelligence and social behavior."
-    },
-    {
-      "id": 49476894,
-      "rank": 19,
-      "title": "Show HN: SubSmith – Turn your own videos into language-learning material",
-      "url": "https://subsmith.app",
-      "hnUrl": "https://news.ycombinator.com/item?id=49476894",
-      "domain": "subsmith.app",
-      "points": 54,
-      "author": "IbrahimF96",
-      "createdAt": "2026-08-28T10:59:04Z",
-      "numComments": 42,
-      "topComments": [
-        {
-          "id": 49477108,
-          "author": "k__",
-          "text": "Cool idea! While I'm not so sure about learning a language with content from fictional sources, that should at least make it more relevant for the learners. And you can use it on podcasts too, where people talk normally. The biggest hurdle is probably that users need to get hold of the media so they can use it as input.",
-          "createdAt": "2026-08-28T11:33:42.000Z"
-        },
-        {
-          "id": 49477189,
-          "author": "adamddev1",
-          "text": "I love having auto-generated subtitles available, but I am still skeptical that we can call them \"accurate\" yet. For many languages the models are quite weak, and even for English and German on YouTube I see errors all the time.",
-          "createdAt": "2026-08-28T11:48:18.000Z"
-        },
-        {
-          "id": 49477209,
-          "author": "posh_somme",
-          "text": "I've been learning Japanese for just over a year now, and its a community that might have the highest concentration of amazing free learning apps with sentence mining capabilities, many of which do things very similarly to what you're building. Have you tried some of these? asbplayer Manatan Yomine Anki Miner AnimeCards Nagare These are just for video, there are other similar solutions for games, manga and ebooks, and some of them are all in one",
-          "createdAt": "2026-08-28T11:50:53.000Z"
-        },
-        {
-          "id": 49477240,
-          "author": "cybertim",
-          "text": "I build the exact same system, but for (mandarin, simplified) Chinese which i'm learning. Wanted to create such a system for a while, but it's a lot of hooking up the correct libs and making a UI etc. never found the energy. Thanks to 'ai' I was able to do this finally, think more people needed this push :-) It's web-based and can be self-hosted in a docker.",
-          "createdAt": "2026-08-28T11:54:54.000Z"
-        }
-      ],
-      "summary": "SubSmith is a language-learning tool that transforms your own videos and audio files into study material by providing accurate subtitles, instant hover-over definitions, and one-click export to flashcard apps like Anki. It supports 99+ languages and costs $15/year or $40 for a lifetime license, positioning itself as cheaper and more effective than traditional language classes. The tool lets you learn vocabulary in context from native content while staying immersed in what you're watching."
+      "summary": "This article explores the relationship between humans and crows through the story of a woman named Annie who befriends two crows named Sal and Pal by offering them peanuts, raising the question of whether humans are training crows or vice versa. The piece investigates the intelligence and social complexity of corvids and what their interactions with humans reveal about mutual understanding and adaptation. The article examines whether crows and humans can truly form genuine friendships or if the relationship is purely transactional."
     },
     {
       "id": 49477559,
-      "rank": 20,
+      "rank": 17,
       "title": "Smaller reactors bring nuclear power closer to fulfilling its promise",
       "url": "https://www.nature.com/articles/d41586-026-02506-4",
       "hnUrl": "https://news.ycombinator.com/item?id=49477559",
       "domain": "nature.com",
-      "points": 53,
+      "points": 55,
       "author": "sohkamyung",
       "createdAt": "2026-08-28T12:28:41Z",
-      "numComments": 74,
+      "numComments": 78,
       "topComments": [
         {
           "id": 49477617,
@@ -779,19 +662,58 @@
           "createdAt": "2026-08-28T13:07:58.000Z"
         }
       ],
-      "summary": "Small modular reactors (SMRs) are emerging as a promising solution to nuclear power's challenges, offering cheaper and faster construction than conventional reactors while using innovative fuels like TRISO pebbles and alternative coolants such as molten salt. Despite some critics questioning their cost-effectiveness and safety compared to larger reactors, significant government funding and private investment—driven by growing clean energy demand—are accelerating SMR development, with companies like Kairos Power planning commercial operations by 2030."
+      "summary": "Small modular reactors (SMRs) are emerging as a promising solution to make nuclear power more economically viable and practical, using innovative fuels like TRISO pebbles and alternative coolants such as molten salt instead of conventional water-cooled designs. Companies like Kairos Power are actively building test and demonstration units with support from government grants, though critics argue SMRs may not be significantly cheaper than traditional reactors and could present new safety challenges. The growing demand for clean energy, particularly from data centers, is driving significant investment in this new generation of nuclear technology despite ongoing debates about its cost-effectiveness."
+    },
+    {
+      "id": 49476894,
+      "rank": 18,
+      "title": "Show HN: SubSmith – Turn your own videos into language-learning material",
+      "url": "https://subsmith.app",
+      "hnUrl": "https://news.ycombinator.com/item?id=49476894",
+      "domain": "subsmith.app",
+      "points": 55,
+      "author": "IbrahimF96",
+      "createdAt": "2026-08-28T10:59:04Z",
+      "numComments": 43,
+      "topComments": [
+        {
+          "id": 49477108,
+          "author": "k__",
+          "text": "Cool idea! While I'm not so sure about learning a language with content from fictional sources, that should at least make it more relevant for the learners. And you can use it on podcasts too, where people talk normally. The biggest hurdle is probably that users need to get hold of the media so they can use it as input.",
+          "createdAt": "2026-08-28T11:33:42.000Z"
+        },
+        {
+          "id": 49477189,
+          "author": "adamddev1",
+          "text": "I love having auto-generated subtitles available, but I am still skeptical that we can call them \"accurate\" yet. For many languages the models are quite weak, and even for English and German on YouTube I see errors all the time.",
+          "createdAt": "2026-08-28T11:48:18.000Z"
+        },
+        {
+          "id": 49477209,
+          "author": "posh_somme",
+          "text": "I've been learning Japanese for just over a year now, and its a community that might have the highest concentration of amazing free learning apps with sentence mining capabilities, many of which do things very similarly to what you're building. Have you tried some of these? asbplayer Manatan Yomine Anki Miner AnimeCards Nagare These are just for video, there are other similar solutions for games, manga and ebooks, and some of them are all in one",
+          "createdAt": "2026-08-28T11:50:53.000Z"
+        },
+        {
+          "id": 49477240,
+          "author": "cybertim",
+          "text": "I build the exact same system, but for (mandarin, simplified) Chinese which i'm learning. Wanted to create such a system for a while, but it's a lot of hooking up the correct libs and making a UI etc. never found the energy. Thanks to 'ai' I was able to do this finally, think more people needed this push :-) It's web-based and can be self-hosted in a docker.",
+          "createdAt": "2026-08-28T11:54:54.000Z"
+        }
+      ],
+      "summary": "SubSmith is a desktop tool that transforms your personal videos and audio files into language-learning material by providing accurate subtitles, instant hover-over translations, and one-click exports to Anki flashcards across 99+ languages. It's designed for immersive learning from content you enjoy, with pricing options of $15/year or a $40 lifetime license. Read this if you want an efficient way to build vocabulary from native-speaker content without interrupting your viewing experience."
     },
     {
       "id": 49480220,
-      "rank": 21,
+      "rank": 19,
       "title": "How Dactyl Works",
       "url": "https://dactyl.dev/blog/how-dactyl-works/",
       "hnUrl": "https://news.ycombinator.com/item?id=49480220",
       "domain": "dactyl.dev",
-      "points": 36,
+      "points": 43,
       "author": "anorak27",
       "createdAt": "2026-08-28T15:42:04Z",
-      "numComments": 5,
+      "numComments": 6,
       "topComments": [
         {
           "id": 49481259,
@@ -818,19 +740,19 @@
           "createdAt": "2026-08-28T17:10:11.000Z"
         }
       ],
-      "summary": "Dactyl is a platform that enables native app development across iOS, Android, and web by using Swift and a custom SwiftUI renderer compiled to WebAssembly, allowing developers to preview and build apps directly in the browser without compromising on native performance or features. The system works by reimplementing SwiftUI frameworks in Swift, rendering to Canvas2D in the browser, and using Jetpack Compose on Android to display actual native UI controls that match the same SwiftUI source code. This approach solves the traditional problem of LLM-assisted app development by delivering truly native experiences across platforms rather than relying on compromised solutions like React Native or webviews."
+      "summary": "Dactyl is a development platform that enables building native cross-platform apps using Swift and SwiftUI by porting the iOS simulator to WebAssembly, allowing developers to preview and test iOS apps directly in browsers while compiling to native Android and web environments. The system uses a SwiftUI reimplementation that renders draw commands to Canvas2D on the web and integrates with Jetpack Compose on Android, preserving native widgets and performance across platforms. Development is streamlined through dynamic linking and automated testing against Apple's SDK to ensure pixel-perfect parity with native iOS rendering."
     },
     {
       "id": 49478489,
-      "rank": 22,
+      "rank": 20,
       "title": "“Weird” is a weird word",
       "url": "https://www.deadlanguagesociety.com/p/weird-is-a-weird-word",
       "hnUrl": "https://news.ycombinator.com/item?id=49478489",
       "domain": "deadlanguagesociety.com",
-      "points": 31,
+      "points": 35,
       "author": "pseudolus",
       "createdAt": "2026-08-28T13:51:17Z",
-      "numComments": 13,
+      "numComments": 15,
       "topComments": [
         {
           "id": 49479824,
@@ -857,115 +779,16 @@
           "createdAt": "2026-08-28T17:00:27.000Z"
         }
       ],
-      "summary": "The word \"weird\" has a surprisingly profound etymology, originating from the Old English \"wyrd\" meaning fate or destiny—a weighty concept found in ancient poetry like Beowulf. Through the Norman Conquest and influx of French words like \"fortune\" and \"destiny,\" wyrd became obsolete in southern England but survived in Scotland as \"weird,\" eventually appearing in Shakespeare's Macbeth to describe the supernatural \"weird sisters\" before evolving into today's casual descriptor for anything unusual."
-    },
-    {
-      "id": 49479302,
-      "rank": 23,
-      "title": "The conservationists helping to restore Africa’s wild dog populations",
-      "url": "https://www.smithsonianmag.com/science-nature/africa-wild-dogs-most-hated-carnivores-continent-heres-why-conservationists-saving-them-anyway-180989287/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49479302",
-      "domain": "smithsonianmag.com",
-      "points": 28,
-      "author": "speckx",
-      "createdAt": "2026-08-28T14:44:51Z",
-      "numComments": 10,
-      "topComments": [
-        {
-          "id": 49480311,
-          "author": "lolpython",
-          "text": "Casualty of HN title mangling again. Original title: Africa’s Wild Dogs Are the Most Hated Carnivores on the Continent. Here’s Why Some Conservationists Are Saving Them Anyway",
-          "createdAt": "2026-08-28T15:47:06.000Z"
-        },
-        {
-          "id": 49480715,
-          "author": "everyday7732",
-          "text": "They look so similar to hyenas. Maybe they fit the same evolutionary niche. While the article claims that wild dogs are the most successful predator in Africa, I found a national geographic article which claims the same for hyenas: https://www.nationalgeographic.com/animals/article/hyenas-my...",
-          "createdAt": "2026-08-28T16:16:54.000Z"
-        },
-        {
-          "id": 49480736,
-          "author": "nozzlegear",
-          "text": "There's a group of these dogs at the zoo in Sioux Falls, SD. Like all dogs, I think my wife and I were predispositioned to like them. It didn't help that they all started howling when a police car drove by with its sirens on, which was cute.",
-          "createdAt": "2026-08-28T16:18:26.000Z"
-        },
-        {
-          "id": 49480906,
-          "author": "bryanlarsen",
-          "text": "For those who didn't know, to save you the search I just performed: the African Wild Dog is not literally a wild dog. It's not even a Canid, it's a separate genus (Lycaon) from dogs, wolves & coyotes.",
-          "createdAt": "2026-08-28T16:29:14.000Z"
-        }
-      ],
-      "summary": "African wild dogs, among the world's most endangered carnivores with only 6,600 remaining, are being actively conserved despite widespread hatred from farmers and reserve owners who view them as threats to livestock and game. Conservationists with the Endangered Wildlife Trust are working to restore populations by carefully relocating and monitoring dogs between reserves across Africa to form genetically diverse packs, a program that has increased the population by over 344 individuals since 1997. Despite being the most successful hunters in Africa, these playful and intelligent animals deserve protection, prompting dedicated efforts to ensure their survival."
-    },
-    {
-      "id": 49477925,
-      "rank": 24,
-      "title": "Interactive pattern discovery in binaries (FF-16-TUI)",
-      "url": "https://github.com/HexLasso/FF-16-TUI",
-      "hnUrl": "https://news.ycombinator.com/item?id=49477925",
-      "domain": "github.com",
-      "points": 25,
-      "author": "HexLasso",
-      "createdAt": "2026-08-28T13:05:49Z",
-      "numComments": 2,
-      "topComments": [
-        {
-          "id": 49479440,
-          "author": "jzhu_yc",
-          "text": "I’m a student so I’m wondering if anyone can explain this tool. It’s a form of static analysis so useful in security analysis?",
-          "createdAt": "2026-08-28T14:53:10.000Z"
-        }
-      ],
-      "summary": "FF-16-TUI is an interactive static analysis tool that identifies frequently occurring 16-bit patterns in binary files to help locate data structures and understand file layout. The tool features a text-based user interface with a hexdump viewer, pattern panel for highlighting the most frequent patterns, and configurable filters to adjust pattern detection parameters. It's useful for reverse engineering, firmware analysis, and forensic investigation of binary files."
-    },
-    {
-      "id": 49479826,
-      "rank": 25,
-      "title": "Don't use musl if you care about performance",
-      "url": "https://blog.brokk.ai/dont-use-musl-if-you-care-about-performance/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49479826",
-      "domain": "blog.brokk.ai",
-      "points": 24,
-      "author": "jbellis",
-      "createdAt": "2026-08-28T15:16:07Z",
-      "numComments": 11,
-      "topComments": [
-        {
-          "id": 49480809,
-          "author": "grep_it",
-          "text": "I think the size of linked binaries and simplicity were always the main features?",
-          "createdAt": "2026-08-28T16:23:29.000Z"
-        },
-        {
-          "id": 49480872,
-          "author": "marssaxman",
-          "text": "People have such different perspectives. 26% slower does not sound \"terrible\" to me; it sounds like quite a reasonable price one might choose to pay for the convenience musl offers. If musl's allocator were 2.6x slower, I might call that \"not so great\"... but in order to qualify as \"terrible\" I think the difference would have to be an order of magnitude!",
-          "createdAt": "2026-08-28T16:27:15.000Z"
-        },
-        {
-          "id": 49480886,
-          "author": "delduca",
-          "text": "Also musl is not a complete runtime",
-          "createdAt": "2026-08-28T16:27:47.000Z"
-        },
-        {
-          "id": 49480927,
-          "author": "OptionOfT",
-          "text": "Are there other options if I want to ship a 'FROM scratch' image with just a single Rust executable, and everything compiled in? That to me is the main driver for MUSL.",
-          "createdAt": "2026-08-28T16:30:49.000Z"
-        }
-      ],
-      "summary": "The author demonstrates through benchmarking that musl's standard allocator performs significantly worse than glibc, even when replaced with faster allocators like mimalloc, with musl remaining 26% slower overall. Beyond the allocator, musl has suboptimal memory routines that cause performance regressions, leading the author to recommend against using musl for performance-sensitive applications despite its convenience for self-contained binaries. The author suggests musl should ship without a default allocator to make performance tradeoffs explicit rather than a hidden \"footgun\" for users."
+      "summary": "The word \"weird\" has undergone a dramatic transformation from its Old English origins as \"wyrd,\" meaning fate or destiny—a weighty concept appearing in epic poems like Beowulf—to today's casual descriptor for everyday oddities. After the Norman Conquest introduced French and Latin synonyms like \"fortune\" and \"fate,\" the native English word died out in the south but survived in Scotland as \"weird,\" eventually spreading back into English through Shakespeare's use of \"weird sisters\" in Macbeth. This article traces how a profound concept about inexorable destiny became the mundane word we use to describe strange refrigerator smells."
     },
     {
       "id": 49479072,
-      "rank": 26,
+      "rank": 21,
       "title": "Verschlimmbesserung: The Word Your Software Updates Need",
       "url": "https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/",
       "hnUrl": "https://news.ycombinator.com/item?id=49479072",
       "domain": "geekyschmidt.com",
-      "points": 24,
+      "points": 31,
       "author": "speckx",
       "createdAt": "2026-08-28T14:30:33Z",
       "numComments": 7,
@@ -995,19 +818,124 @@
           "createdAt": "2026-08-28T16:55:51.000Z"
         }
       ],
-      "summary": "The article introduces \"Verschlimmbesserung,\" a German word describing software updates that claim to improve but actually make things worse. It argues that this phenomenon stems from misaligned metrics and incentives that reward shipping updates over genuine improvements, rather than engineering failures, and advocates for valuing stability as a feature instead of constantly forcing change."
+      "summary": "This article argues that software updates often make products worse rather than better—a phenomenon the German word \"Verschlimmbesserung\" describes perfectly. The author traces the root cause to misaligned incentives and metrics that reward shipping new features over actual improvements, leading teams to optimize for metrics rather than user experience. The piece advocates for valuing stability and knowing when not to ship as key engineering disciplines."
+    },
+    {
+      "id": 49479302,
+      "rank": 22,
+      "title": "The conservationists helping to restore Africa’s wild dog populations",
+      "url": "https://www.smithsonianmag.com/science-nature/africa-wild-dogs-most-hated-carnivores-continent-heres-why-conservationists-saving-them-anyway-180989287/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49479302",
+      "domain": "smithsonianmag.com",
+      "points": 30,
+      "author": "speckx",
+      "createdAt": "2026-08-28T14:44:51Z",
+      "numComments": 10,
+      "topComments": [
+        {
+          "id": 49480311,
+          "author": "lolpython",
+          "text": "Casualty of HN title mangling again. Original title: Africa’s Wild Dogs Are the Most Hated Carnivores on the Continent. Here’s Why Some Conservationists Are Saving Them Anyway",
+          "createdAt": "2026-08-28T15:47:06.000Z"
+        },
+        {
+          "id": 49480715,
+          "author": "everyday7732",
+          "text": "They look so similar to hyenas. Maybe they fit the same evolutionary niche. While the article claims that wild dogs are the most successful predator in Africa, I found a national geographic article which claims the same for hyenas: https://www.nationalgeographic.com/animals/article/hyenas-my...",
+          "createdAt": "2026-08-28T16:16:54.000Z"
+        },
+        {
+          "id": 49480736,
+          "author": "nozzlegear",
+          "text": "There's a group of these dogs at the zoo in Sioux Falls, SD. Like all dogs, I think my wife and I were predispositioned to like them. It didn't help that they all started howling when a police car drove by with its sirens on, which was cute.",
+          "createdAt": "2026-08-28T16:18:26.000Z"
+        },
+        {
+          "id": 49480906,
+          "author": "bryanlarsen",
+          "text": "For those who didn't know, to save you the search I just performed: the African Wild Dog is not literally a wild dog. It's not even a Canid, it's a separate genus (Lycaon) from dogs, wolves & coyotes.",
+          "createdAt": "2026-08-28T16:29:14.000Z"
+        }
+      ],
+      "summary": "African wild dogs, though among the world's most endangered carnivores and widely hunted by farmers and game reserve owners, are being saved through conservation programs that relocate and breed them in protected reserves across Africa. The Endangered Wildlife Trust's program has increased the global wild dog population by over 344 in 29 years by reintroducing them to countries where they've disappeared, while researchers highlight the species' remarkable intelligence, playfulness, and hunting prowess as reasons worth protecting them despite human-wildlife conflict."
+    },
+    {
+      "id": 49479826,
+      "rank": 23,
+      "title": "Don't use musl if you care about performance",
+      "url": "https://blog.brokk.ai/dont-use-musl-if-you-care-about-performance/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49479826",
+      "domain": "blog.brokk.ai",
+      "points": 29,
+      "author": "jbellis",
+      "createdAt": "2026-08-28T15:16:07Z",
+      "numComments": 14,
+      "topComments": [
+        {
+          "id": 49480809,
+          "author": "grep_it",
+          "text": "I think the size of linked binaries and simplicity were always the main features?",
+          "createdAt": "2026-08-28T16:23:29.000Z"
+        },
+        {
+          "id": 49480872,
+          "author": "marssaxman",
+          "text": "People have such different perspectives. 26% slower does not sound \"terrible\" to me; it sounds like quite a reasonable price one might choose to pay for the convenience musl offers. If musl's allocator were 2.6x slower, I might call that \"not so great\"... but in order to qualify as \"terrible\" I think the difference would have to be an order of magnitude!",
+          "createdAt": "2026-08-28T16:27:15.000Z"
+        },
+        {
+          "id": 49480886,
+          "author": "delduca",
+          "text": "Also musl is not a complete runtime",
+          "createdAt": "2026-08-28T16:27:47.000Z"
+        },
+        {
+          "id": 49480927,
+          "author": "OptionOfT",
+          "text": "Are there other options if I want to ship a 'FROM scratch' image with just a single Rust executable, and everything compiled in? That to me is the main driver for MUSL.",
+          "createdAt": "2026-08-28T16:30:49.000Z"
+        }
+      ],
+      "summary": "The author discovered that musl libc has significantly worse performance than glibc, with a particularly problematic allocator that causes 25-50% slowdowns even when replaced with optimized alternatives like mimalloc. Beyond allocator issues, musl's common memory routines are inherently slower, making it unsuitable for performance-critical applications despite its appeal as a self-contained binary solution. The author recommends avoiding musl for performance-sensitive projects and suggests the project should ship without a default allocator to make users explicitly choose their tradeoffs."
+    },
+    {
+      "id": 49479898,
+      "rank": 24,
+      "title": "Barrier lake continues to pose flood risk, China warns",
+      "url": "https://kathmandupost.com/national/2026/08/28/barrier-lake-continues-to-pose-flood-risk-china-warns",
+      "hnUrl": "https://news.ycombinator.com/item?id=49479898",
+      "domain": "kathmandupost.com",
+      "points": 18,
+      "author": "r721",
+      "createdAt": "2026-08-28T15:21:26Z",
+      "numComments": 2,
+      "topComments": [
+        {
+          "id": 49481238,
+          "author": "lightedman",
+          "text": "This lake is currently halting any further rescue operations in the area, because the collapse of it threatens to unleash yet another very devastating flood. As these natural glacial reservoirs have no usual natural outlet, when they go, that's thousands of years of stored water and energy released. Anything that catches it now has those forces to contend with, and freshly-created lakes tend to not hold up very well to being constantly filled while attempting to settle into a stable configuration. That unfortunately means we have to give up on the people caught in the first flood, as the potential for a second one catching the rescue workers is too great. Horrible incident. The best we can hope for from this is a greater understanding of the risks associated with living in such an area, and hopefully better geological warning systems will be created out of this. EDIT: For perspective, the energy released in this event, capable of causing a 5.2 magnitude seismic event to register, would have been equivalent to roughly 30 of the nukes we dropped on Hiroshima and Nagasaki.",
+          "createdAt": "2026-08-28T16:49:06.000Z"
+        },
+        {
+          "id": 49481908,
+          "author": "japhyr",
+          "text": "For a bit of context, Juneau Alaska deals with a smaller scale version of this most years. There's a bowl off of the Mendenhall Glacier named Suicide Basin. Each summer that basin gets filled with meltwater, which forms a lake because the glacier blocks the water from leaving the basin. At some point the lake fills with enough water that part of the blockage gives way and the lake suddenly releases. In Juneau, this is a well-defined basin with well-established dynamics. The city still wrestles with how best to handle this. Recent years have seen higher river levels when the basin releases, and the downstream banks of the Mendenhall River have eroded much faster than people were expecting. The city and individual homeowners are engaged in multiple projects to manage the annual flooding. In the Nepal case the scale is much larger, and the variables are less known and less stable. This is absolutely devastating to see. https://www.adn.com/alaska-news/2026/08/12/juneau-officials-...",
+          "createdAt": "2026-08-28T17:35:52.000Z"
+        }
+      ],
+      "summary": "A barrier lake formed by an ice-rock avalanche on the Nepal-China border remains at critical risk of breaching, with both countries monitoring the situation as water levels continue to rise and overflow. The Chinese Embassy warns downstream communities to remain vigilant and prepare for potential emergencies, while urging the public to rely on official information and avoid spreading unverified reports. This warning comes as Nepal deals with severe flooding and landslides across multiple districts."
     },
     {
       "id": 49478942,
-      "rank": 27,
+      "rank": 25,
       "title": "Debugging my new network, when 10 Gigabit Ethernet Runs at 300 Megabits",
       "url": "https://www.hanselman.com/blog/debugging-my-new-network-when-10-gigabit-ethernet-runs-at-300-megabits",
       "hnUrl": "https://news.ycombinator.com/item?id=49478942",
       "domain": "hanselman.com",
-      "points": 13,
+      "points": 15,
       "author": "speckx",
       "createdAt": "2026-08-28T14:23:27Z",
-      "numComments": 2,
+      "numComments": 5,
       "topComments": [
         {
           "id": 49480497,
@@ -1020,42 +948,41 @@
           "author": "ck2",
           "text": "good old buffer packet size anyone old enough from dialup modems and RS232 to remember the trick of replacing the 16450 UART with 16550 if you were lucky enough to have it on a socket instead of soldered? that took it from a 1-byte buffer to 16-bytes, instant speed boost same idea going from X-modem to Y-modem for transfers, 128bytes vs 1024bytes before checksum surprised ethernet by now doesn't constantly try to negotiate larger buffer windows",
           "createdAt": "2026-08-28T16:36:39.000Z"
+        },
+        {
+          "id": 49481741,
+          "author": "larrik",
+          "text": "When I was struggling to figure out why so many of my devices on my gigabit network were only getting 100 megabits, I learned that a lot more of my devices were on 10/100 ethernet than I expected. Including some recent purchases (TV's especially). It took me a while because I assumed gigabit had been kind for far longer than it actually was in practice.",
+          "createdAt": "2026-08-28T17:23:30.000Z"
         }
       ],
-      "summary": "The author's 10 Gigabit Ethernet network was mysteriously running at only 300 Megabits per second, and by systematically isolating the problem with iperf3 tests, he discovered the issue wasn't the NAS or storage but rather the Windows network adapter driver. Disabling Large Send Offload V2 for IPv4 on the Intel E610-XT2 NIC increased throughput from 313 Mbit/sec to 7.03 Gbit/sec, demonstrating the value of testing network layers separately rather than assuming storage is the bottleneck."
+      "summary": "The author's new 10 Gigabit Ethernet network was mysteriously running at only 300 Megabits per second despite all components reporting the correct speed. By isolating the problem with iperf3 testing, he discovered the issue wasn't the NAS or storage but rather a Windows NIC driver problem—specifically, disabling Large Send Offload (LSO) V2 for IPv4 on his Intel E610-XT2 adapter jumped throughput from 313 Mbit/sec to 7.03 Gbit/sec. The key takeaway is that when debugging complex network issues, systematically eliminating variables (like using iperf3 to bypass storage layers) can reveal hidden hardware or driver problems."
     },
     {
-      "id": 49479898,
-      "rank": 28,
-      "title": "Barrier lake continues to pose flood risk, China warns",
-      "url": "https://kathmandupost.com/national/2026/08/28/barrier-lake-continues-to-pose-flood-risk-china-warns",
-      "hnUrl": "https://news.ycombinator.com/item?id=49479898",
-      "domain": "kathmandupost.com",
-      "points": 13,
-      "author": "r721",
-      "createdAt": "2026-08-28T15:21:26Z",
-      "numComments": 1,
-      "topComments": [
-        {
-          "id": 49481238,
-          "author": "lightedman",
-          "text": "This lake is currently halting any further rescue operations in the area, because the collapse of it threatens to unleash yet another very devastating flood. As these natural glacial reservoirs have no usual natural outlet, when they go, that's thousands of years of stored water and energy released. Anything that catches it now has those forces to contend with, and freshly-created lakes tend to not hold up very well to being constantly filled while attempting to settle into a stable configuration. That unfortunately means we have to give up on the people caught in the first flood, as the potential for a second one catching the rescue workers is too great. Horrible incident. The best we can hope for from this is a greater understanding of the risks associated with living in such an area, and hopefully better geological warning systems will be created out of this. EDIT: For perspective, the energy released in this event, capable of causing a 5.2 magnitude seismic event to register, would have been equivalent to roughly 30 of the nukes we dropped on Hiroshima and Nagasaki.",
-          "createdAt": "2026-08-28T16:49:06.000Z"
-        }
-      ],
-      "summary": "A barrier lake formed by an ice-rock avalanche on the Nepal-China border remains at dangerously high levels and is overflowing, with officials from both countries warning of a potential breach. The Chinese Embassy urges downstream communities to monitor river levels closely and prepare for possible emergencies, as the situation remains critical for rescue operations in both nations. The warning comes amid severe flooding and landslides already affecting multiple districts in Nepal."
+      "id": 49441316,
+      "rank": 26,
+      "title": "Global demand has spawned a worldwide boom in illegal sand mining (2015)",
+      "url": "https://www.wired.com/2015/03/illegal-sand-mining/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49441316",
+      "domain": "wired.com",
+      "points": 14,
+      "author": "EndXA",
+      "createdAt": "2026-08-25T22:03:03Z",
+      "numComments": 0,
+      "topComments": [],
+      "summary": "Surging global demand for sand to support construction booms has created a lucrative illegal mining industry where criminal mafias control extraction operations, sometimes resorting to violence and murder to protect their operations. Sand, essential for concrete, glass, and countless other products, is being harvested unsustainably from riverbeds, beaches, and ocean floors worldwide, causing severe environmental damage to ecosystems while regulations remain weak and poorly enforced."
     },
     {
       "id": 49479924,
-      "rank": 29,
+      "rank": 27,
       "title": "EasyEffects: Essential for Enhancing Laptop Speaker Sound on Linux Distributions",
       "url": "https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/",
       "hnUrl": "https://news.ycombinator.com/item?id=49479924",
       "domain": "osnews.com",
-      "points": 7,
+      "points": 10,
       "author": "birdculture",
       "createdAt": "2026-08-28T15:23:10Z",
-      "numComments": 2,
+      "numComments": 3,
       "topComments": [
         {
           "id": 49480446,
@@ -1070,28 +997,50 @@
           "createdAt": "2026-08-28T16:40:04.000Z"
         }
       ],
-      "summary": "EasyEffects is a Linux application that significantly improves poor laptop speaker sound quality by leveraging PipeWire's audio processing capabilities and downloadable presets—no audio expertise required. While results depend on finding a suitable preset for your use case and are subjective, the tool is easy to install and can dramatically enhance audio performance with minimal CPU overhead."
+      "summary": "EasyEffects is a Linux application that significantly improves poor laptop speaker quality by applying audio tuning and effects through downloadable presets—no technical expertise required. While results vary depending on your laptop model and audio preferences, the tool is easy to install and use, with minimal CPU overhead. The article recommends it as essential software for Linux users seeking better audio quality from their laptops."
     },
     {
-      "id": 49441316,
-      "rank": 30,
-      "title": "Global demand has spawned a worldwide boom in illegal sand mining (2015)",
-      "url": "https://www.wired.com/2015/03/illegal-sand-mining/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49441316",
-      "domain": "wired.com",
-      "points": 7,
-      "author": "EndXA",
-      "createdAt": "2026-08-25T22:03:03Z",
+      "id": 49481689,
+      "rank": 28,
+      "title": "I Design with AI",
+      "url": "https://ref.tools/blog/how-i-design-with-ai",
+      "hnUrl": "https://news.ycombinator.com/item?id=49481689",
+      "domain": "ref.tools",
+      "points": 6,
+      "author": "reactiverobot",
+      "createdAt": "2026-08-28T17:18:32Z",
       "numComments": 0,
       "topComments": [],
-      "summary": "Illegal sand mining has become a global criminal enterprise driven by massive demand for construction materials, with organized crime syndicates using violence—including murder—to control lucrative sand operations. The article documents how sand, essential for concrete and modern construction, is being extracted unsustainably from riverbeds, beaches, and ocean floors worldwide, causing severe environmental damage to ecosystems while regulations remain weak and poorly enforced."
+      "summary": null
+    },
+    {
+      "id": 49481672,
+      "rank": 29,
+      "title": "Secrets of the Atomic City",
+      "url": "https://longreads.com/2026/08/06/radiation-paducah-atavist/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49481672",
+      "domain": "longreads.com",
+      "points": 3,
+      "author": "mooreds",
+      "createdAt": "2026-08-28T17:16:58Z",
+      "numComments": 0,
+      "topComments": [],
+      "summary": "This article tells the true story of Ron Fowler and Chuck Deuschle, workers at a Kentucky uranium-enrichment plant who became whistleblowers after discovering the facility was exposing employees to dangerous levels of radiation while management denied the risks for decades. Now facing serious health issues they believe resulted from their exposure, the aging whistleblowers are urgently sharing their full story before it's too late, especially as the plant is slated to reopen. The piece explores their decision to risk everything to reveal the truth and raises questions about worker safety in the nuclear industry."
+    },
+    {
+      "id": 49481423,
+      "rank": 30,
+      "title": "Attimet (YC F24) Is Hiring Members of Technical Staff – Engineering and Research",
+      "url": "https://www.ycombinator.com/companies/attimet/jobs/6btZFDg-member-of-technical-staff-engineering",
+      "hnUrl": "https://news.ycombinator.com/item?id=49481423",
+      "domain": "ycombinator.com",
+      "author": "kbanothu",
+      "createdAt": "2026-08-28T17:00:06Z",
+      "topComments": [],
+      "summary": "Attimet, a Y Combinator F24 startup, is hiring Members of Technical Staff for engineering roles to build AI systems and LLM-powered infrastructure that accelerates research and experimentation. The position offers $125K-$225K salary plus equity, requires strong technical skills in Python and LLMs, and emphasizes high initiative, rapid learning, and practical problem-solving over credentials. The role is based in San Francisco and involves end-to-end project ownership with direct founder collaboration from day one."
     }
   ],
   "topics": [
-    {
-      "word": "map",
-      "count": 3
-    },
     {
       "word": "works",
       "count": 2
@@ -1105,11 +1054,11 @@
       "count": 2
     },
     {
-      "word": "httpx2",
+      "word": "map",
       "count": 2
     },
     {
-      "word": "interactive",
+      "word": "httpx2",
       "count": 2
     },
     {
@@ -1130,8 +1079,8 @@
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 26517,
-      "forks": 1686,
+      "stars": 26593,
+      "forks": 1691,
       "starsToday": 4561,
       "homepage": "https://tt-a1i.github.io/archify/",
       "topics": [
@@ -1165,8 +1114,8 @@
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 36204,
-      "forks": 3458,
+      "stars": 36234,
+      "forks": 3460,
       "starsToday": 720,
       "homepage": "https://k-dense.ai",
       "topics": [
@@ -1197,7 +1146,7 @@
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 34932,
+      "stars": 34942,
       "forks": 3930,
       "starsToday": 457,
       "homepage": "https://code.claude.com/docs/en/plugins",
@@ -1215,8 +1164,8 @@
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 10539,
-      "forks": 2160,
+      "stars": 10565,
+      "forks": 2165,
       "starsToday": 1984,
       "homepage": "https://maptheworld.ai/",
       "topics": [
@@ -1242,7 +1191,7 @@
       "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 46090,
+      "stars": 46094,
       "forks": 5092,
       "starsToday": 189,
       "homepage": "https://gitnexus.vercel.app",
@@ -1256,7 +1205,7 @@
       "description": "Help AI coding agents write modern Go",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 2526,
+      "stars": 2530,
       "forks": 76,
       "starsToday": 574,
       "homepage": null,
@@ -1277,8 +1226,8 @@
       "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 53116,
-      "forks": 6626,
+      "stars": 53137,
+      "forks": 6628,
       "starsToday": 1144,
       "homepage": "https://www.openmontage.video/",
       "topics": [
@@ -1311,8 +1260,8 @@
       "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 75434,
-      "forks": 9210,
+      "stars": 75440,
+      "forks": 9212,
       "starsToday": 309,
       "homepage": "https://screenshottocode.com",
       "topics": []
@@ -1325,7 +1274,7 @@
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 5886,
+      "stars": 5891,
       "forks": 475,
       "starsToday": 257,
       "homepage": null,
@@ -1339,7 +1288,7 @@
       "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 24129,
+      "stars": 24137,
       "forks": 2388,
       "starsToday": 1687,
       "homepage": "https://gpt-image2.canghe.ai",
@@ -1364,7 +1313,7 @@
       "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
       "language": "Go",
       "languageColor": "#00ADD8",
-      "stars": 2487,
+      "stars": 2495,
       "forks": 67,
       "starsToday": 986,
       "homepage": "https://tailscale.com/tailcat",
@@ -1378,8 +1327,8 @@
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
       "languageColor": "#b07219",
-      "stars": 73239,
-      "forks": 8005,
+      "stars": 73245,
+      "forks": 8006,
       "starsToday": 205,
       "homepage": "https://www.nsa.gov/ghidra",
       "topics": [
@@ -1396,7 +1345,7 @@
       "description": "Compile PHP to Native Binaries",
       "language": "PHP",
       "languageColor": "#4F5D95",
-      "stars": 760,
+      "stars": 764,
       "forks": 38,
       "starsToday": 188,
       "homepage": "https://swoole.com/aot/",
@@ -1410,7 +1359,7 @@
       "description": "Open-source framework for the research and development of foundation models.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 2847,
+      "stars": 2853,
       "forks": 236,
       "starsToday": 236,
       "homepage": "https://marin.community",
@@ -1424,8 +1373,8 @@
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 21453,
-      "forks": 3042,
+      "stars": 21463,
+      "forks": 3044,
       "starsToday": 477,
       "homepage": "https://freellmapi.co",
       "topics": []
@@ -1438,7 +1387,7 @@
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
       "languageColor": "#3178c6",
-      "stars": 49921,
+      "stars": 49923,
       "forks": 3502,
       "starsToday": 61,
       "homepage": "https://npmjs.org/package/chrome-devtools-mcp",
@@ -1461,7 +1410,7 @@
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 50542,
+      "stars": 50545,
       "forks": 8777,
       "starsToday": 703,
       "homepage": "https://aiengineeringfromscratch.com",
@@ -1496,8 +1445,8 @@
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "stars": 115088,
-      "forks": 6289,
+      "stars": 115108,
+      "forks": 6291,
       "starsToday": 1396,
       "homepage": "https://ponytail.dev",
       "topics": [
@@ -1521,7 +1470,7 @@
       "description": "GoogleTest - Google Testing and Mocking Framework",
       "language": "C++",
       "languageColor": "#f34b7d",
-      "stars": 39147,
+      "stars": 39149,
       "forks": 10869,
       "starsToday": 156,
       "homepage": "https://google.github.io/googletest/",
@@ -1535,7 +1484,7 @@
       "description": "A framework for building realtime voice AI agents 🤖🎙️📹",
       "language": "Python",
       "languageColor": "#3572A5",
-      "stars": 13266,
+      "stars": 13272,
       "forks": 3626,
       "starsToday": 14,
       "homepage": "https://docs.livekit.io/agents",
@@ -2296,6 +2245,25 @@
   "jobsThreadUrl": "https://news.ycombinator.com/item?id=49156683",
   "stackOverflowQuestions": [
     {
+      "id": 79999024,
+      "title": "Alternative way to check if input value is present in `enum` or not. Currently working with `std::ranges::contains` and `std::array`",
+      "url": "https://stackoverflow.com/questions/79999024/alternative-way-to-check-if-input-value-is-present-in-enum-or-not-currently-w",
+      "tags": [
+        "c++",
+        "validation",
+        "enums",
+        "c++23"
+      ],
+      "score": 0,
+      "answerCount": 0,
+      "viewCount": 24,
+      "isAnswered": false,
+      "ownerName": "L1L2L3",
+      "ownerUrl": "https://stackoverflow.com/users/32753773/l1l2l3",
+      "createdAt": "2026-08-28T17:05:38.000Z",
+      "bodyExcerpt": "When working with keyboard input in a situation like the one shown in the next simplified example: abc.hpp #pragma once #include <array> enum FileType : int { JSON = 1, YAML = 2, XML = 3 }; constexpr std::array<FileType, 3> file_types { FileType::JSON, FileType::YAML, FileType::XML }; /* constexpr std::array<FileType, 3> file_types { JSON, YAML, XML }; */ main.cpp #include <algorithm> #include <iostream> #include \"abc.hpp\" int main() { std::cout << \"Enter the file type:\\n\"; int ft{0}; std::cin >> ft; if (std::ranges::contains(file_types, ft)) // if (std::ranges::contains(FileType, ft)): error \"type name is not allowed\" { std::cout << \"valid input\\n\"; } else // if (!std::ranges::contains(file_types, ft)) { std::cout << \"invalid input\\n\"; return 1; } if (ft == FileType::JSON) { std::cout << \"file type is JSON\\n\"; } else if (ft == FileType::YAML) { std::cout << \"file type is YAML\\n\"; } else if (ft == FileType::XML) { std::cout << \"file type is XML\\n\"; } return 0; Is there a more direct way to check if the input value is present among the enum defined range of values? In this example that process is being done by manually adding the enum values into a std::array and then with std::ranges::contains() checking if the input value is present in the array, but this presents a scalability problem in case the enum could have tens of possible options ."
+    },
+    {
       "id": 79999006,
       "title": "Getting the SQL for dynamic queries",
       "url": "https://stackoverflow.com/questions/79999006/getting-the-sql-for-dynamic-queries",
@@ -2303,10 +2271,10 @@
         "scala",
         "quill.io"
       ],
-      "score": 0,
+      "score": 1,
       "answerCount": 1,
-      "viewCount": 27,
-      "isAnswered": false,
+      "viewCount": 33,
+      "isAnswered": true,
       "ownerName": "M. Justin",
       "ownerUrl": "https://stackoverflow.com/users/1108305/m-justin",
       "createdAt": "2026-08-28T16:02:34.000Z",
@@ -2323,14 +2291,48 @@
         "multi-tenant",
         "row-level-security"
       ],
-      "score": -1,
+      "score": -2,
       "answerCount": 0,
-      "viewCount": 22,
+      "viewCount": 29,
       "isAnswered": false,
       "ownerName": "daniel sas",
       "ownerUrl": "https://stackoverflow.com/users/14924191/daniel-sas",
       "createdAt": "2026-08-28T16:42:38.000Z",
       "bodyExcerpt": "I have a PostgreSQL database that contains multiple independent schemas. I am providing independent access to each schema to my customers, but I face security issues. I am looking for ways to detect and deter scrapping and data leakage as I would prefer my dataset not to be everywhere. I am using roles to restrict users to read only access, my users have individual credentials to the schemas, which are unique for each. They use these credentials for data science, but so far I can't find any method to make the security more robust. I'm storing user data in MongoDB so I have some sort of isolation, but I don't think it is enough."
+    },
+    {
+      "id": 79999022,
+      "title": "How to have set a precise size for a font in Swing",
+      "url": "https://stackoverflow.com/questions/79999022/how-to-have-set-a-precise-size-for-a-font-in-swing",
+      "tags": [
+        "java",
+        "swing"
+      ],
+      "score": 0,
+      "answerCount": 1,
+      "viewCount": 16,
+      "isAnswered": true,
+      "ownerName": "Grinding For Reputation",
+      "ownerUrl": "https://stackoverflow.com/users/21252090/grinding-for-reputation",
+      "createdAt": "2026-08-28T16:59:17.000Z",
+      "bodyExcerpt": "As the title suggests, I want to set a very specific, i.e float value for my font. While Font#deriveFont does take in a float , it has almost no effect on the font size unless the integer part of the float changes. A practical use of this would be as in my previous question (this question is quite different so I decided to post it separate) to scale a component to match with the current window/parent component size. import java.awt.event.ComponentAdapter; import java.awt.event.ComponentEvent; import javax.swing.JFrame; import javax.swing.JTextArea; import javax.swing.SwingUtilities; public class ResizableText { static final String TEST = \"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut accumsan ex. Duis maximus eu libero vitae efficitur. Suspendisse semper pellentesque mi at maximus. Donec lacinia eros non tincidunt dapibus. Nulla pulvinar tortor eros, id tempor nisi elementum non. Nulla bibendum, turpis sed ornare ornare, velit urna porta turpis, sit amet volutpat metus purus consequat nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur lacus lectus, fermentum non accumsan eget, tempor sed purus.\"; static final float SCALE_WIDTH = 800; public static void main(String[] args) { SwingUtilities.invokeLater(() -> new ResizableText()); } public ResizableText() { JFrame jf = new JFrame(); jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); jf.setSize(800,600); jf.setLocationRelativeTo(null); JTextArea jta = new JTextArea(); jf.addComponentListener(new ComponentAdapter() { @Override public void componentResized(ComponentEvent e) { int currentWidth = jf.getWidth(); float scale = (float) (currentWidth) / SCALE_WIDTH; jf.setSize(currentWidth, (int) (600 * scale)); jta.setFont(jta.getFont().deriveFont(15 * scale)); } }); jta.setText(TEST); jta.setLineWrap(true); jf.add(jta); jf.setVisible(true); } } As the program above shows, the font really doesn't change unless its integer part changes. Also I'm not s"
+    },
+    {
+      "id": 79999016,
+      "title": "Adding New User just spins",
+      "url": "https://stackoverflow.com/questions/79999016/adding-new-user-just-spins",
+      "tags": [
+        "firebase-authentication",
+        "google-signin"
+      ],
+      "score": -3,
+      "answerCount": 0,
+      "viewCount": 18,
+      "isAnswered": false,
+      "ownerName": "Jordan Foster",
+      "ownerUrl": "https://stackoverflow.com/users/33073371/jordan-foster",
+      "createdAt": "2026-08-28T16:36:04.000Z",
+      "bodyExcerpt": "When I add a new user to my Firebase app, they receive the invite where they then sign in with their google account. After it redirects to the firebase app login, it just spins. The project creator was let go around the same time as this, so I am curious if it is related. His account is still active, though it has a different password now. None of his permissions within firebase was changed. Any insight?"
     },
     {
       "id": 79999012,
@@ -2345,46 +2347,12 @@
       ],
       "score": 0,
       "answerCount": 0,
-      "viewCount": 14,
+      "viewCount": 16,
       "isAnswered": false,
       "ownerName": "Lucas",
       "ownerUrl": "https://stackoverflow.com/users/23573149/lucas",
       "createdAt": "2026-08-28T16:16:33.000Z",
       "bodyExcerpt": "I am integrating Firebase into a SwiftUI iOS app using Swift Package Manager. FirebaseAnalytics is added to my app target in Xcode under Frameworks, Libraries, and Embedded Content. Environment: Firebase iOS SDK: 12.18.0 Xcode: 26.2 Integration: Swift Package Manager Bundle ID: com.dnuapps.teezer With the Firebase documentation setup, I only call FirebaseApp.configure() in my UIApplicationDelegate. Firebase Core and Crashlytics start correctly, but Analytics is not detected at runtime. Crashlytics logs this warning: FirebaseCrashlytics: Firebase Analytics SDK not detected. Crash-free statistics and breadcrumbs will not be reported. If I explicitly add FirebaseAnalytics and call Analytics.setAnalyticsCollectionEnabled(true) after FirebaseApp.configure(), Analytics starts correctly and events upload successfully. The logs then show: FirebaseAnalytics: Analytics v.12.18.0 started FirebaseAnalytics: Analytics is ready to receive events FirebaseAnalytics: Successful upload. Code: 204 My question: Should FirebaseAnalytics be automatically detected with only FirebaseApp.configure() when it is added to the target through Swift Package Manager, or is this expected linker behavior, where the app must explicitly reference Analytics in code to force the SDK to be loaded? Is Analytics.setAnalyticsCollectionEnabled(true) a valid production fix, or should I use -ObjC in Other Linker Flags instead?"
-    },
-    {
-      "id": 79999019,
-      "title": "Stratified sampling in R",
-      "url": "https://stackoverflow.com/questions/79999019/stratified-sampling-in-r",
-      "tags": [
-        "r",
-        "sample"
-      ],
-      "score": 0,
-      "answerCount": 0,
-      "viewCount": 12,
-      "isAnswered": false,
-      "ownerName": "Daniel AG",
-      "ownerUrl": "https://stackoverflow.com/users/17431143/daniel-ag",
-      "createdAt": "2026-08-28T16:48:47.000Z",
-      "bodyExcerpt": "I have the following dataframe set.seed(123) gdf <- data.frame( split = sample(c(\"train\", \"test\", \"valid\"), 1000, replace = TRUE), strata = sample(c(\"A\", \"B\", \"C\"), 1000, replace = TRUE), image_id = sample(1:3000, 1000, replace = TRUE) ) Since I have way too many training, validation and test images, I need to perform a stratified sampling. Let's say I just need 400 training images, 100 for test and 100 for validation. split strata n 1 test A 103 2 test B 95 3 test C 123 4 train A 111 5 train B 111 6 train C 112 7 valid A 120 8 valid B 101 9 valid C 124 I was thinking about combining group_by() and sample_n() but this does not take into account, for example, the proportion of strata B in the test split relative to the whole test split. I would like to get x images per strata that are proportional to the size of the strata and the split."
-    },
-    {
-      "id": 79999016,
-      "title": "Adding New User just spins",
-      "url": "https://stackoverflow.com/questions/79999016/adding-new-user-just-spins",
-      "tags": [
-        "firebase-authentication",
-        "google-signin"
-      ],
-      "score": -3,
-      "answerCount": 0,
-      "viewCount": 11,
-      "isAnswered": false,
-      "ownerName": "Jordan Foster",
-      "ownerUrl": "https://stackoverflow.com/users/33073371/jordan-foster",
-      "createdAt": "2026-08-28T16:36:04.000Z",
-      "bodyExcerpt": "When I add a new user to my Firebase app, they receive the invite where they then sign in with their google account. After it redirects to the firebase app login, it just spins. The project creator was let go around the same time as this, so I am curious if it is related. His account is still active, though it has a different password now. None of his permissions within firebase was changed. Any insight?"
     },
     {
       "id": 79999021,
@@ -2395,7 +2363,7 @@
       ],
       "score": -5,
       "answerCount": 0,
-      "viewCount": 13,
+      "viewCount": 17,
       "isAnswered": false,
       "ownerName": "iphat chaudhary",
       "ownerUrl": "https://stackoverflow.com/users/21181469/iphat-chaudhary",
@@ -2414,7 +2382,7 @@
       ],
       "score": 0,
       "answerCount": 3,
-      "viewCount": 53,
+      "viewCount": 59,
       "isAnswered": true,
       "ownerName": "M. Justin",
       "ownerUrl": "https://stackoverflow.com/users/1108305/m-justin",
@@ -2430,9 +2398,9 @@
         "linux",
         "wayland"
       ],
-      "score": -1,
+      "score": 0,
       "answerCount": 0,
-      "viewCount": 54,
+      "viewCount": 60,
       "isAnswered": false,
       "ownerName": "Qadir Manan ",
       "ownerUrl": "https://stackoverflow.com/users/32080865/qadir-manan",
@@ -2451,7 +2419,7 @@
       ],
       "score": -5,
       "answerCount": 2,
-      "viewCount": 51,
+      "viewCount": 55,
       "isAnswered": false,
       "ownerName": "Peter Bill",
       "ownerUrl": "https://stackoverflow.com/users/3572241/peter-bill",
@@ -2467,7 +2435,7 @@
       ],
       "score": 0,
       "answerCount": 2,
-      "viewCount": 52,
+      "viewCount": 55,
       "isAnswered": true,
       "ownerName": "Ben Slade",
       "ownerUrl": "https://stackoverflow.com/users/469352/ben-slade",
@@ -2486,7 +2454,7 @@
       ],
       "score": 3,
       "answerCount": 2,
-      "viewCount": 141,
+      "viewCount": 144,
       "isAnswered": true,
       "ownerName": "bofo",
       "ownerUrl": "https://stackoverflow.com/users/31261270/bofo",
@@ -2505,7 +2473,7 @@
       ],
       "score": 4,
       "answerCount": 1,
-      "viewCount": 61,
+      "viewCount": 66,
       "isAnswered": true,
       "ownerName": "Steve Summit",
       "ownerUrl": "https://stackoverflow.com/users/3923896/steve-summit",
@@ -2524,7 +2492,7 @@
       ],
       "score": -1,
       "answerCount": 0,
-      "viewCount": 14,
+      "viewCount": 16,
       "isAnswered": false,
       "ownerName": "Laundryman",
       "ownerUrl": "https://stackoverflow.com/users/1735482/laundryman",
@@ -2542,7 +2510,7 @@
       ],
       "score": -2,
       "answerCount": 1,
-      "viewCount": 42,
+      "viewCount": 44,
       "isAnswered": true,
       "ownerName": "Alberto Benedetto",
       "ownerUrl": "https://stackoverflow.com/users/14657472/alberto-benedetto",
@@ -2559,12 +2527,29 @@
       ],
       "score": 2,
       "answerCount": 2,
-      "viewCount": 77,
+      "viewCount": 79,
       "isAnswered": true,
       "ownerName": "Reinhard Schrage",
       "ownerUrl": "https://stackoverflow.com/users/29274108/reinhard-schrage",
       "createdAt": "2026-08-28T10:26:57.000Z",
       "bodyExcerpt": "The following code snipped defines a nested chain of templated C++ classes. The problem I have starts on the third level. The initialization of the three level nested class works well, which can easily checked in a debugger. However, a problem arises when attempting to access the nested class member variables aValue. While the first two levels work well, accessing third level aValue gives me no joy. Any suggestions on how to propagate variable access down the chain? Ideally, is there any iterator available for a looped access? template <typename T, typename Tail> // Tail will be a UnionNode too. struct UnionNode : public Tail { T aValue ; template<typename U> struct inUnion { typedef typename Tail::template inUnion<U> dummy; }; }; template <typename T> // For the last node Tn. struct UnionNode<T, void> { T aValue ; }; void AnotherTest() { // definition and initialization OK. Confirmed in Debugger. UnionNode<int, UnionNode<float, UnionNode<char,void>>> aNode {'c', 3.14, 10}; // no problem int *i_aValue = &aNode.aValue; // no problem float *f_aValue = &aNode.UnionNode<float, UnionNode<char,void>>::aValue; // this does not compile char *c_aValue = &aNode.UnionNode<float, UnionNode<char,void>>.UnionNode<char,void>::aValue; // nor does this compile char *c_aValue = &aNode.UnionNode<float, UnionNode<char,void>>::UnionNode<char,void>::aValue; *i_aValue = 100; // OK *f_aValue = 2.78; // OK }"
+    },
+    {
+      "id": 79998914,
+      "title": "Use a group by to have as results a count of 'value = x' and a count of 'value <> x'?",
+      "url": "https://stackoverflow.com/questions/79998914/use-a-group-by-to-have-as-results-a-count-of-value-x-and-a-count-of-value",
+      "tags": [
+        "sql",
+        "oracle-database"
+      ],
+      "score": 2,
+      "answerCount": 2,
+      "viewCount": 60,
+      "isAnswered": true,
+      "ownerName": "Marco Flavio Farella",
+      "ownerUrl": "https://stackoverflow.com/users/31722949/marco-flavio-farella",
+      "createdAt": "2026-08-28T09:59:29.000Z",
+      "bodyExcerpt": "I'm writing a query in Oracle SQL. I'm using a count - group by query, for example: select column_a, count(*) from table_1 group by column_a COLUMN_A COUNT(*) value_1 5 value_2 6 value_3 2 (null) 1 Can I write a group by that allows me to get two result rows, one with value_1 and its count, and another with the count of all other values? It would look like this: COLUMN_A COUNT(*) value_1 5 others 9"
     },
     {
       "id": 79998971,
@@ -2578,7 +2563,7 @@
       ],
       "score": -5,
       "answerCount": 0,
-      "viewCount": 39,
+      "viewCount": 41,
       "isAnswered": false,
       "ownerName": "Litcoder",
       "ownerUrl": "https://stackoverflow.com/users/31043634/litcoder",
@@ -2597,7 +2582,7 @@
       ],
       "score": 0,
       "answerCount": 0,
-      "viewCount": 24,
+      "viewCount": 25,
       "isAnswered": false,
       "ownerName": "Frexom",
       "ownerUrl": "https://stackoverflow.com/users/17774852/frexom",
@@ -2616,7 +2601,7 @@
       ],
       "score": -7,
       "answerCount": 0,
-      "viewCount": 62,
+      "viewCount": 65,
       "isAnswered": false,
       "ownerName": "Achrouf Abdenour",
       "ownerUrl": "https://stackoverflow.com/users/9262035/achrouf-abdenour",
@@ -2634,29 +2619,12 @@
       ],
       "score": -4,
       "answerCount": 0,
-      "viewCount": 45,
+      "viewCount": 47,
       "isAnswered": false,
       "ownerName": "Aryan zope",
       "ownerUrl": "https://stackoverflow.com/users/33072945/aryan-zope",
       "createdAt": "2026-08-28T13:51:38.000Z",
       "bodyExcerpt": "I want to build an app in Python, but I am struggling to decide how to structure the project and which backend approach to use. My goal is to create an application where farmers can view crop prices, connect with buyers, and get better market information. I have not written much code yet, so I am looking for guidance on how to start the Python backend and what components I should build first. What would be a good basic project structure for this type of Python application?"
-    },
-    {
-      "id": 79998952,
-      "title": "Which using directive and NuGet packages should I add to my Android project so that I can use the Google Play Services class PlayGames?",
-      "url": "https://stackoverflow.com/questions/79998952/which-using-directive-and-nuget-packages-should-i-add-to-my-android-project-so-t",
-      "tags": [
-        "c#",
-        "google-play-games"
-      ],
-      "score": -3,
-      "answerCount": 0,
-      "viewCount": 40,
-      "isAnswered": false,
-      "ownerName": "Bryan",
-      "ownerUrl": "https://stackoverflow.com/users/1760521/bryan",
-      "createdAt": "2026-08-28T12:33:51.000Z",
-      "bodyExcerpt": "I get the following error in this code when I try to sign in with GooglePlayGamesServices in a non Unity Android project in Visual Studio. The name 'PlayGames' does not exist in the current context var gamesSignInClient = PlayGames.GetGamesSignInClient(this); Which using directive and NuGet packages should I add to my Android project so that I can use the Google Play Services class PlayGames and GamesSignInClient in my Android project? How can I get the ServerAuthCode for Sign in with GooglePlayGamesServices? var gamesSignInClient = PlayGames.GetGamesSignInClient(this); gamesSignInClient.RequestServerSideAccess( webClientId, false ).AddOnCompleteListener(task => { if (task.IsSuccessful) { var authResponse = task.Result; var serverAuthCode = authResponse.AuthCode; // Pass this to PlayFab var request = new LoginWithGooglePlayGamesServicesRequest { TitleId = PlayFabSettings.TitleId, ServerAuthCode = serverAuthCode, CreateAccount = true }; PlayFabClientAPI.LoginWithGooglePlayGamesServices( request, result => { }, error => { } ); } });"
     },
     {
       "id": 79998970,
@@ -2669,12 +2637,29 @@
       ],
       "score": 0,
       "answerCount": 0,
-      "viewCount": 14,
+      "viewCount": 15,
       "isAnswered": false,
       "ownerName": "FrankL",
       "ownerUrl": "https://stackoverflow.com/users/6695039/frankl",
       "createdAt": "2026-08-28T14:18:55.000Z",
       "bodyExcerpt": "The official documentation on how to build better-sqlite3 using compile time flags for sqlite3 does not work since npm@12.0.1 because the npm install option --build-from-source has been suppressed. I've opened an issue on the GitHub repository where I mentioned a remedy (ugly hack). This worked up to better-sqlite3 < 13.0.0. But now they have suppressed the prebuild-install dependency and now the remedy does not work any more. Up to now I got no answer from the developers. How to build better-sqlite3 using compile time flags for sqlite3 (OS: Ubuntu 24.04)?"
+    },
+    {
+      "id": 79998952,
+      "title": "Which using directive and NuGet packages should I add to my Android project so that I can use the Google Play Services class PlayGames?",
+      "url": "https://stackoverflow.com/questions/79998952/which-using-directive-and-nuget-packages-should-i-add-to-my-android-project-so-t",
+      "tags": [
+        "c#",
+        "google-play-games"
+      ],
+      "score": -3,
+      "answerCount": 0,
+      "viewCount": 41,
+      "isAnswered": false,
+      "ownerName": "Bryan",
+      "ownerUrl": "https://stackoverflow.com/users/1760521/bryan",
+      "createdAt": "2026-08-28T12:33:51.000Z",
+      "bodyExcerpt": "I get the following error in this code when I try to sign in with GooglePlayGamesServices in a non Unity Android project in Visual Studio. The name 'PlayGames' does not exist in the current context var gamesSignInClient = PlayGames.GetGamesSignInClient(this); Which using directive and NuGet packages should I add to my Android project so that I can use the Google Play Services class PlayGames and GamesSignInClient in my Android project? How can I get the ServerAuthCode for Sign in with GooglePlayGamesServices? var gamesSignInClient = PlayGames.GetGamesSignInClient(this); gamesSignInClient.RequestServerSideAccess( webClientId, false ).AddOnCompleteListener(task => { if (task.IsSuccessful) { var authResponse = task.Result; var serverAuthCode = authResponse.AuthCode; // Pass this to PlayFab var request = new LoginWithGooglePlayGamesServicesRequest { TitleId = PlayFabSettings.TitleId, ServerAuthCode = serverAuthCode, CreateAccount = true }; PlayFabClientAPI.LoginWithGooglePlayGamesServices( request, result => { }, error => { } ); } });"
     },
     {
       "id": 79998932,
@@ -2687,7 +2672,7 @@
       ],
       "score": -2,
       "answerCount": 1,
-      "viewCount": 97,
+      "viewCount": 98,
       "isAnswered": false,
       "ownerName": "LenR",
       "ownerUrl": "https://stackoverflow.com/users/3824835/lenr",
@@ -2703,7 +2688,7 @@
       ],
       "score": 0,
       "answerCount": 1,
-      "viewCount": 49,
+      "viewCount": 51,
       "isAnswered": false,
       "ownerName": "Bryan",
       "ownerUrl": "https://stackoverflow.com/users/1760521/bryan",
@@ -2736,7 +2721,7 @@
       ],
       "score": 0,
       "answerCount": 0,
-      "viewCount": 33,
+      "viewCount": 35,
       "isAnswered": false,
       "ownerName": "Bryan",
       "ownerUrl": "https://stackoverflow.com/users/1760521/bryan",
@@ -2755,7 +2740,7 @@
       ],
       "score": 2,
       "answerCount": 0,
-      "viewCount": 51,
+      "viewCount": 52,
       "isAnswered": false,
       "ownerName": "caquis caquis",
       "ownerUrl": "https://stackoverflow.com/users/24123125/caquis-caquis",
@@ -2783,26 +2768,6 @@
       "bodyExcerpt": "Server is RHEL 7.9. Python Version 3.11 I need to deploy the FI/FR python project that is connected to Milvus Vector Database. I have the Milvus installed in my laptop through docker. I have been facing this issue a lot, Visual Studio environment is needed to run Ninja. It is recommended to use Meson wrapper. ERROR: C++ Compiler does not support -std=c++17 In the server, I have created the venv, but while installing the dependencies, issue is coming. Can anyone suugest the procedure how do we deploy the python project along with docker in the server. Mainly, how do we resolve Visual Studio environment needed to run Ninja in the server?"
     },
     {
-      "id": 79998942,
-      "title": "Jenkins Build Fails",
-      "url": "https://stackoverflow.com/questions/79998942/jenkins-build-fails",
-      "tags": [
-        "git",
-        "github",
-        "jenkins",
-        "version-control",
-        "continuous-integration"
-      ],
-      "score": -8,
-      "answerCount": 0,
-      "viewCount": 54,
-      "isAnswered": false,
-      "ownerName": "Arav",
-      "ownerUrl": "https://stackoverflow.com/users/33072654/arav",
-      "createdAt": "2026-08-28T11:46:35.000Z",
-      "bodyExcerpt": "Started by user ******* Checking out git **** into /var/jenkins_home/workspace/aes-2048@script/519e5a9175ad5cdede74766922794fd2bbd3bf02f8b8c920aac1858fbaeb4f3d to read Jenkinsfile The recommended git tool is: NONE No credentials specified Cloning the remote Git repository Cloning repository **** > git init /var/jenkins_home/workspace/aes-2048@script/519e5a9175ad5cdede74766922794fd2bbd3bf02f8b8c920aac1858fbaeb4f3d # timeout=10 Fetching upstream changes from **** > git --version # timeout=10 > git --version # 'git version 2.47.3' > git fetch --tags --force --progress -- ********+refs/heads/*:refs/remotes/origin/* # timeout=10 > git config remote.origin.url **** # timeout=10 > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10 Avoid second fetch > git rev-parse refs/remotes/origin/main^{commit} # timeout=10 > git rev-parse origin/main^{commit} # timeout=10 ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job. ERROR: Maximum checkout retry attempts reached, aborting ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job. ERROR: Maximum checkout retry attempts reached, aborting Finished: FAILURE"
-    },
-    {
       "id": 79998939,
       "title": "USE_COLUMN_TABLE hint has no effect in EXPLAIN — same plan with and without hint",
       "url": "https://stackoverflow.com/questions/79998939/use-column-table-hint-has-no-effect-in-explain-same-plan-with-and-without-hint",
@@ -2813,29 +2778,13 @@
       ],
       "score": 0,
       "answerCount": 0,
-      "viewCount": 43,
+      "viewCount": 44,
       "isAnswered": false,
       "ownerName": "jinglan0379",
       "ownerUrl": "https://stackoverflow.com/users/32792398/jinglan0379",
       "createdAt": "2026-08-28T11:34:17.000Z",
       "bodyExcerpt": "I'm on OceanBase CE 4.3.4 ( 5.7.25-OceanBase_CE-v4.3.4.0 ), MySQL mode, single-node. Same session: DROP TABLE IF EXISTS tt_column_row; CREATE TABLE tt_column_row ( c1 int PRIMARY KEY, c2 int, c3 int ) WITH COLUMN GROUP (all columns, each column); EXPLAIN SELECT /\\*+ USE_COLUMN_TABLE(tt_column_row) \\*/ \\* FROM tt_column_row; EXPLAIN SELECT /\\*+ NO_USE_COLUMN_TABLE(tt_column_row) \\*/ \\* FROM tt_column_row; Both return the same operator — TABLE FULL SCAN — no COLUMN TABLE FULL SCAN either way. SHOW CREATE TABLE tt_column_row confirms WITH COLUMN GROUP(all columns, each column) . Client is default mysql CLI on Linux (no extra flags). What confused me: per the column-store hint docs, USE_COLUMN_TABLE vs NO_USE_COLUMN_TABLE should pick column vs row storage, but EXPLAIN is identical. I also tried SELECT c1 only — same result. Question: Is this an optimizer limitation on this table/hint combination, or is something preventing the hints from reaching the server?"
-    },
-    {
-      "id": 79998914,
-      "title": "Use a group by to have as results a count of 'value = x' and a count of 'value <> x'?",
-      "url": "https://stackoverflow.com/questions/79998914/use-a-group-by-to-have-as-results-a-count-of-value-x-and-a-count-of-value",
-      "tags": [
-        "sql",
-        "oracle-database"
-      ],
-      "score": 2,
-      "answerCount": 1,
-      "viewCount": 59,
-      "isAnswered": true,
-      "ownerName": "Marco Flavio Farella",
-      "ownerUrl": "https://stackoverflow.com/users/31722949/marco-flavio-farella",
-      "createdAt": "2026-08-28T09:59:29.000Z",
-      "bodyExcerpt": "I'm writing a query in Oracle SQL. I'm using a count - group by query, for example: select column_a, count(*) from table_1 group by column_a COLUMN_A COUNT(*) value_1 5 value_2 6 value_3 2 (null) 1 Can I write a group by that allows me to get two result rows, one with value_1 and its count, and another with the count of all other values? It would look like this: COLUMN_A COUNT(*) value_1 5 others 9"
     }
-  ]
+  ],
+  "productHuntLaunches": []
 }
