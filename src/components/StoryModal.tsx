@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import type { HNStory } from '../types/hn';
 import { timeAgo } from '../utils/time';
+import { parseTitle } from '../utils/title';
 import { CommentList } from './CommentList';
 
 interface StoryModalProps {
@@ -18,6 +19,7 @@ export function StoryModal({ story, onClose }: StoryModalProps) {
   }, [onClose]);
 
   const targetUrl = story.url ?? story.hnUrl;
+  const { title, isVideo } = parseTitle(story.title);
 
   return (
     <div className="modal-backdrop" onClick={onClose}>
@@ -27,8 +29,9 @@ export function StoryModal({ story, onClose }: StoryModalProps) {
         </button>
 
         <h2 className="modal__title">
+          {isVideo && <span title="Video">&#127909; </span>}
           <a href={targetUrl} target="_blank" rel="noreferrer">
-            {story.title}
+            {title}
           </a>
         </h2>
         {story.domain && <span className="modal__domain">{story.domain}</span>}

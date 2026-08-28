@@ -1,30 +1,89 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import snapshot from './data/latest.json';
 import { Header } from './components/Header';
 import { TopicCloud } from './components/TopicCloud';
 import { StoryPanel } from './components/StoryPanel';
 import { StoryModal } from './components/StoryModal';
+import { DatePager } from './components/DatePager';
 import type { HNSnapshot, HNStory } from './types/hn';
 import { titleMatchesTopic } from './utils/topics';
+import { fetchArchiveDates, fetchSnapshotForDate } from './utils/archive';
 
-const data = snapshot as HNSnapshot;
+const bundledData = snapshot as HNSnapshot;
+const todayDate = bundledData.fetchedAt.slice(0, 10);
 
 export default function App() {
   const [selectedStory, setSelectedStory] = useState<HNStory | null>(null);
   const [activeTopic, setActiveTopic] = useState<string | null>(null);
+
+  const [availableDates, setAvailableDates] = useState<string[]>([todayDate]);
+  const [viewDate, setViewDate] = useState<string | null>(null); // null = today (bundled data)
+  const [remoteData, setRemoteData] = useState<HNSnapshot | null>(null);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    fetchArchiveDates().then((dates) => {
+      if (dates.length > 0) setAvailableDates(dates);
+    });
+  }, []);
+
+  useEffect(() => {
+    if (viewDate === null) {
+      setRemoteData(null);
+      return;
+    }
+    let cancelled = false;
+    setLoading(true);
+    fetchSnapshotForDate(viewDate)
+      .then((snap) => {
+        if (!cancelled) setRemoteData(snap);
+      })
+      .catch(() => {
+        if (!cancelled) setRemoteData(null);
+      })
+      .finally(() => {
+        if (!cancelled) setLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [viewDate]);
+
+  const data = viewDate === null ? bundledData : (remoteData ?? bundledData);
+  const currentIndex = Math.max(0, availableDates.indexOf(viewDate ?? todayDate));
+  const canGoOlder = currentIndex < availableDates.length - 1;
+  const canGoNewer = currentIndex > 0;
+
+  function goToIndex(index: number) {
+    const date = availableDates[index];
+    setSelectedStory(null);
+    setActiveTopic(null);
+    setViewDate(date === todayDate ? null : date);
+  }
 
   const visibleStories = useMemo(
     () =>
       activeTopic
         ? data.stories.filter((story) => titleMatchesTopic(story.title, activeTopic))
         : data.stories,
-    [activeTopic],
+    [data, activeTopic],
   );
 
   return (
     <div className="app">
       <Header fetchedAt={data.fetchedAt} storyCount={data.stories.length} />
       <main className="app__main">
+        {availableDates.length > 1 && (
+          <DatePager
+            label={viewDate ?? todayDate}
+            isToday={viewDate === null}
+            canGoOlder={canGoOlder}
+            canGoNewer={canGoNewer}
+            loading={loading}
+            onOlder={() => goToIndex(currentIndex + 1)}
+            onNewer={() => goToIndex(currentIndex - 1)}
+          />
+        )}
         <TopicCloud
           topics={data.topics}
           activeTopic={activeTopic}

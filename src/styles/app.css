@@ -57,6 +57,50 @@
   gap: 20px;
 }
 
+/* Date pager */
+.date-pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 8px 0;
+}
+
+.date-pager__btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 6px 12px;
+  color: var(--text-secondary);
+  font: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition:
+    border-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.date-pager__btn:hover:not(:disabled) {
+  border-color: var(--border-strong);
+  color: var(--hn-orange);
+}
+
+.date-pager__btn:disabled {
+  cursor: default;
+  opacity: 0.35;
+}
+
+.date-pager__label {
+  min-width: 180px;
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.8rem;
+}
+
+.date-pager__loading {
+  color: var(--text-faint);
+}
+
 .panel {
   background: var(--surface);
   border: 1px solid var(--border);

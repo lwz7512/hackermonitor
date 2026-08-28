@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Anthropic from '@anthropic-ai/sdk';
@@ -215,8 +215,28 @@ async function main() {
   const outDir = path.resolve(__dirname, '../src/data');
   await mkdir(outDir, { recursive: true });
   await writeFile(path.join(outDir, 'latest.json'), JSON.stringify(snapshot, null, 2));
-
   console.log(`Wrote ${stories.length} stories to src/data/latest.json`);
+
+  await writeArchive(snapshot);
+}
+
+async function writeArchive(snapshot: HNSnapshot) {
+  const date = snapshot.fetchedAt.slice(0, 10); // YYYY-MM-DD (UTC)
+  const archiveDir = path.resolve(__dirname, '../public/data/archive');
+  await mkdir(archiveDir, { recursive: true });
+  await writeFile(path.join(archiveDir, `${date}.json`), JSON.stringify(snapshot, null, 2));
+
+  const indexPath = path.join(archiveDir, 'index.json');
+  let dates: string[] = [];
+  try {
+    dates = JSON.parse(await readFile(indexPath, 'utf-8'));
+  } catch {
+    dates = [];
+  }
+  const updatedDates = Array.from(new Set([...dates, date])).sort((a, b) => b.localeCompare(a));
+  await writeFile(indexPath, JSON.stringify(updatedDates, null, 2));
+
+  console.log(`Archived snapshot for ${date} (${updatedDates.length} day(s) available)`);
 }
 
 main().catch((err) => {
