@@ -2,6 +2,7 @@ import type { GitHubRepo } from './github';
 import type { DevToArticle } from './devto';
 import type { HNJob } from './hnjob';
 import type { SOQuestion } from './stackoverflow';
+import type { PHLaunch } from './producthunt';
 
 export interface HNComment {
   id: number;
@@ -40,4 +41,5 @@ export interface HNSnapshot {
   jobsThreadTitle: string | null;
   jobsThreadUrl: string | null;
   stackOverflowQuestions: SOQuestion[];
+  productHuntLaunches: PHLaunch[];
 }

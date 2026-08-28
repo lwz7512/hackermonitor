@@ -1,18 +1,19 @@
 # Hacker Monitor
 
-A daily snapshot dashboard for the tech/geek community — five tabs, each a card grid you can click into for details, refreshed once a day:
+A daily snapshot dashboard for the tech/geek community — six tabs, each a card grid you can click into for details, refreshed once a day:
 
 - **Hacker News** — top stories, clickable hot tags, AI-generated summaries, top comments
 - **GitHub Trending** — today's trending repos, with description/topics/homepage
 - **Dev.to Gamedev** — this week's top `#gamedev` articles
 - **Who is Hiring** — postings from HN's monthly "Ask HN: Who is hiring?" thread
 - **Stack Overflow** — hot questions (SO's own decaying-activity ranking, not just top-scored)
+- **Product Hunt** — today's top product launches, ranked
 
 Styled after [worldmonitor](https://github.com/koala73/worldmonitor)'s dark "intel dashboard" look, but a much smaller stack: Vite + React + TypeScript, no backend.
 
 ## How it works
 
-1. A GitHub Actions workflow (`.github/workflows/scrape.yml`) runs daily at **12:00 UTC** and pulls from five sources: the [HN Algolia API](https://hn.algolia.com/api) (front page + comments + the current "Who is hiring?" thread), `github.com/trending` (HTML, no official API) enriched with the GitHub REST API for homepage/topics, the [Dev.to API](https://dev.to/api) filtered to `#gamedev`, and the [Stack Exchange API](https://api.stackexchange.com/) (`sort=hot`, unauthenticated, 300 req/day quota).
+1. A GitHub Actions workflow (`.github/workflows/scrape.yml`) runs daily at **12:00 UTC** and pulls from six sources: the [HN Algolia API](https://hn.algolia.com/api) (front page + comments + the current "Who is hiring?" thread), `github.com/trending` (HTML, no official API) enriched with the GitHub REST API for homepage/topics, the [Dev.to API](https://dev.to/api) filtered to `#gamedev`, the [Stack Exchange API](https://api.stackexchange.com/) (`sort=hot`, unauthenticated, 300 req/day quota), and `producthunt.com`'s server-rendered launch list (their official API is OAuth-only; the homepage embeds the same data as JSON, extracted with a small balanced-brace parser rather than regex).
 2. For each HN story it asks Claude (Haiku 4.5) for a 2-3 sentence summary — from the linked article when there's an external URL, or from the post's own body for text-only Ask/Launch/Show HN posts. Stories with no real content to summarize (paywalled, blocked, or JavaScript-rendered pages with nothing in the static HTML) simply have no summary.
 3. The scraper writes the result to `src/data/latest.json` **and** archives a dated copy to `public/data/archive/YYYY-MM-DD.json` (plus an `index.json` of available dates), then the workflow commits both straight to the repo.
 4. That push triggers Vercel to rebuild and redeploy — today's snapshot is bundled at build time for a fast first paint; the date pager fetches older archived days on demand as static JSON. No database, no API routes.
