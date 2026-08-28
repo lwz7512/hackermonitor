@@ -1,4 +1,5 @@
 import type { GitHubRepo } from './github';
+import type { DevToArticle } from './devto';
 
 export interface HNComment {
   id: number;
@@ -32,4 +33,5 @@ export interface HNSnapshot {
   stories: HNStory[];
   topics: HotTopic[];
   githubTrending: GitHubRepo[];
+  devtoArticles: DevToArticle[];
 }

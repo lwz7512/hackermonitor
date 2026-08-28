@@ -262,6 +262,12 @@
   white-space: nowrap;
 }
 
+.panel-card__reading-time {
+  color: var(--text-faint);
+  font-size: 0.7rem;
+  white-space: nowrap;
+}
+
 .repo-language {
   display: inline-flex;
   align-items: center;

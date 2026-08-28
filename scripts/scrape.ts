@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import Anthropic from '@anthropic-ai/sdk';
 import type { HNComment, HNSnapshot, HNStory, HotTopic } from '../src/types/hn.ts';
 import type { GitHubRepo } from '../src/types/github.ts';
+import type { DevToArticle } from '../src/types/devto.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -13,6 +14,10 @@ const COMMENTS_PER_STORY = 4;
 const TOPIC_COUNT = 24;
 
 const GITHUB_TRENDING_URL = 'https://github.com/trending?since=daily';
+
+const DEVTO_TAG = 'gamedev';
+const DEVTO_TOP_DAYS = 7;
+const DEVTO_COUNT = 20;
 
 const SUMMARY_MODEL = 'claude-haiku-4-5';
 const ARTICLE_CHAR_LIMIT = 6000;
@@ -287,6 +292,44 @@ async function fetchTrendingRepos(): Promise<GitHubRepo[]> {
   return repos;
 }
 
+interface DevToApiArticle {
+  id: number;
+  title: string;
+  url: string;
+  description: string | null;
+  cover_image: string | null;
+  tag_list: string[];
+  user: { name: string; username: string };
+  positive_reactions_count: number;
+  comments_count: number;
+  reading_time_minutes: number;
+  published_at: string;
+}
+
+async function fetchDevToArticles(): Promise<DevToArticle[]> {
+  try {
+    const url = `https://dev.to/api/articles?tag=${DEVTO_TAG}&top=${DEVTO_TOP_DAYS}&per_page=${DEVTO_COUNT}`;
+    const articles = await fetchJson<DevToApiArticle[]>(url);
+    return articles.map((a) => ({
+      id: a.id,
+      title: a.title,
+      url: a.url,
+      description: a.description,
+      coverImage: a.cover_image,
+      tags: a.tag_list,
+      authorName: a.user.name,
+      authorUsername: a.user.username,
+      reactions: a.positive_reactions_count,
+      comments: a.comments_count,
+      readingTimeMinutes: a.reading_time_minutes,
+      publishedAt: a.published_at,
+    }));
+  } catch (err) {
+    console.warn(`  failed to fetch Dev.to articles: ${(err as Error).message}`);
+    return [];
+  }
+}
+
 async function main() {
   console.log('Fetching HN front page...');
   const search = await fetchJson<{ hits: AlgoliaHit[] }>(
@@ -325,11 +368,16 @@ async function main() {
   const githubTrending = await fetchTrendingRepos();
   console.log(`  found ${githubTrending.length} trending repositories`);
 
+  console.log(`Fetching Dev.to #${DEVTO_TAG} articles...`);
+  const devtoArticles = await fetchDevToArticles();
+  console.log(`  found ${devtoArticles.length} articles`);
+
   const snapshot: HNSnapshot = {
     fetchedAt: new Date().toISOString(),
     stories,
     topics: extractTopics(stories),
     githubTrending,
+    devtoArticles,
   };
 
   const outDir = path.resolve(__dirname, '../src/data');
