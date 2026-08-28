@@ -14,7 +14,11 @@ export function StoryPanel({ story, onOpen }: StoryPanelProps) {
     <article className="panel-card" onClick={() => onOpen(story)}>
       <div className="panel-card__top">
         <span className="panel-card__rank">{story.rank}</span>
-        {story.summary && <span className="panel-card__ai-badge">AI summary</span>}
+        {story.summary && (
+          <span className="panel-card__ai-badge" title="AI summary available">
+            &#129302;
+          </span>
+        )}
       </div>
       <h3 className="panel-card__title">
         {isVideo && <span title="Video">&#127909; </span>}

@@ -210,13 +210,8 @@
 }
 
 .panel-card__ai-badge {
-  color: var(--green);
-  font-size: 0.68rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  border: 1px solid var(--green);
-  border-radius: var(--radius-sm);
-  padding: 1px 6px;
+  font-size: 0.95rem;
+  line-height: 1;
 }
 
 .panel-card__title {
