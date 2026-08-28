@@ -5,6 +5,7 @@ import Anthropic from '@anthropic-ai/sdk';
 import type { HNComment, HNSnapshot, HNStory, HotTopic } from '../src/types/hn.ts';
 import type { GitHubRepo } from '../src/types/github.ts';
 import type { DevToArticle } from '../src/types/devto.ts';
+import type { HNJob } from '../src/types/hnjob.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -18,6 +19,8 @@ const GITHUB_TRENDING_URL = 'https://github.com/trending?since=daily';
 const DEVTO_TAG = 'gamedev';
 const DEVTO_TOP_DAYS = 7;
 const DEVTO_COUNT = 20;
+
+const JOBS_COUNT = 40;
 
 const SUMMARY_MODEL = 'claude-haiku-4-5';
 const ARTICLE_CHAR_LIMIT = 6000;
@@ -330,6 +333,63 @@ async function fetchDevToArticles(): Promise<DevToArticle[]> {
   }
 }
 
+function splitJobPosting(html: string): { title: string; body: string } {
+  const splitIndex = html.search(/<p>/i);
+  if (splitIndex === -1) {
+    const full = stripHtml(html);
+    return { title: full.slice(0, 140), body: full };
+  }
+  const header = stripHtml(html.slice(0, splitIndex));
+  const body = stripHtml(html.slice(splitIndex));
+  return { title: header.length > 0 ? header : body.slice(0, 140), body };
+}
+
+interface JobsThread {
+  jobs: HNJob[];
+  threadTitle: string | null;
+  threadUrl: string | null;
+}
+
+async function fetchWhoIsHiringJobs(): Promise<JobsThread> {
+  const empty: JobsThread = { jobs: [], threadTitle: null, threadUrl: null };
+  try {
+    const search = await fetchJson<{ hits: AlgoliaHit[] }>(
+      `${ALGOLIA_BASE}/search_by_date?tags=story,author_whoishiring&hitsPerPage=10`,
+    );
+    const thread = search.hits.find((hit) => /who is hiring/i.test(hit.title));
+    if (!thread) return empty;
+
+    const threadId = Number(thread.objectID);
+    const item = await fetchJson<AlgoliaItem>(`${ALGOLIA_BASE}/items/${threadId}`);
+
+    const jobs: HNJob[] = (item.children ?? [])
+      .filter((child) => child.text && !/^\[(flagged|dead|deleted)\]$/i.test(stripHtml(child.text)))
+      .map((child) => {
+        const { title, body } = splitJobPosting(child.text as string);
+        return {
+          id: child.id,
+          author: child.author,
+          title,
+          text: body,
+          numReplies: (child.children ?? []).length,
+          createdAt: child.created_at,
+          hnUrl: `https://news.ycombinator.com/item?id=${child.id}`,
+        };
+      })
+      .sort((a, b) => b.numReplies - a.numReplies)
+      .slice(0, JOBS_COUNT);
+
+    return {
+      jobs,
+      threadTitle: thread.title,
+      threadUrl: `https://news.ycombinator.com/item?id=${threadId}`,
+    };
+  } catch (err) {
+    console.warn(`  failed to fetch Who is Hiring thread: ${(err as Error).message}`);
+    return empty;
+  }
+}
+
 async function main() {
   console.log('Fetching HN front page...');
   const search = await fetchJson<{ hits: AlgoliaHit[] }>(
@@ -372,12 +432,19 @@ async function main() {
   const devtoArticles = await fetchDevToArticles();
   console.log(`  found ${devtoArticles.length} articles`);
 
+  console.log('Fetching HN "Who is hiring?" thread...');
+  const { jobs, threadTitle, threadUrl } = await fetchWhoIsHiringJobs();
+  console.log(`  found ${jobs.length} job postings from "${threadTitle ?? 'no thread found'}"`);
+
   const snapshot: HNSnapshot = {
     fetchedAt: new Date().toISOString(),
     stories,
     topics: extractTopics(stories),
     githubTrending,
     devtoArticles,
+    jobs,
+    jobsThreadTitle: threadTitle,
+    jobsThreadUrl: threadUrl,
   };
 
   const outDir = path.resolve(__dirname, '../src/data');

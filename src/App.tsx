@@ -10,9 +10,12 @@ import { RepoCard } from './components/RepoCard';
 import { RepoModal } from './components/RepoModal';
 import { DevToCard } from './components/DevToCard';
 import { DevToModal } from './components/DevToModal';
+import { JobCard } from './components/JobCard';
+import { JobModal } from './components/JobModal';
 import type { HNSnapshot, HNStory } from './types/hn';
 import type { GitHubRepo } from './types/github';
 import type { DevToArticle } from './types/devto';
+import type { HNJob } from './types/hnjob';
 import { titleMatchesTopic } from './utils/topics';
 import { fetchArchiveDates, fetchSnapshotForDate } from './utils/archive';
 
@@ -24,6 +27,7 @@ export default function App() {
   const [selectedStory, setSelectedStory] = useState<HNStory | null>(null);
   const [selectedRepo, setSelectedRepo] = useState<GitHubRepo | null>(null);
   const [selectedArticle, setSelectedArticle] = useState<DevToArticle | null>(null);
+  const [selectedJob, setSelectedJob] = useState<HNJob | null>(null);
   const [activeTopic, setActiveTopic] = useState<string | null>(null);
 
   const [availableDates, setAvailableDates] = useState<string[]>([todayDate]);
@@ -62,6 +66,7 @@ export default function App() {
   const data = viewDate === null ? bundledData : (remoteData ?? bundledData);
   const githubTrending = data.githubTrending ?? [];
   const devtoArticles = data.devtoArticles ?? [];
+  const jobs = data.jobs ?? [];
   const currentIndex = Math.max(0, availableDates.indexOf(viewDate ?? todayDate));
   const canGoOlder = currentIndex < availableDates.length - 1;
   const canGoNewer = currentIndex > 0;
@@ -163,6 +168,32 @@ export default function App() {
             )}
           </section>
         )}
+
+        {activeTab === 'jobs' && (
+          <section className="panel">
+            <div className="panel__heading-row">
+              <h2 className="panel__heading">{data.jobsThreadTitle ?? 'Who is Hiring?'}</h2>
+              {data.jobsThreadUrl && (
+                <a
+                  className="panel__filter-clear"
+                  href={data.jobsThreadUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  view full thread on HN
+                </a>
+              )}
+            </div>
+            <div className="story-grid">
+              {jobs.map((job, index) => (
+                <JobCard key={job.id} job={job} rank={index + 1} onOpen={setSelectedJob} />
+              ))}
+            </div>
+            {jobs.length === 0 && (
+              <p className="comments__empty">No job postings for this day.</p>
+            )}
+          </section>
+        )}
       </main>
       <footer className="app__footer">
         Data refreshed daily via GitHub Actions from the{' '}
@@ -187,6 +218,7 @@ export default function App() {
       {selectedArticle && (
         <DevToModal article={selectedArticle} onClose={() => setSelectedArticle(null)} />
       )}
+      {selectedJob && <JobModal job={selectedJob} onClose={() => setSelectedJob(null)} />}
     </div>
   );
 }

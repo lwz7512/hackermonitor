@@ -1,5 +1,6 @@
 import type { GitHubRepo } from './github';
 import type { DevToArticle } from './devto';
+import type { HNJob } from './hnjob';
 
 export interface HNComment {
   id: number;
@@ -34,4 +35,7 @@ export interface HNSnapshot {
   topics: HotTopic[];
   githubTrending: GitHubRepo[];
   devtoArticles: DevToArticle[];
+  jobs: HNJob[];
+  jobsThreadTitle: string | null;
+  jobsThreadUrl: string | null;
 }
