@@ -12,7 +12,7 @@ export function TopicCloud({ topics, activeTopic, onSelect }: TopicCloudProps) {
 
   return (
     <section className="panel topics">
-      <h2 className="panel__heading">Hot Topics</h2>
+      <h2 className="panel__heading">Hot Tags</h2>
       <div className="topics__cloud">
         {topics.map((topic) => {
           const weight = topic.count / maxCount;

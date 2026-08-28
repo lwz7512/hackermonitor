@@ -1,6 +1,6 @@
 # Hacker Monitor
 
-A daily snapshot dashboard for [Hacker News](https://news.ycombinator.com/) — top stories in a card grid, hot topics, AI-generated article summaries, and top comments, refreshed once a day.
+A daily snapshot dashboard for [Hacker News](https://news.ycombinator.com/) — top stories in a card grid, clickable hot tags, AI-generated article summaries, and top comments, refreshed once a day.
 
 Styled after [worldmonitor](https://github.com/koala73/worldmonitor)'s dark "intel dashboard" look, but a much smaller stack: Vite + React + TypeScript, no backend.
 
