@@ -1,0 +1,1119 @@
+{
+  "fetchedAt": "2026-08-28T01:39:54.423Z",
+  "stories": [
+    {
+      "id": 49458161,
+      "rank": 1,
+      "title": "Nvidia agrees to acquire Hugging Face for $13B",
+      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "hnUrl": "https://news.ycombinator.com/item?id=49458161",
+      "domain": "businessinsider.com",
+      "points": 1829,
+      "author": "mfiguiere",
+      "createdAt": "2026-08-27T01:12:55Z",
+      "numComments": 855,
+      "topComments": [
+        {
+          "id": 49458186,
+          "author": "Avicebron",
+          "text": "tldr: the marketplace for opensource models became wide open",
+          "createdAt": "2026-08-27T01:15:22.000Z"
+        },
+        {
+          "id": 49458366,
+          "author": "sbinnee",
+          "text": "This is huge!",
+          "createdAt": "2026-08-27T01:39:46.000Z"
+        },
+        {
+          "id": 49458377,
+          "author": "Gigachad",
+          "text": "What is the business model of hugging face? My understanding was they were basically just a file hosting platform.",
+          "createdAt": "2026-08-27T01:40:50.000Z"
+        },
+        {
+          "id": 49458380,
+          "author": "jadar",
+          "text": "Hold on, these say no deal has been reached yet.",
+          "createdAt": "2026-08-27T01:41:50.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49468083,
+      "rank": 2,
+      "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+      "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49468083",
+      "domain": "blog.cloudflare.com",
+      "points": 508,
+      "author": "TangerineDream",
+      "createdAt": "2026-08-27T17:17:57Z",
+      "numComments": 139,
+      "topComments": [
+        {
+          "id": 49468379,
+          "author": "eviks",
+          "text": "> Once we store a DNS response in the cache, however, we never modify it again. The capacity field serves no purpose, but still costs 8 bytes per Vec Were there no design discussions/reviews when the system was setup to catch trivial things like this?",
+          "createdAt": "2026-08-27T17:37:34.000Z"
+        },
+        {
+          "id": 49468431,
+          "author": "irdc",
+          "text": "This is why system programming still matters. Looks like they're missing the obvious optimisation of putting the record data right after the CacheEntry members instead of allocating memory separately though. But that might just be me as a C-programmer talking and not be all that easy in Rust.",
+          "createdAt": "2026-08-27T17:40:52.000Z"
+        },
+        {
+          "id": 49468667,
+          "author": "strenholme",
+          "text": "With my own MaraDNS, I aggressively optimized the memory usage of blacklist entries by having a single really big malloc() to allocate the memory for the entries, then traversing that memory block for potentially blacklisted entries. When I was using one malloc() per entry, a large blacklist took up 237 megabytes of memory. The same blacklist, once optimized to be loaded with a single malloc() call, only took up 9.5 megabytes of memory. https://samboy.github.io/blog/entries/MaraDNS.html#BlogEntry...",
+          "createdAt": "2026-08-27T17:55:25.000Z"
+        },
+        {
+          "id": 49468769,
+          "author": "OptionOfT",
+          "text": "> we store the records as a single Box<[u8]> containing each record encoded as a 2-byte length prefix followed by its raw bytes. Interestingly this is exactly how netlink works-ish: https://manpages.ubuntu.com/manpages/focal/man3/netlink.3.ht... You start, get the type & length, and then that is how many bytes you read. Some issues with that when you deserialize, from a raw stream in to `[u8; 4096]` buffer, the alignment is only guaranteed to be on 1 byte, not 4 bytes. In practice it is 4 bytes, but if you run those tests with Miri, you'll get yelled at. So the fix there is to declare the buffer with a type that mandates the alignment of the largest type that you're going to be deserializing. So then you start your buffer as follows: `[u32; 1024]`, and with `slice::from_raw_parts` you get to turn that into `[u8; 4096]` with the expected alignment. As an exercise I wrote a streaming parser for netlink, the current existing package serializes everything, all at once.",
+          "createdAt": "2026-08-27T18:00:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49462763,
+      "rank": 3,
+      "title": "Microduck",
+      "url": "https://pollen-robotics.com/microduck/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49462763",
+      "domain": "pollen-robotics.com",
+      "points": 505,
+      "author": "robotswantdata",
+      "createdAt": "2026-08-27T10:57:56Z",
+      "numComments": 183,
+      "topComments": [
+        {
+          "id": 49463239,
+          "author": "unprovable",
+          "text": "Cute, and quite something if the sim-to-real pipeline is as smooth as we all might hope.",
+          "createdAt": "2026-08-27T11:47:44.000Z"
+        },
+        {
+          "id": 49463325,
+          "author": "tietjens",
+          "text": "What is the battery life?",
+          "createdAt": "2026-08-27T11:56:02.000Z"
+        },
+        {
+          "id": 49463336,
+          "author": "k3liutZu",
+          "text": "My wife would love one of these. She's still bitter we didn't get the Sony dog a decade ago.",
+          "createdAt": "2026-08-27T11:57:22.000Z"
+        },
+        {
+          "id": 49463368,
+          "author": "jCalamari",
+          "text": "AI is coming for pet market too.",
+          "createdAt": "2026-08-27T12:01:09.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49465169,
+      "rank": 4,
+      "title": "507 Mechanical Movements",
+      "url": "https://507movements.com/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49465169",
+      "domain": "507movements.com",
+      "points": 464,
+      "author": "helloplanets",
+      "createdAt": "2026-08-27T14:08:18Z",
+      "numComments": 67,
+      "topComments": [
+        {
+          "id": 49466143,
+          "author": "WillAdams",
+          "text": "One of my favourite sites! and an interesting example of that class of sites which are book made into sites with animations/interaction --- the another classic and notable example is: https://mathcs.clarku.edu/~djoyce/java/elements/elements.htm... Really wish that the folks doing the 507 Mechanical Movements would finish the balance of the animations. Curious if folks are aware of other similar text/website combinations which are still extant (many others such as Bembo's Zoo are no longer available, and of course at one point in time, this sort of thing was the province of CD-ROMs such as Leonardo).",
+          "createdAt": "2026-08-27T15:10:31.000Z"
+        },
+        {
+          "id": 49466359,
+          "author": "emacdona",
+          "text": "Many of these aren't animated... which gives me a great(?) idea for a new AI benchmark: \"Animate the mechanical movement at this URL: ...\" Way more telling that \"draw a pelican on a bicycle\"",
+          "createdAt": "2026-08-27T15:25:03.000Z"
+        },
+        {
+          "id": 49466400,
+          "author": "stoneman24",
+          "text": "Well, there’s a book from my past. Got the book to see if I could find a clever way to get high speed, low displacement and high torque from small motors without huge gearing. The side project was dropped as life got in the way, but I really enjoyed looking at all the different mechanisms.",
+          "createdAt": "2026-08-27T15:27:25.000Z"
+        },
+        {
+          "id": 49466438,
+          "author": "jjkaczor",
+          "text": "As a \"wannabe\" DIY engineer/maker and also in the 3d-printing hobby world, this is a wonderful resource...",
+          "createdAt": "2026-08-27T15:29:59.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49466917,
+      "rank": 5,
+      "title": "Small Models Have Arrived",
+      "url": "https://calv.info/small-models-have-arrived",
+      "hnUrl": "https://news.ycombinator.com/item?id=49466917",
+      "domain": "calv.info",
+      "points": 457,
+      "author": "tosh",
+      "createdAt": "2026-08-27T15:56:58Z",
+      "numComments": 205,
+      "topComments": [
+        {
+          "id": 49467436,
+          "author": "glimshe",
+          "text": "> There's obviously a lot we can optimize here, but if you're charging what the WSJ or The Economist charges, you'd better be delivering similar value. Gosh, watching paint dry has been a better value than reading The Economist in the last 5 years or so. That aside, I had good results with Luna. I'd be interested in hearing about a comparison that takes into consideration response time (not TPS), cost and performance of the popular models at different settings. That chart has some of that. For instance, is Luna Max a better value than Terra Medium?",
+          "createdAt": "2026-08-27T16:28:59.000Z"
+        },
+        {
+          "id": 49467563,
+          "author": "swiftcoder",
+          "text": "I find it quite funny all these folks who are addicted to chasing frontier models, only just noticing that small models became \"good enough\" for most tasks. Those of us without fable-sized expense accounts noticed this quite a while back",
+          "createdAt": "2026-08-27T16:38:23.000Z"
+        },
+        {
+          "id": 49467582,
+          "author": "tosh",
+          "text": "I think we'll see more of this soon replit is already leading the way with free luna usage",
+          "createdAt": "2026-08-27T16:40:40.000Z"
+        },
+        {
+          "id": 49467725,
+          "author": "caust1c",
+          "text": "IMO big models are not a product in and of themselves. Inference is just a new type of compute. I'm confident that in two or three years, every product will have inference capabilities integrated into the experience, and models will become less and less distinctive from one another. What most products need from a model is a pretty short list: the ability to make tool calls well, accurate recall, and the ability to follow directions without wavering (whether or not those directions are baked into the weights or provided in a system prompt). That covers 95% of inference utility in products. We're nearly there, and I believe these capabilities will fit on small models. Because of this though, I predict hardware demand will stay high despite demand for \"hosted\" inference dropping. Unless there's some regulatory shenanigans that step in to say otherwise.",
+          "createdAt": "2026-08-27T16:51:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49461817,
+      "rank": 6,
+      "title": "Show HN: The load-bearing vocabulary of Claude",
+      "url": "https://louisabraham.github.io/load-bearing/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49461817",
+      "domain": "louisabraham.github.io",
+      "points": 344,
+      "author": "Labo333",
+      "createdAt": "2026-08-27T08:59:49Z",
+      "numComments": 169,
+      "topComments": [
+        {
+          "id": 49466180,
+          "author": "sroussey",
+          "text": "I'm surprised vacuous is not on the list. The word selection and way of writing has taken the joy out of using Claude.",
+          "createdAt": "2026-08-27T15:12:41.000Z"
+        },
+        {
+          "id": 49466255,
+          "author": "fny",
+          "text": "While Claude's style is obnoxious, I'm more frustrated by its inscrutable explanations. You need a PhD to understand its explanation of a code snippet.",
+          "createdAt": "2026-08-27T15:18:17.000Z"
+        },
+        {
+          "id": 49466307,
+          "author": "nater5000",
+          "text": "I was pleasantly surprised when I attempted to scroll down and realized everything the author wanted to present fit on-screen. It's almost ironic that this site is able to make such an obvious, compelling presentation without being overly verbose or complicated (something which LLMs have a hard time doing). I wouldn't read TOO deeply into what is being presented, but the author has done a good job to not inject their own bias into the presentation which works well. I suspect, as we continue forward, humans will slowly start to adopt the language of LLMs, or at least certain language quirks that come from interacting with LLMs. Something I've noticed in my own writing is that I now present lists of examples in a consistent way: \"... such as <example 1>, <example 2>, etc., ...\". I started to notice I was using this pattern quite a bit somewhat recently, but I took a quick look at some of my social media posts and realized it's been occurring for a while. I had realized that I grown accustomed to this kind of language because, especially early on, LLMs would focus too much on the specific examples I'd provide when, really, I was just trying to give them a sense of what I was looking for. I just picked up that providing two examples then adding the \"etc.\" worked to get the LLM to not focus so much on the specific examples and to understand that they need to consider more than what I explicitly presented. Of course, now I write like that in my social media comments, in Slack with my colleagues, etc. :> I'd be interested to see if anyone can identify trends like this, since I think the human-language component of the adoption of LLMs is probably being somewhat neglected despite probably being surely dramatically affected.",
+          "createdAt": "2026-08-27T15:21:10.000Z"
+        },
+        {
+          "id": 49466492,
+          "author": "confusedbucket",
+          "text": "That confirms the recent spike of Claude calling everything I was recently working on a 'spike'. I still don't know what that term is supposed to represent (apparently).",
+          "createdAt": "2026-08-27T15:32:33.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49447057,
+      "rank": 7,
+      "title": "The turbulent AI era is here",
+      "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
+      "hnUrl": "https://news.ycombinator.com/item?id=49447057",
+      "domain": "gatesnotes.com",
+      "points": 215,
+      "author": "nanna",
+      "createdAt": "2026-08-26T11:23:54Z",
+      "numComments": 461,
+      "topComments": [
+        {
+          "id": 49448566,
+          "author": "debo_",
+          "text": "> I believe we should tax AI tokens and robots. Right now, if you’re an employer and you hire someone, you pay payroll taxes on their earnings. But if you buy a robot, you can usually write it off right away as a business expense. The tax system nudges you toward replacing people with machines.",
+          "createdAt": "2026-08-26T13:14:11.000Z"
+        },
+        {
+          "id": 49448576,
+          "author": "swed420",
+          "text": "> Instead, solutions should be developed through a public democratic process that includes elected officials, policymakers, educators, health workers, local officials, and community leaders. Millions of people will have their lives disrupted, and we’ll need a stronger, more flexible social safety net to help them manage the transition. Local communities are already raising concerns about the energy and water needed for data centers. Without solutions, some groups will push for stopping AI development and deployment altogether. Sounds great, except it ignores the fact that capital interests have controlled the levers of our faux democracies for decades, with no end in sight. https://en.wikipedia.org/wiki/Uniparty",
+          "createdAt": "2026-08-26T13:14:34.000Z"
+        },
+        {
+          "id": 49448589,
+          "author": "dostick",
+          "text": "> We have to think now about how to reduce job losses so that everyone can share in the prosperity that AI creates. And I thought he is a smart man. This is so last century thinking. We need to prepare that there will definitely be no jobs for everyone and that will be falling all the time, it’s not a one-time event you should “prepare for”. There’s nothing to prepare, we already have funds and productivity to feed and shelter everyone. UBI is not a privilege, previous generations were slaving 9 to 5 all their lives so we can have it. This is it, arrived, and now, enter a few decades of historical period when all of us waiting for government bureaucrats to realise that UBI is a right.",
+          "createdAt": "2026-08-26T13:15:23.000Z"
+        },
+        {
+          "id": 49448607,
+          "author": "simianwords",
+          "text": "It’s a good thoughtful piece. If I may suggest, the main problem and I mean the actual main problem are those people who underestimate the capabilities of AI. The ones who think it hallucinates all the time, unreliable and mostly useless. The average person thinks this technology is overhyped (like Emily Bender) so how would one even begin to have a conversation with them on the risks?",
+          "createdAt": "2026-08-26T13:16:50.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49466894,
+      "rank": 8,
+      "title": "Suica, Japan's First IC Transit Card",
+      "url": "https://www.tokyodev.com/articles/the-story-of-suica",
+      "hnUrl": "https://news.ycombinator.com/item?id=49466894",
+      "domain": "tokyodev.com",
+      "points": 191,
+      "author": "zdw",
+      "createdAt": "2026-08-27T15:55:12Z",
+      "numComments": 157,
+      "topComments": [
+        {
+          "id": 49467168,
+          "author": "insane_dreamer",
+          "text": "> The cards have no battery and aren’t self-powered in any way. Instead, the reader on the gate emits an electromagnetic field that powers the card just long enough to complete the transaction. Brillant!",
+          "createdAt": "2026-08-27T16:12:03.000Z"
+        },
+        {
+          "id": 49467182,
+          "author": "jjice",
+          "text": "Suica was excellent when I had the chance to use it. I used the Apple Pay version and it worked flawlessly. I think I do prefer what I'm seeing more and more in the US with a tap-to-pay so I don't have to learn a new system, but Suica was so universal that I really couldn't complain. Makes sense especially with the larger diversity of digital payment methods and cash prevalence in Japan.",
+          "createdAt": "2026-08-27T16:13:06.000Z"
+        },
+        {
+          "id": 49467228,
+          "author": "kubb",
+          "text": "One thing that surprised me was that certain ramen and soba shops didn’t accept cards at all and the only non-cash payment option was the IC card.",
+          "createdAt": "2026-08-27T16:15:59.000Z"
+        },
+        {
+          "id": 49467360,
+          "author": "trzy",
+          "text": "I still have my Passmo card from my very first visit to Japan in 2008. I went back in 2018 and it still worked and had a balance. I used it as recently as 2025. Pretty cool!",
+          "createdAt": "2026-08-27T16:24:26.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49467922,
+      "rank": 9,
+      "title": "Gemini Omni 1.1 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49467922",
+      "domain": "blog.google",
+      "points": 185,
+      "author": "saretup",
+      "createdAt": "2026-08-27T17:06:32Z",
+      "numComments": 139,
+      "topComments": [
+        {
+          "id": 49469238,
+          "author": "petcat",
+          "text": "I heard a radio spot recently and I wondered if the voice was a real person or AI. It makes we wonder how such industries are dealing with this gen-AI revolution. We spend a lot of time here thinking about how it affects software developers, but I hardly ever see any commentary on how it is affecting screen and voice actors.",
+          "createdAt": "2026-08-27T18:33:57.000Z"
+        },
+        {
+          "id": 49469464,
+          "author": "037",
+          "text": "Prompt engineering tip for Google employees: just add \"P.S. Make sure the page works in Firefox too.\"",
+          "createdAt": "2026-08-27T18:49:35.000Z"
+        },
+        {
+          "id": 49469622,
+          "author": "Gecko4072",
+          "text": "So Seedance is good primarily because of TikTok and this because of YouTube. I wonder what portion of all recorded video is privately held in hard drives at people’s homes or Apple photos. Of course there is data labeling and cleaning but is the next evolution just a question of access? Same goes for LLMs. Would people be willing to sell their data? Kind of a messed up way to make yourself obsolete. Or there is a limit to scaling?",
+          "createdAt": "2026-08-27T19:00:57.000Z"
+        },
+        {
+          "id": 49469756,
+          "author": "guilhermeasper",
+          "text": "Google does anything except launch a new version of Gemini Pro.",
+          "createdAt": "2026-08-27T19:10:08.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49466006,
+      "rank": 10,
+      "title": "Decompiling a Nintendo 64 game in 84 days",
+      "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49466006",
+      "domain": "blog.chrislewis.au",
+      "points": 177,
+      "author": "knackers",
+      "createdAt": "2026-08-27T15:01:11Z",
+      "numComments": 119,
+      "topComments": [
+        {
+          "id": 49467611,
+          "author": "hombre_fatal",
+          "text": "It's pretty amazing what you can do when you embrace LLMs, figure out how to build one high-quality rigorous project with them, and then start working on more projects. You become a machine with your workflow, once again limited only by your time/energy, tokens, and your discretion on how to spend it.",
+          "createdAt": "2026-08-27T16:43:19.000Z"
+        },
+        {
+          "id": 49467799,
+          "author": "ThrowawayTestr",
+          "text": "Awesome. Hopefully AI will allow more games to be decompiled in the future. Anyone working on a decomp of Perfect Dark?",
+          "createdAt": "2026-08-27T16:56:48.000Z"
+        },
+        {
+          "id": 49468051,
+          "author": "amjnsx",
+          "text": "I’m surprised the game companies themselves aren’t interested in these projects. Seems like easy money to just decompile a retro game, add some quality of life improvements and stick it on steam. Are their hands tied by legal or what other factors are preventing this?",
+          "createdAt": "2026-08-27T17:15:37.000Z"
+        },
+        {
+          "id": 49468167,
+          "author": "minimaxir",
+          "text": "It's especially annoying that LLMs/agents are a logical starting point for decompiling old games but there is a significant backlash against it as the gaming community is very anti-AI and consumers of the benefits decompiling offers tend to be noncoders who don't believe that AI can do more than slop. I've seen takes such as \"they're too lazy to learn C++\" and accepting a PR from someone using Claude taints the project irrevocably.",
+          "createdAt": "2026-08-27T17:23:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49468642,
+      "rank": 11,
+      "title": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
+      "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
+      "hnUrl": "https://news.ycombinator.com/item?id=49468642",
+      "domain": "code.ffmpeg.org",
+      "points": 176,
+      "author": "dclavijo",
+      "createdAt": "2026-08-27T17:53:40Z",
+      "numComments": 136,
+      "topComments": [
+        {
+          "id": 49468826,
+          "author": "dabinat",
+          "text": "It’s interesting how AI may both raise and lower the quality of software. It’s very easy to send an AI agent on an open-ended bug hunt, and if it wastes a bunch of time and effort and finds nothing, no big deal. Time is much more important for a human developer with a salary.",
+          "createdAt": "2026-08-27T18:04:10.000Z"
+        },
+        {
+          "id": 49469214,
+          "author": "VCFundedGenYer",
+          "text": "The fruits of using LLMs to code. You'll waste far more time finding what it quietly and subtly wrecked than you would have if you just coded it yourself.",
+          "createdAt": "2026-08-27T18:32:14.000Z"
+        },
+        {
+          "id": 49469316,
+          "author": "Surac",
+          "text": "send patches",
+          "createdAt": "2026-08-27T18:39:09.000Z"
+        },
+        {
+          "id": 49469328,
+          "author": "12j3afAv",
+          "text": "Generating an incorrect input file seems to be the easiest task of all for any fuzzer. Generating correct input to get deep into the call stack and then finding something is the hard part.",
+          "createdAt": "2026-08-27T18:40:17.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49464543,
+      "rank": 12,
+      "title": "Emacs 31: An unofficial guide to Markdown-ts-mode",
+      "url": "https://rahuljuliato.com/posts/markdown-ts-mode-emacs-31",
+      "hnUrl": "https://news.ycombinator.com/item?id=49464543",
+      "domain": "rahuljuliato.com",
+      "points": 151,
+      "author": "RahulMJ",
+      "createdAt": "2026-08-27T13:22:36Z",
+      "numComments": 64,
+      "topComments": [
+        {
+          "id": 49465177,
+          "author": "pjdesno",
+          "text": "For those of us who have just been using Emacs, rather than following its recent evolution, \"ts-mode\" refers to a mode which uses tree-sitter for parsing, highlighting etc.",
+          "createdAt": "2026-08-27T14:09:11.000Z"
+        },
+        {
+          "id": 49465331,
+          "author": "edgyquant",
+          "text": "What are people’s workflows for using eMacs with generative coding? I’m trying to get a workflow where I can generate code and approve it like a PR (maybe leave comments for a next round of generation) but I’m new to eMacs and the ai coding package isn’t working with the latest eMacs",
+          "createdAt": "2026-08-27T14:19:49.000Z"
+        },
+        {
+          "id": 49465830,
+          "author": "taude",
+          "text": "One of the biggest reason I've stopped using Emacs, and I was a pretty heavy user before was that org-mode files weren't fully native Markdown files, which caused annoying friction when collaborating with others. It would be interesting for me to have a new markdown-centric org-mode thing. I'd love to vibe lisp to customize my workflows, and I don't totally love Obsidian, which is what I've setup and configured now. I'd prefer to just have the config living in/around init.el/config.el (I used DoomEmacs most recently). I realize that org/agenda, etc does a ton more than markdown offers, but most of my flow is just around: raw notes to be consumed, check lists, due dates on items, and other \"basics\" of org-mode. Any recent Emacsers have similar workflows that are tgenible these days? I'd love to get Emacs back in use in my new antigenic Tmux-centric coding flows, and have it be a first class markdown editor, organizaer, and potentially collaboration.....",
+          "createdAt": "2026-08-27T14:51:29.000Z"
+        },
+        {
+          "id": 49466071,
+          "author": "RahulMJ",
+          "text": "A bit of extra info: - `ts` stands for \"tree-sitter\", meaning this mode uses tree-sitter under the hood, which is, among other things, very performant. - There's support for the CommonMark spec and GFM, so things like `- [ ]` checkboxes and ~~strikethrough~~ work out of the box, along with many other small QoL features. - This mode is BUILT-IN, so no extra packages are needed. - This is currently in the experimental phase, so users need to \"opt in\" and load the mode to play with it, hence the first part of the guide.",
+          "createdAt": "2026-08-27T15:05:33.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49468818,
+      "rank": 13,
+      "title": "Gemini-3.5-Transcribe",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49468818",
+      "domain": "blog.google",
+      "points": 141,
+      "author": "k9294",
+      "createdAt": "2026-08-27T18:03:42Z",
+      "numComments": 34,
+      "topComments": [
+        {
+          "id": 49470595,
+          "author": "Freedom2",
+          "text": "I'd love to know how this handles proper subtitle formatting. I'm in the process of learning many languages, and being able to cross check my own understanding with film and video would be fantastic.",
+          "createdAt": "2026-08-27T20:15:04.000Z"
+        },
+        {
+          "id": 49470611,
+          "author": "gumby271",
+          "text": "That's really impressive! It says it's available in GBoard on Android but I don't see it yet. I assume like most Google features it will be a rolling release over the course of several months, can't wait to try it some day.",
+          "createdAt": "2026-08-27T20:15:50.000Z"
+        },
+        {
+          "id": 49470825,
+          "author": "jeffbee",
+          "text": "I am not sure if \"Word Error Rate\" captures what has always been wrong with transcription. My biggest complaint is that it inserts sentence breaks in random places, then fails to evaluate the result, even though it is obviously wrong. Then I have to go fix it which can be harder than having just typed it myself, due to the difficulty of positioning the Android cursor, the fact that it automatically capitalizes if you delete a capital letter, etc. And much of the time I fail to notice the errors until later.",
+          "createdAt": "2026-08-27T20:32:05.000Z"
+        },
+        {
+          "id": 49470958,
+          "author": "HappyPanacea",
+          "text": "Does somebody knows what top locales list is sampled from? their own usage data? Also when they will use their AI to give better directions in Waze?",
+          "createdAt": "2026-08-27T20:42:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49464414,
+      "rank": 14,
+      "title": "Aphantasia Beginner's Guide",
+      "url": "https://aphantasia.com/guide",
+      "hnUrl": "https://news.ycombinator.com/item?id=49464414",
+      "domain": "aphantasia.com",
+      "points": 133,
+      "author": "ksec",
+      "createdAt": "2026-08-27T13:14:20Z",
+      "numComments": 304,
+      "topComments": [
+        {
+          "id": 49464620,
+          "author": "Artgor",
+          "text": "You know, I have learnt that I have aphantasia several years ago and it opened my eyes to many things. I have thought that people say a lot of things metaphorically. - Imagine a beach when meditating - If you are nervous about giving a presentation, imaging that the audience is naked - Count sheep in order to fall asleep fast - Undressing someone with your eyes - Visualising what is happening in the book you are reading. I was completely sure that these were just metaphors. Imagine my shock when I realised that the majority of people can actually DO IT.",
+          "createdAt": "2026-08-27T13:28:49.000Z"
+        },
+        {
+          "id": 49465518,
+          "author": "wmorgan",
+          "text": "An interesting test for kids that I stumbled upon. I’ll play them the audio of How the Grinch Stole Christmas, when we’re the car or whatever. So all the gags in that TV special are visual. Nevertheless my kids go nuts laughing from the back seat, at the right parts. What we’re all listening to is just instrumental, but they’re seeing all the gags. I wonder if you tried it with a kid with aphantasia. Would they laugh?",
+          "createdAt": "2026-08-27T14:30:45.000Z"
+        },
+        {
+          "id": 49465562,
+          "author": "Noaidi",
+          "text": "Thank you for this post. I have read several guides but this one is great and not just for me. I have aphantasia and Severely deficient autobiographical memory (SDAM) which often go hand in hand. Glad to have something I can give to people so they understand when I never remember their name. It is a weird thing to discover you have this. It has really added more difficulty to my already difficult life neurologically speaking. What I find interesting is that I have closed eye hallucinations. That is I do see things sometimes when I close my eyes but the things I see are not in my control. My psychiatrist told me that is because they are two different pathways and that is why we can still see dreams.",
+          "createdAt": "2026-08-27T14:33:28.000Z"
+        },
+        {
+          "id": 49465596,
+          "author": "drakonka",
+          "text": "When people talk about seeing something in your mind's eye, do they mean a virtual image actually appears _as if_ you are seeing it in place of the real world or the blackness of your eyelids? Like do they somehow replace the picture from the eyes to the brain with whatever they are trying to visualize in a sort of hallucination? Or do they still 'see' the blacks of their eyelids or the world around them while visualizing the apple but not _really_ seeing it?",
+          "createdAt": "2026-08-27T14:35:58.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49464314,
+      "rank": 15,
+      "title": "MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training",
+      "url": "https://aiandeducation.mit.edu/report/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49464314",
+      "domain": "aiandeducation.mit.edu",
+      "points": 113,
+      "author": "pbui",
+      "createdAt": "2026-08-27T13:07:45Z",
+      "numComments": 72,
+      "topComments": [
+        {
+          "id": 49465560,
+          "author": "testfoobar",
+          "text": "This is a bunch of fluff. I hope at least the snacks and lunches during the discussions were good. \"Guiding principles: Be bold. Be humble. Put humanity front and center. Lean into learning. Teach with intentionality. No one size fits all.\" \"Recommendations: Adapt educational processes for an AI-aware world. Center people, community, and the residential experience. Build processes, teams and tools for continuous reflection, iteration, and improvement\"",
+          "createdAt": "2026-08-27T14:33:23.000Z"
+        },
+        {
+          "id": 49465639,
+          "author": "phasefactor",
+          "text": "\"Be bold\" by saying nothing of any interest. I have to agree that this is basically just fluff. Anyone put it into pangram yet?",
+          "createdAt": "2026-08-27T14:39:16.000Z"
+        },
+        {
+          "id": 49465809,
+          "author": "us-merul",
+          "text": "I think this has been going on well before AI or LLMs: \"A fundamental danger, as we’ve discussed, is that AI can allow students to bypass learning. Equally concerning is that students may internalize a transactional model in which assignments are outputs, teachers are evaluators, peers are optional, and knowledge (or an MIT degree) is an optimizable commodity to be acquired or produced as efficiently as possible.\"",
+          "createdAt": "2026-08-27T14:50:18.000Z"
+        },
+        {
+          "id": 49465844,
+          "author": "a2ff6eeb0",
+          "text": "Education is so cooked. In 10 years, people arent going to find it useful financially. The AI will be better at economically relevant thinking. And there aren't enough hobbyist learners to sustain education at its current level.",
+          "createdAt": "2026-08-27T14:52:19.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49471407,
+      "rank": 16,
+      "title": "Show HN: We built open OpenRouter that turns usage into a better model",
+      "url": "https://github.com/experientiallabs/experiential",
+      "hnUrl": "https://news.ycombinator.com/item?id=49471407",
+      "domain": "github.com",
+      "points": 102,
+      "author": "SilenN",
+      "createdAt": "2026-08-27T21:18:35Z",
+      "numComments": 15,
+      "topComments": [
+        {
+          "id": 49471977,
+          "author": "Areibman",
+          "text": "Could you say more about how caching works? One major advantage of sticking with a single model is saving money on cached input tokens. I'd imagine if you swap between a bunch of models, you may improve performance but cost would would balloon out of control",
+          "createdAt": "2026-08-27T22:12:13.000Z"
+        },
+        {
+          "id": 49471998,
+          "author": "ashermania",
+          "text": "Finally an open source tool doing this!",
+          "createdAt": "2026-08-27T22:14:48.000Z"
+        },
+        {
+          "id": 49472268,
+          "author": "23david",
+          "text": "Super interesting and congrats on the release. Curious if you initially had this in Python and then rewrote in Rust?",
+          "createdAt": "2026-08-27T22:47:54.000Z"
+        },
+        {
+          "id": 49472738,
+          "author": "cheema33",
+          "text": "I have not tried it yet. Is it similar to LiteLLM? If so, what sets it apart?",
+          "createdAt": "2026-08-27T23:54:09.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49465732,
+      "rank": 17,
+      "title": "Launching Route 53 Files",
+      "url": "https://www.daemonology.net/blog/2026-08-27-Launching-Route-53-Files.html",
+      "hnUrl": "https://news.ycombinator.com/item?id=49465732",
+      "domain": "daemonology.net",
+      "points": 101,
+      "author": "louis-paul",
+      "createdAt": "2026-08-27T14:45:23Z",
+      "numComments": 37,
+      "topComments": [
+        {
+          "id": 49466186,
+          "author": "GuinansEyebrows",
+          "text": "> Q. Is this HIPAA compliant? > A. Please do not store patient information in DNS. love this. reminds me a little of something else in the realm of DNS \"hosting\" posted to hn a few years ago [0][1] [0] https://banner.triweb.dev [1] https://news.ycombinator.com/item?id=39502097",
+          "createdAt": "2026-08-27T15:13:10.000Z"
+        },
+        {
+          "id": 49466222,
+          "author": "ChiperSoft",
+          "text": "Are there that many people managing their dns by hand that they need this? Outside of various txt records, most of my domains are mapped to specific resources via automation.",
+          "createdAt": "2026-08-27T15:16:03.000Z"
+        },
+        {
+          "id": 49466642,
+          "author": "mlhpdx",
+          "text": "At first I thought this was a general purpose file system over R53, ala Corey Quinn. But my, what a gorgeously terrible idea. Well done.",
+          "createdAt": "2026-08-27T15:41:38.000Z"
+        },
+        {
+          "id": 49466939,
+          "author": "dbarlett",
+          "text": "Speaking as a former Blog Bar Raiser, cperciva has internalized the AWS blog style guide better than most Amazonians. This is spot-on.",
+          "createdAt": "2026-08-27T15:58:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49468593,
+      "rank": 18,
+      "title": "M5Stack Launches PaperMono",
+      "url": "https://shop.m5stack.com/blogs/news/m5stack-launches-papermono-a-compact-e-ink-development-terminal-for-connected-projects",
+      "hnUrl": "https://news.ycombinator.com/item?id=49468593",
+      "domain": "shop.m5stack.com",
+      "points": 91,
+      "author": "marksully",
+      "createdAt": "2026-08-27T17:50:57Z",
+      "numComments": 38,
+      "topComments": [
+        {
+          "id": 49469170,
+          "author": "g8425",
+          "text": "I wouldn't anticipate too much from m5stack. They have a habit of developing products that are well designed from a physical standpoint... but when you try to develop with them one finds that the software and support needed to achieve your goals are half-baked and downright annoying. UIFlow1/2, I'm looking at you... For reference, see the M5dinmeter",
+          "createdAt": "2026-08-27T18:29:11.000Z"
+        },
+        {
+          "id": 49469230,
+          "author": "NDlurker",
+          "text": "This is competition for the new XTEINK X4 Pro. Cost about half the price and is compatible with Crosspoint too.",
+          "createdAt": "2026-08-27T18:33:13.000Z"
+        },
+        {
+          "id": 49469584,
+          "author": "anonymous344",
+          "text": "nice, out of stock would need a cheaper one esp32, display the same size, battery and few buttons, no need for lights or even chassis, can 3d print it. but only found screens too small or costs more than this device! btw where does these ship from?",
+          "createdAt": "2026-08-27T18:58:16.000Z"
+        },
+        {
+          "id": 49469600,
+          "author": "3D30497420",
+          "text": "This announcement is from a few days ago. And it seems everywhere is out-of-stock. Any news about potential availability? (In the US ideally.)",
+          "createdAt": "2026-08-27T18:59:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49457722,
+      "rank": 19,
+      "title": "Afterglow: Run classic After Dark screen savers on modern macOS",
+      "url": "https://morphing.cloud/afterglow/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49457722",
+      "domain": "morphing.cloud",
+      "points": 88,
+      "author": "NaOH",
+      "createdAt": "2026-08-27T00:18:27Z",
+      "numComments": 35,
+      "topComments": [
+        {
+          "id": 49461753,
+          "author": "pogue",
+          "text": "I need this for Windows. The After Dark screensavers are on the internet archive, but obviously they look and run like crap since they're made for Windows 3.x to maybe 95/98.",
+          "createdAt": "2026-08-27T08:50:09.000Z"
+        },
+        {
+          "id": 49469451,
+          "author": "dylan604",
+          "text": "\"You can also browse and install software releases directly from the Internet Archive without leaving the app. \" That's a fine line being walked there. If they are worried about rights issues and not including the bundles, this seems like a risky FU by building this feature in directly. The part about using bundles you may have without asking questions of origin is fine. Otherwise, why not just include the bundles?",
+          "createdAt": "2026-08-27T18:48:48.000Z"
+        },
+        {
+          "id": 49469929,
+          "author": "devindotcom",
+          "text": "I need the Star Trek modules, which I recall waiting overnight to pirate from a BBS on my 14.4k. \"Do NOT pick up the phone, mom.\" Also Lunatic Fringe - somehow and for some reason a full top down space shoot-em-up in After Dark. Probably for office workers to play, I do recall there was a \"boss mode\" that pulled up a fake spreadsheet or something.",
+          "createdAt": "2026-08-27T19:22:31.000Z"
+        },
+        {
+          "id": 49470000,
+          "author": "Scramblejams",
+          "text": "I need this for Wayland. Maybe when the maintainers discover that joy in computing both exists and can be a worthwhile pursuit.",
+          "createdAt": "2026-08-27T19:28:08.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49458875,
+      "rank": 20,
+      "title": "Humanity has the debate about AI consciousness backwards",
+      "url": "https://economist.com/by-invitation/2026/08/20/humanity-has-the-debate-about-ai-consciousness-backwards",
+      "hnUrl": "https://news.ycombinator.com/item?id=49458875",
+      "domain": "economist.com",
+      "points": 87,
+      "author": "semiquaver",
+      "createdAt": "2026-08-27T02:37:07Z",
+      "numComments": 266,
+      "topComments": [
+        {
+          "id": 49459108,
+          "author": "semiquaver",
+          "text": "https://archive.ph/uLYYU",
+          "createdAt": "2026-08-27T03:06:54.000Z"
+        },
+        {
+          "id": 49459439,
+          "author": "rmunn",
+          "text": "Wow. I have rarely read anything that made me lose more respect for the author in a single article. And this guy is a VP at Google ? And he leads an AI research team ? His third paragraph, which is the core of his argument, is stupid . He says, \"As intelligent, social entities, we decide ... which other entities we regard as having inner lives and being worthy of care.\" Yes, that's correct. \"We do not care for others because they are conscious. Rather, we believe they are conscious when and because we care about them.\" (Emphasis in original). That's just utterly and completely backwards. We (at least, most people) avoid inflicting unnecessary pain on animals because they are conscious beings that can feel pain. (Obviously there are some exceptions, sadists who enjoy torturing animals, or even other human beings, merely because they like inflicting pain on other creatures — but note that even there, the sadist believes the creature he's torturing can feel pain, otherwise he wouldn't enjoy torturing it.) We take no such precautions with trees, because we know they do not feel pain. (Silly satirical songs notwithstanding: look up the song \"Carrot Juice is Murder\" by Arrogant Worms sometime if you want a good laugh). Is this guy really, truly, seriously arguing that we first decide to care for an animal, and then because we care about it, we believe that it's conscious, able to feel pain and other emotions? That's just so incredibly stupid that it seems hard to believe that someone would actually make that argument — and yet there it is, in plain language — and it's the core of his argument. The truth, of course, is the other way around: we take care of animals because we know they are able to experience pain, hunger, and so on. And this applies both to pets that we come to care about, and also to animals that we feel no emotional attachment to. I have a relative who runs a dairy farm. He doesn't love the cows he takes care of; in fact, he's frequently quite irritated at them. (Ask any dairy farmers you know how often cows have tried to step on their feet while being milked — the farmers' feet, not the cows' feet!) But he still makes sure they're fed and healthy. Not just because it makes good economic sense to do so (sick cows don't produce good milk) but also because it's the right thing to do. He doesn't start to believe that cows feel hunger because he cares for them; he also believes that the cows on other farms, that he has no connection to nor duty of care for, would also feel hunger if not fed. This is so intuitively obvious that I am stunned that someone would argue the opposite. And this is someone high up enough at Google to be making decisions about AI and so on? Wow. Good thing for him I'm not in charge of Google, because if anyone working for me were to make such a stupid argument I would be looking at his contract and local laws to see if it was legal to fire him for cause. Because if he can get his thinking so completely backwards from reality, he's not well-suited to work in tech where your work has to fit reality. I have rarely, not never but rarely, encountered an article that so immediately led me to conclude that the author, whom I knew nothing about beforehand, is an utterly muddled thinker and not worth listening to on any subject.",
+          "createdAt": "2026-08-27T03:49:46.000Z"
+        },
+        {
+          "id": 49459471,
+          "author": "moezd",
+          "text": "Oh come on. Objects are objects because you want to freely observe them without consciousness and privacy and taboo attached to them. Entities are entities because you want to assign credit or blame to them, so you want to believe that they have agency so that you hold them responsible. We did this with sharp volcanic rocks once, calling them evil. Did it help? No, we got idolatry and eons of bigotry until we secularized once again. Never forget that LLMs are just next token predictors. The harnesses are what's getting uncanny. And credit/blame assignment? Just assign a surrogate for now, let them deal with the consequences ffs.",
+          "createdAt": "2026-08-27T03:54:03.000Z"
+        },
+        {
+          "id": 49459510,
+          "author": "sebastianconcpt",
+          "text": "The narcissism of the thesis that places the author as center of the universe and creator of the rest of the consciousnesses \"because he cares\". That guy has acute Megalomaniac Solipsism Fever in disguise.",
+          "createdAt": "2026-08-27T03:58:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49468816,
+      "rank": 21,
+      "title": "Show HN: Voronoi Go",
+      "url": "https://voronoigo.com/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49468816",
+      "domain": "voronoigo.com",
+      "points": 83,
+      "author": "igpay",
+      "createdAt": "2026-08-27T18:03:37Z",
+      "numComments": 11,
+      "topComments": [
+        {
+          "id": 49470345,
+          "author": "xerox13ster",
+          "text": "Gonna be honest, this got a click from me as a golang developer having just come from the terminal multiplexer thread and I fully expected this to be about developing voronoi cells in golang. I don't know Go well enough to even begin to conceptualize how deeply this changes the rules and interactions of the game, so I'm not going to be able to comment on the concept itself, but I bounced off the tutorial the first time and by the end of it had no desire to play a full game against a bot. Maybe if the tutorial had walked me through the beginning and middle of the match with the bot and engineered the match so that the tutorial scenarios appeared within that game, it would have felt like less of a committment to actually start a full game.",
+          "createdAt": "2026-08-27T19:56:17.000Z"
+        },
+        {
+          "id": 49470408,
+          "author": "emaro",
+          "text": "Looks really cool. Saved for later because I'm on my phone right now. Ignored the warning and it was fine but the site refreshed sometimes which restarted the tutorial. The third time I gave up.",
+          "createdAt": "2026-08-27T20:01:15.000Z"
+        },
+        {
+          "id": 49470423,
+          "author": "pmontra",
+          "text": "Very well done. I had to enable desktop mode on a phone because the help dialog hides the board and the Next button is some meter below the bottom edge of the screen. That's the only issue and the site warns that it's best played on a desktop. Everything else is very well done and it's really a game of go, with eyes, invasions, connections, cuts.",
+          "createdAt": "2026-08-27T20:02:11.000Z"
+        },
+        {
+          "id": 49470855,
+          "author": "runarberg",
+          "text": "5 kyu in normal go here: I played a couple of games and got crushed by the AI. Groups are much harder to kill in this game, so having a large group of connected stones with zero or one eyes (what we call “dragons” in normal go) is a much better strategy (I think) then to create potentials in the corners. This is counter to the best strategy in normal go. We actually have a saying that “big dragons never die” , however it is actually an anti-proverb, because most dragons can be harassed while your opponent builds territory. So even if your dragons lives, you wasted a lot of stones keeping your dragon alive, while your opponent was calmly building territory, and gaining points.",
+          "createdAt": "2026-08-27T20:34:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49466622,
+      "rank": 22,
+      "title": "Engineered yeast for converting plastic and biomass compounds to food additives",
+      "url": "https://acs.digitellinc.com/live/37/session/586399",
+      "hnUrl": "https://news.ycombinator.com/item?id=49466622",
+      "domain": "acs.digitellinc.com",
+      "points": 82,
+      "author": "ehwa37",
+      "createdAt": "2026-08-27T15:40:04Z",
+      "numComments": 58,
+      "topComments": [
+        {
+          "id": 49467469,
+          "author": "waschl",
+          "text": "Is there any of this ”bacteria converting plastic to fuel/food/neutral stuff“ actually applied anywhere at scale under economically reasonably conditions?",
+          "createdAt": "2026-08-27T16:31:25.000Z"
+        },
+        {
+          "id": 49467477,
+          "author": "ninalanyon",
+          "text": "There was a Doomwatch episode on his subject with airliners falling out of the sky bcause all the plastic had been eaten away. https://en.wikipedia.org/wiki/Doomwatch#Series_One",
+          "createdAt": "2026-08-27T16:32:10.000Z"
+        },
+        {
+          "id": 49467538,
+          "author": "spockz",
+          "text": "Maybe the only thing more worrisome than microplastics everywhere is unstoppable plastics eating organisms everywhere, eating through all plastics everywhere.",
+          "createdAt": "2026-08-27T16:36:23.000Z"
+        },
+        {
+          "id": 49467868,
+          "author": "mbil",
+          "text": "If you don't eat your biomass compound goo, you can't have any PlastiYum bacterial sludge",
+          "createdAt": "2026-08-27T17:01:54.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49466188,
+      "rank": 23,
+      "title": "The mechanics of the Nepali flash flood",
+      "url": "https://www.economist.com/science-and-technology/2026/08/27/the-terrifying-mechanics-of-the-nepali-flash-flood",
+      "hnUrl": "https://news.ycombinator.com/item?id=49466188",
+      "domain": "economist.com",
+      "points": 80,
+      "author": "vinni2",
+      "createdAt": "2026-08-27T15:13:26Z",
+      "numComments": 36,
+      "topComments": [
+        {
+          "id": 49470092,
+          "author": "pm2222",
+          "text": "https://apnews.com/article/climate-change-nepal-tibet-glacie... CCTV footage is there. Horrific scene. When you see it coming at you it’s already too late.",
+          "createdAt": "2026-08-27T19:35:44.000Z"
+        },
+        {
+          "id": 49470686,
+          "author": "decasia",
+          "text": "The CCTV footage was one of the most heartbreaking things I have seen on the internet lately. It makes me think a bit of the Johnstown flood from 1889: https://en.wikipedia.org/wiki/Johnstown_Flood#/media/File:Th...",
+          "createdAt": "2026-08-27T20:22:55.000Z"
+        },
+        {
+          "id": 49470943,
+          "author": "croisillon",
+          "text": "another good article, without paywall: https://www.theguardian.com/world/2026/aug/27/nepal-tibet-fl...",
+          "createdAt": "2026-08-27T20:41:39.000Z"
+        },
+        {
+          "id": 49471114,
+          "author": "glimshe",
+          "text": "I haven't yet been able to properly internalize the horror of this scene. Maybe because we're exposed to so many images from disaster and action movies/videogames, I got somewhat desensitized to the \"graphics\", so to speak. It's like my brain is denial. At the same time, I know this is real and a tragedy in an unimaginable scale. Every \"little walking figure\" is a full human being with dreams, fears and a rich life story. I'm afraid that at one point it will just hit me super hard.",
+          "createdAt": "2026-08-27T20:53:55.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49468834,
+      "rank": 24,
+      "title": "Previewing the Model Hardware Standard",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "hnUrl": "https://news.ycombinator.com/item?id=49468834",
+      "domain": "anthropic.com",
+      "points": 77,
+      "author": "surprisetalk",
+      "createdAt": "2026-08-27T18:04:50Z",
+      "numComments": 28,
+      "topComments": [
+        {
+          "id": 49469418,
+          "author": "tolugenius",
+          "text": "I don't want to be that guy but did they invent bluetooth for ai? Like what is MHS actually? I read it twice and still don't get it",
+          "createdAt": "2026-08-27T18:46:12.000Z"
+        },
+        {
+          "id": 49469620,
+          "author": "automationwiz",
+          "text": "Sounds like PyLabRobot: https://docs.pylabrobot.org/stable/",
+          "createdAt": "2026-08-27T19:00:53.000Z"
+        },
+        {
+          "id": 49469814,
+          "author": "jedbrooke",
+          "text": "https://xkcd.com/927/ To actually add something to the discussion though: I guess getting LLMs to control robots is cool, but would potentially have more severe consequences than pure software since it interacts more with the physical world",
+          "createdAt": "2026-08-27T19:14:33.000Z"
+        },
+        {
+          "id": 49469848,
+          "author": "mips_avatar",
+          "text": "As far as I can tell is these standards (MCP/MHS/etc) are just semi obvious tool inferfaces that Anthropic uses as training scenarios.",
+          "createdAt": "2026-08-27T19:16:54.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49471965,
+      "rank": 25,
+      "title": "Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance",
+      "url": "https://github.com/elyosh/OpenTIE/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49471965",
+      "domain": "github.com",
+      "points": 59,
+      "author": "elyosh",
+      "createdAt": "2026-08-27T22:10:47Z",
+      "numComments": 15,
+      "topComments": [
+        {
+          "id": 49472282,
+          "author": "electric_mayhem",
+          "text": "Oh, wow. I loved these games when they were new. May need to find a modern HOTAS setup and immerse myself in these.",
+          "createdAt": "2026-08-27T22:49:39.000Z"
+        },
+        {
+          "id": 49472366,
+          "author": "mysterydip",
+          "text": "Really excited to give this a go! Being able to merge the two versions together is a killer feature.",
+          "createdAt": "2026-08-27T22:59:22.000Z"
+        },
+        {
+          "id": 49472452,
+          "author": "vunderba",
+          "text": "Very nice. Looking forward to irritating the Empire again as a new recruit [1]. On a more serious note, there's also a really great conversion that ports the original TIE Fighter over to the later X-Wing Alliance engine [2]. And of course if you need copies of the originals, they still sell them over on GOG (Good Old Games). [1] - https://imgpb.com/AoSwyrZ [2] - https://www.moddb.com/mods/tie-fighter-total-conversion-tftc",
+          "createdAt": "2026-08-27T23:09:58.000Z"
+        },
+        {
+          "id": 49472720,
+          "author": "pdntspa",
+          "text": "Cool! I played the original with a joystick back in the day. I tried the previous port to XWA with Tie Fighter more recently, and it had been so long that I couldnt even complete the tutorial with the joystick! Proper gamepad support would be clutch",
+          "createdAt": "2026-08-27T23:51:40.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49471714,
+      "rank": 26,
+      "title": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
+      "url": "https://github.com/calmrocks/ai-engineer-notebooks",
+      "hnUrl": "https://news.ycombinator.com/item?id=49471714",
+      "domain": "github.com",
+      "points": 42,
+      "author": "calmrocks",
+      "createdAt": "2026-08-27T21:46:39Z",
+      "numComments": 2,
+      "topComments": [
+        {
+          "id": 49473311,
+          "author": "consumer451",
+          "text": "Man, I could have used something like this last year. Upon review, it appears that fumbling my way through the dark with Claude and Google led to the same place, in nearly all cases. However, this is all written by Claude — it has too many em-dashes to not be, does it not? So, maybe that's why we ended up in the same places. Does anyone know of any other resources in this vein?",
+          "createdAt": "2026-08-28T01:24:35.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49466715,
+      "rank": 27,
+      "title": "Launch HN: Salem Robotics (YC S26) – Software for industrial inspection robots",
+      "hnUrl": "https://news.ycombinator.com/item?id=49466715",
+      "domain": null,
+      "points": 40,
+      "author": "Salem_robotics",
+      "createdAt": "2026-08-27T15:46:04Z",
+      "numComments": 25,
+      "topComments": [
+        {
+          "id": 49467010,
+          "author": "akshay_akula",
+          "text": "Congrats on the launch. \"Successfully executing a trajectory doesn't mean the inspection worked\" is a great frame, closing the loop on the measurement itself is the hard part.",
+          "createdAt": "2026-08-27T16:02:43.000Z"
+        },
+        {
+          "id": 49467131,
+          "author": "droidjj",
+          "text": "Is \"Salem\" a tongue-in-cheek nod to being a small, quirky competitor to Boston Dynamics (Salem, MA : Boston, MA :: Salem Robotics : Boston Dynamics)? If so, as someone who lives close to Salem, I like it :) Good luck to you guys.",
+          "createdAt": "2026-08-27T16:09:34.000Z"
+        },
+        {
+          "id": 49467600,
+          "author": "lesiva",
+          "text": "> We use AI where semantic understanding and flexibility are useful, such as interpreting less structured information or understanding what in an unfamiliar scene is relevant to a procedure. Once the system knows what physical interaction it needs to perform, we prefer explicit geometry, planning, optimization, and control where possible... > A few centimeters of error may not matter much when navigating down a hallway, but it matters if a sensor is supposed to remain normal to a curved surface. This is a great specific example of where the creativity (read: randomness) of AI runs into a wall. Do you see this changing over time as models improve, or do you expect that safety-critical / highly specific tasks will always require a more explicit set of instructions?",
+          "createdAt": "2026-08-27T16:42:28.000Z"
+        },
+        {
+          "id": 49467847,
+          "author": "sidcool",
+          "text": "Congrats on launching. This should get more attention",
+          "createdAt": "2026-08-27T17:00:51.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49472161,
+      "rank": 28,
+      "title": "Select * from Internet.blogposts",
+      "url": "https://pfrazee.leaflet.pub/3mu3p2smmis22",
+      "hnUrl": "https://news.ycombinator.com/item?id=49472161",
+      "domain": "pfrazee.leaflet.pub",
+      "points": 39,
+      "author": "mmattbtw",
+      "createdAt": "2026-08-27T22:34:32Z",
+      "numComments": 10,
+      "topComments": [
+        {
+          "id": 49473019,
+          "author": "cube00",
+          "text": ">Simple: the network won. The developers stopped being an asset, and the API progressively closed. You can add Reddit to that list, IPO is coming so better price out the third party apps we encouraged developers to build.",
+          "createdAt": "2026-08-28T00:33:03.000Z"
+        },
+        {
+          "id": 49473063,
+          "author": "aftbit",
+          "text": "I can't decide if ATProto is actually amazing or if its proponents are just dazzled by their own tech. Is it truly decentralized? What makes it better than Mastodon or Matrix or Scuttlebutt? Of course, at the end of the day, it's the network effects that matter. Attention is all you need indeed.",
+          "createdAt": "2026-08-28T00:42:02.000Z"
+        },
+        {
+          "id": 49473082,
+          "author": "8organicbits",
+          "text": "For blog posts, I'd look to RSS instead. That's where that content is traditionally published. Instead of SELECTing from bluesky's index, you can use OPML subscription lists. There are a bunch of places that curate feed lists, so it's significantly less likely to face API death like twitter did. There are multiple sites that support follower semantics over RSS. Feedland tracks subscriptions publicly, so you can see the blogs I read ( https://feedland.com/?username=robalexdev ), and who reads my blog ( https://feedland.com/?feedurl=https%3A%2F%2Falexsci.com%2Fbl... ). I run another variant which collects OPML blogrolls via crawling, so you can find out who else likes your favorite blog and what else they recommend. Here's the page for Simon Willison's blog ( https://blogroll-network.alexsci.com/discover/feed-a34ee2a88... ). Thinking of RSS and blogrolls as a network feels much more resilient than blueskys Jetstream api endpoint.",
+          "createdAt": "2026-08-28T00:45:10.000Z"
+        },
+        {
+          "id": 49473196,
+          "author": "James_K",
+          "text": "There are invariably 3 solutions to all “federated” web problems: - Email - Semantic HTML - Web indexing services In this case, it's mostly indexing and a little of the other two if you want to add social features. I despite ATProto with all my soul for taking a problem with such a simple and standard solution and totally obscuring it behind hundreds of layers of JSON, faux federated services, and technical jargon, all in service of creating an inferior version of Twitter. I guess it wouldn't be as sexy to offer a web indexing service instead.",
+          "createdAt": "2026-08-28T01:03:48.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49472820,
+      "rank": 29,
+      "title": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
+      "url": "https://www.terminal-bench-science.ai/announcement",
+      "hnUrl": "https://news.ycombinator.com/item?id=49472820",
+      "domain": "terminal-bench-science.ai",
+      "points": 20,
+      "author": "matt_d",
+      "createdAt": "2026-08-28T00:06:51Z",
+      "numComments": 4,
+      "topComments": [
+        {
+          "id": 49472946,
+          "author": "rubslopes",
+          "text": "I'm glad to see that GPT Sol beats Opus at least in Mathematical Sciences, because that's my need right now, and I much prefer GPT's prose style.",
+          "createdAt": "2026-08-28T00:24:02.000Z"
+        },
+        {
+          "id": 49473197,
+          "author": "akshay_akula",
+          "text": "Evals on actual research workflows is the right direction, most agent benches are toy tasks.",
+          "createdAt": "2026-08-28T01:03:52.000Z"
+        },
+        {
+          "id": 49473221,
+          "author": "vatsachak",
+          "text": "Damn. These things aren't AGI... but I don't care. Luna is good enough for me to give a parser spec and have it write one.",
+          "createdAt": "2026-08-28T01:08:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": 49467837,
+      "rank": 30,
+      "title": "Bild AI (YC W25) is hiring product and AI engineers",
+      "url": "https://www.bild.ai/jobs",
+      "hnUrl": "https://news.ycombinator.com/item?id=49467837",
+      "domain": "bild.ai",
+      "author": "rooppal",
+      "createdAt": "2026-08-27T17:00:14Z",
+      "topComments": []
+    }
+  ],
+  "topics": [
+    {
+      "word": "flash",
+      "count": 2
+    },
+    {
+      "word": "guide",
+      "count": 2
+    },
+    {
+      "word": "research",
+      "count": 2
+    },
+    {
+      "word": "model",
+      "count": 2
+    },
+    {
+      "word": "modern",
+      "count": 2
+    },
+    {
+      "word": "agents",
+      "count": 2
+    }
+  ]
+}
