@@ -1,3 +1,5 @@
+import type { GitHubRepo } from './github';
+
 export interface HNComment {
   id: number;
   author: string | null;
@@ -29,4 +31,5 @@ export interface HNSnapshot {
   fetchedAt: string;
   stories: HNStory[];
   topics: HotTopic[];
+  githubTrending: GitHubRepo[];
 }

@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Anthropic from '@anthropic-ai/sdk';
 import type { HNComment, HNSnapshot, HNStory, HotTopic } from '../src/types/hn.ts';
+import type { GitHubRepo } from '../src/types/github.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -10,6 +11,8 @@ const ALGOLIA_BASE = 'https://hn.algolia.com/api/v1';
 const STORY_COUNT = 30;
 const COMMENTS_PER_STORY = 4;
 const TOPIC_COUNT = 24;
+
+const GITHUB_TRENDING_URL = 'https://github.com/trending?since=daily';
 
 const SUMMARY_MODEL = 'claude-haiku-4-5';
 const ARTICLE_CHAR_LIMIT = 6000;
@@ -192,6 +195,69 @@ function extractTopics(stories: HNStory[]): HotTopic[] {
     .map(([word, count]) => ({ word, count }));
 }
 
+function parseTrendingRepos(html: string): GitHubRepo[] {
+  const repos: GitHubRepo[] = [];
+  const blockRe = /<article class="Box-row">([\s\S]*?)<\/article>/g;
+  let blockMatch: RegExpExecArray | null;
+
+  while ((blockMatch = blockRe.exec(html))) {
+    const block = blockMatch[1];
+
+    const headingMatch = block.match(/<h2 class="h3 lh-condensed">([\s\S]*?)<\/h2>/);
+    if (!headingMatch) continue;
+    const hrefMatch = headingMatch[1].match(/href="\/([^"/]+)\/([^"/]+)"/);
+    if (!hrefMatch) continue;
+    const [, owner, name] = hrefMatch;
+
+    const descMatch = block.match(/<p class="col-9 color-fg-muted my-1 tmp-pr-4">\s*([\s\S]*?)\s*<\/p>/);
+    const description = descMatch ? decodeEntities(descMatch[1].trim()) : null;
+
+    const langMatch = block.match(/<span itemprop="programmingLanguage">([^<]*)<\/span>/);
+    const language = langMatch ? langMatch[1].trim() : null;
+
+    const colorMatch = block.match(/repo-language-color" style="background-color:\s*(#[0-9a-fA-F]{3,6})"/);
+    const languageColor = colorMatch ? colorMatch[1] : null;
+
+    const starsMatch = block.match(/\/stargazers"[^>]*>[\s\S]*?<\/svg>\s*([\d,]+)/);
+    const stars = starsMatch ? Number(starsMatch[1].replace(/,/g, '')) : 0;
+
+    const forksMatch = block.match(/\/forks"[^>]*>[\s\S]*?<\/svg>\s*([\d,]+)/);
+    const forks = forksMatch ? Number(forksMatch[1].replace(/,/g, '')) : 0;
+
+    const starsTodayMatch = block.match(/([\d,]+)\s+stars?\s+today/);
+    const starsToday = starsTodayMatch ? Number(starsTodayMatch[1].replace(/,/g, '')) : 0;
+
+    repos.push({
+      id: `${owner}/${name}`,
+      owner,
+      name,
+      url: `https://github.com/${owner}/${name}`,
+      description,
+      language,
+      languageColor,
+      stars,
+      forks,
+      starsToday,
+    });
+  }
+
+  return repos;
+}
+
+async function fetchTrendingRepos(): Promise<GitHubRepo[]> {
+  try {
+    const res = await fetch(GITHUB_TRENDING_URL, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; HackerMonitorBot/1.0)' },
+    });
+    if (!res.ok) throw new Error(`Request failed (${res.status})`);
+    const html = await res.text();
+    return parseTrendingRepos(html);
+  } catch (err) {
+    console.warn(`  failed to fetch GitHub trending: ${(err as Error).message}`);
+    return [];
+  }
+}
+
 async function main() {
   console.log('Fetching HN front page...');
   const search = await fetchJson<{ hits: AlgoliaHit[] }>(
@@ -226,10 +292,15 @@ async function main() {
     rank += 1;
   }
 
+  console.log('Fetching GitHub trending repositories...');
+  const githubTrending = await fetchTrendingRepos();
+  console.log(`  found ${githubTrending.length} trending repositories`);
+
   const snapshot: HNSnapshot = {
     fetchedAt: new Date().toISOString(),
     stories,
     topics: extractTopics(stories),
+    githubTrending,
   };
 
   const outDir = path.resolve(__dirname, '../src/data');
