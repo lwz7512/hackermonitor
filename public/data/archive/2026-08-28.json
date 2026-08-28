@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-28T02:56:16.880Z",
+  "fetchedAt": "2026-08-28T03:00:32.485Z",
   "stories": [
     {
       "id": 49458161,
@@ -38,7 +38,7 @@
           "createdAt": "2026-08-27T01:41:50.000Z"
         }
       ],
-      "summary": "Nvidia is in negotiations to acquire Hugging Face, a major open-source AI platform, for over $13 billion, though a deal has not yet been finalized. The acquisition would give Nvidia greater influence with AI developers and potentially drive more workloads to its chips, though it could compromise Hugging Face's current neutrality by favoring Nvidia hardware over competitors like AMD and Intel. Hugging Face had previously rejected a $500 million investment from Nvidia, stating it didn't want a dominant investor."
+      "summary": "Nvidia is in acquisition talks with Hugging Face, a major open-source AI platform, with a potential valuation exceeding $13 billion, though a deal has not yet been finalized. The acquisition would give Nvidia greater influence over developers in the AI ecosystem and drive more workloads to its chips, though owning Hugging Face could compromise the platform's current industry neutrality. Hugging Face previously rejected a $500 million investment from Nvidia, preferring to avoid having a dominant investor."
     },
     {
       "id": 49468083,
@@ -47,10 +47,10 @@
       "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
       "hnUrl": "https://news.ycombinator.com/item?id=49468083",
       "domain": "blog.cloudflare.com",
-      "points": 561,
+      "points": 566,
       "author": "TangerineDream",
       "createdAt": "2026-08-27T17:17:57Z",
-      "numComments": 159,
+      "numComments": 160,
       "topComments": [
         {
           "id": 49468379,
@@ -77,7 +77,7 @@
           "createdAt": "2026-08-27T18:00:30.000Z"
         }
       ],
-      "summary": "Cloudflare optimized the DNS cache for their 1.1.1.1 public DNS resolver, reducing memory consumption by 100 terabytes through engineering improvements. The article details the technical strategies and implementation used to achieve this significant efficiency gain in their infrastructure. This is a deep-dive technical post ideal for engineers interested in DNS optimization, caching mechanisms, and large-scale system performance."
+      "summary": "Cloudflare optimized the DNS cache for its 1.1.1.1 service and achieved a massive 100 terabyte memory reduction through engineering improvements. The article details the technical optimizations made to improve performance and efficiency of one of the world's largest public DNS resolvers."
     },
     {
       "id": 49462763,
@@ -86,10 +86,10 @@
       "url": "https://pollen-robotics.com/microduck/",
       "hnUrl": "https://news.ycombinator.com/item?id=49462763",
       "domain": "pollen-robotics.com",
-      "points": 527,
+      "points": 530,
       "author": "robotswantdata",
       "createdAt": "2026-08-27T10:57:56Z",
-      "numComments": 187,
+      "numComments": 189,
       "topComments": [
         {
           "id": 49463239,
@@ -116,7 +116,7 @@
           "createdAt": "2026-08-27T12:01:09.000Z"
         }
       ],
-      "summary": "Microduck is a 25 cm open-source biped robot priced at $399 that comes pre-trained with seven behaviors but allows users to teach it new tricks using reinforcement learning in simulation before deploying to the physical robot. The robot features 15 motors, built-in sensors, and is fully customizable with an open-source software stack available on GitHub, with pre-orders opening August 27, 2026 and shipping before Christmas 2026. It's designed for both casual play out of the box and serious AI development, with an active community on Discord for sharing trained policies and troubleshooting."
+      "summary": "Microduck is a 25 cm open-source biped robot priced at $399 that you can train using reinforcement learning to perform various behaviors like walking, sitting, kicking, and roller skating. The robot comes ready to play out of the box with seven pre-trained moves, and users can retrain it with their own policies using the provided simulator and open-source software stack. Pre-orders open August 27, 2026, with shipments expected before Christmas 2026."
     },
     {
       "id": 49466917,
@@ -125,10 +125,10 @@
       "url": "https://calv.info/small-models-have-arrived",
       "hnUrl": "https://news.ycombinator.com/item?id=49466917",
       "domain": "calv.info",
-      "points": 491,
+      "points": 494,
       "author": "tosh",
       "createdAt": "2026-08-27T15:56:58Z",
-      "numComments": 222,
+      "numComments": 224,
       "topComments": [
         {
           "id": 49467436,
@@ -155,7 +155,7 @@
           "createdAt": "2026-08-27T16:51:14.000Z"
         }
       ],
-      "summary": "Small, fast, and affordable AI models like gpt-5.6-luna have become viable for real-world applications, with costs dropping from ~$1 to ~$0.10 per query, making consumer and business AI products economically feasible. While frontier models remain essential for novel breakthroughs, most business work involves routine responsive tasks that don't require cutting-edge AI, creating massive market potential for smaller, cheaper models once safety and infrastructure issues are resolved."
+      "summary": "Small language models have become capable and cost-effective enough to enable new consumer and business applications, with models like GPT-5.6-Luna reducing inference costs from dollars to cents per request. The author argues that while frontier models will remain essential for breakthrough work, the real opportunity lies in deploying \"fast/cheap/good-enough\" models for responsive, routine tasks that comprise the majority of business work. This shift in model economics could finally unlock the consumer AI startup market that has been constrained by high token costs."
     },
     {
       "id": 49465169,
@@ -194,7 +194,7 @@
           "createdAt": "2026-08-27T15:29:59.000Z"
         }
       ],
-      "summary": "This website presents an animated digital version of \"507 Mechanical Movements,\" a classic technical reference featuring Henry T. Brown's original mechanical illustrations. While the project is still under development with only some animations completed (indicated by color thumbnails), visitors can browse through the collection and be notified as new animations are added over time."
+      "summary": "This is an online interactive index of 507 mechanical movements from Henry T. Brown's classic technical reference, featuring animated demonstrations alongside original illustrations. Currently only a portion of the animations are complete (marked by colored thumbnails), with more being added over time as the project progresses. Users can browse through the mechanical movements and follow the project's social media accounts to be notified when new animations are finished."
     },
     {
       "id": 49461817,
@@ -203,10 +203,10 @@
       "url": "https://louisabraham.github.io/load-bearing/",
       "hnUrl": "https://news.ycombinator.com/item?id=49461817",
       "domain": "louisabraham.github.io",
-      "points": 379,
+      "points": 380,
       "author": "Labo333",
       "createdAt": "2026-08-27T08:59:49Z",
-      "numComments": 179,
+      "numComments": 180,
       "topComments": [
         {
           "id": 49466180,
@@ -242,10 +242,10 @@
       "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
       "hnUrl": "https://news.ycombinator.com/item?id=49447057",
       "domain": "gatesnotes.com",
-      "points": 228,
+      "points": 229,
       "author": "nanna",
       "createdAt": "2026-08-26T11:23:54Z",
-      "numComments": 482,
+      "numComments": 484,
       "topComments": [
         {
           "id": 49448566,
@@ -281,10 +281,10 @@
       "url": "https://www.tokyodev.com/articles/the-story-of-suica",
       "hnUrl": "https://news.ycombinator.com/item?id=49466894",
       "domain": "tokyodev.com",
-      "points": 199,
+      "points": 200,
       "author": "zdw",
       "createdAt": "2026-08-27T15:55:12Z",
-      "numComments": 169,
+      "numComments": 170,
       "topComments": [
         {
           "id": 49467168,
@@ -311,7 +311,7 @@
           "createdAt": "2026-08-27T16:24:26.000Z"
         }
       ],
-      "summary": "Suica is Japan's first IC transit card, developed in the 1990s using Sony's FeliCa contactless technology, which stores balance and card ID locally on a chip and completes transactions in under 200 milliseconds without requiring batteries or internet connectivity. The article traces Suica's history from JR East's initial rejection of Sony's technology proposal, through Sony's successful pilot in Hong Kong with Octopus cards, to its eventual implementation in Japan. The design prioritizes speed and reliability over server synchronization to handle Tokyo's massive daily commuter volume and prevent station gate congestion during peak hours."
+      "summary": "Suica is Japan's pioneering IC transit card developed in the 1990s that revolutionized train travel by enabling tap-based transactions processed in milliseconds without batteries or internet connectivity. The article traces Suica's development from Sony's initial FeliCa technology rejection by JR East, through successful implementation in Hong Kong, to its eventual adoption in Japan as a solution to modernize stations and reduce congestion. It explains how the card's ingenious design stores transaction data locally on the chip itself rather than relying on central servers, making it remarkably efficient even by today's standards."
     },
     {
       "id": 49467922,
@@ -320,10 +320,10 @@
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
       "hnUrl": "https://news.ycombinator.com/item?id=49467922",
       "domain": "blog.google",
-      "points": 195,
+      "points": 197,
       "author": "saretup",
       "createdAt": "2026-08-27T17:06:32Z",
-      "numComments": 144,
+      "numComments": 145,
       "topComments": [
         {
           "id": 49469238,
@@ -350,7 +350,7 @@
           "createdAt": "2026-08-27T19:10:08.000Z"
         }
       ],
-      "summary": "Google has released Gemini Omni 1.1 Flash, a production-ready AI model that gives developers enhanced control over generative video creation, including scene extension, frame interpolation, and 4K upscaling capabilities. The update enables faster prototyping with low-resolution previews and smoother professional transitions, making it suitable for building generative video workflows and creative editing tools. Developers can access the model through Google AI Studio or the Gemini Enterprise Agent Platform."
+      "summary": "Google has released Gemini Omni 1.1 Flash, an updated AI model that gives developers enhanced control over generative video creation, including scene extension, frame interpolation, and 4K upscaling capabilities. The update is designed to be production-ready and accessible through Google AI Studio and the Gemini Enterprise Agent Platform, allowing developers to build video editing tools and creative software more efficiently. Key features include the ability to extend scenes up to 40 seconds, create smooth camera transitions, and generate low-resolution previews for faster iteration before producing polished 4K output."
     },
     {
       "id": 49466006,
@@ -359,10 +359,10 @@
       "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/",
       "hnUrl": "https://news.ycombinator.com/item?id=49466006",
       "domain": "blog.chrislewis.au",
-      "points": 189,
+      "points": 191,
       "author": "knackers",
       "createdAt": "2026-08-27T15:01:11Z",
-      "numComments": 121,
+      "numComments": 122,
       "topComments": [
         {
           "id": 49467611,
@@ -389,7 +389,7 @@
           "createdAt": "2026-08-27T17:23:22.000Z"
         }
       ],
-      "summary": "A Nintendo 64 game called Snowboard Kids has been fully decompiled in just 84 days—seven times faster than its sequel took—through a combination of improved decompilation techniques, AI language models, and expert human contributions from the community. The faster completion was enabled by the author's prior experience, access to frontier AI models, and a focused workflow, though human expertise remained crucial for handling challenges like the proprietary IDO compiler's unpredictable behavior. The decompilation will benefit speedrunners and modders by providing working source code that reveals how the game's mechanics function at a deep level."
+      "summary": "A Nintendo 64 game called Snowboard Kids was successfully fully decompiled in just 84 days, a dramatic improvement over the 596 days it took to decompile its sequel, thanks to a combination of AI language models, expert human contributors, and lessons learned from previous decompilation projects. The faster completion was aided by AI agents handling routine tasks like matching library code, though human expertise remained essential for understanding the complexities of the IDO compiler used for the original game. The author credits both AI assistance and skilled decompilation community members, emphasizing that the breakthrough wasn't solely due to AI but rather a strategic combination of tools and human knowledge."
     },
     {
       "id": 49468642,
@@ -398,7 +398,7 @@
       "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
       "hnUrl": "https://news.ycombinator.com/item?id=49468642",
       "domain": "code.ffmpeg.org",
-      "points": 187,
+      "points": 189,
       "author": "dclavijo",
       "createdAt": "2026-08-27T17:53:40Z",
       "numComments": 147,
@@ -428,7 +428,7 @@
           "createdAt": "2026-08-27T18:40:17.000Z"
         }
       ],
-      "summary": "I cannot provide a summary of this article because the text provided is only a bot-protection message from the Anubis security system, not the actual article content about the FFmpeg division by zero bug. The full article is not accessible in the provided text."
+      "summary": "I cannot provide a summary of this article because the text provided only contains information about an Anubis bot-protection system and does not include the actual article content about the FFmpeg division by zero bug discovery."
     },
     {
       "id": 49468818,
@@ -437,10 +437,10 @@
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
       "hnUrl": "https://news.ycombinator.com/item?id=49468818",
       "domain": "blog.google",
-      "points": 163,
+      "points": 164,
       "author": "k9294",
       "createdAt": "2026-08-27T18:03:42Z",
-      "numComments": 41,
+      "numComments": 43,
       "topComments": [
         {
           "id": 49470595,
@@ -467,7 +467,7 @@
           "createdAt": "2026-08-27T20:42:23.000Z"
         }
       ],
-      "summary": "Google has introduced Gemini 3.5 Transcribe, a new speech-to-text model that converts audio to accurate, formatted text with high precision (4.0% word error rate for streaming, 2.6% for pre-recorded), handling background noise, jargon, and self-corrections better than conventional models. Developers can now access this capability through two APIs—one for real-time streaming voice interactions and another for processing pre-recorded audio—to build voice agents, captioning tools, and analytics pipelines. The model intelligently cleans up speech by removing filler words, auto-formatting text, and supporting custom vocabulary recognition across Google's products and platforms."
+      "summary": "Google has introduced Gemini 3.5 Transcribe, an advanced speech-to-text model that delivers highly accurate real-time and pre-recorded audio transcription with intelligent features like self-correction handling, filler word removal, and custom vocabulary recognition. The model achieves industry-leading accuracy (4.0% error rate for streaming, 2.6% for non-streaming) and is now available to developers through the Gemini API for building voice agents, captioning tools, and analytics pipelines. Read this if you're interested in AI transcription technology, voice-enabled applications, or Google's latest Gemini capabilities."
     },
     {
       "id": 49464543,
@@ -476,7 +476,7 @@
       "url": "https://rahuljuliato.com/posts/markdown-ts-mode-emacs-31",
       "hnUrl": "https://news.ycombinator.com/item?id=49464543",
       "domain": "rahuljuliato.com",
-      "points": 154,
+      "points": 155,
       "author": "RahulMJ",
       "createdAt": "2026-08-27T13:22:36Z",
       "numComments": 65,
@@ -506,7 +506,7 @@
           "createdAt": "2026-08-27T15:05:33.000Z"
         }
       ],
-      "summary": "# Summary\n\nEmacs 31 introduces markdown-ts-mode, an experimental tree-sitter-based markdown mode that is feature-rich (supporting CommonMark and GitHub Flavored Markdown specs) but requires manual setup and tree-sitter grammar installation. This unofficial guide walks through enabling the mode, installing necessary grammars, and troubleshooting common tree-sitter issues for those new to the feature."
+      "summary": "This article is an unofficial guide to Emacs 31's new markdown-ts-mode, covering its features, setup instructions, and troubleshooting. The author explains that while markdown-ts-mode is marked experimental, it's actually feature-rich, supporting CommonMark and GitHub Flavored Markdown specs, and provides step-by-step instructions for installing and enabling the mode. The guide also addresses common tree-sitter setup issues and demonstrates how to get the mode working with proper grammar installation."
     },
     {
       "id": 49464414,
@@ -515,10 +515,10 @@
       "url": "https://aphantasia.com/guide",
       "hnUrl": "https://news.ycombinator.com/item?id=49464414",
       "domain": "aphantasia.com",
-      "points": 140,
+      "points": 142,
       "author": "ksec",
       "createdAt": "2026-08-27T13:14:20Z",
-      "numComments": 320,
+      "numComments": 322,
       "topComments": [
         {
           "id": 49464620,
@@ -545,11 +545,50 @@
           "createdAt": "2026-08-27T14:35:58.000Z"
         }
       ],
-      "summary": "This beginner's guide introduces aphantasia—the inability to visualize or create mental images—and explains how it differs from typical visual imagination. It provides diagnostic tools like \"the apple test,\" explores what visualization feels like for those who can do it, and offers resources for understanding, explaining, and connecting with others who experience aphantasia. The guide addresses common questions and misconceptions while grounding the condition in neuroscientific research."
+      "summary": "Aphantasia is the inability to mentally visualize images—people with it think conceptually about things like a beach without \"seeing\" them in their mind's eye. This beginner's guide provides assessments, explanations of how visualization differs between people, and resources for understanding and connecting with others who experience aphantasia, along with scientific evidence that visualization involves real neurological differences."
+    },
+    {
+      "id": 49464314,
+      "rank": 15,
+      "title": "MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training",
+      "url": "https://aiandeducation.mit.edu/report/",
+      "hnUrl": "https://news.ycombinator.com/item?id=49464314",
+      "domain": "aiandeducation.mit.edu",
+      "points": 118,
+      "author": "pbui",
+      "createdAt": "2026-08-27T13:07:45Z",
+      "numComments": 72,
+      "topComments": [
+        {
+          "id": 49465560,
+          "author": "testfoobar",
+          "text": "This is a bunch of fluff. I hope at least the snacks and lunches during the discussions were good. \"Guiding principles: Be bold. Be humble. Put humanity front and center. Lean into learning. Teach with intentionality. No one size fits all.\" \"Recommendations: Adapt educational processes for an AI-aware world. Center people, community, and the residential experience. Build processes, teams and tools for continuous reflection, iteration, and improvement\"",
+          "createdAt": "2026-08-27T14:33:23.000Z"
+        },
+        {
+          "id": 49465639,
+          "author": "phasefactor",
+          "text": "\"Be bold\" by saying nothing of any interest. I have to agree that this is basically just fluff. Anyone put it into pangram yet?",
+          "createdAt": "2026-08-27T14:39:16.000Z"
+        },
+        {
+          "id": 49465809,
+          "author": "us-merul",
+          "text": "I think this has been going on well before AI or LLMs: \"A fundamental danger, as we’ve discussed, is that AI can allow students to bypass learning. Equally concerning is that students may internalize a transactional model in which assignments are outputs, teachers are evaluators, peers are optional, and knowledge (or an MIT degree) is an optimizable commodity to be acquired or produced as efficiently as possible.\"",
+          "createdAt": "2026-08-27T14:50:18.000Z"
+        },
+        {
+          "id": 49465844,
+          "author": "a2ff6eeb0",
+          "text": "Education is so cooked. In 10 years, people arent going to find it useful financially. The AI will be better at economically relevant thinking. And there aren't enough hobbyist learners to sustain education at its current level.",
+          "createdAt": "2026-08-27T14:52:19.000Z"
+        }
+      ],
+      "summary": "MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research conducted a five-month study to assess how generative AI should be integrated into the institute's educational mission, finding that while AI offers innovative learning opportunities, it is also disrupting foundational MIT educational elements, increasing student isolation, and undermining academic integrity. The committee proposes eight guiding principles—including humility, intentionality, human-centered design, and augmentation over automation—and recommends that MIT systematically redesign its curricula and assessment methods to be \"AI-aware\" while maintaining its distinctive educational values. This report is essential reading for educators, administrators, and anyone interested in how universities should adapt their teaching, learning, and research practices in response to the rapid advancement of generative AI."
     },
     {
       "id": 49471407,
-      "rank": 15,
+      "rank": 16,
       "title": "Show HN: We built open OpenRouter that turns usage into a better model",
       "url": "https://github.com/experientiallabs/experiential",
       "hnUrl": "https://news.ycombinator.com/item?id=49471407",
@@ -584,46 +623,7 @@
           "createdAt": "2026-08-27T23:54:09.000Z"
         }
       ],
-      "summary": "Experiential is an open-source model gateway that provides a unified OpenAI-compatible API for accessing hosted, custom, and local AI models while enabling fine-grained control over user access, model selection, and spending limits. The platform can analyze production traffic to automatically optimize routing decisions based on quality, speed, and cost metrics, and offers both a self-hosted local version and a managed cloud platform. It's designed to work seamlessly with coding agents and includes tools for importing existing LLM traces and connecting various inference provider keys."
-    },
-    {
-      "id": 49464314,
-      "rank": 16,
-      "title": "MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training",
-      "url": "https://aiandeducation.mit.edu/report/",
-      "hnUrl": "https://news.ycombinator.com/item?id=49464314",
-      "domain": "aiandeducation.mit.edu",
-      "points": 117,
-      "author": "pbui",
-      "createdAt": "2026-08-27T13:07:45Z",
-      "numComments": 72,
-      "topComments": [
-        {
-          "id": 49465560,
-          "author": "testfoobar",
-          "text": "This is a bunch of fluff. I hope at least the snacks and lunches during the discussions were good. \"Guiding principles: Be bold. Be humble. Put humanity front and center. Lean into learning. Teach with intentionality. No one size fits all.\" \"Recommendations: Adapt educational processes for an AI-aware world. Center people, community, and the residential experience. Build processes, teams and tools for continuous reflection, iteration, and improvement\"",
-          "createdAt": "2026-08-27T14:33:23.000Z"
-        },
-        {
-          "id": 49465639,
-          "author": "phasefactor",
-          "text": "\"Be bold\" by saying nothing of any interest. I have to agree that this is basically just fluff. Anyone put it into pangram yet?",
-          "createdAt": "2026-08-27T14:39:16.000Z"
-        },
-        {
-          "id": 49465809,
-          "author": "us-merul",
-          "text": "I think this has been going on well before AI or LLMs: \"A fundamental danger, as we’ve discussed, is that AI can allow students to bypass learning. Equally concerning is that students may internalize a transactional model in which assignments are outputs, teachers are evaluators, peers are optional, and knowledge (or an MIT degree) is an optimizable commodity to be acquired or produced as efficiently as possible.\"",
-          "createdAt": "2026-08-27T14:50:18.000Z"
-        },
-        {
-          "id": 49465844,
-          "author": "a2ff6eeb0",
-          "text": "Education is so cooked. In 10 years, people arent going to find it useful financially. The AI will be better at economically relevant thinking. And there aren't enough hobbyist learners to sustain education at its current level.",
-          "createdAt": "2026-08-27T14:52:19.000Z"
-        }
-      ],
-      "summary": "MIT's Ad Hoc Committee released a report examining how generative AI is transforming education at the Institute, finding that while AI enables innovative learning experiences, it's also disrupting foundational elements of MIT education like problem sets, exams, and collaborative learning. The committee proposes eight guiding principles—including prioritizing human-centered education, intentional teaching, and augmentation over automation—alongside recommendations for adapting educational processes and continuously reassessing what students need to learn in an AI-aware world. The report calls for MIT to lead institutional efforts in thoughtfully integrating AI while preserving the rigor, community values, and personal integrity that define the MIT educational experience."
+      "summary": "Experiential is an open-source model gateway that provides a unified OpenAI-compatible API for accessing hosted, custom, and local AI models while enabling fine-grained control over user permissions, use cases, and spending budgets. It allows developers to optimize model routing based on production traffic data to improve quality, speed, and cost efficiency. The tool is available both as a local installation and a managed hosted platform."
     },
     {
       "id": 49457722,
@@ -662,7 +662,7 @@
           "createdAt": "2026-08-27T19:28:08.000Z"
         }
       ],
-      "summary": "Afterglow is a macOS application that lets you run original 1990s After Dark screen savers on modern computers without needing emulators or vintage hardware. It uses a custom 68k CPU emulator to faithfully reproduce the classic animations like Flying Toasters and Fish, and integrates them as native macOS screen savers with easy drag-and-drop module importing. The project is a labor of love for software preservation, allowing these iconic digital artworks to be enjoyed today."
+      "summary": "Afterglow is a new macOS emulator that lets you run the classic After Dark screen savers from the 1990s (like Flying Toasters and Fish) on modern computers without needing vintage hardware or complex emulation setups. The app easily imports modules from disk images and archives, works as a native macOS screen saver, and includes features like full-screen mode and a CRT shader. It's a preservation project built by enthusiasts to keep these iconic animations accessible for current and future users."
     },
     {
       "id": 49468593,
@@ -701,7 +701,7 @@
           "createdAt": "2026-08-27T18:59:02.000Z"
         }
       ],
-      "summary": "M5Stack has launched PaperMono, a compact ESP32-S3-based E-Ink development terminal featuring a 3.97-inch touchscreen display, integrated frontlight, and built-in NFC and LoRa connectivity for low-power IoT projects. The device includes a 1150mAh battery, microSD storage, and RTC, with a Lite version available without NFC/LoRa for developers who need only core E-Ink functionality. PaperMono is designed for applications like digital badges, remote status displays, e-readers, and smart terminals."
+      "summary": "M5Stack has launched PaperMono, a compact ESP32-S3-based e-ink development terminal featuring a 3.97-inch touchscreen display, integrated frontlight, NFC, LoRa connectivity, and a 1150mAh battery designed for low-power IoT projects. The device is available in two versions: the full PaperMono with NFC and LoRa capabilities, and a PaperMono-Lite without those connectivity features, both supporting applications like e-ink readers, dashboards, digital badges, and remote status displays."
     },
     {
       "id": 49468816,
@@ -710,7 +710,7 @@
       "url": "https://voronoigo.com/",
       "hnUrl": "https://news.ycombinator.com/item?id=49468816",
       "domain": "voronoigo.com",
-      "points": 93,
+      "points": 94,
       "author": "igpay",
       "createdAt": "2026-08-27T18:03:37Z",
       "numComments": 13,
@@ -740,7 +740,7 @@
           "createdAt": "2026-08-27T20:34:43.000Z"
         }
       ],
-      "summary": "I cannot provide a meaningful summary for this article. The text appears to be fragmented HTML/code comments and metadata specifications that don't form a coherent narrative about \"Voronoi Go\" or any clear topic that would help someone decide whether to read it."
+      "summary": "I'm unable to provide a meaningful summary of this text. The content appears to be fragmented HTML/code documentation that doesn't form a coherent article, making it impossible to determine what \"Voronoi Go\" actually is or what the piece discusses."
     },
     {
       "id": 49466188,
@@ -749,10 +749,10 @@
       "url": "https://www.economist.com/science-and-technology/2026/08/27/the-terrifying-mechanics-of-the-nepali-flash-flood",
       "hnUrl": "https://news.ycombinator.com/item?id=49466188",
       "domain": "economist.com",
-      "points": 85,
+      "points": 86,
       "author": "vinni2",
       "createdAt": "2026-08-27T15:13:26Z",
-      "numComments": 44,
+      "numComments": 45,
       "topComments": [
         {
           "id": 49470092,
@@ -818,7 +818,7 @@
           "createdAt": "2026-08-27T17:01:54.000Z"
         }
       ],
-      "summary": "Researchers have engineered yeast to convert plastic waste and biomass-derived compounds into valuable food additives through consortium-based fermentation. This biotechnology approach offers a sustainable solution for simultaneously addressing plastic waste management and producing useful food ingredients. The work was presented at the ACS Fall 2026 meeting."
+      "summary": "Researchers have engineered yeast consortia capable of converting plastic waste and biomass-derived compounds into commercially valuable food additives. This biotechnological approach offers a sustainable solution for plastic waste management while simultaneously producing useful food industry products. The work represents progress in circular economy applications and industrial biotechnology."
     },
     {
       "id": 49468834,
@@ -830,7 +830,7 @@
       "points": 83,
       "author": "surprisetalk",
       "createdAt": "2026-08-27T18:04:50Z",
-      "numComments": 32,
+      "numComments": 33,
       "topComments": [
         {
           "id": 49469418,
@@ -857,7 +857,7 @@
           "createdAt": "2026-08-27T19:16:54.000Z"
         }
       ],
-      "summary": "Anthropic is releasing a research preview of the Model Hardware Standard (MHS), a unified specification that allows AI agents to safely control and coordinate multiple lab and manufacturing devices in parallel, dramatically reducing integration time from weeks to hours or minutes. MHS uses standardized drivers with simple commands and natural language tags that help AI systems understand device characteristics and operate equipment autonomously while maintaining safety controls. The standard is being shared with scientific and manufacturing partners to develop safety practices before making it open source."
+      "summary": "Anthropic is launching a research preview of the Model Hardware Standard (MHS), a shared specification that allows AI agents to safely operate multiple lab and manufacturing devices in parallel by standardizing how different instruments communicate and receive commands. MHS dramatically reduces hardware integration time from weeks or months to hours or minutes, while enabling AI agents to autonomously orchestrate complex experiments, monitor results in real-time, and recover from errors without human intervention. The standard is being shared with research labs and manufacturers across multiple fields to develop safety practices before being made open source."
     },
     {
       "id": 49471965,
@@ -866,7 +866,7 @@
       "url": "https://github.com/elyosh/OpenTIE/",
       "hnUrl": "https://news.ycombinator.com/item?id=49471965",
       "domain": "github.com",
-      "points": 77,
+      "points": 79,
       "author": "elyosh",
       "createdAt": "2026-08-27T22:10:47Z",
       "numComments": 16,
@@ -896,7 +896,7 @@
           "createdAt": "2026-08-27T23:51:40.000Z"
         }
       ],
-      "summary": "OpenTIE is an open-source modern port of Star Wars: TIE Fighter that runs the original game on Windows, macOS, and Linux by combining assets from the 1995 and 1998 releases. It features adaptive iMUSE music, modern graphics options with advanced lighting and upscaling, and support for high-refresh-rate displays and modern controllers. The project requires owning at least one original edition of the game to run."
+      "summary": "OpenTIE and OpenXWA are modern open-source reimplementations of classic Star Wars games TIE Fighter and X-Wing Alliance that run natively on Windows, macOS, and Linux using original game data. The projects enhance the originals with features like high-resolution graphics, adaptive music, high refresh-rate support, and the ability to mix-and-match the best elements from different game versions. Both require ownership of the original games to run and represent impressive preservation efforts for beloved 1990s flight simulators."
     },
     {
       "id": 49471714,
@@ -905,28 +905,73 @@
       "url": "https://github.com/calmrocks/ai-engineer-notebooks",
       "hnUrl": "https://news.ycombinator.com/item?id=49471714",
       "domain": "github.com",
-      "points": 53,
+      "points": 54,
       "author": "calmrocks",
       "createdAt": "2026-08-27T21:46:39Z",
-      "numComments": 5,
+      "numComments": 6,
       "topComments": [
         {
           "id": 49473311,
           "author": "consumer451",
           "text": "Man, I could have used something like this last year. Upon review, it appears that fumbling my way through the dark with Claude and Google led to the same place, in nearly all cases. However, this is all written by Claude — it has too many em-dashes to not be, does it not? So, maybe that's why we ended up in the same places. Does anyone know of any other resources in this vein?",
           "createdAt": "2026-08-28T01:24:35.000Z"
+        },
+        {
+          "id": 49473817,
+          "author": "nycdatasci",
+          "text": "Why does applied AI intentionally exclude a framework/harness around AI? The job is to harness the power of AI, and a harness is a critical part of that.",
+          "createdAt": "2026-08-28T02:54:54.000Z"
         }
       ],
-      "summary": "This repository provides free, framework-free Colab notebooks teaching AI Engineer skills through hands-on practice with raw APIs rather than abstraction layers, covering model APIs, RAG, evals, agents, fine-tuning, and deployment. The curriculum runs on the free Groq API and emphasizes evaluation-driven development, using real-world case studies instead of toy examples. It's designed for backend/full-stack engineers transitioning into AI Engineer roles who want to understand the underlying patterns before using frameworks like LangChain."
+      "summary": "This repository provides free, framework-free Colab notebooks teaching practical AI engineering skills—from model APIs and RAG to agents and evals—using only raw API calls and the free Groq API to build real systems. The notebooks are designed to teach you the underlying concepts before reaching for frameworks like LangChain, emphasizing measurement and evaluation throughout, with real case studies and patterns that transfer to OpenAI and Anthropic APIs. Ideal for backend engineers transitioning into AI roles who want to understand applied LLM systems end-to-end."
+    },
+    {
+      "id": 49473522,
+      "rank": 25,
+      "title": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
+      "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+      "hnUrl": "https://news.ycombinator.com/item?id=49473522",
+      "domain": "nytimes.com",
+      "points": 52,
+      "author": "jbegley",
+      "createdAt": "2026-08-28T02:03:38Z",
+      "numComments": 9,
+      "topComments": [
+        {
+          "id": 49473677,
+          "author": "bushido",
+          "text": "It was a master stroke in international politics though, the US created an arms race towards sovereign ai, small models, and self-hosting - exactly like they wanted to. (sarcasm intended)",
+          "createdAt": "2026-08-28T02:29:53.000Z"
+        },
+        {
+          "id": 49473716,
+          "author": "firefoxd",
+          "text": "The law is too slow. It's like a horse carriage in the age of twitter. Why can't they expedite for special cases? Not even defending Antropic or any company. Just that if a tweet can cause damage in seconds, the law shouldn't be too far behind.",
+          "createdAt": "2026-08-28T02:37:19.000Z"
+        },
+        {
+          "id": 49473755,
+          "author": "Arubis",
+          "text": "Judge rules horse must return to barn.",
+          "createdAt": "2026-08-28T02:45:49.000Z"
+        },
+        {
+          "id": 49473757,
+          "author": "skeledrew",
+          "text": "> unlawfully retaliated Can it be at all lawful to retaliate though?",
+          "createdAt": "2026-08-28T02:45:57.000Z"
+        }
+      ],
+      "summary": null
     },
     {
       "id": 49472161,
-      "rank": 25,
+      "rank": 26,
       "title": "Select * from Internet.blogposts",
       "url": "https://pfrazee.leaflet.pub/3mu3p2smmis22",
       "hnUrl": "https://news.ycombinator.com/item?id=49472161",
       "domain": "pfrazee.leaflet.pub",
-      "points": 48,
+      "points": 49,
       "author": "mmattbtw",
       "createdAt": "2026-08-27T22:34:32Z",
       "numComments": 18,
@@ -956,46 +1001,7 @@
           "createdAt": "2026-08-28T01:03:48.000Z"
         }
       ],
-      "summary": "The article argues that centralized platforms like X (Twitter) have progressively closed their APIs and restricted access to data, creating \"walled gardens\" that prevent innovation and user freedom. It advocates for open protocols like atproto as a solution, proposing a decentralized network of personal data servers that would allow applications to access and interoperate with data freely, similar to how databases can be queried. The piece explains why open data access is essential for building innovative services and maintaining user autonomy."
-    },
-    {
-      "id": 49473522,
-      "rank": 26,
-      "title": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
-      "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
-      "hnUrl": "https://news.ycombinator.com/item?id=49473522",
-      "domain": "nytimes.com",
-      "points": 45,
-      "author": "jbegley",
-      "createdAt": "2026-08-28T02:03:38Z",
-      "numComments": 7,
-      "topComments": [
-        {
-          "id": 49473677,
-          "author": "bushido",
-          "text": "It was a master stroke in international politics though, the US created an arms race towards sovereign ai, small models, and self-hosting - exactly like they wanted to. (sarcasm intended)",
-          "createdAt": "2026-08-28T02:29:53.000Z"
-        },
-        {
-          "id": 49473716,
-          "author": "firefoxd",
-          "text": "The law is too slow. It's like a horse carriage in the age of twitter. Why can't they expedite for special cases? Not even defending Antropic or any company. Just that if a tweet can cause damage in seconds, the law shouldn't be too far behind.",
-          "createdAt": "2026-08-28T02:37:19.000Z"
-        },
-        {
-          "id": 49473755,
-          "author": "Arubis",
-          "text": "Judge rules horse must return to barn.",
-          "createdAt": "2026-08-28T02:45:49.000Z"
-        },
-        {
-          "id": 49473757,
-          "author": "skeledrew",
-          "text": "> unlawfully retaliated Can it be at all lawful to retaliate though?",
-          "createdAt": "2026-08-28T02:45:57.000Z"
-        }
-      ],
-      "summary": null
+      "summary": "This article discusses how centralized social media platforms like X have progressively closed their APIs and restricted third-party access, using Nitter's cease-and-desist letter as an example of this trend. The author argues that true interoperability requires shared database access rather than limited APIs, and presents atproto as an emerging solution built on personal data servers and data replication to create a more open internet. The piece advocates for a decentralized approach to social networking that prioritizes user freedom and data portability over corporate control."
     },
     {
       "id": 49466715,
@@ -1033,7 +1039,7 @@
           "createdAt": "2026-08-27T17:00:51.000Z"
         }
       ],
-      "summary": null
+      "summary": "Salem Robotics provides software that enables existing mobile robots to autonomously perform complex physical inspection tasks in hazardous industrial environments like nuclear facilities and oil/gas plants, combining AI with classical robotics to handle constrained manipulation problems that currently require manual human intervention. The YC S26 startup, founded by former Los Alamos researchers, is hardware-agnostic and focuses on automating repetitive inspection workflows while keeping human technicians responsible for procedure definition and result interpretation, with pricing ranging from $10k-$500k depending on the project scope."
     },
     {
       "id": 49472820,
@@ -1072,7 +1078,7 @@
           "createdAt": "2026-08-28T01:56:30.000Z"
         }
       ],
-      "summary": "Terminal-Bench-Science is a new benchmark that evaluates AI agents on real scientific research workflows contributed by practicing scientists across five domains, with the goal of developing AI research assistants for time-consuming technical tasks. The benchmark's first release includes 70 expert-curated tasks, where Claude Opus 5 achieves the best performance at 30% resolution rate, and it operates as a continuous feedback loop between scientific needs and AI development rather than a one-time publication. Read this if you're interested in AI capabilities for scientific research, benchmarking methods, or understanding current limitations of AI agents in domain-specific applications."
+      "summary": "Terminal-Bench-Science is a new benchmark that evaluates AI agents on real scientific research workflows contributed by practicing scientists across multiple disciplines, with the goal of developing AI assistants that can handle technical tasks and accelerate scientific discovery. In the first release, 70 expert-curated tasks across life, physical, Earth, mathematical, and engineering sciences show that the strongest model (Claude Opus 5) achieves only a 30% resolution rate, indicating significant room for AI progress. The benchmark is designed as a continuous, evolving platform that creates feedback between scientific community needs and AI development, rather than a one-time publication."
     },
     {
       "id": 49473483,
@@ -1118,11 +1124,11 @@
       "count": 2
     },
     {
-      "word": "model",
+      "word": "research",
       "count": 2
     },
     {
-      "word": "research",
+      "word": "model",
       "count": 2
     },
     {
