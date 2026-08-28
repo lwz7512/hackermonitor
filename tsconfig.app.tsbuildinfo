@@ -1,1 +1,0 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/components/commentlist.tsx","./src/components/header.tsx","./src/components/storycard.tsx","./src/components/topiccloud.tsx","./src/types/hn.ts","./src/utils/time.ts"],"version":"5.9.3"}
