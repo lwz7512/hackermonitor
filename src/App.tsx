@@ -14,11 +14,17 @@ import { JobCard } from './components/JobCard';
 import { JobModal } from './components/JobModal';
 import { SOCard } from './components/SOCard';
 import { SOModal } from './components/SOModal';
+import { GameCard } from './components/GameCard';
+import { GameModal } from './components/GameModal';
+import { ArticleCard } from './components/ArticleCard';
+import { ArticleModal } from './components/ArticleModal';
 import type { HNSnapshot, HNStory } from './types/hn';
 import type { GitHubRepo } from './types/github';
 import type { DevToArticle } from './types/devto';
 import type { HNJob } from './types/hnjob';
 import type { SOQuestion } from './types/stackoverflow';
+import type { ItchGame } from './types/itch';
+import type { ArticleFeedItem } from './types/article';
 import { titleMatchesTopic } from './utils/topics';
 import { fetchArchiveDates, fetchSnapshotForDate } from './utils/archive';
 
@@ -32,6 +38,8 @@ export default function App() {
   const [selectedArticle, setSelectedArticle] = useState<DevToArticle | null>(null);
   const [selectedJob, setSelectedJob] = useState<HNJob | null>(null);
   const [selectedQuestion, setSelectedQuestion] = useState<SOQuestion | null>(null);
+  const [selectedGame, setSelectedGame] = useState<ItchGame | null>(null);
+  const [selectedFeedArticle, setSelectedFeedArticle] = useState<ArticleFeedItem | null>(null);
   const [activeTopic, setActiveTopic] = useState<string | null>(null);
 
   const [availableDates, setAvailableDates] = useState<string[]>([todayDate]);
@@ -72,6 +80,11 @@ export default function App() {
   const devtoArticles = data.devtoArticles ?? [];
   const jobs = data.jobs ?? [];
   const stackOverflowQuestions = data.stackOverflowQuestions ?? [];
+  const showHnStories = data.showHnStories ?? [];
+  const itchGames = data.itchGames ?? [];
+  const quantaArticles = data.quantaArticles ?? [];
+  const infoqArticles = data.infoqArticles ?? [];
+  const xdaArticles = data.xdaArticles ?? [];
   const currentIndex = Math.max(0, availableDates.indexOf(viewDate ?? todayDate));
   const canGoOlder = currentIndex < availableDates.length - 1;
   const canGoNewer = currentIndex > 0;
@@ -218,6 +231,91 @@ export default function App() {
             )}
           </section>
         )}
+
+        {activeTab === 'showhn' && (
+          <section className="panel">
+            <h2 className="panel__heading">Show HN</h2>
+            <div className="story-grid">
+              {showHnStories.map((story) => (
+                <StoryPanel key={story.id} story={story} onOpen={setSelectedStory} />
+              ))}
+            </div>
+            {showHnStories.length === 0 && (
+              <p className="comments__empty">No Show HN posts for this day.</p>
+            )}
+          </section>
+        )}
+
+        {activeTab === 'itch' && (
+          <section className="panel">
+            <h2 className="panel__heading">itch.io &middot; New &amp; Popular</h2>
+            <div className="story-grid">
+              {itchGames.map((game, index) => (
+                <GameCard key={game.id} game={game} rank={index + 1} onOpen={setSelectedGame} />
+              ))}
+            </div>
+            {itchGames.length === 0 && (
+              <p className="comments__empty">No itch.io games for this day.</p>
+            )}
+          </section>
+        )}
+
+        {activeTab === 'quanta' && (
+          <section className="panel">
+            <h2 className="panel__heading">Quanta Magazine</h2>
+            <div className="story-grid">
+              {quantaArticles.map((article, index) => (
+                <ArticleCard
+                  key={article.id}
+                  article={article}
+                  rank={index + 1}
+                  onOpen={setSelectedFeedArticle}
+                />
+              ))}
+            </div>
+            {quantaArticles.length === 0 && (
+              <p className="comments__empty">No Quanta Magazine articles for this day.</p>
+            )}
+          </section>
+        )}
+
+        {activeTab === 'infoq' && (
+          <section className="panel">
+            <h2 className="panel__heading">InfoQ</h2>
+            <div className="story-grid">
+              {infoqArticles.map((article, index) => (
+                <ArticleCard
+                  key={article.id}
+                  article={article}
+                  rank={index + 1}
+                  onOpen={setSelectedFeedArticle}
+                />
+              ))}
+            </div>
+            {infoqArticles.length === 0 && (
+              <p className="comments__empty">No InfoQ articles for this day.</p>
+            )}
+          </section>
+        )}
+
+        {activeTab === 'xda' && (
+          <section className="panel">
+            <h2 className="panel__heading">XDA Developers</h2>
+            <div className="story-grid">
+              {xdaArticles.map((article, index) => (
+                <ArticleCard
+                  key={article.id}
+                  article={article}
+                  rank={index + 1}
+                  onOpen={setSelectedFeedArticle}
+                />
+              ))}
+            </div>
+            {xdaArticles.length === 0 && (
+              <p className="comments__empty">No XDA Developers articles for this day.</p>
+            )}
+          </section>
+        )}
       </main>
       <footer className="app__footer">
         Data refreshed daily via GitHub Actions from the{' '}
@@ -230,12 +328,25 @@ export default function App() {
         , <a href="https://dev.to/api" target="_blank" rel="noreferrer">
           Dev.to
         </a>
-        , and the{' '}
+        , the{' '}
         <a href="https://api.stackexchange.com/" target="_blank" rel="noreferrer">
           Stack Exchange API
         </a>
+        , <a href="https://itch.io/games/new-and-popular" target="_blank" rel="noreferrer">
+          itch.io
+        </a>
+        , <a href="https://www.quantamagazine.org/" target="_blank" rel="noreferrer">
+          Quanta Magazine
+        </a>
+        , <a href="https://www.infoq.com/" target="_blank" rel="noreferrer">
+          InfoQ
+        </a>
+        , and{' '}
+        <a href="https://www.xda-developers.com/" target="_blank" rel="noreferrer">
+          XDA Developers
+        </a>
         , with AI summaries generated by Claude. Not affiliated with Y Combinator, GitHub,
-        Forem/Dev.to, or Stack Exchange.
+        Forem/Dev.to, Stack Exchange, itch.io, Quanta Magazine, InfoQ, or XDA Developers.
       </footer>
 
       {selectedStory && (
@@ -248,6 +359,10 @@ export default function App() {
       {selectedJob && <JobModal job={selectedJob} onClose={() => setSelectedJob(null)} />}
       {selectedQuestion && (
         <SOModal question={selectedQuestion} onClose={() => setSelectedQuestion(null)} />
+      )}
+      {selectedGame && <GameModal game={selectedGame} onClose={() => setSelectedGame(null)} />}
+      {selectedFeedArticle && (
+        <ArticleModal article={selectedFeedArticle} onClose={() => setSelectedFeedArticle(null)} />
       )}
     </div>
   );

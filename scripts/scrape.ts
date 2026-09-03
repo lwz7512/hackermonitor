@@ -7,6 +7,8 @@ import type { GitHubRepo } from '../src/types/github.ts';
 import type { DevToArticle } from '../src/types/devto.ts';
 import type { HNJob } from '../src/types/hnjob.ts';
 import type { SOQuestion } from '../src/types/stackoverflow.ts';
+import type { ArticleFeedItem, ArticleSource } from '../src/types/article.ts';
+import type { ItchGame } from '../src/types/itch.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -25,6 +27,19 @@ const JOBS_COUNT = 40;
 
 const SO_COUNT = 30;
 const SO_BODY_CHAR_LIMIT = 2000;
+
+const SHOWHN_COUNT = 20;
+
+const ITCH_URL = 'https://itch.io/games/new-and-popular.xml';
+const ITCH_COUNT = 20;
+
+const ARTICLE_DESC_CHAR_LIMIT = 400;
+const QUANTA_URL = 'https://www.quantamagazine.org/feed/';
+const QUANTA_COUNT = 15;
+const INFOQ_URL = 'https://feed.infoq.com/';
+const INFOQ_COUNT = 15;
+const XDA_URL = 'https://www.xda-developers.com/feed/';
+const XDA_COUNT = 15;
 
 const SUMMARY_MODEL = 'claude-haiku-4-5';
 const ARTICLE_CHAR_LIMIT = 6000;
@@ -432,6 +447,175 @@ async function fetchStackOverflowQuestions(): Promise<SOQuestion[]> {
   }
 }
 
+async function fetchShowHnStories(): Promise<HNStory[]> {
+  try {
+    const search = await fetchJson<{ hits: AlgoliaHit[] }>(
+      `${ALGOLIA_BASE}/search?tags=show_hn&hitsPerPage=${SHOWHN_COUNT}`,
+    );
+    return search.hits.slice(0, SHOWHN_COUNT).map((hit, index) => {
+      const id = Number(hit.objectID);
+      return {
+        id,
+        rank: index + 1,
+        title: hit.title,
+        url: hit.url,
+        hnUrl: `https://news.ycombinator.com/item?id=${id}`,
+        domain: extractDomain(hit.url),
+        points: hit.points,
+        author: hit.author,
+        createdAt: hit.created_at,
+        numComments: hit.num_comments,
+        topComments: [],
+        summary: null,
+      };
+    });
+  } catch (err) {
+    console.warn(`  failed to fetch Show HN stories: ${(err as Error).message}`);
+    return [];
+  }
+}
+
+function extractXmlTag(block: string, tag: string): string | null {
+  const re = new RegExp(`<${tag}[^>]*>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?<\\/${tag}>`, 'i');
+  const match = block.match(re);
+  return match ? match[1].trim() : null;
+}
+
+function cleanArticleDescription(rawDescription: string): string {
+  // Some feeds (e.g. InfoQ) entity-escape embedded HTML instead of using CDATA,
+  // so decode first to reveal real tags before stripping them.
+  const text = stripHtml(decodeEntities(rawDescription));
+  return text
+    .replace(/\s*The post .*? (?:appeared first on|first appeared on) .*?\.?\s*$/i, '')
+    .trim()
+    .slice(0, ARTICLE_DESC_CHAR_LIMIT);
+}
+
+interface RssItem {
+  guid: string | null;
+  title: string;
+  link: string;
+  description: string | null;
+  author: string | null;
+  tags: string[];
+  pubDate: string | null;
+}
+
+function parseRssItems(xml: string): RssItem[] {
+  const items: RssItem[] = [];
+  const blockRe = /<item>([\s\S]*?)<\/item>/g;
+  let blockMatch: RegExpExecArray | null;
+
+  while ((blockMatch = blockRe.exec(xml))) {
+    const block = blockMatch[1];
+    const rawTitle = extractXmlTag(block, 'title');
+    const link = extractXmlTag(block, 'link');
+    if (!rawTitle || !link) continue;
+
+    const rawDescription = extractXmlTag(block, 'description');
+    const author = extractXmlTag(block, 'dc:creator') ?? extractXmlTag(block, 'author');
+    const pubDate = extractXmlTag(block, 'pubDate');
+    const guid = extractXmlTag(block, 'guid');
+    const rawTags = Array.from(block.matchAll(/<category>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/category>/g))
+      .map((m) => decodeEntities(stripHtml(m[1])).trim())
+      .filter((tag) => tag.length > 0 && tag.toLowerCase() !== 'news');
+    const tags = Array.from(new Set(rawTags));
+
+    items.push({
+      guid: guid ? decodeEntities(guid) : null,
+      title: decodeEntities(stripHtml(rawTitle)),
+      link: decodeEntities(link.trim()),
+      description: rawDescription ? cleanArticleDescription(rawDescription) : null,
+      author: author ? decodeEntities(stripHtml(author)) : null,
+      tags,
+      pubDate: pubDate ? new Date(pubDate).toISOString() : null,
+    });
+  }
+
+  return items;
+}
+
+async function fetchArticleFeed(
+  url: string,
+  source: ArticleSource,
+  count: number,
+): Promise<ArticleFeedItem[]> {
+  try {
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; HackerMonitorBot/1.0)' },
+    });
+    if (!res.ok) throw new Error(`Request failed (${res.status})`);
+    const xml = await res.text();
+    return parseRssItems(xml)
+      .slice(0, count)
+      .map((item, index) => ({
+        id: item.guid ?? `${source}-${index}-${item.link}`,
+        source,
+        title: item.title,
+        url: item.link,
+        description: item.description,
+        author: item.author,
+        tags: item.tags,
+        publishedAt: item.pubDate ?? new Date().toISOString(),
+      }));
+  } catch (err) {
+    console.warn(`  failed to fetch ${source} feed: ${(err as Error).message}`);
+    return [];
+  }
+}
+
+function parseItchGames(xml: string): ItchGame[] {
+  const games: ItchGame[] = [];
+  const blockRe = /<item>([\s\S]*?)<\/item>/g;
+  let blockMatch: RegExpExecArray | null;
+
+  while ((blockMatch = blockRe.exec(xml))) {
+    const block = blockMatch[1];
+    const title = extractXmlTag(block, 'plainTitle') ?? extractXmlTag(block, 'title');
+    const link = extractXmlTag(block, 'link');
+    if (!title || !link) continue;
+
+    const guid = extractXmlTag(block, 'guid');
+    const description = extractXmlTag(block, 'description');
+    const price = extractXmlTag(block, 'price');
+    const pubDate = extractXmlTag(block, 'pubDate');
+
+    const platformsBlock = block.match(/<platforms>([\s\S]*?)<\/platforms>/);
+    const platforms: string[] = [];
+    if (platformsBlock) {
+      const platRe = /<(\w+)>yes<\/\1>/g;
+      let platMatch: RegExpExecArray | null;
+      while ((platMatch = platRe.exec(platformsBlock[1]))) platforms.push(platMatch[1]);
+    }
+
+    games.push({
+      id: guid ?? link,
+      title: decodeEntities(stripHtml(title)),
+      url: link.trim(),
+      description: description ? stripHtml(description).slice(0, ARTICLE_DESC_CHAR_LIMIT) : null,
+      price: price === '$0.00' || price === '0.00' ? 'Free' : price,
+      platforms,
+      publishedAt: pubDate ? new Date(pubDate).toISOString() : new Date().toISOString(),
+    });
+  }
+
+  return games;
+}
+
+async function fetchItchGames(): Promise<ItchGame[]> {
+  try {
+    const res = await fetch(ITCH_URL, {
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; HackerMonitorBot/1.0)' },
+    });
+    if (!res.ok) throw new Error(`Request failed (${res.status})`);
+    const xml = await res.text();
+    return parseItchGames(xml).slice(0, ITCH_COUNT);
+  } catch (err) {
+    console.warn(`  failed to fetch itch.io games: ${(err as Error).message}`);
+    return [];
+  }
+}
+
 async function main() {
   console.log('Fetching HN front page...');
   const search = await fetchJson<{ hits: AlgoliaHit[] }>(
@@ -488,6 +672,26 @@ async function main() {
   const stackOverflowQuestions = await fetchStackOverflowQuestions();
   console.log(`  found ${stackOverflowQuestions.length} questions`);
 
+  console.log('Fetching Show HN posts...');
+  const showHnStories = await fetchShowHnStories();
+  console.log(`  found ${showHnStories.length} Show HN posts`);
+
+  console.log('Fetching itch.io new & popular games...');
+  const itchGames = await fetchItchGames();
+  console.log(`  found ${itchGames.length} games`);
+
+  console.log('Fetching Quanta Magazine articles...');
+  const quantaArticles = await fetchArticleFeed(QUANTA_URL, 'quanta', QUANTA_COUNT);
+  console.log(`  found ${quantaArticles.length} articles`);
+
+  console.log('Fetching InfoQ articles...');
+  const infoqArticles = await fetchArticleFeed(INFOQ_URL, 'infoq', INFOQ_COUNT);
+  console.log(`  found ${infoqArticles.length} articles`);
+
+  console.log('Fetching XDA Developers articles...');
+  const xdaArticles = await fetchArticleFeed(XDA_URL, 'xda', XDA_COUNT);
+  console.log(`  found ${xdaArticles.length} articles`);
+
   const snapshot: HNSnapshot = {
     fetchedAt: new Date().toISOString(),
     stories,
@@ -498,6 +702,11 @@ async function main() {
     jobsThreadTitle: threadTitle,
     jobsThreadUrl: threadUrl,
     stackOverflowQuestions,
+    showHnStories,
+    itchGames,
+    quantaArticles,
+    infoqArticles,
+    xdaArticles,
   };
 
   const outDir = path.resolve(__dirname, '../src/data');
