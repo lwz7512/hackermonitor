@@ -450,7 +450,7 @@ async function fetchStackOverflowQuestions(): Promise<SOQuestion[]> {
 async function fetchShowHnStories(): Promise<HNStory[]> {
   try {
     const search = await fetchJson<{ hits: AlgoliaHit[] }>(
-      `${ALGOLIA_BASE}/search?tags=show_hn&hitsPerPage=${SHOWHN_COUNT}`,
+      `${ALGOLIA_BASE}/search_by_date?tags=show_hn&hitsPerPage=${SHOWHN_COUNT}`,
     );
     return search.hits.slice(0, SHOWHN_COUNT).map((hit, index) => {
       const id = Number(hit.objectID);
