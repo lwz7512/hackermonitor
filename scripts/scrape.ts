@@ -711,17 +711,36 @@ async function main() {
 
   const outDir = path.resolve(__dirname, '../src/data');
   await mkdir(outDir, { recursive: true });
-  await writeFile(path.join(outDir, 'latest.json'), JSON.stringify(snapshot, null, 2));
+  await writeFile(path.join(outDir, 'latest.json'), serializeSnapshot(snapshot));
   console.log(`Wrote ${stories.length} stories to src/data/latest.json`);
 
   await writeArchive(snapshot);
+}
+
+// Scraped user content (SO bodies, HN comments, job posts) occasionally contains
+// pasted credentials, which trips GitHub push protection on the snapshot commit.
+// Character classes exclude quotes/backslashes so redaction can't break the JSON.
+const SECRET_PATTERNS: RegExp[] = [
+  /[A-Za-z0-9_~.-]{3}\dQ~[A-Za-z0-9_~.-]{31,34}/g, // Azure AD client secret
+  /\b(?:AKIA|ASIA)[A-Z0-9]{16}\b/g, // AWS access key id
+  /\b(?:gh[pousr]_[A-Za-z0-9]{36,}|github_pat_[A-Za-z0-9_]{60,})/g, // GitHub token
+  /\bxox[abprs]-[A-Za-z0-9-]{10,}/g, // Slack token
+  /\bAIza[0-9A-Za-z_-]{35}/g, // Google API key
+  /\bsk-(?:(?:ant|proj)-[A-Za-z0-9_-]{32,}|[A-Za-z0-9]{40,})/g, // OpenAI / Anthropic key
+  /-----BEGIN [A-Z ]*PRIVATE KEY-----[^"]*?-----END [A-Z ]*PRIVATE KEY-----/g,
+];
+
+function serializeSnapshot(data: unknown): string {
+  let json = JSON.stringify(data, null, 2);
+  for (const pattern of SECRET_PATTERNS) json = json.replace(pattern, '[REDACTED]');
+  return json;
 }
 
 async function writeArchive(snapshot: HNSnapshot) {
   const date = snapshot.fetchedAt.slice(0, 10); // YYYY-MM-DD (UTC)
   const archiveDir = path.resolve(__dirname, '../public/data/archive');
   await mkdir(archiveDir, { recursive: true });
-  await writeFile(path.join(archiveDir, `${date}.json`), JSON.stringify(snapshot, null, 2));
+  await writeFile(path.join(archiveDir, `${date}.json`), serializeSnapshot(snapshot));
 
   const indexPath = path.join(archiveDir, 'index.json');
   let dates: string[] = [];
